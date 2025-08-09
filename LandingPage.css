@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Spectral:wght@700&display=swap');
+body{
+    margin: 0;
+    height: 100vh;
+    overflow-x: auto;
+    width: 100vw;
+}
+.container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+.Man{
+    height: 100%;
+    width: 50%;
+    background: url("https://images.pexels.com/photos/3651597/pexels-photo-3651597.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.5s ease-in-out;
+}
+.Man .x{
+    font-size: 2rem;
+    color: white;
+    position: relative;
+    text-shadow: 2px 3px 3px #000;
+    top: 0;
+    left: 94.5%;
+}
+.Man:hover{
+    transform: translateY(-5px);
+}
+/* .Man span{
+    display: block;
+    align-items: center;
+    align-content: center;
+    font-size: 3rem;
+    color: honeydew;
+} */
+.text{
+    height: 30%;
+    width: 40%;
+    font-size: 2rem;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    /* align-items: center;
+    align-content: center;
+    justify-content: center; */
+    text-align: center;
+    font-family: 'Spectral';
+}
+.text p{
+    padding: 20px;
+    position: sticky;
+}
+.text p a{
+    text-decoration: none;
+    color: honeydew;
+    text-shadow: 2px 3px 2px #000;
+}
+.Women{
+    height: 100%;
+    width: 50%;
+    background: url("https://images.pexels.com/photos/1126993/pexels-photo-1126993.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.5s ease-in-out;
+}
+.Women .y{
+    font-size: 2rem;
+    color: white;
+    text-shadow: 2px 3px 3px #000;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.Women:hover{
+    transform: translateY(-5px);
+}
+.w-text{
+    height: 30%;
+    width: 40%;
+    font-size: 2rem;
+    color: honeydew;
+    text-shadow: 2px 3px 2px #000;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    /* align-items: center;
+    align-content: center;
+    justify-content: center; */
+    text-align: center;
+    font-family: 'Spectral', serif;
+}
+.w-text p{
+    padding: 20px;
+}
+
+@media screen and (max-width: 480px) {
+    body{
+        height: 100vh;
+        width: 100vw;
+        overflow-x: auto;
+    }
+    .container{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .Man{
+        height: 50%;
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        transition: transform 0.5s ease-in-out;
+    }
+    .Man .x{
+        position: relative;
+        left: 0;
+        margin-bottom: 0;
+        text-align: center;
+    }
+    .text{
+        height: 30%;
+        width: 40%;
+        margin-top: 0;
+        font-size: 1.4rem;
+        text-align: center;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    .text p{
+        padding: 0;
+    }
+    .Women{
+        height: 50%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .Women .y{
+        position: relative;
+        margin-top: 0;
+        text-align: center;
+    }
+    .w-text{
+        height: 30%;
+        width: 40%;
+        font-size: 1.4rem;
+    }
+    .w-text p{
+        padding: 0;
+    }
+}
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    body{
+        height: 100vh;
+        width: 100vw;
+        overflow-x: auto;
+    }
+    .container{
+        height: 100%;
+        width: 100%;
+        display: flex;
+    }
+    .Man{
+        height: 100%;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+    }
+    .Man .x{
+        position: relative;
+        left: 0;
+        width: 100%;
+        text-align: right;
+        /* text-align: center; */
+    }
+    .text{
+        height: 30%;
+        width: 40%;
+        font-size: 2rem;
+        text-align: center;
+    }
+    .text p{
+        padding: 0;
+    }
+    .Women{
+        height: 100%;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+    }
+    .Women .y{
+        position: relative;
+        left: 0;
+        /* text-align: center; */
+    }
+    .w-text{
+        height: 30%;
+        width: 40%;
+        font-size: 2rem;
+        text-align: center;
+    }
+    .w-text p{
+        padding: 0;
+    }
+}
+@media screen and (min-width: 769px)  {
+    body{
+        height: 100vh;
+        width: 100vw;
+        overflow-x: auto;
+    }
+    .container{
+        height: 100%;
+        width: 100%;
+        display: flex;
+    }
+    .Man{
+        height: 100%;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+    }
+    .Man .x{
+        width: 100%;
+        position: relative;
+        left: 0;
+        text-align: right;
+    }
+    .text{
+        height: 30%;
+        width: 40%;
+        font-size: 2rem;
+        text-align: center;
+    }
+    .text p{
+        padding: 0;
+    }
+    .Women{
+        height: 100%;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+    }
+    .Women .y{
+        position: relative;
+        left: 0;
+        /* text-align: center; */
+    }
+    .w-text{
+        height: 30%;
+        width: 40%;
+        font-size: 2rem;
+        text-align: center;
+    }
+    .w-text p{
+        padding: 0;
+    }
+}
