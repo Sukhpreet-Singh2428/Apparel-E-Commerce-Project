@@ -504,3 +504,582 @@ footer{
     font-family: 'Spectral';
     font-size: 0.8rem;
 }
+
+@media screen and (max-width: 480px) {
+    body{
+        height: 500vh;
+        width: 100vw;
+        margin: 0;
+        overflow-x: hidden;
+        /* border: 4px solid black; */
+    }
+    header{
+        height: 25%;
+        width: 100%;
+        /* border: 3px solid black; */
+        display: flex;
+        flex-direction: column;
+    }
+    .head{
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+        padding: 0;
+        height: 20%;
+        width: 100%;
+        /* border: 3px solid orange; */
+    }
+    nav{
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+        margin: 0;
+        padding: 0;
+    }
+    .two{
+        margin-left: auto;
+        margin-right: auto;
+        /* border: 3px solid black; */
+        /* height: 33.33%;
+        width: 100%; */
+    }
+    .two ul{
+        display: flex;
+        gap: 25px;
+        font-size: 0.8rem;
+    }
+    .menu{
+        /* border: 3px solid navy; */
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
+        align-content: center;
+    }
+    .menu ul{
+        display: flex;
+        gap: 12px;
+        padding-left: 0;
+        font-size: 0.8rem;
+    }
+    .menu ul a::before{
+        content: "";
+    }
+    .right{
+        margin-left: auto;
+        margin-right: auto;
+        /* border: 3px solid red; */
+    }
+    .right ul{
+        display: flex;
+        gap: 12px;
+        padding-left: 0;
+        font-size: 0.8rem;
+    }
+    .header-low{
+        /* border: 3px solid black; */
+        height: 15%;
+        width: 100%;
+        margin-left: 0;
+        /* padding-left: 1rem; */
+    }
+    .text{
+        /* border: 4px solid white; */
+        height: 100%;
+        padding-left: 1rem;
+    }
+    .text p{
+        font-size: small;
+    }
+    .text span{
+        display: block;
+        font-size: 1rem;
+        margin-bottom: 0.8rem;
+        text-shadow: 2px 2px 2px lightslategray;
+    }
+    .text button a{
+        font-size: 0.8rem;
+    }
+    main{
+        height: 55%;
+        width: 100%;
+        /* border: 3px solid black; */
+        margin-bottom: 0;
+    }
+    .sections{
+        height: 50%;
+        width: 100%;
+        /* border: 5px solid navy; */
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 0.3rem;
+    }
+    .upper{
+        height: 50%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        /* border: 5px solid black; */
+    }
+    .shoes{
+        height: 50%;
+        width: 100%;
+    }
+    .watch{
+        height: 50%;
+        width: 100%;
+    }
+    .lower{
+        height: 50%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .shirt{
+        height: 50%;
+        width: 100%;
+    }
+    .pants{
+        height: 50%;
+        width: 100%;
+    }
+    .content{
+        display: block;
+        margin-top: 0;
+        padding-left: 0.5rem;
+        font-size: 1.5rem;
+    }
+    .content a{
+        color: honeydew;
+        text-shadow: 2px 3px 3px #000;
+    }
+    .displayVideo{
+        height: 32%;
+        width: 100%;
+        margin-bottom: 0.3rem;
+    }
+    .vid-text1{
+        /* border: 2px solid black; */
+        font-size: 0.8rem;
+        color: #000;
+        text-shadow: 2px 3px 3px lightslategray;
+    }
+    .vid-text2{
+        /* border: 2px solid black; */
+        font-size: 0.8rem;
+        color: #000;
+        text-shadow: 2px 3px 3px lightslategray;
+    }
+    .para-section{
+        height: 18%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .para-section .up{
+        /* border: 3px solid black; */
+        height: 60%;
+        width: 100%;
+    }
+    .para-section .main{
+        font-size: 1.2rem;
+    }
+    .para-section .other{
+        padding-top: 1.8rem;
+        font-size: 1rem;
+    }
+    .para-section .low{
+        /* border: 3px solid red; */
+        height: 35%;
+        width: 100%;
+    }
+    .para-section .email{
+        position: relative;
+        left: 5%;
+        height: 1.5rem;
+        width: 10rem;
+        font-size: 0.5rem;
+    }
+    .para-section button{
+        position: relative;
+        left: 9%;
+        height: 1.5rem;
+        width: 8rem;
+        font-size: 0.5rem;
+    }
+    .para-section .select{
+        font-size: 0.6rem;
+    }
+    footer{
+        margin-top: 1rem;
+        height: 20%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-up{
+        height: 70%;
+        width: 100%;
+        /* border: 3px solid black; */
+        display: flex;
+    }
+    .sec1{
+        height: 100%;
+        width: 33.33%;
+        /* border: 3px solid red; */
+    }
+    .sec1 .sec1-head{
+        font-size: 1rem;
+    }
+    .sec1 .sec1-p{
+        font-size: 0.6rem;
+    }
+    .sec2{
+        height: 100%;
+        width: 33.33%;
+        /* border: 3px solid white; */
+    }
+    .sec2 .sec2-head{
+        font-size: 1rem;
+        padding-left: 0;
+    }
+    .sec2 ul{
+        font-size: 0.6rem;
+        padding-left: 0;
+        gap: 0.4rem;
+    }
+    .sec3{
+        height: 100%;
+        width: 33.33%;
+        /* border: 3px solid yellow; */
+        margin-right: 0;
+    }
+    .sec3 .sec3-head{
+        font-size: 1rem;
+    }
+    .sec3 .sec3-p{
+        font-size: 0.6rem;
+    }
+    .sec3 input{
+        font-size: 0.6rem;
+        width: 4rem;
+        height: 1rem;
+    }
+    .sec3 button{
+        height: 1.5rem;
+        width: 3.5rem;
+        font-size: 0.4rem;
+    }
+    .footer-down{
+        height: 40%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        /* border: 3px solid rebeccapurple; */
+    }
+    .footer-down .s1{
+        height: 30%;
+        width: 100%;
+        /* border: 2px solid red; */
+        font-size: 0.6rem;
+    }
+    .footer-down .s2{
+        height: 70%;
+        width: 100%;
+        /* border: 2px solid lawngreen; */
+        padding-left: 0;
+        margin-left: 0;
+        align-items: center;
+        align-content: center;
+    }
+    .footer-down .s2 ul{
+        display: flex;
+        gap: 0.5rem;
+        font-size: 0.45rem;
+        margin-left: 0;
+        padding-left: 0;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px){
+    body{
+        height: 400vh;
+        width: 100vw;
+        overflow-x: hidden;
+        margin: 0;
+    }
+    header{
+        height: 25%;
+        width: 100%;
+        border: 3px solid black;
+        display: flex;
+        flex-direction: column;
+    }
+    .head{
+        height: 15%;
+        width: 100%;
+        border: 3px solid red;
+        display: flex;
+        gap: 0;
+        padding-left: 0;
+    }
+    .title{
+        padding-left: 0.5rem;
+    }
+    nav{
+        display: flex;
+        flex-direction: column;
+        gap: 0.3rem;
+        margin-left: auto;
+        margin-right: auto;
+        /* border: 2px solid navy; */
+    }
+    .two{
+        /* border: 2px solid red; */
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .two ul{
+        display: flex;
+        gap: 0.5rem;
+        font-size: 0.9rem;
+    }
+    .menu ul{
+        display: flex;
+        gap: 0.5rem;
+        padding-left: 0;
+        font-size: 0.9rem;
+    }
+    .menu ul a::before{
+        content: "";
+    }
+    .right{
+        /* border: 2px solid red; */
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .right ul{
+        display: flex;
+        gap: 0.5rem;
+        padding-left: 0;
+        font-size: 0.9rem;
+    }
+    .header-low{
+        border: 3px solid black;
+        height: 15%;
+        width: 100%;
+        margin-left: 0;
+    }
+    .text{
+        border: 2px solid red;
+        height: 100%;
+        padding-left: 0.5rem;
+    }
+    .text p{
+        font-size: small;
+    }
+    .text span{
+        display: block;
+        font-size: 1.1rem;
+        text-shadow: 2px 2px 2px lightslategray;
+    }
+    .text button a{
+        font-size: 1rem;
+    }
+    main{
+        height: 55%;
+        width: 100%;
+        /* border: 13px solid rebeccapurple; */
+        margin-bottom: 1rem;
+    }
+    .sections{
+        height: 53%;
+        width: 100%;
+        border: 2px solid yellow;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 0.3rem;
+    }
+    .upper{
+        height: 50%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .shoes{
+        height: 50%;
+        width: 100%;
+    }
+    .watch{
+        height: 50%;
+        width: 100%;
+    }
+    .lower{
+        height: 50%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .shirt{
+        height: 50%;
+        width: 100%;
+    }
+    .pants{
+        height: 50%;
+        width: 100%;
+    }
+    .content{
+        display: block;
+        margin-top: 0;
+        position: relative;
+        top: 40%;
+        border: 2px solid white;
+        font-size: 1.6rem;
+    }
+    .content a{
+        color: honeydew;
+        text-shadow: 2px 3px 3px #000;
+    }
+    .displayVideo{
+        height: 32%;
+        width: 100%;
+        margin-bottom: 0.3rem;
+    }
+    .vid-text1{
+        border: 2px solid red;
+        font-size: 1.2rem;
+        color: #000;
+        text-shadow: 2px 3px 3px lightslategray;
+    }
+    .vid-text2{
+        border: 2px solid red;
+        font-size: 1.2rem;
+        color: #000;
+        text-shadow: 2px 3px 3px lightslategray;
+    }
+    .para-section{
+        height: 15%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .para-section .up{
+        border: 3px solid green;
+        height: 60%;
+        width: 100%;
+    }
+    .para-section .main{
+        font-size: 1.2rem;
+    }
+    .para-section .other{
+        font-size: 1rem;
+        padding-top: 1rem;
+    }
+    .para-section .low{
+        border: 2px solid orange;
+        height: 40%;
+        width: 100%;
+    }
+    .para-section .email{
+        position: relative;
+        left: 6%;
+        height: 1.8rem;
+        width: 18rem;
+        font-size: 1rem;
+    }
+    .para-section button{
+        position: relative;
+        left: 9%;
+        height: 2rem;
+        width: 9rem;
+        font-size: 0.6rem;
+    }
+    .para-section .select{
+        font-size: 0.8rem;
+    }
+    footer{
+        height: 20%;
+        width: 100%;
+        border: 2px solid black;
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-up{
+        height: 80%;
+        width: 100%;
+        border: 3px solid red;
+        display: flex;
+    }
+    .sec1{
+        height: 100%;
+        width: 33.33%;
+        border: 2px solid black;
+    }
+    .sec1 .sec1-head{
+        font-size: 1.2rem;
+    }
+    .sec1 .sec1-p{
+        font-size: 0.85rem;
+    }
+    .sec2{
+        height: 100%;
+        width: 33.33%;
+        border: 2px solid black;
+    }
+    .sec2 .sec2-head{
+        font-size: 1.2rem;
+        padding-left: 0;
+    }
+    .sec2 ul{
+        font-size: 0.85rem;
+        gap: 0.4rem;
+        padding-left: 0;
+    }
+    .sec3{
+        height: 100%;
+        width: 33.33%;
+        border: 2px solid black;
+    }
+    .sec3 .sec3-head{
+        font-size: 1.2rem;
+    }
+    .sec3 .sec3-p{
+        font-size: 0.85rem;
+    }
+    .sec3 input{
+        font-size: 0.7rem;
+        width: 6rem;
+        height: 1rem;
+    }
+    .sec3 button{
+        font-size: 0.5rem;
+        width: 4rem;
+        height: 1rem;
+    }
+    .footer-down{
+        height: 20%;
+        width: 100%;
+        border: 2px solid red;
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-down .s1{
+        height: 30%;
+        width: 100%;
+        border: 2px solid black;
+        font-size: 0.9rem;
+    }
+    .footer-down .s2{
+        height: 70%;
+        width: 100%;
+        border: 2px solid yellow;
+        padding-left: 0;
+        margin-left: 0;
+    }
+    .footer-down .s2 ul{
+        display: flex;
+        gap: 1rem;
+        margin-left: 0;
+        padding-left: 1rem;
+        font-size: 0.5rem;
+    }
+}
