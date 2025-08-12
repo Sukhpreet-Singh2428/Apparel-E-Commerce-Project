@@ -103,6 +103,11 @@ body{
 .w-text p{
     padding: 20px;
 }
+.w-text p a{
+    text-decoration: none;
+    color: honeydew;
+    text-shadow: 2px 3px 2px #000;
+}
 
 @media screen and (max-width: 480px) {
     body{
