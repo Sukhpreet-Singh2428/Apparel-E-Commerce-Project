@@ -920,6 +920,355 @@ body{
     /* background-image: linear-gradient(135deg, #b0b0b0, #ffd700 50%, #ffffff 100%); */
     /* background-image: linear-gradient(135deg, #1C1C1C, #004C4C); */
     background-image: linear-gradient(to right, #dcdcdc, #f5f5f5);
+}
 
-
+/*! shoes */
+.category-shoes{
+    height: 40%;
+    width: 100%;
+    border: 3px solid black;
+    display: flex;
+    flex-direction: column;
+}
+.display-shoes{
+    height: 30%;
+    width: 100%;
+    border: 2px solid red;
+    background: url("https://images.pexels.com/photos/9214286/pexels-photo-9214286.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+}
+.display-shoes span{
+    display: block;
+    font-size: 5rem;
+    border: 2px solid red;
+    color: white;
+    text-shadow: 2px 2px 3px #000;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.showing-shoes{
+    margin-top: 0.5rem;
+    height: 70%;
+    width: 100%;
+    border: 2px solid navy;
+    display: flex;
+    flex-direction: column;
+}
+.set1-shoes{
+    display: flex;
+    height: 50%;
+    width: 100%;
+    gap: 3rem;
+    margin-left: 1rem;
+}
+.shoes1{
+    margin-top: 1rem;
+    height: 90%;
+    width: 30%;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    /* background-color: rgba(255, 255, 255, 0.1); */
+    /* background-color: #24243e; */
+    background-color: rgb(249, 240, 240);
+    backdrop-filter: blur(45px);
+    border-radius: 2rem;
+    box-shadow: 0 0 10px rgb(143, 136, 136);
+}
+.shoes1 .pic1{
+    height: 80%;
+    width: 80%;
+    /* border: 2px solid red; */
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+.shoes1 .pic1 img{
+    height: 100%;
+    width: 100%;
+}
+.shoes1 .text1{
+    height: 20%;
+    width: 80%;
+    /* border: 2px solid navy; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction: column;
+}
+.shoes1 .text1 .upper{
+    height: 20%;
+    width: 100%;
+    /* border: 2px solid black; */
+    margin-bottom: 0.5rem;
+}
+.shoes1 .text1 .upper .product-name{
+    font-family: 'Spectral';
+    color: #000;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    /* border: 2px solid red; */
+}
+.shoes1 .text1 .lower{
+    height: 80%;
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+}
+.shoes1 .text1 .lower .low1{
+    height: 100%;
+    width: 50%;
+    /* border: 2px solid black; */
+}
+.shoes1 .text1 .low1 .product-price{
+    font-family: 'Spectral';
+    color: navy;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    /* border: 2px solid red; */
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.shoes1 .text1 .low1 .product-detail span{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: red;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    text-decoration: line-through;
+}
+.shoes1 .text1 .low1 .product-detail{
+    font-family: 'Spectral';
+    color: navy;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    /* border: 2px solid red; */
+    margin-top: 0;
+    
+}
+.shoes1 .text1 .lower .low2{
+    height: 100%;
+    width: 50%;
+    /* border: 2px solid black; */
+}
+.shoes1 .text1 .low2 button{
+    height: 2rem;
+    width: 8rem;
+    border-radius: 5rem;
+    margin-left: 2rem;
+    font-family: 'Spectral';
+    background-color: rgb(4, 34, 59);
+    color: #f5f5f5;
+    cursor: pointer;
+}
+.shoes2{
+    margin-top: 1rem;
+    height: 90%;
+    width: 30%;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    /* background-color: rgba(255, 255, 255, 0.1); */
+    /* background-color: #24243e; */
+    background-color: rgb(249, 240, 240);
+    backdrop-filter: blur(45px);
+    border-radius: 2rem;
+    box-shadow: 0 0 10px rgb(143, 136, 136);
+}
+.shoes2 .pic2{
+    height: 80%;
+    width: 80%;
+    /* border: 2px solid red; */
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+.shoes2 .pic2 img{
+    height: 100%;
+    width: 100%;
+}
+.shoes2 .text2{
+    height: 20%;
+    width: 80%;
+    /* border: 2px solid navy; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction: column;
+}
+.shoes2 .text2 .upper{
+    height: 20%;
+    width: 100%;
+    /* border: 2px solid black; */
+    margin-bottom: 0.5rem;
+}
+.shoes2 .text2 .upper .product-name{
+    font-family: 'Spectral';
+    color: #000;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    /* border: 2px solid red; */
+}
+.shoes2 .text2 .lower{
+    height: 80%;
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+}
+.shoes2 .text2 .lower .low1{
+    height: 100%;
+    width: 50%;
+    /* border: 2px solid black; */
+}
+.shoes2 .text2 .low1 .product-price{
+    font-family: 'Spectral';
+    color: navy;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    /* border: 2px solid red; */
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.shoes2 .text2 .low1 .product-detail span{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: red;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    text-decoration: line-through;
+}
+.shoes2 .text2 .low1 .product-detail{
+    font-family: 'Spectral';
+    color: navy;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    /* border: 2px solid red; */
+    margin-top: 0;
+    
+}
+.shoes2 .text2 .lower .low2{
+    height: 100%;
+    width: 50%;
+    /* border: 2px solid black; */
+}
+.shoes2 .text2 .low2 button{
+    height: 2rem;
+    width: 8rem;
+    border-radius: 5rem;
+    margin-left: 2rem;
+    font-family: 'Spectral';
+    background-color: rgb(4, 34, 59);
+    color: #f5f5f5;
+    cursor: pointer;
+}
+.shoes3{
+    margin-top: 1rem;
+    height: 90%;
+    width: 30%;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    /* background-color: rgba(255, 255, 255, 0.1); */
+    /* background-color: #24243e; */
+    background-color: rgb(249, 240, 240);
+    backdrop-filter: blur(45px);
+    border-radius: 2rem;
+    box-shadow: 0 0 10px rgb(143, 136, 136);
+}
+.shoes3 .pic3{
+    height: 80%;
+    width: 80%;
+    /* border: 2px solid red; */
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+.shoes3 .pic3 img{
+    height: 100%;
+    width: 100%;
+}
+.shoes3 .text3{
+    height: 20%;
+    width: 80%;
+    /* border: 2px solid navy; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction: column;
+}
+.shoes3 .text3 .upper{
+    height: 20%;
+    width: 100%;
+    /* border: 2px solid black; */
+    margin-bottom: 0.5rem;
+}
+.shoes3 .text3 .upper .product-name{
+    font-family: 'Spectral';
+    color: #000;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    /* border: 2px solid red; */
+}
+.shoes3 .text3 .lower{
+    height: 80%;
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+}
+.shoes3 .text3 .lower .low1{
+    height: 100%;
+    width: 50%;
+    /* border: 2px solid black; */
+}
+.shoes3 .text3 .low1 .product-price{
+    font-family: 'Spectral';
+    color: navy;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    /* border: 2px solid red; */
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.shoes3 .text3 .low1 .product-detail span{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: red;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    text-decoration: line-through;
+}
+.shoes3 .text3 .low1 .product-detail{
+    font-family: 'Spectral';
+    color: navy;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    /* border: 2px solid red; */
+    margin-top: 0;
+    
+}
+.shoes3 .text3 .lower .low2{
+    height: 100%;
+    width: 50%;
+    /* border: 2px solid black; */
+}
+.shoes3 .text3 .low2 button{
+    height: 2rem;
+    width: 8rem;
+    border-radius: 5rem;
+    margin-left: 2rem;
+    font-family: 'Spectral';
+    background-color: rgb(4, 34, 59);
+    color: #f5f5f5;
+    cursor: pointer;
+}
+.set2-shoes{
+    display: flex;
+    height: 50%;
+    width: 100%;
+    gap: 3rem;
+    margin-left: 1rem;
 }
