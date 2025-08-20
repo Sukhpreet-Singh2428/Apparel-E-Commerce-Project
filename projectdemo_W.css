@@ -507,7 +507,7 @@ footer{
 
 @media screen and (max-width: 480px) {
     body{
-        height: 500vh;
+        height: 400vh;
         width: 100vw;
         margin: 0;
         overflow-x: hidden;

@@ -89,7 +89,7 @@ nav{
     box-shadow: 0 0 20px white;
 } */
 header{
-    height: 1.5%;
+    height: 0.8%;
     width: 100%;
     /* border: 3px solid black; */
     display: flex;
@@ -97,7 +97,7 @@ header{
 body{
     margin: 0;
     overflow-x: hidden;
-    height: 600vh;
+    height: 1200vh;
     width: 100vw;
     /* background-image: linear-gradient(-225deg, #7085B6 0%, #87A7D9 50%, #DEF3F8 100%); */
 }
@@ -107,10 +107,10 @@ main{
     /* border: 2px solid yellow; */
 }
 .slideshow-container{
-    height: 30%;
+    height: 15%;
     width: 100%;
     /* border: 2px solid red; */
-    background: url("https://images.pexels.com/photos/6688574/pexels-photo-6688574.jpeg");
+    background: url("https://images.pexels.com/photos/12611637/pexels-photo-12611637.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -144,7 +144,7 @@ main{
     width: 25%;
     border: 2px solid black;
     flex-shrink: 0;
-    background: url("https://images.pexels.com/photos/6438287/pexels-photo-6438287.jpeg");
+    background: url("https://videos.openai.com/vg-assets/assets%2Ftask_01k30x5vtreye98rwsx0k3h3rh%2F1755598624_img_0.webp?st=2025-08-19T08%3A27%3A07Z&se=2025-08-25T09%3A27%3A07Z&sks=b&skt=2025-08-19T08%3A27%3A07Z&ske=2025-08-25T09%3A27%3A07Z&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skoid=aa5ddad1-c91a-4f0a-9aca-e20682cc8969&skv=2019-02-02&sv=2018-11-09&sr=b&sp=r&spr=https%2Chttp&sig=mdRcUTdg8nN8Mc17psQXGN6arkvMAuPjNBf4wok7sWc%3D&az=oaivgprodscus");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -162,7 +162,7 @@ main{
     width: 25%;
     border: 2px solid black;
     flex-shrink: 0;
-    background: url("https://images.pexels.com/photos/3018073/pexels-photo-3018073.jpeg");
+    background: url("https://i.pinimg.com/1200x/3a/30/dc/3a30dc69c17a62a7189776f4395d879b.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -173,7 +173,7 @@ main{
     width: 25%;
     border: 2px solid black;
     flex-shrink: 0;
-    background: url("https://images.pexels.com/photos/16428589/pexels-photo-16428589.jpeg");
+    background: url("https://i.pinimg.com/1200x/57/08/5f/57085f31a17804021bc2cb795acdd349.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -184,7 +184,7 @@ main{
     width: 25%;
     border: 2px solid black;
     flex-shrink: 0;
-    background: url("https://images.pexels.com/photos/15404590/pexels-photo-15404590.jpeg");
+    background: url("https://i.pinimg.com/1200x/c6/60/cc/c660ccbf74282b4c2eece9121c569515.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -195,7 +195,7 @@ main{
     width: 25%;
     border: 2px solid black;
     flex-shrink: 0;
-    background: url("https://images.pexels.com/photos/1598507/pexels-photo-1598507.jpeg");
+    background: url("https://img.fantaskycdn.com/35126c8b732b8a3486bce24a81310dce_1920x.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -203,17 +203,17 @@ main{
 }
 
 .category-tshirts{
-    height: 50%;
+    height: 40%;
     width: 100%;
     border: 3px solid black;
     display: flex;
     flex-direction: column;
 }
 .display-tshirts{
-    height: 50%;
+    height: 30%;
     width: 100%;
     border: 2px solid red;
-    background: url("https://images.pexels.com/photos/1311590/pexels-photo-1311590.jpeg");
+    background: url("https://i.pinimg.com/1200x/80/03/c5/8003c5a41125cfc8f667cafd245f9df2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -231,17 +231,32 @@ main{
 }
 .showing-tshirts{
     margin-top: 0.5rem;
+    height: 70%;
+    width: 100%;
+    border: 2px solid navy;
+    display: flex;
+    flex-direction: column;
+}
+.set1{
+    display: flex;
     height: 50%;
     width: 100%;
-    /* border: 2px solid navy; */
-    display: flex;
+    gap: 3rem;
+    margin-left: 1rem;
 }
 .tshirt1{
-    height: 100%;
-    width: 33.33%;
+    margin-top: 1rem;
+    height: 90%;
+    width: 30%;
     /* border: 2px solid black; */
     display: flex;
     flex-direction: column;
+    /* background-color: rgba(255, 255, 255, 0.1); */
+    /* background-color: #24243e; */
+    background-color: rgb(249, 240, 240);
+    backdrop-filter: blur(45px);
+    border-radius: 2rem;
+    box-shadow: 0 0 10px rgb(143, 136, 136);
 }
 .tshirt1 .pic1{
     height: 80%;
@@ -249,6 +264,7 @@ main{
     /* border: 2px solid red; */
     margin-left: auto;
     margin-right: auto;
+    cursor: pointer;
 }
 .tshirt1 .pic1 img{
     height: 100%;
@@ -324,15 +340,23 @@ main{
     border-radius: 5rem;
     margin-left: 2rem;
     font-family: 'Spectral';
-    background-color: rgb(243, 243, 137);
+    background-color: rgb(4, 34, 59);
+    color: #f5f5f5;
     cursor: pointer;
 }
 .tshirt2{
-    height: 100%;
-    width: 33.33%;
+    margin-top: 1rem;
+    height: 90%;
+    width: 30%;
     /* border: 2px solid black; */
     display: flex;
     flex-direction: column;
+    /* background-color: rgba(255, 255, 255, 0.1); */
+    /* background-color: #24243e; */
+    background-color: rgb(249, 240, 240);
+    backdrop-filter: blur(45px);
+    border-radius: 2rem;
+    box-shadow: 0 0 10px rgb(143, 136, 136);
 }
 .tshirt2 .pic2{
     height: 80%;
@@ -340,6 +364,7 @@ main{
     /* border: 2px solid red; */
     margin-left: auto;
     margin-right: auto;
+    cursor: pointer;
 }
 .tshirt2 .pic2 img{
     height: 100%;
@@ -352,15 +377,34 @@ main{
     margin-left: auto;
     margin-right: auto;
     margin-top: 0.5rem;
+    display: flex;
+    flex-direction: column;
 }
-.tshirt2 .text2 .product-name{
+.tshirt2 .text2 .upper{
+    height: 20%;
+    width: 100%;
+    /* border: 2px solid black; */
+    margin-bottom: 0.5rem;
+}
+.tshirt2 .text2 .upper .product-name{
     font-family: 'Spectral';
     color: #000;
     font-size: 1.2rem;
     text-transform: uppercase;
     /* border: 2px solid red; */
 }
-.tshirt2 .text2 .product-price{
+.tshirt2 .text2 .lower{
+    height: 80%;
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+}
+.tshirt2 .text2 .lower .low1{
+    height: 100%;
+    width: 50%;
+    /* border: 2px solid black; */
+}
+.tshirt2 .text2 .low1 .product-price{
     font-family: 'Spectral';
     color: navy;
     font-size: 0.9rem;
@@ -369,14 +413,14 @@ main{
     margin-top: 0;
     margin-bottom: 0;
 }
-.tshirt2 .text2 .product-detail span{
+.tshirt2 .text2 .low1 .product-detail span{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: red;
     font-size: 0.9rem;
     text-transform: uppercase;
     text-decoration: line-through;
 }
-.tshirt2 .text2 .product-detail{
+.tshirt2 .text2 .low1 .product-detail{
     font-family: 'Spectral';
     color: navy;
     font-size: 0.9rem;
@@ -385,12 +429,34 @@ main{
     margin-top: 0;
     
 }
-.tshirt3{
+.tshirt2 .text2 .lower .low2{
     height: 100%;
-    width: 33.33%;
+    width: 50%;
+    /* border: 2px solid black; */
+}
+.tshirt2 .text2 .low2 button{
+    height: 2rem;
+    width: 8rem;
+    border-radius: 5rem;
+    margin-left: 2rem;
+    font-family: 'Spectral';
+    background-color: rgb(4, 34, 59);
+    color: #f5f5f5;
+    cursor: pointer;
+}
+.tshirt3{
+    margin-top: 1rem;
+    height: 90%;
+    width: 30%;
     /* border: 2px solid black; */
     display: flex;
     flex-direction: column;
+    /* background-color: rgba(255, 255, 255, 0.1); */
+    /* background-color: #24243e; */
+    background-color: rgb(249, 240, 240);
+    backdrop-filter: blur(45px);
+    border-radius: 2rem;
+    box-shadow: 0 0 10px rgb(143, 136, 136);
 }
 .tshirt3 .pic3{
     height: 80%;
@@ -398,6 +464,7 @@ main{
     /* border: 2px solid red; */
     margin-left: auto;
     margin-right: auto;
+    cursor: pointer;
 }
 .tshirt3 .pic3 img{
     height: 100%;
@@ -410,15 +477,34 @@ main{
     margin-left: auto;
     margin-right: auto;
     margin-top: 0.5rem;
+    display: flex;
+    flex-direction: column;
 }
-.tshirt3 .text3 .product-name{
+.tshirt3 .text3 .upper{
+    height: 20%;
+    width: 100%;
+    /* border: 2px solid black; */
+    margin-bottom: 0.5rem;
+}
+.tshirt3 .text3 .upper .product-name{
     font-family: 'Spectral';
     color: #000;
     font-size: 1.2rem;
     text-transform: uppercase;
     /* border: 2px solid red; */
 }
-.tshirt3 .text3 .product-price{
+.tshirt3 .text3 .lower{
+    height: 80%;
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+}
+.tshirt3 .text3 .lower .low1{
+    height: 100%;
+    width: 50%;
+    /* border: 2px solid black; */
+}
+.tshirt3 .text3 .low1 .product-price{
     font-family: 'Spectral';
     color: navy;
     font-size: 0.9rem;
@@ -427,14 +513,14 @@ main{
     margin-top: 0;
     margin-bottom: 0;
 }
-.tshirt3 .text3 .product-detail span{
+.tshirt3 .text3 .low1 .product-detail span{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: red;
     font-size: 0.9rem;
     text-transform: uppercase;
     text-decoration: line-through;
 }
-.tshirt3 .text3 .product-detail{
+.tshirt3 .text3 .low1 .product-detail{
     font-family: 'Spectral';
     color: navy;
     font-size: 0.9rem;
@@ -442,4 +528,398 @@ main{
     /* border: 2px solid red; */
     margin-top: 0;
     
+}
+.tshirt3 .text3 .lower .low2{
+    height: 100%;
+    width: 50%;
+    /* border: 2px solid black; */
+}
+.tshirt3 .text3 .low2 button{
+    height: 2rem;
+    width: 8rem;
+    border-radius: 5rem;
+    margin-left: 2rem;
+    font-family: 'Spectral';
+    background-color: rgb(4, 34, 59);
+    color: #f5f5f5;
+    cursor: pointer;
+}
+.set2{
+    display: flex;
+    height: 50%;
+    width: 100%;
+    gap: 3rem;
+    margin-left: 1rem;
+}
+
+/*! Jeans */
+.category-jeans{
+    height: 40%;
+    width: 100%;
+    border: 3px solid black;
+    display: flex;
+    flex-direction: column;
+}
+.display-jeans{
+    height: 30%;
+    width: 100%;
+    border: 2px solid red;
+    background: url("https://images.pexels.com/photos/5710654/pexels-photo-5710654.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+}
+.display-jeans span{
+    display: block;
+    font-size: 5rem;
+    border: 2px solid red;
+    color: white;
+    text-shadow: 2px 2px 3px #000;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.showing-jeans{
+    margin-top: 0.5rem;
+    height: 70%;
+    width: 100%;
+    border: 2px solid navy;
+    display: flex;
+    flex-direction: column;
+}
+.set1-jeans{
+    display: flex;
+    height: 50%;
+    width: 100%;
+    gap: 3rem;
+    margin-left: 1rem;
+}
+.jeans1{
+    margin-top: 1rem;
+    height: 90%;
+    width: 30%;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    /* background-color: rgba(255, 255, 255, 0.1); */
+    /* background-color: #24243e; */
+    background-color: rgb(249, 240, 240);
+    backdrop-filter: blur(45px);
+    border-radius: 2rem;
+    box-shadow: 0 0 10px rgb(143, 136, 136);
+}
+.jeans1 .pic1{
+    height: 80%;
+    width: 80%;
+    /* border: 2px solid red; */
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+.jeans1 .pic1 img{
+    height: 100%;
+    width: 100%;
+}
+.jeans1 .text1{
+    height: 20%;
+    width: 80%;
+    /* border: 2px solid navy; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction: column;
+}
+.jeans1 .text1 .upper{
+    height: 20%;
+    width: 100%;
+    /* border: 2px solid black; */
+    margin-bottom: 0.5rem;
+}
+.jeans1 .text1 .upper .product-name{
+    font-family: 'Spectral';
+    color: #000;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    /* border: 2px solid red; */
+}
+.jeans1 .text1 .lower{
+    height: 80%;
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+}
+.jeans1 .text1 .lower .low1{
+    height: 100%;
+    width: 50%;
+    /* border: 2px solid black; */
+}
+.jeans1 .text1 .low1 .product-price{
+    font-family: 'Spectral';
+    color: navy;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    /* border: 2px solid red; */
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.jeans1 .text1 .low1 .product-detail span{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: red;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    text-decoration: line-through;
+}
+.jeans1 .text1 .low1 .product-detail{
+    font-family: 'Spectral';
+    color: navy;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    /* border: 2px solid red; */
+    margin-top: 0;
+    
+}
+.jeans1 .text1 .lower .low2{
+    height: 100%;
+    width: 50%;
+    /* border: 2px solid black; */
+}
+.jeans1 .text1 .low2 button{
+    height: 2rem;
+    width: 8rem;
+    border-radius: 5rem;
+    margin-left: 2rem;
+    font-family: 'Spectral';
+    background-color: rgb(4, 34, 59);
+    color: #f5f5f5;
+    cursor: pointer;
+}
+.jeans2{
+    margin-top: 1rem;
+    height: 90%;
+    width: 30%;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    /* background-color: rgba(255, 255, 255, 0.1); */
+    /* background-color: #24243e; */
+    background-color: rgb(249, 240, 240);
+    backdrop-filter: blur(45px);
+    border-radius: 2rem;
+    box-shadow: 0 0 10px rgb(143, 136, 136);
+}
+.jeans2 .pic2{
+    height: 80%;
+    width: 80%;
+    /* border: 2px solid red; */
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+.jeans2 .pic2 img{
+    height: 100%;
+    width: 100%;
+}
+.jeans2 .text2{
+    height: 20%;
+    width: 80%;
+    /* border: 2px solid navy; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction: column;
+}
+.jeans2 .text2 .upper{
+    height: 20%;
+    width: 100%;
+    /* border: 2px solid black; */
+    margin-bottom: 0.5rem;
+}
+.jeans2 .text2 .upper .product-name{
+    font-family: 'Spectral';
+    color: #000;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    /* border: 2px solid red; */
+}
+.jeans2 .text2 .lower{
+    height: 80%;
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+}
+.jeans2 .text2 .lower .low1{
+    height: 100%;
+    width: 50%;
+    /* border: 2px solid black; */
+}
+.jeans2 .text2 .low1 .product-price{
+    font-family: 'Spectral';
+    color: navy;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    /* border: 2px solid red; */
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.jeans2 .text2 .low1 .product-detail span{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: red;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    text-decoration: line-through;
+}
+.jeans2 .text2 .low1 .product-detail{
+    font-family: 'Spectral';
+    color: navy;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    /* border: 2px solid red; */
+    margin-top: 0;
+    
+}
+.jeans2 .text2 .lower .low2{
+    height: 100%;
+    width: 50%;
+    /* border: 2px solid black; */
+}
+.jeans2 .text2 .low2 button{
+    height: 2rem;
+    width: 8rem;
+    border-radius: 5rem;
+    margin-left: 2rem;
+    font-family: 'Spectral';
+    background-color: rgb(4, 34, 59);
+    color: #f5f5f5;
+    cursor: pointer;
+}
+.jeans3{
+    margin-top: 1rem;
+    height: 90%;
+    width: 30%;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    /* background-color: rgba(255, 255, 255, 0.1); */
+    /* background-color: #24243e; */
+    background-color: rgb(249, 240, 240);
+    backdrop-filter: blur(45px);
+    border-radius: 2rem;
+    box-shadow: 0 0 10px rgb(143, 136, 136);
+}
+.jeans3 .pic3{
+    height: 80%;
+    width: 80%;
+    /* border: 2px solid red; */
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+.jeans3 .pic3 img{
+    height: 100%;
+    width: 100%;
+}
+.jeans3 .text3{
+    height: 20%;
+    width: 80%;
+    /* border: 2px solid navy; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction: column;
+}
+.jeans3 .text3 .upper{
+    height: 20%;
+    width: 100%;
+    /* border: 2px solid black; */
+    margin-bottom: 0.5rem;
+}
+.jeans3 .text3 .upper .product-name{
+    font-family: 'Spectral';
+    color: #000;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    /* border: 2px solid red; */
+}
+.jeans3 .text3 .lower{
+    height: 80%;
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+}
+.jeans3 .text3 .lower .low1{
+    height: 100%;
+    width: 50%;
+    /* border: 2px solid black; */
+}
+.jeans3 .text3 .low1 .product-price{
+    font-family: 'Spectral';
+    color: navy;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    /* border: 2px solid red; */
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.jeans3 .text3 .low1 .product-detail span{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: red;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    text-decoration: line-through;
+}
+.jeans3 .text3 .low1 .product-detail{
+    font-family: 'Spectral';
+    color: navy;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    /* border: 2px solid red; */
+    margin-top: 0;
+    
+}
+.jeans3 .text3 .lower .low2{
+    height: 100%;
+    width: 50%;
+    /* border: 2px solid black; */
+}
+.jeans3 .text3 .low2 button{
+    height: 2rem;
+    width: 8rem;
+    border-radius: 5rem;
+    margin-left: 2rem;
+    font-family: 'Spectral';
+    background-color: rgb(4, 34, 59);
+    color: #f5f5f5;
+    cursor: pointer;
+}
+.set2-jeans{
+    display: flex;
+    height: 50%;
+    width: 100%;
+    gap: 3rem;
+    margin-left: 1rem;
+}
+body{
+    /* background: #bdc3c7;  fallback for old browsers */
+    /* background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  Chrome 10-25, Safari 5.1-6 */
+    /* background: linear-gradient(to right, #2c3e50, #bdc3c7); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    /* background: #0F2027;  fallback for old browsers */
+    /* background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  Chrome 10-25, Safari 5.1-6 */
+    /* background: linear-gradient(to right, #2C5364, #203A43, #0F2027); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    /*! one */
+    /* background: #0f0c29;  fallback for old browsers */
+    /* background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  Chrome 10-25, Safari 5.1-6 */
+    /* background: linear-gradient(to right, #24243e, #302b63, #0f0c29); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    /* background-image: linear-gradient(115deg, #485563, #29323c, #cccccc 100%); */
+    /* background-image: linear-gradient(135deg, #b0b0b0, #ffd700 50%, #ffffff 100%); */
+    /* background-image: linear-gradient(135deg, #1C1C1C, #004C4C); */
+    background-image: linear-gradient(to right, #dcdcdc, #f5f5f5);
+
+
 }
