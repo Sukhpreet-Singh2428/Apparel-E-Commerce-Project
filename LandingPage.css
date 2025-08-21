@@ -13,19 +13,20 @@ body{
 .Man{
     height: 100%;
     width: 50%;
-    background: url("https://images.pexels.com/photos/3651597/pexels-photo-3651597.jpeg");
+    background: url("https://i.pinimg.com/1200x/48/11/be/4811be0b31ff7762b8c5bae022d4b936.jpg");
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: top;
     background-size: cover;
     display: flex;
     flex-direction: column;
     transition: transform 0.5s ease-in-out;
 }
 .Man .x{
-    font-size: 2rem;
-    color: white;
+    font-size: 3rem;
+    color: #000;
     position: relative;
-    text-shadow: 2px 3px 3px #000;
+    text-shadow: 2px 3px 3px honeydew;
+    font-weight: bolder;
     top: 0;
     left: 94.5%;
 }
@@ -59,24 +60,26 @@ body{
 }
 .text p a{
     text-decoration: none;
-    color: honeydew;
-    text-shadow: 2px 3px 2px #000;
+    color: #000;
+    font-weight: bolder;
+    text-shadow: 2px 3px 2px ghostwhite;
 }
 .Women{
     height: 100%;
     width: 50%;
-    background: url("https://images.pexels.com/photos/1126993/pexels-photo-1126993.jpeg");
+    background: url("https://i.pinimg.com/1200x/df/99/b6/df99b6133a58ae3612ed956aca79862d.jpg");
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: top;
     background-size: cover;
     display: flex;
     flex-direction: column;
     transition: transform 0.5s ease-in-out;
 }
 .Women .y{
-    font-size: 2rem;
-    color: white;
-    text-shadow: 2px 3px 3px #000;
+    font-size: 3rem;
+    color: #000;
+    font-weight: bolder;
+    text-shadow: 2px 3px 3px honeydew;
     position: relative;
     top: 0;
     left: 0;
@@ -105,9 +108,11 @@ body{
 }
 .w-text p a{
     text-decoration: none;
-    color: honeydew;
-    text-shadow: 2px 3px 2px #000;
+    color: #000;
+    font-weight: bolder;
+    text-shadow: 2px 3px 2px ghostwhite;
 }
+
 
 @media screen and (max-width: 480px) {
     body{
