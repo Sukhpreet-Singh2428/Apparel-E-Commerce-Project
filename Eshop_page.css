@@ -82,7 +82,7 @@ nav{
     /* transition: background 0.5s ease-in;
     transition: box-shadow 0.5s ease-in-out; */
     /* background: linear-gradient(to left, lightpink, ghostwhite, lightpink); */
-    background-color: lightgray;
+    background-color: rgb(170, 196, 211);
 }
 /* .head:hover{
     background: linear-gradient(to left, lightpink, ghostwhite, lightpink);
@@ -110,41 +110,47 @@ main{
     height: 15%;
     width: 100%;
     /* border: 2px solid red; */
-    background: url("https://images.pexels.com/photos/12611637/pexels-photo-12611637.jpeg");
+    background: url("https://i.pinimg.com/1200x/04/7b/3f/047b3f4517839ef37e4044a6218ff8c8.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: scroll;
     margin-bottom: 1rem;
+    overflow: hidden
 }
-@keyframes slide{
-    /* 0% {
-        transform: translateX(0);
-    } */
+/* @keyframes slide{
     0%{
         transform: translateX(-100%);
     }
     100%{
         transform: translateX(120%);
     }
+} */
+@keyframes slide{
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
 }
 .move{
     height: 100%;
-    width: 100%;
+    width: 200%;  /* Double width to accommodate duplicated slides */
     display: flex;
-    gap: 4rem;
+    gap: 1rem;
     align-items: center;
     align-content: center;
-    justify-content: center;
+    justify-content: flex-start; 
     animation: slide 12s linear infinite;
     /* backdrop-filter: blur(20px); */
 }
 .show1{
     height: 80%;
-    width: 25%;
+    width: 14%;
     border: 2px solid black;
     flex-shrink: 0;
-    background: url("https://videos.openai.com/vg-assets/assets%2Ftask_01k30x5vtreye98rwsx0k3h3rh%2F1755598624_img_0.webp?st=2025-08-19T08%3A27%3A07Z&se=2025-08-25T09%3A27%3A07Z&sks=b&skt=2025-08-19T08%3A27%3A07Z&ske=2025-08-25T09%3A27%3A07Z&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skoid=aa5ddad1-c91a-4f0a-9aca-e20682cc8969&skv=2019-02-02&sv=2018-11-09&sr=b&sp=r&spr=https%2Chttp&sig=mdRcUTdg8nN8Mc17psQXGN6arkvMAuPjNBf4wok7sWc%3D&az=oaivgprodscus");
+    background: url("https://i.pinimg.com/1200x/08/dc/41/08dc414357e6ef1fd6f7f1fc3bab67b1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -159,18 +165,20 @@ main{
 } */
 .show2{
     height: 80%;
-    width: 25%;
+    width: 14%;
     border: 2px solid black;
     flex-shrink: 0;
-    background: url("https://i.pinimg.com/1200x/3a/30/dc/3a30dc69c17a62a7189776f4395d879b.jpg");
+    background: url("https://i.pinimg.com/736x/99/e9/35/99e935170a770230ffcce6a165d55601.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     border-radius: 10%;
+    position: relative; /* Important for shimmer effect */
+    overflow: hidden; /* Important for shimmer effect */
 }
 .show3{
     height: 80%;
-    width: 25%;
+    width: 14%;
     border: 2px solid black;
     flex-shrink: 0;
     background: url("https://i.pinimg.com/1200x/57/08/5f/57085f31a17804021bc2cb795acdd349.jpg");
@@ -178,21 +186,25 @@ main{
     background-size: cover;
     background-position: center;
     border-radius: 10%;
+    position: relative; /* Important for shimmer effect */
+    overflow: hidden; /* Important for shimmer effect */
 }
 .show4{
     height: 80%;
-    width: 25%;
+    width: 14%;
     border: 2px solid black;
     flex-shrink: 0;
-    background: url("https://i.pinimg.com/1200x/c6/60/cc/c660ccbf74282b4c2eece9121c569515.jpg");
+    background: url("https://i.pinimg.com/1200x/df/b2/d8/dfb2d8a71ed9ee2daea046c74b044712.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     border-radius: 10%;
+    position: relative; /* Important for shimmer effect */
+    overflow: hidden; /* Important for shimmer effect */
 }
 .show5{
     height: 80%;
-    width: 25%;
+    width: 14%;
     border: 2px solid black;
     flex-shrink: 0;
     background: url("https://img.fantaskycdn.com/35126c8b732b8a3486bce24a81310dce_1920x.jpeg");
@@ -200,6 +212,21 @@ main{
     background-size: cover;
     background-position: center;
     border-radius: 10%;
+    position: relative; /* Important for shimmer effect */
+    overflow: hidden; /* Important for shimmer effect */
+}
+.show6{
+    height: 80%;
+    width: 14%;
+    border: 2px solid black;
+    flex-shrink: 0;
+    background: url("https://i.pinimg.com/1200x/3a/1c/aa/3a1caa18a9ec32d4c3dae9ed2b376cc9.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10%;
+    position: relative; /* Important for shimmer effect */
+    overflow: hidden; /* Important for shimmer effect */
 }
 
 .category-tshirts{
