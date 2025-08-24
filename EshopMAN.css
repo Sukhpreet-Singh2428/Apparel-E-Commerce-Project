@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Spectral:wght@700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Spectral:wght@700&display=swap'); */
+@import url("https://fonts.googleapis.com/css?family=Audiowide");
 html{
     scroll-behavior: smooth;
 }
@@ -7,10 +8,9 @@ html{
     font-size: 2rem;
     /* font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ; */
     /* font-family: "Playfair Display", serif; */
-    font-family: 'Spectral', serif;
-
-    color: #000;
-    text-shadow: 2px 2.5px 3px honeydew;
+    font-family: "Audiowide", sans-serif;
+    font-weight: bolder;
+    color: honeydew;
 }
 .two ul{
     list-style: none;
@@ -21,8 +21,8 @@ html{
 }
 .two ul a{
     text-decoration: none;
-    color: rgb(35, 14, 35);
-    font-family: 'Spectral';
+    color: honeydew;
+    font-family: "Audiowide", sans-serif;
     transition: text-decoration 0.3s ease-in-out;
 }
 .two ul a:hover{
@@ -33,12 +33,12 @@ html{
     display: flex;
     gap: 25px;
     margin: 0;
-    padding-left: 130px;
+    padding-left: 1.6rem;
 }
 .menu ul a{
     text-decoration: none;
-    color: rgb(35, 14, 35);
-    font-family: 'Spectral';
+    color: honeydew;
+    font-family: "Audiowide", sans-serif;
     transition: text-decoration 0.37s ease-in-out;
 }
 .menu ul a::before{
@@ -53,13 +53,13 @@ html{
     gap: 25px;
     margin: 0;
     padding-left: 130px;
-    color: rgb(35, 14, 35);
-    font-family: 'Spectral';
+    color: honeydew;
+    font-family: "Audiowide", sans-serif;
 }
 .right ul a{
     text-decoration: none;
-    color: rgb(35, 14, 35);
-    font-family: 'Spectral';
+    color: honeydew;
+    font-family: "Audiowide", sans-serif;
     transition: text-decoration 0.3s ease-in-out;
 }
 .right ul a:hover{
@@ -82,15 +82,16 @@ nav{
     height: 100%;
     width: 100%;
     /* border: 3px solid red; */
-    /* transition: background 0.5s ease-in;
-    transition: box-shadow 0.5s ease-in-out; */
-    /* background: linear-gradient(to left, lightpink, ghostwhite, lightpink); */
-    background-color: rgb(170, 196, 211);
+    /* background: url("https://images.pexels.com/photos/26628057/pexels-photo-26628057.jpeg"); */
+    background-color: rgb(3, 3, 61);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
-/* .head:hover{
-    background: linear-gradient(to left, lightpink, ghostwhite, lightpink);
-    box-shadow: 0 0 20px white;
-} */
+.head:hover{
+    background: #000;
+    box-shadow: 0 0 20px #000;
+}
 header{
     height: 0.8%;
     width: 100%;
@@ -102,7 +103,6 @@ body{
     overflow-x: hidden;
     height: 1200vh;
     width: 100vw;
-    /* background-image: linear-gradient(-225deg, #7085B6 0%, #87A7D9 50%, #DEF3F8 100%); */
 }
 main{
     height: 50%;
@@ -113,7 +113,7 @@ main{
     height: 15%;
     width: 100%;
     /* border: 2px solid red; */
-    background: url("https://i.pinimg.com/1200x/04/7b/3f/047b3f4517839ef37e4044a6218ff8c8.jpg");
+    background: url("https://images.pexels.com/photos/26628057/pexels-photo-26628057.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -149,11 +149,11 @@ main{
     /* backdrop-filter: blur(20px); */
 }
 .show1{
-    height: 80%;
+    height: 90%;
     width: 14%;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     flex-shrink: 0;
-    background: url("https://i.pinimg.com/1200x/08/dc/41/08dc414357e6ef1fd6f7f1fc3bab67b1.jpg");
+    background: url("https://i.pinimg.com/736x/23/e5/04/23e504c0340715dedd9ee503a55246f7.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -167,69 +167,59 @@ main{
     background: url(/Logo\ loxi.png);
 } */
 .show2{
-    height: 80%;
+    height: 90%;
     width: 14%;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     flex-shrink: 0;
-    background: url("https://i.pinimg.com/736x/99/e9/35/99e935170a770230ffcce6a165d55601.jpg");
+    background: url("https://i.pinimg.com/736x/9f/77/7f/9f777f6c8c7f1517fe1b2ce5a6d403de.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     border-radius: 10%;
-    position: relative; /* Important for shimmer effect */
-    overflow: hidden; /* Important for shimmer effect */
 }
 .show3{
-    height: 80%;
+    height: 90%;
     width: 14%;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     flex-shrink: 0;
-    background: url("https://i.pinimg.com/1200x/57/08/5f/57085f31a17804021bc2cb795acdd349.jpg");
+    background: url("https://i.pinimg.com/736x/20/02/c9/2002c9a39cc77c29eff465b51bc6cc06.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     border-radius: 10%;
-    position: relative; /* Important for shimmer effect */
-    overflow: hidden; /* Important for shimmer effect */
 }
 .show4{
-    height: 80%;
+    height: 90%;
     width: 14%;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     flex-shrink: 0;
-    background: url("https://i.pinimg.com/1200x/df/b2/d8/dfb2d8a71ed9ee2daea046c74b044712.jpg");
+    background: url("https://i.pinimg.com/1200x/af/86/f4/af86f41a2b67d51037c55c93a5229ebf.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     border-radius: 10%;
-    position: relative; /* Important for shimmer effect */
-    overflow: hidden; /* Important for shimmer effect */
 }
 .show5{
-    height: 80%;
+    height: 90%;
     width: 14%;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     flex-shrink: 0;
-    background: url("https://img.fantaskycdn.com/35126c8b732b8a3486bce24a81310dce_1920x.jpeg");
+    background: url("https://i.pinimg.com/1200x/29/0e/e2/290ee2d6514ca699d65c5247e50f70d5.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     border-radius: 10%;
-    position: relative; /* Important for shimmer effect */
-    overflow: hidden; /* Important for shimmer effect */
 }
 .show6{
-    height: 80%;
+    height: 90%;
     width: 14%;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     flex-shrink: 0;
-    background: url("https://i.pinimg.com/1200x/3a/1c/aa/3a1caa18a9ec32d4c3dae9ed2b376cc9.jpg");
+    background: url("https://i.pinimg.com/1200x/46/42/0e/46420ef1a985e9d8c32bfac97e7376a0.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     border-radius: 10%;
-    position: relative; /* Important for shimmer effect */
-    overflow: hidden; /* Important for shimmer effect */
 }
 
 .category-tshirts{
@@ -243,10 +233,10 @@ main{
     height: 30%;
     width: 100%;
     border: 2px solid red;
-    background: url("https://i.pinimg.com/1200x/80/03/c5/8003c5a41125cfc8f667cafd245f9df2.jpg");
+    background: url("https://images.unsplash.com/photo-1565006933419-0f2690a855be?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: top;
     background-attachment: scroll;
 }
 .display-tshirts span{
@@ -254,6 +244,7 @@ main{
     font-size: 5rem;
     border: 2px solid red;
     color: white;
+    font-family: "Audiowide", sans-serif;
     text-shadow: 2px 2px 3px #000;
     text-align: center;
     margin-top: auto;
@@ -283,8 +274,9 @@ main{
     flex-direction: column;
     /* background-color: rgba(255, 255, 255, 0.1); */
     /* background-color: #24243e; */
-    background-color: rgb(249, 240, 240);
-    backdrop-filter: blur(45px);
+    /* background-color: rgb(249, 240, 240); */
+    /* backdrop-filter: blur(45px); */
+    opacity: 0.9;
     border-radius: 2rem;
     box-shadow: 0 0 10px rgb(143, 136, 136);
 }
@@ -317,7 +309,7 @@ main{
     margin-bottom: 0.5rem;
 }
 .tshirt1 .text1 .upper .product-name{
-    font-family: 'Spectral';
+    font-family: "Audiowide", sans-serif;
     color: #000;
     font-size: 1.2rem;
     text-transform: uppercase;
@@ -335,7 +327,7 @@ main{
     /* border: 2px solid black; */
 }
 .tshirt1 .text1 .low1 .product-price{
-    font-family: 'Spectral';
+    font-family: "Audiowide", sans-serif;
     color: navy;
     font-size: 0.9rem;
     text-transform: uppercase;
@@ -344,14 +336,14 @@ main{
     margin-bottom: 0;
 }
 .tshirt1 .text1 .low1 .product-detail span{
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: "Audiowide", sans-serif;
     color: red;
     font-size: 0.9rem;
     text-transform: uppercase;
     text-decoration: line-through;
 }
 .tshirt1 .text1 .low1 .product-detail{
-    font-family: 'Spectral';
+    font-family: "Audiowide", sans-serif;
     color: navy;
     font-size: 0.9rem;
     text-transform: uppercase;
@@ -369,7 +361,7 @@ main{
     width: 8rem;
     border-radius: 5rem;
     margin-left: 2rem;
-    font-family: 'Spectral';
+    font-family: "Audiowide", sans-serif;
     background-color: rgb(4, 34, 59);
     color: #f5f5f5;
     cursor: pointer;
@@ -383,8 +375,9 @@ main{
     flex-direction: column;
     /* background-color: rgba(255, 255, 255, 0.1); */
     /* background-color: #24243e; */
-    background-color: rgb(249, 240, 240);
-    backdrop-filter: blur(45px);
+    /* background-color: rgb(249, 240, 240);
+    backdrop-filter: blur(45px); */
+    opacity: 0.9;
     border-radius: 2rem;
     box-shadow: 0 0 10px rgb(143, 136, 136);
 }
@@ -417,7 +410,7 @@ main{
     margin-bottom: 0.5rem;
 }
 .tshirt2 .text2 .upper .product-name{
-    font-family: 'Spectral';
+    font-family: "Audiowide", sans-serif;
     color: #000;
     font-size: 1.2rem;
     text-transform: uppercase;
@@ -435,7 +428,7 @@ main{
     /* border: 2px solid black; */
 }
 .tshirt2 .text2 .low1 .product-price{
-    font-family: 'Spectral';
+    font-family: "Audiowide", sans-serif;
     color: navy;
     font-size: 0.9rem;
     text-transform: uppercase;
@@ -444,14 +437,14 @@ main{
     margin-bottom: 0;
 }
 .tshirt2 .text2 .low1 .product-detail span{
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: "Audiowide", sans-serif;
     color: red;
     font-size: 0.9rem;
     text-transform: uppercase;
     text-decoration: line-through;
 }
 .tshirt2 .text2 .low1 .product-detail{
-    font-family: 'Spectral';
+    font-family: "Audiowide", sans-serif;
     color: navy;
     font-size: 0.9rem;
     text-transform: uppercase;
@@ -469,7 +462,7 @@ main{
     width: 8rem;
     border-radius: 5rem;
     margin-left: 2rem;
-    font-family: 'Spectral';
+    font-family: "Audiowide", sans-serif;
     background-color: rgb(4, 34, 59);
     color: #f5f5f5;
     cursor: pointer;
@@ -483,8 +476,9 @@ main{
     flex-direction: column;
     /* background-color: rgba(255, 255, 255, 0.1); */
     /* background-color: #24243e; */
-    background-color: rgb(249, 240, 240);
-    backdrop-filter: blur(45px);
+    /* background-color: rgb(249, 240, 240);
+    backdrop-filter: blur(45px); */
+    opacity: 0.9;
     border-radius: 2rem;
     box-shadow: 0 0 10px rgb(143, 136, 136);
 }
@@ -517,7 +511,7 @@ main{
     margin-bottom: 0.5rem;
 }
 .tshirt3 .text3 .upper .product-name{
-    font-family: 'Spectral';
+    font-family: "Audiowide", sans-serif;
     color: #000;
     font-size: 1.2rem;
     text-transform: uppercase;
@@ -535,7 +529,7 @@ main{
     /* border: 2px solid black; */
 }
 .tshirt3 .text3 .low1 .product-price{
-    font-family: 'Spectral';
+    font-family: "Audiowide", sans-serif;
     color: navy;
     font-size: 0.9rem;
     text-transform: uppercase;
@@ -544,14 +538,14 @@ main{
     margin-bottom: 0;
 }
 .tshirt3 .text3 .low1 .product-detail span{
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: "Audiowide", sans-serif;
     color: red;
     font-size: 0.9rem;
     text-transform: uppercase;
     text-decoration: line-through;
 }
 .tshirt3 .text3 .low1 .product-detail{
-    font-family: 'Spectral';
+    font-family: "Audiowide", sans-serif;
     color: navy;
     font-size: 0.9rem;
     text-transform: uppercase;
@@ -569,7 +563,7 @@ main{
     width: 8rem;
     border-radius: 5rem;
     margin-left: 2rem;
-    font-family: 'Spectral';
+    font-family: "Audiowide", sans-serif;
     background-color: rgb(4, 34, 59);
     color: #f5f5f5;
     cursor: pointer;
@@ -605,6 +599,7 @@ main{
     font-size: 5rem;
     border: 2px solid red;
     color: white;
+    font-family: "Audiowide", sans-serif;
     text-shadow: 2px 2px 3px #000;
     text-align: center;
     margin-top: auto;
@@ -634,8 +629,9 @@ main{
     flex-direction: column;
     /* background-color: rgba(255, 255, 255, 0.1); */
     /* background-color: #24243e; */
-    background-color: rgb(249, 240, 240);
-    backdrop-filter: blur(45px);
+    /* background-color: rgb(249, 240, 240);
+    backdrop-filter: blur(45px); */
+    opacity: 0.9;
     border-radius: 2rem;
     box-shadow: 0 0 10px rgb(143, 136, 136);
 }
@@ -668,7 +664,7 @@ main{
     margin-bottom: 0.5rem;
 }
 .jeans1 .text1 .upper .product-name{
-    font-family: 'Spectral';
+    font-family: "Audiowide", sans-serif;
     color: #000;
     font-size: 1.2rem;
     text-transform: uppercase;
@@ -686,7 +682,7 @@ main{
     /* border: 2px solid black; */
 }
 .jeans1 .text1 .low1 .product-price{
-    font-family: 'Spectral';
+    font-family: "Audiowide", sans-serif;
     color: navy;
     font-size: 0.9rem;
     text-transform: uppercase;
@@ -695,14 +691,14 @@ main{
     margin-bottom: 0;
 }
 .jeans1 .text1 .low1 .product-detail span{
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: "Audiowide", sans-serif;
     color: red;
     font-size: 0.9rem;
     text-transform: uppercase;
     text-decoration: line-through;
 }
 .jeans1 .text1 .low1 .product-detail{
-    font-family: 'Spectral';
+    font-family: "Audiowide", sans-serif;
     color: navy;
     font-size: 0.9rem;
     text-transform: uppercase;
@@ -720,7 +716,7 @@ main{
     width: 8rem;
     border-radius: 5rem;
     margin-left: 2rem;
-    font-family: 'Spectral';
+    font-family: "Audiowide", sans-serif;
     background-color: rgb(4, 34, 59);
     color: #f5f5f5;
     cursor: pointer;
@@ -734,8 +730,9 @@ main{
     flex-direction: column;
     /* background-color: rgba(255, 255, 255, 0.1); */
     /* background-color: #24243e; */
-    background-color: rgb(249, 240, 240);
-    backdrop-filter: blur(45px);
+    /* background-color: rgb(249, 240, 240);
+    backdrop-filter: blur(45px); */
+    opacity: 0.9;
     border-radius: 2rem;
     box-shadow: 0 0 10px rgb(143, 136, 136);
 }
@@ -768,7 +765,7 @@ main{
     margin-bottom: 0.5rem;
 }
 .jeans2 .text2 .upper .product-name{
-    font-family: 'Spectral';
+    font-family: "Audiowide", sans-serif;
     color: #000;
     font-size: 1.2rem;
     text-transform: uppercase;
@@ -786,7 +783,7 @@ main{
     /* border: 2px solid black; */
 }
 .jeans2 .text2 .low1 .product-price{
-    font-family: 'Spectral';
+    font-family: "Audiowide", sans-serif;
     color: navy;
     font-size: 0.9rem;
     text-transform: uppercase;
@@ -795,14 +792,14 @@ main{
     margin-bottom: 0;
 }
 .jeans2 .text2 .low1 .product-detail span{
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: "Audiowide", sans-serif;
     color: red;
     font-size: 0.9rem;
     text-transform: uppercase;
     text-decoration: line-through;
 }
 .jeans2 .text2 .low1 .product-detail{
-    font-family: 'Spectral';
+    font-family: "Audiowide", sans-serif;
     color: navy;
     font-size: 0.9rem;
     text-transform: uppercase;
@@ -820,7 +817,7 @@ main{
     width: 8rem;
     border-radius: 5rem;
     margin-left: 2rem;
-    font-family: 'Spectral';
+    font-family: "Audiowide", sans-serif;
     background-color: rgb(4, 34, 59);
     color: #f5f5f5;
     cursor: pointer;
@@ -834,8 +831,9 @@ main{
     flex-direction: column;
     /* background-color: rgba(255, 255, 255, 0.1); */
     /* background-color: #24243e; */
-    background-color: rgb(249, 240, 240);
-    backdrop-filter: blur(45px);
+    /* background-color: rgb(249, 240, 240);
+    backdrop-filter: blur(45px); */
+    opacity: 0.9;
     border-radius: 2rem;
     box-shadow: 0 0 10px rgb(143, 136, 136);
 }
@@ -868,7 +866,7 @@ main{
     margin-bottom: 0.5rem;
 }
 .jeans3 .text3 .upper .product-name{
-    font-family: 'Spectral';
+    font-family: "Audiowide", sans-serif;
     color: #000;
     font-size: 1.2rem;
     text-transform: uppercase;
@@ -886,7 +884,7 @@ main{
     /* border: 2px solid black; */
 }
 .jeans3 .text3 .low1 .product-price{
-    font-family: 'Spectral';
+    font-family: "Audiowide", sans-serif;
     color: navy;
     font-size: 0.9rem;
     text-transform: uppercase;
@@ -895,14 +893,14 @@ main{
     margin-bottom: 0;
 }
 .jeans3 .text3 .low1 .product-detail span{
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: "Audiowide", sans-serif;
     color: red;
     font-size: 0.9rem;
     text-transform: uppercase;
     text-decoration: line-through;
 }
 .jeans3 .text3 .low1 .product-detail{
-    font-family: 'Spectral';
+    font-family: "Audiowide", sans-serif;
     color: navy;
     font-size: 0.9rem;
     text-transform: uppercase;
@@ -920,7 +918,7 @@ main{
     width: 8rem;
     border-radius: 5rem;
     margin-left: 2rem;
-    font-family: 'Spectral';
+    font-family: "Audiowide", sans-serif;
     background-color: rgb(4, 34, 59);
     color: #f5f5f5;
     cursor: pointer;
@@ -975,6 +973,7 @@ body{
     font-size: 5rem;
     border: 2px solid red;
     color: white;
+    font-family: "Audiowide", sans-serif;
     text-shadow: 2px 2px 3px #000;
     text-align: center;
     margin-top: auto;
@@ -1004,8 +1003,9 @@ body{
     flex-direction: column;
     /* background-color: rgba(255, 255, 255, 0.1); */
     /* background-color: #24243e; */
-    background-color: rgb(249, 240, 240);
-    backdrop-filter: blur(45px);
+    /* background-color: rgb(249, 240, 240);
+    backdrop-filter: blur(45px); */
+    opacity: 0.9;
     border-radius: 2rem;
     box-shadow: 0 0 10px rgb(143, 136, 136);
 }
@@ -1038,7 +1038,7 @@ body{
     margin-bottom: 0.5rem;
 }
 .shoes1 .text1 .upper .product-name{
-    font-family: 'Spectral';
+    font-family: "Audiowide", sans-serif;
     color: #000;
     font-size: 1.2rem;
     text-transform: uppercase;
@@ -1056,7 +1056,7 @@ body{
     /* border: 2px solid black; */
 }
 .shoes1 .text1 .low1 .product-price{
-    font-family: 'Spectral';
+    font-family: "Audiowide", sans-serif;
     color: navy;
     font-size: 0.9rem;
     text-transform: uppercase;
@@ -1065,14 +1065,14 @@ body{
     margin-bottom: 0;
 }
 .shoes1 .text1 .low1 .product-detail span{
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: "Audiowide", sans-serif;
     color: red;
     font-size: 0.9rem;
     text-transform: uppercase;
     text-decoration: line-through;
 }
 .shoes1 .text1 .low1 .product-detail{
-    font-family: 'Spectral';
+    font-family: "Audiowide", sans-serif;
     color: navy;
     font-size: 0.9rem;
     text-transform: uppercase;
@@ -1090,7 +1090,7 @@ body{
     width: 8rem;
     border-radius: 5rem;
     margin-left: 2rem;
-    font-family: 'Spectral';
+    font-family: "Audiowide", sans-serif;
     background-color: rgb(4, 34, 59);
     color: #f5f5f5;
     cursor: pointer;
@@ -1104,8 +1104,9 @@ body{
     flex-direction: column;
     /* background-color: rgba(255, 255, 255, 0.1); */
     /* background-color: #24243e; */
-    background-color: rgb(249, 240, 240);
-    backdrop-filter: blur(45px);
+    /* background-color: rgb(249, 240, 240);
+    backdrop-filter: blur(45px); */
+    opacity: 0.9;
     border-radius: 2rem;
     box-shadow: 0 0 10px rgb(143, 136, 136);
 }
@@ -1138,7 +1139,7 @@ body{
     margin-bottom: 0.5rem;
 }
 .shoes2 .text2 .upper .product-name{
-    font-family: 'Spectral';
+    font-family: "Audiowide", sans-serif;
     color: #000;
     font-size: 1.2rem;
     text-transform: uppercase;
@@ -1156,7 +1157,7 @@ body{
     /* border: 2px solid black; */
 }
 .shoes2 .text2 .low1 .product-price{
-    font-family: 'Spectral';
+    font-family: "Audiowide", sans-serif;
     color: navy;
     font-size: 0.9rem;
     text-transform: uppercase;
@@ -1172,7 +1173,7 @@ body{
     text-decoration: line-through;
 }
 .shoes2 .text2 .low1 .product-detail{
-    font-family: 'Spectral';
+    font-family: "Audiowide", sans-serif;
     color: navy;
     font-size: 0.9rem;
     text-transform: uppercase;
@@ -1190,7 +1191,7 @@ body{
     width: 8rem;
     border-radius: 5rem;
     margin-left: 2rem;
-    font-family: 'Spectral';
+    font-family: "Audiowide", sans-serif;
     background-color: rgb(4, 34, 59);
     color: #f5f5f5;
     cursor: pointer;
@@ -1204,8 +1205,9 @@ body{
     flex-direction: column;
     /* background-color: rgba(255, 255, 255, 0.1); */
     /* background-color: #24243e; */
-    background-color: rgb(249, 240, 240);
-    backdrop-filter: blur(45px);
+    /* background-color: rgb(249, 240, 240);
+    backdrop-filter: blur(45px); */
+    opacity: 0.9;
     border-radius: 2rem;
     box-shadow: 0 0 10px rgb(143, 136, 136);
 }
@@ -1238,7 +1240,7 @@ body{
     margin-bottom: 0.5rem;
 }
 .shoes3 .text3 .upper .product-name{
-    font-family: 'Spectral';
+    font-family: "Audiowide", sans-serif;
     color: #000;
     font-size: 1.2rem;
     text-transform: uppercase;
@@ -1256,7 +1258,7 @@ body{
     /* border: 2px solid black; */
 }
 .shoes3 .text3 .low1 .product-price{
-    font-family: 'Spectral';
+    font-family: "Audiowide", sans-serif;
     color: navy;
     font-size: 0.9rem;
     text-transform: uppercase;
@@ -1265,14 +1267,14 @@ body{
     margin-bottom: 0;
 }
 .shoes3 .text3 .low1 .product-detail span{
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: "Audiowide", sans-serif;
     color: red;
     font-size: 0.9rem;
     text-transform: uppercase;
     text-decoration: line-through;
 }
 .shoes3 .text3 .low1 .product-detail{
-    font-family: 'Spectral';
+    font-family: "Audiowide", sans-serif;
     color: navy;
     font-size: 0.9rem;
     text-transform: uppercase;
@@ -1290,7 +1292,7 @@ body{
     width: 8rem;
     border-radius: 5rem;
     margin-left: 2rem;
-    font-family: 'Spectral';
+    font-family: "Audiowide", sans-serif;
     background-color: rgb(4, 34, 59);
     color: #f5f5f5;
     cursor: pointer;
@@ -1326,6 +1328,7 @@ body{
     font-size: 5rem;
     border: 2px solid red;
     color: white;
+    font-family: "Audiowide", sans-serif;
     text-shadow: 2px 2px 3px #000;
     text-align: center;
     margin-top: auto;
@@ -1355,8 +1358,9 @@ body{
     flex-direction: column;
     /* background-color: rgba(255, 255, 255, 0.1); */
     /* background-color: #24243e; */
-    background-color: rgb(249, 240, 240);
-    backdrop-filter: blur(45px);
+    /* background-color: rgb(249, 240, 240);
+    backdrop-filter: blur(45px); */
+    opacity: 0.9;
     border-radius: 2rem;
     box-shadow: 0 0 10px rgb(143, 136, 136);
 }
@@ -1389,7 +1393,7 @@ body{
     margin-bottom: 0.5rem;
 }
 .hoodies1 .text1 .upper .product-name{
-    font-family: 'Spectral';
+    font-family: "Audiowide", sans-serif;
     color: #000;
     font-size: 1.2rem;
     text-transform: uppercase;
@@ -1407,7 +1411,7 @@ body{
     /* border: 2px solid black; */
 }
 .hoodies1 .text1 .low1 .product-price{
-    font-family: 'Spectral';
+    font-family: "Audiowide", sans-serif;
     color: navy;
     font-size: 0.9rem;
     text-transform: uppercase;
@@ -1416,14 +1420,14 @@ body{
     margin-bottom: 0;
 }
 .hoodies1 .text1 .low1 .product-detail span{
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: "Audiowide", sans-serif;
     color: red;
     font-size: 0.9rem;
     text-transform: uppercase;
     text-decoration: line-through;
 }
 .hoodies1 .text1 .low1 .product-detail{
-    font-family: 'Spectral';
+    font-family: "Audiowide", sans-serif;
     color: navy;
     font-size: 0.9rem;
     text-transform: uppercase;
@@ -1441,7 +1445,7 @@ body{
     width: 8rem;
     border-radius: 5rem;
     margin-left: 2rem;
-    font-family: 'Spectral';
+    font-family: "Audiowide", sans-serif;
     background-color: rgb(4, 34, 59);
     color: #f5f5f5;
     cursor: pointer;
@@ -1455,8 +1459,9 @@ body{
     flex-direction: column;
     /* background-color: rgba(255, 255, 255, 0.1); */
     /* background-color: #24243e; */
-    background-color: rgb(249, 240, 240);
-    backdrop-filter: blur(45px);
+    /* background-color: rgb(249, 240, 240);
+    backdrop-filter: blur(45px); */
+    opacity: 0.9;
     border-radius: 2rem;
     box-shadow: 0 0 10px rgb(143, 136, 136);
 }
@@ -1489,7 +1494,7 @@ body{
     margin-bottom: 0.5rem;
 }
 .hoodies2 .text2 .upper .product-name{
-    font-family: 'Spectral';
+    font-family: "Audiowide", sans-serif;
     color: #000;
     font-size: 1.2rem;
     text-transform: uppercase;
@@ -1507,7 +1512,7 @@ body{
     /* border: 2px solid black; */
 }
 .hoodies2 .text2 .low1 .product-price{
-    font-family: 'Spectral';
+    font-family: "Audiowide", sans-serif;
     color: navy;
     font-size: 0.9rem;
     text-transform: uppercase;
@@ -1516,14 +1521,14 @@ body{
     margin-bottom: 0;
 }
 .hoodies2 .text2 .low1 .product-detail span{
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: "Audiowide", sans-serif;
     color: red;
     font-size: 0.9rem;
     text-transform: uppercase;
     text-decoration: line-through;
 }
 .hoodies2 .text2 .low1 .product-detail{
-    font-family: 'Spectral';
+    font-family: "Audiowide", sans-serif;
     color: navy;
     font-size: 0.9rem;
     text-transform: uppercase;
@@ -1541,7 +1546,7 @@ body{
     width: 8rem;
     border-radius: 5rem;
     margin-left: 2rem;
-    font-family: 'Spectral';
+    font-family: "Audiowide", sans-serif;
     background-color: rgb(4, 34, 59);
     color: #f5f5f5;
     cursor: pointer;
@@ -1555,8 +1560,9 @@ body{
     flex-direction: column;
     /* background-color: rgba(255, 255, 255, 0.1); */
     /* background-color: #24243e; */
-    background-color: rgb(249, 240, 240);
-    backdrop-filter: blur(45px);
+    /* background-color: rgb(249, 240, 240);
+    backdrop-filter: blur(45px); */
+    opacity: 0.9;
     border-radius: 2rem;
     box-shadow: 0 0 10px rgb(143, 136, 136);
 }
@@ -1589,7 +1595,7 @@ body{
     margin-bottom: 0.5rem;
 }
 .hoodies3 .text3 .upper .product-name{
-    font-family: 'Spectral';
+    font-family: "Audiowide", sans-serif;
     color: #000;
     font-size: 1.2rem;
     text-transform: uppercase;
@@ -1607,7 +1613,7 @@ body{
     /* border: 2px solid black; */
 }
 .hoodies3 .text3 .low1 .product-price{
-    font-family: 'Spectral';
+    font-family: "Audiowide", sans-serif;
     color: navy;
     font-size: 0.9rem;
     text-transform: uppercase;
@@ -1616,14 +1622,14 @@ body{
     margin-bottom: 0;
 }
 .hoodies3 .text3 .low1 .product-detail span{
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: "Audiowide", sans-serif;
     color: red;
     font-size: 0.9rem;
     text-transform: uppercase;
     text-decoration: line-through;
 }
 .hoodies3 .text3 .low1 .product-detail{
-    font-family: 'Spectral';
+    font-family: "Audiowide", sans-serif;
     color: navy;
     font-size: 0.9rem;
     text-transform: uppercase;
@@ -1641,7 +1647,7 @@ body{
     width: 8rem;
     border-radius: 5rem;
     margin-left: 2rem;
-    font-family: 'Spectral';
+    font-family: "Audiowide", sans-serif;
     background-color: rgb(4, 34, 59);
     color: #f5f5f5;
     cursor: pointer;
@@ -1677,6 +1683,7 @@ body{
     font-size: 5rem;
     border: 2px solid red;
     color: white;
+    font-family: "Audiowide", sans-serif;
     text-shadow: 2px 2px 3px #000;
     text-align: center;
     margin-top: auto;
@@ -1706,8 +1713,9 @@ body{
     flex-direction: column;
     /* background-color: rgba(255, 255, 255, 0.1); */
     /* background-color: #24243e; */
-    background-color: rgb(249, 240, 240);
-    backdrop-filter: blur(45px);
+    /* background-color: rgb(249, 240, 240);
+    backdrop-filter: blur(45px); */
+    opacity: 0.9;
     border-radius: 2rem;
     box-shadow: 0 0 10px rgb(143, 136, 136);
 }
@@ -1740,7 +1748,7 @@ body{
     margin-bottom: 0.5rem;
 }
 .polos1 .text1 .upper .product-name{
-    font-family: 'Spectral';
+    font-family: "Audiowide", sans-serif;
     color: #000;
     font-size: 1.2rem;
     text-transform: uppercase;
@@ -1758,7 +1766,7 @@ body{
     /* border: 2px solid black; */
 }
 .polos1 .text1 .low1 .product-price{
-    font-family: 'Spectral';
+    font-family: "Audiowide", sans-serif;
     color: navy;
     font-size: 0.9rem;
     text-transform: uppercase;
@@ -1767,14 +1775,14 @@ body{
     margin-bottom: 0;
 }
 .polos1 .text1 .low1 .product-detail span{
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: "Audiowide", sans-serif;
     color: red;
     font-size: 0.9rem;
     text-transform: uppercase;
     text-decoration: line-through;
 }
 .polos1 .text1 .low1 .product-detail{
-    font-family: 'Spectral';
+    font-family: "Audiowide", sans-serif;
     color: navy;
     font-size: 0.9rem;
     text-transform: uppercase;
@@ -1792,7 +1800,7 @@ body{
     width: 8rem;
     border-radius: 5rem;
     margin-left: 2rem;
-    font-family: 'Spectral';
+    font-family: "Audiowide", sans-serif;
     background-color: rgb(4, 34, 59);
     color: #f5f5f5;
     cursor: pointer;
@@ -1806,8 +1814,9 @@ body{
     flex-direction: column;
     /* background-color: rgba(255, 255, 255, 0.1); */
     /* background-color: #24243e; */
-    background-color: rgb(249, 240, 240);
-    backdrop-filter: blur(45px);
+    /* background-color: rgb(249, 240, 240);
+    backdrop-filter: blur(45px); */
+    opacity: 0.9;
     border-radius: 2rem;
     box-shadow: 0 0 10px rgb(143, 136, 136);
 }
@@ -1840,7 +1849,7 @@ body{
     margin-bottom: 0.5rem;
 }
 .polos2 .text2 .upper .product-name{
-    font-family: 'Spectral';
+    font-family: "Audiowide", sans-serif;
     color: #000;
     font-size: 1.2rem;
     text-transform: uppercase;
@@ -1858,7 +1867,7 @@ body{
     /* border: 2px solid black; */
 }
 .polos2 .text2 .low1 .product-price{
-    font-family: 'Spectral';
+    font-family: "Audiowide", sans-serif;
     color: navy;
     font-size: 0.9rem;
     text-transform: uppercase;
@@ -1867,14 +1876,14 @@ body{
     margin-bottom: 0;
 }
 .polos2 .text2 .low1 .product-detail span{
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: "Audiowide", sans-serif;
     color: red;
     font-size: 0.9rem;
     text-transform: uppercase;
     text-decoration: line-through;
 }
 .polos2 .text2 .low1 .product-detail{
-    font-family: 'Spectral';
+    font-family: "Audiowide", sans-serif;
     color: navy;
     font-size: 0.9rem;
     text-transform: uppercase;
@@ -1892,7 +1901,7 @@ body{
     width: 8rem;
     border-radius: 5rem;
     margin-left: 2rem;
-    font-family: 'Spectral';
+    font-family: "Audiowide", sans-serif;
     background-color: rgb(4, 34, 59);
     color: #f5f5f5;
     cursor: pointer;
@@ -1906,8 +1915,9 @@ body{
     flex-direction: column;
     /* background-color: rgba(255, 255, 255, 0.1); */
     /* background-color: #24243e; */
-    background-color: rgb(249, 240, 240);
-    backdrop-filter: blur(45px);
+    /* background-color: rgb(249, 240, 240);
+    backdrop-filter: blur(45px); */
+    opacity: 0.9;
     border-radius: 2rem;
     box-shadow: 0 0 10px rgb(143, 136, 136);
 }
@@ -1940,7 +1950,7 @@ body{
     margin-bottom: 0.5rem;
 }
 .polos3 .text3 .upper .product-name{
-    font-family: 'Spectral';
+    font-family: "Audiowide", sans-serif;
     color: #000;
     font-size: 1.2rem;
     text-transform: uppercase;
@@ -1958,7 +1968,7 @@ body{
     /* border: 2px solid black; */
 }
 .polos3 .text3 .low1 .product-price{
-    font-family: 'Spectral';
+    font-family: "Audiowide", sans-serif;
     color: navy;
     font-size: 0.9rem;
     text-transform: uppercase;
@@ -1967,14 +1977,14 @@ body{
     margin-bottom: 0;
 }
 .polos3 .text3 .low1 .product-detail span{
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: "Audiowide", sans-serif;
     color: red;
     font-size: 0.9rem;
     text-transform: uppercase;
     text-decoration: line-through;
 }
 .polos3 .text3 .low1 .product-detail{
-    font-family: 'Spectral';
+    font-family: "Audiowide", sans-serif;
     color: navy;
     font-size: 0.9rem;
     text-transform: uppercase;
@@ -1992,7 +2002,7 @@ body{
     width: 8rem;
     border-radius: 5rem;
     margin-left: 2rem;
-    font-family: 'Spectral';
+    font-family: "Audiowide", sans-serif;
     background-color: rgb(4, 34, 59);
     color: #f5f5f5;
     cursor: pointer;
