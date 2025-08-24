@@ -1,9 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Spectral:wght@700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Spectral:wght@700&display=swap'); */
+@import url("https://fonts.googleapis.com/css?family=Audiowide");
+@import url("https://fonts.googleapis.com/css?family=Sofia");
+html{
+    scroll-behavior: smooth;
+}
 body{
     margin: 0;
     height: 100vh;
     overflow-x: auto;
     width: 100vw;
+    background-color: lightgoldenrodyellow;
 }
 .container{
     height: 100%;
@@ -13,19 +19,21 @@ body{
 .Man{
     height: 100%;
     width: 50%;
-    background: url("https://i.pinimg.com/1200x/48/11/be/4811be0b31ff7762b8c5bae022d4b936.jpg");
+    background: url("https://i.pinimg.com/736x/61/4a/ef/614aef71993b4dff9bf38849a5442e20.jpg");
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
     display: flex;
     flex-direction: column;
-    transition: transform 0.5s ease-in-out;
+    transition: transform 0.6s ease-in-out;
 }
 .Man .x{
     font-size: 3rem;
-    color: #000;
+    color: lightslategrey;
+    text-shadow: 2px 2px 2px #000;
     position: relative;
-    text-shadow: 2px 3px 3px honeydew;
+    /* text-shadow: 2px 3px 3px #000; */
+    font-family: "Audiowide", sans-serif;
     font-weight: bolder;
     top: 0;
     left: 94.5%;
@@ -60,26 +68,32 @@ body{
 }
 .text p a{
     text-decoration: none;
-    color: #000;
+    /* color: lightslategrey; */
+    color: ghostwhite;
     font-weight: bolder;
-    text-shadow: 2px 3px 2px ghostwhite;
+    font-family: "Audiowide", sans-serif;
+    font-size: 2.5rem;
+    text-shadow: 1px 1px 1px #000;
+    /* text-shadow: 2px 3px 2px ghostwhite; */
 }
 .Women{
     height: 100%;
     width: 50%;
-    background: url("https://i.pinimg.com/1200x/df/99/b6/df99b6133a58ae3612ed956aca79862d.jpg");
+    background: url("https://i.pinimg.com/1200x/29/00/fd/2900fd49408d226005e3a07c23631bc5.jpg");
     background-repeat: no-repeat;
-    background-position: top;
+    background-position: center;
     background-size: cover;
     display: flex;
     flex-direction: column;
-    transition: transform 0.5s ease-in-out;
+    transition: transform 0.6s ease-in-out;
 }
 .Women .y{
     font-size: 3rem;
-    color: #000;
+    color: rgb(144, 84, 84);
+    text-shadow: 2px 2px 2px #000;
     font-weight: bolder;
-    text-shadow: 2px 3px 3px honeydew;
+    /* text-shadow: 2px 3px 3px honeydew; */
+    font-family: "Audiowide", sans-serif;
     position: relative;
     top: 0;
     left: 0;
@@ -108,9 +122,13 @@ body{
 }
 .w-text p a{
     text-decoration: none;
-    color: #000;
+    /* color: rgb(134, 80, 80); */
+    color: ghostwhite;
     font-weight: bolder;
-    text-shadow: 2px 3px 2px ghostwhite;
+    font-family: "Audiowide", sans-serif;
+    text-shadow: 2px 2px 2px #000;
+    font-size: 2.5rem;
+    /* text-shadow: 2px 3px 2px ghostwhite; */
 }
 
 
