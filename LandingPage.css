@@ -29,7 +29,7 @@ body{
 }
 .Man .x{
     font-size: 3rem;
-    color: lightslategrey;
+    color: ghostwhite;
     text-shadow: 2px 2px 2px #000;
     position: relative;
     /* text-shadow: 2px 3px 3px #000; */
@@ -89,7 +89,7 @@ body{
 }
 .Women .y{
     font-size: 3rem;
-    color: rgb(144, 84, 84);
+    color: ghostwhite;
     text-shadow: 2px 2px 2px #000;
     font-weight: bolder;
     /* text-shadow: 2px 3px 3px honeydew; */

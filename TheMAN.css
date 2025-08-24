@@ -323,10 +323,10 @@ main{
     bottom: 50%;
     font-size: 2rem;
     text-align: center;
-    color: #000;
+    color: honeydew;
     /* font-family: 'Spectral'; */
     font-family: "Audiowide", sans-serif;
-    text-shadow: 2px 3px 3px lightslategray;
+    text-shadow: 2px 3px 3px #000;
 }
 .vid-text2{
     height: 20%;
@@ -340,15 +340,15 @@ main{
     text-align: center;
     /* font-family: 'Spectral'; */
     font-family: "Audiowide", sans-serif;
-    color: #000;
-    text-shadow: 2px 3px 3px lightslategray;
+    color: honeydew;
+    text-shadow: 2px 3px 3px #000;
 }
 .para-section{
     height: 23%;
     width: 100%;
     /* border: 3px solid black; */
     /* background-color: rgb(159, 180, 201); */
-    background-color: rgb(215, 209, 209);
+    background-color: rgb(255, 153, 153);
     display: flex;
     flex-direction: column;
     gap: 0;
@@ -421,7 +421,7 @@ footer{
     /* border: 5px solid red; */
     display: flex;
     flex-direction: column;
-    background-color: rgb(188, 207, 226);
+    background-color: rgb(128, 168, 209);
 }
 .footer-up{
     height: 90%;

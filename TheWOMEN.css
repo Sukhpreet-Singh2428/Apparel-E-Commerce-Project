@@ -1,11 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Spectral:wght@700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Spectral:wght@700&display=swap'); */
+@import url("https://fonts.googleapis.com/css2?family=Agbalumo&display=swap");
 
 .title{
     font-size: 2rem;
     /* font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ; */
     /* font-family: "Playfair Display", serif; */
-    font-family: 'Spectral', serif;
-
+    /* font-family: 'Spectral', serif; */
+    font-family: "Agbalumo", system-ui;
     color: #000;
     text-shadow: 2px 2.5px 3px honeydew;
 }
@@ -19,7 +20,7 @@
 .two ul a{
     text-decoration: none;
     color: rgb(35, 14, 35);
-    font-family: 'Spectral';
+    font-family: "Agbalumo", system-ui;
     transition: text-decoration 0.3s ease-in-out;
 }
 .two ul a:hover{
@@ -35,7 +36,7 @@
 .menu ul a{
     text-decoration: none;
     color: rgb(35, 14, 35);
-    font-family: 'Spectral';
+    font-family: "Agbalumo", system-ui;
     transition: text-decoration 0.37s ease-in-out;
 }
 .menu ul a::before{
@@ -51,12 +52,12 @@
     margin: 0;
     padding-left: 130px;
     color: rgb(35, 14, 35);
-    font-family: 'Spectral';
+    font-family: "Agbalumo", system-ui;
 }
 .right ul a{
     text-decoration: none;
     color: rgb(35, 14, 35);
-    font-family: 'Spectral';
+    font-family: "Agbalumo", system-ui;
     transition: text-decoration 0.3s ease-in-out;
 }
 .right ul a:hover{
@@ -83,13 +84,13 @@ nav{
     /* position: absolute; */
 }
 .head:hover{
-    background-color: rgb(255, 208, 121) ;
+    background-color: ghostwhite;
     box-shadow: 0 0 20px #000;
 }
 header{
     height: 25%;
     width: 100%;
-    background: url("https://images.unsplash.com/photo-1678784973073-f6a227408e81?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background: url("https://images.pexels.com/photos/4972086/pexels-photo-4972086.jpeg");
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: cover;
@@ -113,15 +114,17 @@ header{
     margin-left: 20px; */
 }
 .text p{
-    font-family: 'Spectral';
+    font-family: "Agbalumo", system-ui;
     font-size: small;
     margin-bottom: 0;
 }
 .text span{
     display: block;
     font-size: 1.4rem;
-    font-family: 'Spectral';
-    text-shadow: 2px 1px 2px #000;
+    font-family: "Agbalumo", system-ui;
+    /* text-shadow: 2px 1px 2px #000; */
+    color: honeydew;
+    text-shadow: 1px 1px 1px #000;
     margin-bottom: 15px;
 }
 .text button{
@@ -130,7 +133,7 @@ header{
 .text button a{
     text-decoration: none;
     color: honeydew;
-    font-family: 'Spectral';
+    font-family: "Agbalumo", system-ui;
     font-size: 1rem;
 }
 /* .color{
@@ -177,7 +180,7 @@ main{
     margin-bottom: 540px;
 }
 .sections{
-    height: 50%;
+    height: 65%;
     width: 100%;
     margin-bottom: 12px;
 }
@@ -190,7 +193,7 @@ main{
     border: 3px solid ghostwhite;
     height: 100%;
     width: 50%;
-    background: url("https://images.unsplash.com/photo-1579597647126-bd071a22a023?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background: url("https://i.pinimg.com/1200x/65/1a/e2/651ae2ce1fe194823cc6063cfb749a92.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -198,7 +201,7 @@ main{
     /* transition: transform 0.5s ease-in-out; */
 }
 .shoes:hover{
-    background: url("https://images.unsplash.com/photo-1722340321190-1c7b7384e89b?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background: url("https://i.pinimg.com/1200x/84/c9/3f/84c93f9526e61d6323a291cab93d7bd2.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -207,7 +210,7 @@ main{
 .content{
     font-size: 2.5rem;
     display: block;
-    font-family: 'Spectral';
+    font-family: "Agbalumo", system-ui;
     margin-top: 270px;
     padding-left: 15px;
 }
@@ -215,7 +218,8 @@ main{
     text-decoration: none;
     /* color: lightgrey;
     text-shadow: 0 0 20px #000; */
-    color: #000;
+    /* color: #000; */
+    color: ghostwhite;
     text-shadow: 2px 3px 3px lightslategray;
 }
 .content::after{
@@ -227,7 +231,7 @@ main{
     border: 3px solid ghostwhite;
     height: 100%;
     width: 50%;
-    background: url("https://plus.unsplash.com/premium_photo-1731170993347-3bfaa7c483ae?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background: url("https://i.pinimg.com/736x/e6/c7/7f/e6c77fe5d6fb2b88c9d7d2f490b50fb7.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -235,7 +239,7 @@ main{
     /* transition: transform 0.5s ease-in-out; */
 }
 .watch:hover{
-    background: url("https://plus.unsplash.com/premium_photo-1731170993467-f23672d6efda?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background: url("https://i.pinimg.com/736x/ad/67/2a/ad672aee2c8ee5cab751fd398fc19fff.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -250,9 +254,9 @@ main{
     border: 3px solid ghostwhite;
     height: 100%;
     width: 50%;
-    background: url("https://plus.unsplash.com/premium_photo-1701069513698-51ebbb183e65?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background: url("https://i.pinimg.com/736x/e1/0f/3d/e10f3d2f4307dedf46e02cf225d014a1.jpg");
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: top;
     background-size: cover;
     transition: background 0.5s ease-in-out;
     /* transition: transform 0.5s ease-in-out; */
@@ -262,9 +266,9 @@ main{
     width: 100%;
 } */
 .shirt:hover{
-    background: url("https://plus.unsplash.com/premium_photo-1701204056808-22fc818affec?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background: url("https://i.pinimg.com/1200x/ea/34/3a/ea343ab027e2edb7a88f0030a45ede9b.jpg");
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: top;
     background-size: cover;
     /* transform:scaleY(1.07); */
 }
@@ -272,7 +276,7 @@ main{
     border: 3px solid ghostwhite;
     height: 100%;
     width: 50%;
-    background: url("https://images.unsplash.com/photo-1643302214230-f448fc819500?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background: url("https://i.pinimg.com/1200x/ad/3b/84/ad3b844db59e8ddad13e387868c89918.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -280,14 +284,14 @@ main{
     /* transition: transform 0.5s ease-in-out; */
 }
 .pants:hover{
-    background: url("https://images.unsplash.com/photo-1643302214215-46fd832d3c2c?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background: url("https://i.pinimg.com/1200x/d5/a2/0b/d5a20bd7700dd4f560f66c8ae4c24fe7.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     /* transform:scaleY(1.07) ; */
 }
 .displayVideo{
-    height: 60%;
+    height: 48%;
     width: 100%;
     /* box-shadow: 0 0 20px #000; */
     position: relative;
@@ -309,7 +313,7 @@ main{
     font-size: 2rem;
     text-align: center;
     color: #000;
-    font-family: 'Spectral';
+    font-family: "Agbalumo", system-ui;
     text-shadow: 2px 3px 3px lightslategray;
 }
 .vid-text2{
@@ -322,12 +326,12 @@ main{
     left: 75%;
     font-size: 2rem;
     text-align: center;
-    font-family: 'Spectral';
+    font-family: "Agbalumo", system-ui;
     color: #000;
     text-shadow: 2px 3px 3px lightslategray;
 }
 .para-section{
-    height: 25%;
+    height: 23%;
     width: 100%;
     /* border: 3px solid black; */
     /* background-color: rgb(159, 180, 201); */
@@ -348,7 +352,7 @@ main{
     text-align: center;
     text-transform: uppercase;
     color: #000;
-    font-family: 'Spectral';
+    font-family: "Agbalumo", system-ui;
     text-shadow: 2px 3px 3px lightslategrey; 
 }
 .para-section .other{
@@ -357,7 +361,7 @@ main{
     padding-right: auto;
     text-align: center;
     font-size: 1.2rem;
-    font-family: 'Spectral';
+    font-family: "Agbalumo", system-ui;
 }
 .para-section .low{
     height: 32%;
@@ -370,14 +374,14 @@ main{
     left: 32%;
     height: 30px;
     width: 300px;
-    font-family: 'Spectral';
+    font-family: "Agbalumo", system-ui;
     border: 0;
 }
 .para-section button{
     position: relative;
     left: 53%;
     height: 30px;
-    font-family: 'Spectral';
+    font-family: "Agbalumo", system-ui;
     border: 0;
 }
 .para-section button a{
@@ -391,10 +395,10 @@ main{
     position: absolute;
     left: 32%;
     margin-top: 20px;
-    font-family: 'Spectral';
+    font-family: "Agbalumo", system-ui;
 }
 footer{
-    height: 25%;
+    height: 20%;
     width: 100%;
     /* border: 5px solid red; */
     display: flex;
@@ -418,11 +422,11 @@ footer{
 }
 .sec1 .sec1-head{
     font-size: 2rem;
-    font-family: 'Spectral';
+    font-family: "Agbalumo", system-ui;
     text-shadow: 2px 3px 3px gray;
 }
 .sec1 .sec1-p{
-    font-family: 'Spectral';
+    font-family: "Agbalumo", system-ui;
 }
 .sec2{
     height: 100%;
@@ -436,7 +440,7 @@ footer{
 .sec2 .sec2-head{
     padding-left: 20px;
     font-size: 2rem;
-    font-family: 'Spectral';
+    font-family: "Agbalumo", system-ui;
     text-shadow: 2px 3px 3px gray;
 }
 .sec2 ul{
@@ -444,7 +448,7 @@ footer{
     display: flex;
     flex-direction: column;
     gap: 10px;
-    font-family: 'Spectral';
+    font-family: "Agbalumo", system-ui;
 }
 .sec3{
     height: 100%;
@@ -457,20 +461,20 @@ footer{
 }
 .sec3 .sec3-head{
     font-size: 2rem;
-    font-family: 'Spectral';
+    font-family: "Agbalumo", system-ui;
     text-shadow: 2px 3px 3px gray;
 }
 .sec3 .sec3-p{
-    font-family: 'Spectral';
+    font-family: "Agbalumo", system-ui;
 }
 .sec3 input{
-    font-family: 'Spectral';
+    font-family: "Agbalumo", system-ui;
     margin-bottom: 10px;
     height: 40px;
     width: 300px;
 }
 .sec3 button{
-    font-family: 'Spectral';
+    font-family: "Agbalumo", system-ui;
     height: 40px;
     width: 140px;
 }
@@ -483,7 +487,7 @@ footer{
     height: 100%;
     width: 20%;
     /* border: 3px solid black; */
-    font-family: 'Spectral';
+    font-family: "Agbalumo", system-ui;
 }
 .footer-down .s1 p{
     text-align: center;
@@ -501,7 +505,7 @@ footer{
     display: flex;
     gap: 9px;
     margin-right: 50px;
-    font-family: 'Spectral';
+    font-family: "Agbalumo", system-ui;
     font-size: 0.8rem;
 }
 
