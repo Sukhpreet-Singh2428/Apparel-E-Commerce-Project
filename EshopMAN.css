@@ -10,7 +10,7 @@ html{
     /* font-family: "Playfair Display", serif; */
     font-family: "Audiowide", sans-serif;
     font-weight: bolder;
-    color: honeydew;
+    color: #000;
 }
 .two ul{
     list-style: none;
@@ -21,7 +21,7 @@ html{
 }
 .two ul a{
     text-decoration: none;
-    color: honeydew;
+    color: #000;
     font-family: "Audiowide", sans-serif;
     transition: text-decoration 0.3s ease-in-out;
 }
@@ -37,7 +37,7 @@ html{
 }
 .menu ul a{
     text-decoration: none;
-    color: honeydew;
+    color: #000;
     font-family: "Audiowide", sans-serif;
     transition: text-decoration 0.37s ease-in-out;
 }
@@ -82,14 +82,14 @@ nav{
     height: 100%;
     width: 100%;
     /* border: 3px solid red; */
-    /* background: url("https://images.pexels.com/photos/26628057/pexels-photo-26628057.jpeg"); */
-    background-color: rgb(3, 3, 61);
+    background: url("https://images.pexels.com/photos/8755018/pexels-photo-8755018.jpeg");
+    /* background-color: rgb(3, 3, 61); */
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
 }
 .head:hover{
-    background: #000;
+    background: lightblue;
     box-shadow: 0 0 20px #000;
 }
 header{
@@ -113,7 +113,7 @@ main{
     height: 15%;
     width: 100%;
     /* border: 2px solid red; */
-    background: url("https://images.pexels.com/photos/26628057/pexels-photo-26628057.jpeg");
+    background: url("https://images.pexels.com/photos/8755018/pexels-photo-8755018.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -161,6 +161,7 @@ main{
     transition: background 1s ease-in-out; */
     border-radius: 10%;
     /* box-shadow: 0 0 20px rgb(248, 195, 203); */
+    opacity: 0.95;
 }
 /* .show1:hover{
     transform: rotateY(180deg);
@@ -176,6 +177,7 @@ main{
     background-size: cover;
     background-position: center;
     border-radius: 10%;
+    opacity: 0.95;
 }
 .show3{
     height: 90%;
@@ -187,6 +189,7 @@ main{
     background-size: cover;
     background-position: center;
     border-radius: 10%;
+    opacity: 0.95;
 }
 .show4{
     height: 90%;
@@ -198,6 +201,7 @@ main{
     background-size: cover;
     background-position: center;
     border-radius: 10%;
+    opacity: 0.95;
 }
 .show5{
     height: 90%;
@@ -209,6 +213,7 @@ main{
     background-size: cover;
     background-position: center;
     border-radius: 10%;
+    opacity: 0.95;
 }
 .show6{
     height: 90%;
@@ -220,6 +225,7 @@ main{
     background-size: cover;
     background-position: center;
     border-radius: 10%;
+    opacity: 0.95;
 }
 
 .category-tshirts{
@@ -232,17 +238,17 @@ main{
 .display-tshirts{
     height: 30%;
     width: 100%;
-    border: 2px solid red;
-    background: url("https://images.unsplash.com/photo-1565006933419-0f2690a855be?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    /* border: 2px solid red; */
+    background: url("https://images.pexels.com/photos/2221877/pexels-photo-2221877.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: top;
+    background-position: center;
     background-attachment: scroll;
 }
 .display-tshirts span{
     display: block;
     font-size: 5rem;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     color: white;
     font-family: "Audiowide", sans-serif;
     text-shadow: 2px 2px 3px #000;
@@ -254,7 +260,7 @@ main{
     margin-top: 0.5rem;
     height: 70%;
     width: 100%;
-    border: 2px solid navy;
+    /* border: 2px solid navy; */
     display: flex;
     flex-direction: column;
 }
@@ -587,7 +593,7 @@ main{
 .display-jeans{
     height: 30%;
     width: 100%;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     background: url("https://images.pexels.com/photos/5710654/pexels-photo-5710654.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -597,7 +603,7 @@ main{
 .display-jeans span{
     display: block;
     font-size: 5rem;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     color: white;
     font-family: "Audiowide", sans-serif;
     text-shadow: 2px 2px 3px #000;
@@ -609,7 +615,7 @@ main{
     margin-top: 0.5rem;
     height: 70%;
     width: 100%;
-    border: 2px solid navy;
+    /* border: 2px solid navy; */
     display: flex;
     flex-direction: column;
 }
@@ -961,7 +967,7 @@ body{
 .display-shoes{
     height: 30%;
     width: 100%;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     background: url("https://images.pexels.com/photos/9214286/pexels-photo-9214286.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -971,7 +977,7 @@ body{
 .display-shoes span{
     display: block;
     font-size: 5rem;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     color: white;
     font-family: "Audiowide", sans-serif;
     text-shadow: 2px 2px 3px #000;
@@ -983,7 +989,7 @@ body{
     margin-top: 0.5rem;
     height: 70%;
     width: 100%;
-    border: 2px solid navy;
+    /* border: 2px solid navy; */
     display: flex;
     flex-direction: column;
 }
@@ -1316,8 +1322,8 @@ body{
 .display-hoodies{
     height: 30%;
     width: 100%;
-    border: 2px solid red;
-    background: url("https://i.pinimg.com/1200x/b4/1c/a7/b41ca76278396dd976494d057883bf29.jpg");
+    /* border: 2px solid red; */
+    background: url("https://images.pexels.com/photos/792385/pexels-photo-792385.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -1326,7 +1332,7 @@ body{
 .display-hoodies span{
     display: block;
     font-size: 5rem;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     color: white;
     font-family: "Audiowide", sans-serif;
     text-shadow: 2px 2px 3px #000;
@@ -1338,7 +1344,7 @@ body{
     margin-top: 0.5rem;
     height: 70%;
     width: 100%;
-    border: 2px solid navy;
+    /* border: 2px solid navy; */
     display: flex;
     flex-direction: column;
 }
@@ -1671,7 +1677,7 @@ body{
 .display-polos{
     height: 30%;
     width: 100%;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     background: url("https://i.pinimg.com/1200x/be/24/14/be24140b171219d53ade5deaefe1c3a8.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -1681,7 +1687,7 @@ body{
 .display-polos span{
     display: block;
     font-size: 5rem;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     color: white;
     font-family: "Audiowide", sans-serif;
     text-shadow: 2px 2px 3px #000;
@@ -1693,7 +1699,7 @@ body{
     margin-top: 0.5rem;
     height: 70%;
     width: 100%;
-    border: 2px solid navy;
+    /* border: 2px solid navy; */
     display: flex;
     flex-direction: column;
 }
