@@ -82,7 +82,7 @@ nav{
     height: 100%;
     width: 100%;
     /* border: 3px solid red; */
-    background: url("https://images.pexels.com/photos/15067861/pexels-photo-15067861.jpeg");
+    background: url("https://images.pexels.com/photos/8755334/pexels-photo-8755334.jpeg");
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
@@ -93,27 +93,27 @@ nav{
     box-shadow: 0 0 20px #000;
 }
 header{
-    height: 0.8%;
+    height: 0.55%;
     width: 100%;
-    /* border: 3px solid black; */
+    /* */
     display: flex;
 }
 body{
     margin: 0;
     overflow-x: hidden;
-    height: 1200vh;
+    height: 2000vh;
     width: 100vw;
 }
 main{
-    height: 50%;
+    height: 80%;
     width: 100%;
     /* border: 2px solid yellow; */
 }
 .slideshow-container{
-    height: 15%;
+    height: 5.8%;
     width: 100%;
-    /* border: 2px solid red; */
-    background: url("https://images.pexels.com/photos/15067861/pexels-photo-15067861.jpeg");
+    /* */
+    background: url("https://images.pexels.com/photos/8755334/pexels-photo-8755334.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -149,7 +149,7 @@ main{
     /* backdrop-filter: blur(20px); */
 }
 .show1{
-    height: 90%;
+    height: 85%;
     width: 14%;
     /* border: 2px solid black; */
     flex-shrink: 0;
@@ -167,7 +167,7 @@ main{
     background: url(/Logo\ loxi.png);
 } */
 .show2{
-    height: 90%;
+    height: 85%;
     width: 14%;
     /* border: 2px solid black; */
     flex-shrink: 0;
@@ -178,7 +178,7 @@ main{
     border-radius: 10%;
 }
 .show3{
-    height: 90%;
+    height: 85%;
     width: 14%;
     /* border: 2px solid black; */
     flex-shrink: 0;
@@ -189,7 +189,7 @@ main{
     border-radius: 10%;
 }
 .show4{
-    height: 90%;
+    height: 85%;
     width: 14%;
     /* border: 2px solid black; */
     flex-shrink: 0;
@@ -200,7 +200,7 @@ main{
     border-radius: 10%;
 }
 .show5{
-    height: 90%;
+    height: 85%;
     width: 14%;
     /* border: 2px solid black; */
     flex-shrink: 0;
@@ -211,7 +211,7 @@ main{
     border-radius: 10%;
 }
 .show6{
-    height: 90%;
+    height: 85%;
     width: 14%;
     /* border: 2px solid black; */
     flex-shrink: 0;
@@ -222,27 +222,27 @@ main{
     border-radius: 10%;
 }
 
-.category-tshirts{
-    height: 40%;
+.category-dresses{
+    height: 16%;
     width: 100%;
-    border: 3px solid black;
+
     display: flex;
     flex-direction: column;
 }
-.display-tshirts{
-    height: 30%;
+.display-dresses{
+    height: 34%;
     width: 100%;
-    border: 2px solid red;
-    background: url("https://images.pexels.com/photos/8531194/pexels-photo-8531194.jpeg");
+
+    background: url("https://images.pexels.com/photos/4589213/pexels-photo-4589213.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: scroll;
 }
-.display-tshirts span{
+.display-dresses span{
     display: block;
     font-size: 5rem;
-    border: 2px solid red;
+
     color: white;
     font-family: "Agbalumo", system-ui;
     text-shadow: 2px 2px 3px #000;
@@ -250,11 +250,11 @@ main{
     margin-top: auto;
     margin-bottom: auto;
 }
-.showing-tshirts{
+.showing-dresses{
     margin-top: 0.5rem;
-    height: 70%;
+    height: 66%;
     width: 100%;
-    border: 2px solid navy;
+    
     display: flex;
     flex-direction: column;
 }
@@ -265,7 +265,7 @@ main{
     gap: 3rem;
     margin-left: 1rem;
 }
-.tshirt1{
+.dresses1{
     margin-top: 1rem;
     height: 90%;
     width: 30%;
@@ -280,83 +280,82 @@ main{
     border-radius: 2rem;
     box-shadow: 0 0 10px rgb(143, 136, 136);
 }
-.tshirt1 .pic1{
+.dresses1 .pic1{
     height: 80%;
     width: 80%;
-    /* border: 2px solid red; */
+    /* */
     margin-left: auto;
     margin-right: auto;
     cursor: pointer;
 }
-.tshirt1 .pic1 img{
+.dresses1 .pic1 img{
     height: 100%;
     width: 100%;
 }
-.tshirt1 .text1{
+.dresses1 .text1{
     height: 20%;
     width: 80%;
-    /* border: 2px solid navy; */
     margin-left: auto;
     margin-right: auto;
     margin-top: 0.5rem;
     display: flex;
     flex-direction: column;
 }
-.tshirt1 .text1 .upper{
+.dresses1 .text1 .upper{
     height: 20%;
     width: 100%;
     /* border: 2px solid black; */
     margin-bottom: 0.5rem;
 }
-.tshirt1 .text1 .upper .product-name{
+.dresses1 .text1 .upper .product-name{
     font-family: "Agbalumo", system-ui;
     color: #000;
     font-size: 1.2rem;
     text-transform: uppercase;
-    /* border: 2px solid red; */
+    /* */
 }
-.tshirt1 .text1 .lower{
+.dresses1 .text1 .lower{
     height: 80%;
     width: 100%;
     /* border: 2px solid black; */
     display: flex;
 }
-.tshirt1 .text1 .lower .low1{
+.dresses1 .text1 .lower .low1{
     height: 100%;
     width: 50%;
     /* border: 2px solid black; */
 }
-.tshirt1 .text1 .low1 .product-price{
+.dresses1 .text1 .low1 .product-price{
     font-family: "Agbalumo", system-ui;
     color: navy;
     font-size: 0.9rem;
     text-transform: uppercase;
-    /* border: 2px solid red; */
+    /* */
     margin-top: 0;
     margin-bottom: 0;
 }
-.tshirt1 .text1 .low1 .product-detail span{
+.dresses1 .text1 .low1 .product-detail span{
     font-family: "Agbalumo", system-ui;
     color: red;
     font-size: 0.9rem;
     text-transform: uppercase;
     text-decoration: line-through;
 }
-.tshirt1 .text1 .low1 .product-detail{
+.dresses1 .text1 .low1 .product-detail{
     font-family: "Agbalumo", system-ui;
     color: navy;
     font-size: 0.9rem;
     text-transform: uppercase;
-    /* border: 2px solid red; */
+    /* */
     margin-top: 0;
     
 }
-.tshirt1 .text1 .lower .low2{
+.dresses1 .text1 .lower .low2{
     height: 100%;
     width: 50%;
     /* border: 2px solid black; */
 }
-.tshirt1 .text1 .low2 button{
+.dresses1 .text1 .low2 button{
     height: 2rem;
     width: 8rem;
     border-radius: 5rem;
@@ -366,7 +365,7 @@ main{
     color: #f5f5f5;
     cursor: pointer;
 }
-.tshirt2{
+.dresses2{
     margin-top: 1rem;
     height: 90%;
     width: 30%;
@@ -381,83 +380,82 @@ main{
     border-radius: 2rem;
     box-shadow: 0 0 10px rgb(143, 136, 136);
 }
-.tshirt2 .pic2{
+.dresses2 .pic2{
     height: 80%;
     width: 80%;
-    /* border: 2px solid red; */
+    /* */
     margin-left: auto;
     margin-right: auto;
     cursor: pointer;
 }
-.tshirt2 .pic2 img{
+.dresses2 .pic2 img{
     height: 100%;
     width: 100%;
 }
-.tshirt2 .text2{
+.dresses2 .text2{
     height: 20%;
     width: 80%;
-    /* border: 2px solid navy; */
     margin-left: auto;
     margin-right: auto;
     margin-top: 0.5rem;
     display: flex;
     flex-direction: column;
 }
-.tshirt2 .text2 .upper{
+.dresses2 .text2 .upper{
     height: 20%;
     width: 100%;
     /* border: 2px solid black; */
     margin-bottom: 0.5rem;
 }
-.tshirt2 .text2 .upper .product-name{
+.dresses2 .text2 .upper .product-name{
     font-family: "Agbalumo", system-ui;
     color: #000;
     font-size: 1.2rem;
     text-transform: uppercase;
-    /* border: 2px solid red; */
+    /* */
 }
-.tshirt2 .text2 .lower{
+.dresses2 .text2 .lower{
     height: 80%;
     width: 100%;
     /* border: 2px solid black; */
     display: flex;
 }
-.tshirt2 .text2 .lower .low1{
+.dresses2 .text2 .lower .low1{
     height: 100%;
     width: 50%;
     /* border: 2px solid black; */
 }
-.tshirt2 .text2 .low1 .product-price{
+.dresses2 .text2 .low1 .product-price{
     font-family: "Agbalumo", system-ui;
     color: navy;
     font-size: 0.9rem;
     text-transform: uppercase;
-    /* border: 2px solid red; */
+    /* */
     margin-top: 0;
     margin-bottom: 0;
 }
-.tshirt2 .text2 .low1 .product-detail span{
+.dresses2 .text2 .low1 .product-detail span{
     font-family: "Agbalumo", system-ui;
     color: red;
     font-size: 0.9rem;
     text-transform: uppercase;
     text-decoration: line-through;
 }
-.tshirt2 .text2 .low1 .product-detail{
+.dresses2 .text2 .low1 .product-detail{
     font-family: "Agbalumo", system-ui;
     color: navy;
     font-size: 0.9rem;
     text-transform: uppercase;
-    /* border: 2px solid red; */
+    /* */
     margin-top: 0;
     
 }
-.tshirt2 .text2 .lower .low2{
+.dresses2 .text2 .lower .low2{
     height: 100%;
     width: 50%;
     /* border: 2px solid black; */
 }
-.tshirt2 .text2 .low2 button{
+.dresses2 .text2 .low2 button{
     height: 2rem;
     width: 8rem;
     border-radius: 5rem;
@@ -467,7 +465,7 @@ main{
     color: #f5f5f5;
     cursor: pointer;
 }
-.tshirt3{
+.dresses3{
     margin-top: 1rem;
     height: 90%;
     width: 30%;
@@ -482,83 +480,82 @@ main{
     border-radius: 2rem;
     box-shadow: 0 0 10px rgb(143, 136, 136);
 }
-.tshirt3 .pic3{
+.dresses3 .pic3{
     height: 80%;
     width: 80%;
-    /* border: 2px solid red; */
+    /* */
     margin-left: auto;
     margin-right: auto;
     cursor: pointer;
 }
-.tshirt3 .pic3 img{
+.dresses3 .pic3 img{
     height: 100%;
     width: 100%;
 }
-.tshirt3 .text3{
+.dresses3 .text3{
     height: 20%;
     width: 80%;
-    /* border: 2px solid navy; */
     margin-left: auto;
     margin-right: auto;
     margin-top: 0.5rem;
     display: flex;
     flex-direction: column;
 }
-.tshirt3 .text3 .upper{
+.dresses3 .text3 .upper{
     height: 20%;
     width: 100%;
     /* border: 2px solid black; */
     margin-bottom: 0.5rem;
 }
-.tshirt3 .text3 .upper .product-name{
+.dresses3 .text3 .upper .product-name{
     font-family: "Agbalumo", system-ui;
     color: #000;
     font-size: 1.2rem;
     text-transform: uppercase;
-    /* border: 2px solid red; */
+    /* */
 }
-.tshirt3 .text3 .lower{
+.dresses3 .text3 .lower{
     height: 80%;
     width: 100%;
     /* border: 2px solid black; */
     display: flex;
 }
-.tshirt3 .text3 .lower .low1{
+.dresses3 .text3 .lower .low1{
     height: 100%;
     width: 50%;
     /* border: 2px solid black; */
 }
-.tshirt3 .text3 .low1 .product-price{
+.dresses3 .text3 .low1 .product-price{
     font-family: "Agbalumo", system-ui;
     color: navy;
     font-size: 0.9rem;
     text-transform: uppercase;
-    /* border: 2px solid red; */
+    /* */
     margin-top: 0;
     margin-bottom: 0;
 }
-.tshirt3 .text3 .low1 .product-detail span{
+.dresses3 .text3 .low1 .product-detail span{
     font-family: "Agbalumo", system-ui;
     color: red;
     font-size: 0.9rem;
     text-transform: uppercase;
     text-decoration: line-through;
 }
-.tshirt3 .text3 .low1 .product-detail{
+.dresses3 .text3 .low1 .product-detail{
     font-family: "Agbalumo", system-ui;
     color: navy;
     font-size: 0.9rem;
     text-transform: uppercase;
-    /* border: 2px solid red; */
+    /* */
     margin-top: 0;
     
 }
-.tshirt3 .text3 .lower .low2{
+.dresses3 .text3 .lower .low2{
     height: 100%;
     width: 50%;
     /* border: 2px solid black; */
 }
-.tshirt3 .text3 .low2 button{
+.dresses3 .text3 .low2 button{
     height: 2rem;
     width: 8rem;
     border-radius: 5rem;
@@ -577,27 +574,27 @@ main{
 }
 
 /*! Jeans */
-.category-jeans{
-    height: 40%;
+.category-tops{
+    height: 16%;
     width: 100%;
-    border: 3px solid black;
+
     display: flex;
     flex-direction: column;
 }
-.display-jeans{
-    height: 30%;
+.display-tops{
+    height: 34%;
     width: 100%;
-    border: 2px solid red;
-    background: url("https://images.pexels.com/photos/5729390/pexels-photo-5729390.jpeg");
+
+    background: url("https://images.pexels.com/photos/20448112/pexels-photo-20448112.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: bottom;
+    background-position: center;
     background-attachment: scroll;
 }
-.display-jeans span{
+.display-tops span{
     display: block;
     font-size: 5rem;
-    border: 2px solid red;
+
     color: white;
     font-family: "Agbalumo", system-ui;
     text-shadow: 2px 2px 3px #000;
@@ -605,22 +602,22 @@ main{
     margin-top: auto;
     margin-bottom: auto;
 }
-.showing-jeans{
+.showing-tops{
     margin-top: 0.5rem;
-    height: 70%;
+    height: 66%;
     width: 100%;
-    border: 2px solid navy;
+    
     display: flex;
     flex-direction: column;
 }
-.set1-jeans{
+.set1-tops{
     display: flex;
     height: 50%;
     width: 100%;
     gap: 3rem;
     margin-left: 1rem;
 }
-.jeans1{
+.tops1{
     margin-top: 1rem;
     height: 90%;
     width: 30%;
@@ -635,83 +632,82 @@ main{
     border-radius: 2rem;
     box-shadow: 0 0 10px rgb(143, 136, 136);
 }
-.jeans1 .pic1{
+.tops1 .pic1{
     height: 80%;
     width: 80%;
-    /* border: 2px solid red; */
+    /* */
     margin-left: auto;
     margin-right: auto;
     cursor: pointer;
 }
-.jeans1 .pic1 img{
+.tops1 .pic1 img{
     height: 100%;
     width: 100%;
 }
-.jeans1 .text1{
+.tops1 .text1{
     height: 20%;
     width: 80%;
-    /* border: 2px solid navy; */
     margin-left: auto;
     margin-right: auto;
     margin-top: 0.5rem;
     display: flex;
     flex-direction: column;
 }
-.jeans1 .text1 .upper{
+.tops1 .text1 .upper{
     height: 20%;
     width: 100%;
     /* border: 2px solid black; */
     margin-bottom: 0.5rem;
 }
-.jeans1 .text1 .upper .product-name{
+.tops1 .text1 .upper .product-name{
     font-family: "Agbalumo", system-ui;
     color: #000;
     font-size: 1.2rem;
     text-transform: uppercase;
-    /* border: 2px solid red; */
+    /* */
 }
-.jeans1 .text1 .lower{
+.tops1 .text1 .lower{
     height: 80%;
     width: 100%;
     /* border: 2px solid black; */
     display: flex;
 }
-.jeans1 .text1 .lower .low1{
+.tops1 .text1 .lower .low1{
     height: 100%;
     width: 50%;
     /* border: 2px solid black; */
 }
-.jeans1 .text1 .low1 .product-price{
+.tops1 .text1 .low1 .product-price{
     font-family: "Agbalumo", system-ui;
     color: navy;
     font-size: 0.9rem;
     text-transform: uppercase;
-    /* border: 2px solid red; */
+    /* */
     margin-top: 0;
     margin-bottom: 0;
 }
-.jeans1 .text1 .low1 .product-detail span{
+.tops1 .text1 .low1 .product-detail span{
     font-family: "Agbalumo", system-ui;
     color: red;
     font-size: 0.9rem;
     text-transform: uppercase;
     text-decoration: line-through;
 }
-.jeans1 .text1 .low1 .product-detail{
+.tops1 .text1 .low1 .product-detail{
     font-family: "Agbalumo", system-ui;
     color: navy;
     font-size: 0.9rem;
     text-transform: uppercase;
-    /* border: 2px solid red; */
+    /* */
     margin-top: 0;
     
 }
-.jeans1 .text1 .lower .low2{
+.tops1 .text1 .lower .low2{
     height: 100%;
     width: 50%;
     /* border: 2px solid black; */
 }
-.jeans1 .text1 .low2 button{
+.tops1 .text1 .low2 button{
     height: 2rem;
     width: 8rem;
     border-radius: 5rem;
@@ -721,7 +717,7 @@ main{
     color: #f5f5f5;
     cursor: pointer;
 }
-.jeans2{
+.tops2{
     margin-top: 1rem;
     height: 90%;
     width: 30%;
@@ -736,83 +732,82 @@ main{
     border-radius: 2rem;
     box-shadow: 0 0 10px rgb(143, 136, 136);
 }
-.jeans2 .pic2{
+.tops2 .pic2{
     height: 80%;
     width: 80%;
-    /* border: 2px solid red; */
+    /* */
     margin-left: auto;
     margin-right: auto;
     cursor: pointer;
 }
-.jeans2 .pic2 img{
+.tops2 .pic2 img{
     height: 100%;
     width: 100%;
 }
-.jeans2 .text2{
+.tops2 .text2{
     height: 20%;
     width: 80%;
-    /* border: 2px solid navy; */
     margin-left: auto;
     margin-right: auto;
     margin-top: 0.5rem;
     display: flex;
     flex-direction: column;
 }
-.jeans2 .text2 .upper{
+.tops2 .text2 .upper{
     height: 20%;
     width: 100%;
     /* border: 2px solid black; */
     margin-bottom: 0.5rem;
 }
-.jeans2 .text2 .upper .product-name{
+.tops2 .text2 .upper .product-name{
     font-family: "Agbalumo", system-ui;
     color: #000;
     font-size: 1.2rem;
     text-transform: uppercase;
-    /* border: 2px solid red; */
+    /* */
 }
-.jeans2 .text2 .lower{
+.tops2 .text2 .lower{
     height: 80%;
     width: 100%;
     /* border: 2px solid black; */
     display: flex;
 }
-.jeans2 .text2 .lower .low1{
+.tops2 .text2 .lower .low1{
     height: 100%;
     width: 50%;
     /* border: 2px solid black; */
 }
-.jeans2 .text2 .low1 .product-price{
+.tops2 .text2 .low1 .product-price{
     font-family: "Agbalumo", system-ui;
     color: navy;
     font-size: 0.9rem;
     text-transform: uppercase;
-    /* border: 2px solid red; */
+    /* */
     margin-top: 0;
     margin-bottom: 0;
 }
-.jeans2 .text2 .low1 .product-detail span{
+.tops2 .text2 .low1 .product-detail span{
     font-family: "Agbalumo", system-ui;
     color: red;
     font-size: 0.9rem;
     text-transform: uppercase;
     text-decoration: line-through;
 }
-.jeans2 .text2 .low1 .product-detail{
+.tops2 .text2 .low1 .product-detail{
     font-family: "Agbalumo", system-ui;
     color: navy;
     font-size: 0.9rem;
     text-transform: uppercase;
-    /* border: 2px solid red; */
+    /* */
     margin-top: 0;
     
 }
-.jeans2 .text2 .lower .low2{
+.tops2 .text2 .lower .low2{
     height: 100%;
     width: 50%;
     /* border: 2px solid black; */
 }
-.jeans2 .text2 .low2 button{
+.tops2 .text2 .low2 button{
     height: 2rem;
     width: 8rem;
     border-radius: 5rem;
@@ -822,7 +817,7 @@ main{
     color: #f5f5f5;
     cursor: pointer;
 }
-.jeans3{
+.tops3{
     margin-top: 1rem;
     height: 90%;
     width: 30%;
@@ -837,83 +832,82 @@ main{
     border-radius: 2rem;
     box-shadow: 0 0 10px rgb(143, 136, 136);
 }
-.jeans3 .pic3{
+.tops3 .pic3{
     height: 80%;
     width: 80%;
-    /* border: 2px solid red; */
+    /* */
     margin-left: auto;
     margin-right: auto;
     cursor: pointer;
 }
-.jeans3 .pic3 img{
+.tops3 .pic3 img{
     height: 100%;
     width: 100%;
 }
-.jeans3 .text3{
+.tops3 .text3{
     height: 20%;
     width: 80%;
-    /* border: 2px solid navy; */
     margin-left: auto;
     margin-right: auto;
     margin-top: 0.5rem;
     display: flex;
     flex-direction: column;
 }
-.jeans3 .text3 .upper{
+.tops3 .text3 .upper{
     height: 20%;
     width: 100%;
     /* border: 2px solid black; */
     margin-bottom: 0.5rem;
 }
-.jeans3 .text3 .upper .product-name{
+.tops3 .text3 .upper .product-name{
     font-family: "Agbalumo", system-ui;
     color: #000;
     font-size: 1.2rem;
     text-transform: uppercase;
-    /* border: 2px solid red; */
+    /* */
 }
-.jeans3 .text3 .lower{
+.tops3 .text3 .lower{
     height: 80%;
     width: 100%;
     /* border: 2px solid black; */
     display: flex;
 }
-.jeans3 .text3 .lower .low1{
+.tops3 .text3 .lower .low1{
     height: 100%;
     width: 50%;
     /* border: 2px solid black; */
 }
-.jeans3 .text3 .low1 .product-price{
+.tops3 .text3 .low1 .product-price{
     font-family: "Agbalumo", system-ui;
     color: navy;
     font-size: 0.9rem;
     text-transform: uppercase;
-    /* border: 2px solid red; */
+    /* */
     margin-top: 0;
     margin-bottom: 0;
 }
-.jeans3 .text3 .low1 .product-detail span{
+.tops3 .text3 .low1 .product-detail span{
     font-family: "Agbalumo", system-ui;
     color: red;
     font-size: 0.9rem;
     text-transform: uppercase;
     text-decoration: line-through;
 }
-.jeans3 .text3 .low1 .product-detail{
+.tops3 .text3 .low1 .product-detail{
     font-family: "Agbalumo", system-ui;
     color: navy;
     font-size: 0.9rem;
     text-transform: uppercase;
-    /* border: 2px solid red; */
+    /* */
     margin-top: 0;
     
 }
-.jeans3 .text3 .lower .low2{
+.tops3 .text3 .lower .low2{
     height: 100%;
     width: 50%;
     /* border: 2px solid black; */
 }
-.jeans3 .text3 .low2 button{
+.tops3 .text3 .low2 button{
     height: 2rem;
     width: 8rem;
     border-radius: 5rem;
@@ -923,7 +917,7 @@ main{
     color: #f5f5f5;
     cursor: pointer;
 }
-.set2-jeans{
+.set2-tops{
     display: flex;
     height: 50%;
     width: 100%;
@@ -951,27 +945,27 @@ body{
 }
 
 /*! shoes */
-.category-shoes{
-    height: 40%;
+.category-bottoms{
+    height: 16%;
     width: 100%;
-    border: 3px solid black;
+
     display: flex;
     flex-direction: column;
 }
-.display-shoes{
-    height: 30%;
+.display-bottoms{
+    height: 34%;
     width: 100%;
-    border: 2px solid red;
+
     background: url("https://images.pexels.com/photos/33533364/pexels-photo-33533364.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: scroll;
 }
-.display-shoes span{
+.display-bottoms span{
     display: block;
     font-size: 5rem;
-    border: 2px solid red;
+
     color: white;
     font-family: "Agbalumo", system-ui;
     text-shadow: 2px 2px 3px #000;
@@ -979,22 +973,22 @@ body{
     margin-top: auto;
     margin-bottom: auto;
 }
-.showing-shoes{
+.showing-bottoms{
     margin-top: 0.5rem;
-    height: 70%;
+    height: 66%;
     width: 100%;
-    border: 2px solid navy;
+    
     display: flex;
     flex-direction: column;
 }
-.set1-shoes{
+.set1-bottoms{
     display: flex;
     height: 50%;
     width: 100%;
     gap: 3rem;
     margin-left: 1rem;
 }
-.shoes1{
+.bottoms1{
     margin-top: 1rem;
     height: 90%;
     width: 30%;
@@ -1009,83 +1003,82 @@ body{
     border-radius: 2rem;
     box-shadow: 0 0 10px rgb(143, 136, 136);
 }
-.shoes1 .pic1{
+.bottoms1 .pic1{
     height: 80%;
     width: 80%;
-    /* border: 2px solid red; */
+    /* */
     margin-left: auto;
     margin-right: auto;
     cursor: pointer;
 }
-.shoes1 .pic1 img{
+.bottoms1 .pic1 img{
     height: 100%;
     width: 100%;
 }
-.shoes1 .text1{
+.bottoms1 .text1{
     height: 20%;
     width: 80%;
-    /* border: 2px solid navy; */
     margin-left: auto;
     margin-right: auto;
     margin-top: 0.5rem;
     display: flex;
     flex-direction: column;
 }
-.shoes1 .text1 .upper{
+.bottoms1 .text1 .upper{
     height: 20%;
     width: 100%;
     /* border: 2px solid black; */
     margin-bottom: 0.5rem;
 }
-.shoes1 .text1 .upper .product-name{
+.bottoms1 .text1 .upper .product-name{
     font-family: "Agbalumo", system-ui;
     color: #000;
     font-size: 1.2rem;
     text-transform: uppercase;
-    /* border: 2px solid red; */
+    /* */
 }
-.shoes1 .text1 .lower{
+.bottoms1 .text1 .lower{
     height: 80%;
     width: 100%;
     /* border: 2px solid black; */
     display: flex;
 }
-.shoes1 .text1 .lower .low1{
+.bottoms1 .text1 .lower .low1{
     height: 100%;
     width: 50%;
     /* border: 2px solid black; */
 }
-.shoes1 .text1 .low1 .product-price{
+.bottoms1 .text1 .low1 .product-price{
     font-family: "Agbalumo", system-ui;
     color: navy;
     font-size: 0.9rem;
     text-transform: uppercase;
-    /* border: 2px solid red; */
+    /* */
     margin-top: 0;
     margin-bottom: 0;
 }
-.shoes1 .text1 .low1 .product-detail span{
+.bottoms1 .text1 .low1 .product-detail span{
     font-family: "Agbalumo", system-ui;
     color: red;
     font-size: 0.9rem;
     text-transform: uppercase;
     text-decoration: line-through;
 }
-.shoes1 .text1 .low1 .product-detail{
+.bottoms1 .text1 .low1 .product-detail{
     font-family: "Agbalumo", system-ui;
     color: navy;
     font-size: 0.9rem;
     text-transform: uppercase;
-    /* border: 2px solid red; */
+    /* */
     margin-top: 0;
     
 }
-.shoes1 .text1 .lower .low2{
+.bottoms1 .text1 .lower .low2{
     height: 100%;
     width: 50%;
     /* border: 2px solid black; */
 }
-.shoes1 .text1 .low2 button{
+.bottoms1 .text1 .low2 button{
     height: 2rem;
     width: 8rem;
     border-radius: 5rem;
@@ -1095,7 +1088,7 @@ body{
     color: #f5f5f5;
     cursor: pointer;
 }
-.shoes2{
+.bottoms2{
     margin-top: 1rem;
     height: 90%;
     width: 30%;
@@ -1110,83 +1103,82 @@ body{
     border-radius: 2rem;
     box-shadow: 0 0 10px rgb(143, 136, 136);
 }
-.shoes2 .pic2{
+.bottoms2 .pic2{
     height: 80%;
     width: 80%;
-    /* border: 2px solid red; */
+    /* */
     margin-left: auto;
     margin-right: auto;
     cursor: pointer;
 }
-.shoes2 .pic2 img{
+.bottoms2 .pic2 img{
     height: 100%;
     width: 100%;
 }
-.shoes2 .text2{
+.bottoms2 .text2{
     height: 20%;
     width: 80%;
-    /* border: 2px solid navy; */
     margin-left: auto;
     margin-right: auto;
     margin-top: 0.5rem;
     display: flex;
     flex-direction: column;
 }
-.shoes2 .text2 .upper{
+.bottoms2 .text2 .upper{
     height: 20%;
     width: 100%;
     /* border: 2px solid black; */
     margin-bottom: 0.5rem;
 }
-.shoes2 .text2 .upper .product-name{
+.bottoms2 .text2 .upper .product-name{
     font-family: "Agbalumo", system-ui;
     color: #000;
     font-size: 1.2rem;
     text-transform: uppercase;
-    /* border: 2px solid red; */
+    /* */
 }
-.shoes2 .text2 .lower{
+.bottoms2 .text2 .lower{
     height: 80%;
     width: 100%;
     /* border: 2px solid black; */
     display: flex;
 }
-.shoes2 .text2 .lower .low1{
+.bottoms2 .text2 .lower .low1{
     height: 100%;
     width: 50%;
     /* border: 2px solid black; */
 }
-.shoes2 .text2 .low1 .product-price{
+.bottoms2 .text2 .low1 .product-price{
     font-family: "Agbalumo", system-ui;
     color: navy;
     font-size: 0.9rem;
     text-transform: uppercase;
-    /* border: 2px solid red; */
+    /* */
     margin-top: 0;
     margin-bottom: 0;
 }
-.shoes2 .text2 .low1 .product-detail span{
+.bottoms2 .text2 .low1 .product-detail span{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: red;
     font-size: 0.9rem;
     text-transform: uppercase;
     text-decoration: line-through;
 }
-.shoes2 .text2 .low1 .product-detail{
+.bottoms2 .text2 .low1 .product-detail{
     font-family: "Agbalumo", system-ui;
     color: navy;
     font-size: 0.9rem;
     text-transform: uppercase;
-    /* border: 2px solid red; */
+    /* */
     margin-top: 0;
     
 }
-.shoes2 .text2 .lower .low2{
+.bottoms2 .text2 .lower .low2{
     height: 100%;
     width: 50%;
     /* border: 2px solid black; */
 }
-.shoes2 .text2 .low2 button{
+.bottoms2 .text2 .low2 button{
     height: 2rem;
     width: 8rem;
     border-radius: 5rem;
@@ -1196,7 +1188,7 @@ body{
     color: #f5f5f5;
     cursor: pointer;
 }
-.shoes3{
+.bottoms3{
     margin-top: 1rem;
     height: 90%;
     width: 30%;
@@ -1211,83 +1203,82 @@ body{
     border-radius: 2rem;
     box-shadow: 0 0 10px rgb(143, 136, 136);
 }
-.shoes3 .pic3{
+.bottoms3 .pic3{
     height: 80%;
     width: 80%;
-    /* border: 2px solid red; */
+    /* */
     margin-left: auto;
     margin-right: auto;
     cursor: pointer;
 }
-.shoes3 .pic3 img{
+.bottoms3 .pic3 img{
     height: 100%;
     width: 100%;
 }
-.shoes3 .text3{
+.bottoms3 .text3{
     height: 20%;
     width: 80%;
-    /* border: 2px solid navy; */
     margin-left: auto;
     margin-right: auto;
     margin-top: 0.5rem;
     display: flex;
     flex-direction: column;
 }
-.shoes3 .text3 .upper{
+.bottoms3 .text3 .upper{
     height: 20%;
     width: 100%;
     /* border: 2px solid black; */
     margin-bottom: 0.5rem;
 }
-.shoes3 .text3 .upper .product-name{
+.bottoms3 .text3 .upper .product-name{
     font-family: "Agbalumo", system-ui;
     color: #000;
     font-size: 1.2rem;
     text-transform: uppercase;
-    /* border: 2px solid red; */
+    /* */
 }
-.shoes3 .text3 .lower{
+.bottoms3 .text3 .lower{
     height: 80%;
     width: 100%;
     /* border: 2px solid black; */
     display: flex;
 }
-.shoes3 .text3 .lower .low1{
+.bottoms3 .text3 .lower .low1{
     height: 100%;
     width: 50%;
     /* border: 2px solid black; */
 }
-.shoes3 .text3 .low1 .product-price{
+.bottoms3 .text3 .low1 .product-price{
     font-family: "Agbalumo", system-ui;
     color: navy;
     font-size: 0.9rem;
     text-transform: uppercase;
-    /* border: 2px solid red; */
+    /* */
     margin-top: 0;
     margin-bottom: 0;
 }
-.shoes3 .text3 .low1 .product-detail span{
+.bottoms3 .text3 .low1 .product-detail span{
     font-family: "Agbalumo", system-ui;
     color: red;
     font-size: 0.9rem;
     text-transform: uppercase;
     text-decoration: line-through;
 }
-.shoes3 .text3 .low1 .product-detail{
+.bottoms3 .text3 .low1 .product-detail{
     font-family: "Agbalumo", system-ui;
     color: navy;
     font-size: 0.9rem;
     text-transform: uppercase;
-    /* border: 2px solid red; */
+    /* */
     margin-top: 0;
     
 }
-.shoes3 .text3 .lower .low2{
+.bottoms3 .text3 .lower .low2{
     height: 100%;
     width: 50%;
     /* border: 2px solid black; */
 }
-.shoes3 .text3 .low2 button{
+.bottoms3 .text3 .low2 button{
     height: 2rem;
     width: 8rem;
     border-radius: 5rem;
@@ -1297,7 +1288,7 @@ body{
     color: #f5f5f5;
     cursor: pointer;
 }
-.set2-shoes{
+.set2-bottoms{
     display: flex;
     height: 50%;
     width: 100%;
@@ -1306,27 +1297,27 @@ body{
 }
 
 /*! Hoodies */
-.category-hoodies{
-    height: 40%;
+.category-footwear{
+    height: 16%;
     width: 100%;
-    border: 3px solid black;
+
     display: flex;
     flex-direction: column;
 }
-.display-hoodies{
-    height: 30%;
+.display-footwear{
+    height: 34%;
     width: 100%;
-    border: 2px solid red;
+
     background: url("https://images.pexels.com/photos/20103267/pexels-photo-20103267.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
     background-attachment: scroll;
 }
-.display-hoodies span{
+.display-footwear span{
     display: block;
     font-size: 5rem;
-    border: 2px solid red;
+
     color: white;
     font-family: "Agbalumo", system-ui;
     text-shadow: 2px 2px 3px #000;
@@ -1334,22 +1325,22 @@ body{
     margin-top: auto;
     margin-bottom: auto;
 }
-.showing-hoodies{
+.showing-footwear{
     margin-top: 0.5rem;
-    height: 70%;
+    height: 66%;
     width: 100%;
-    border: 2px solid navy;
+    
     display: flex;
     flex-direction: column;
 }
-.set1-hoodies{
+.set1-footwear{
     display: flex;
     height: 50%;
     width: 100%;
     gap: 3rem;
     margin-left: 1rem;
 }
-.hoodies1{
+.footwear1{
     margin-top: 1rem;
     height: 90%;
     width: 30%;
@@ -1364,83 +1355,82 @@ body{
     border-radius: 2rem;
     box-shadow: 0 0 10px rgb(143, 136, 136);
 }
-.hoodies1 .pic1{
+.footwear1 .pic1{
     height: 80%;
     width: 80%;
-    /* border: 2px solid red; */
+    /* */
     margin-left: auto;
     margin-right: auto;
     cursor: pointer;
 }
-.hoodies1 .pic1 img{
+.footwear1 .pic1 img{
     height: 100%;
     width: 100%;
 }
-.hoodies1 .text1{
+.footwear1 .text1{
     height: 20%;
     width: 80%;
-    /* border: 2px solid navy; */
     margin-left: auto;
     margin-right: auto;
     margin-top: 0.5rem;
     display: flex;
     flex-direction: column;
 }
-.hoodies1 .text1 .upper{
+.footwear1 .text1 .upper{
     height: 20%;
     width: 100%;
     /* border: 2px solid black; */
     margin-bottom: 0.5rem;
 }
-.hoodies1 .text1 .upper .product-name{
+.footwear1 .text1 .upper .product-name{
     font-family: "Agbalumo", system-ui;
     color: #000;
     font-size: 1.2rem;
     text-transform: uppercase;
-    /* border: 2px solid red; */
+    /* */
 }
-.hoodies1 .text1 .lower{
+.footwear1 .text1 .lower{
     height: 80%;
     width: 100%;
     /* border: 2px solid black; */
     display: flex;
 }
-.hoodies1 .text1 .lower .low1{
+.footwear1 .text1 .lower .low1{
     height: 100%;
     width: 50%;
     /* border: 2px solid black; */
 }
-.hoodies1 .text1 .low1 .product-price{
+.footwear1 .text1 .low1 .product-price{
     font-family: "Agbalumo", system-ui;
     color: navy;
     font-size: 0.9rem;
     text-transform: uppercase;
-    /* border: 2px solid red; */
+    /* */
     margin-top: 0;
     margin-bottom: 0;
 }
-.hoodies1 .text1 .low1 .product-detail span{
+.footwear1 .text1 .low1 .product-detail span{
     font-family: "Agbalumo", system-ui;
     color: red;
     font-size: 0.9rem;
     text-transform: uppercase;
     text-decoration: line-through;
 }
-.hoodies1 .text1 .low1 .product-detail{
+.footwear1 .text1 .low1 .product-detail{
     font-family: "Agbalumo", system-ui;
     color: navy;
     font-size: 0.9rem;
     text-transform: uppercase;
-    /* border: 2px solid red; */
+    /* */
     margin-top: 0;
     
 }
-.hoodies1 .text1 .lower .low2{
+.footwear1 .text1 .lower .low2{
     height: 100%;
     width: 50%;
     /* border: 2px solid black; */
 }
-.hoodies1 .text1 .low2 button{
+.footwear1 .text1 .low2 button{
     height: 2rem;
     width: 8rem;
     border-radius: 5rem;
@@ -1450,7 +1440,7 @@ body{
     color: #f5f5f5;
     cursor: pointer;
 }
-.hoodies2{
+.footwear2{
     margin-top: 1rem;
     height: 90%;
     width: 30%;
@@ -1465,83 +1455,82 @@ body{
     border-radius: 2rem;
     box-shadow: 0 0 10px rgb(143, 136, 136);
 }
-.hoodies2 .pic2{
+.footwear2 .pic2{
     height: 80%;
     width: 80%;
-    /* border: 2px solid red; */
+    /* */
     margin-left: auto;
     margin-right: auto;
     cursor: pointer;
 }
-.hoodies2 .pic2 img{
+.footwear2 .pic2 img{
     height: 100%;
     width: 100%;
 }
-.hoodies2 .text2{
+.footwear2 .text2{
     height: 20%;
     width: 80%;
-    /* border: 2px solid navy; */
     margin-left: auto;
     margin-right: auto;
     margin-top: 0.5rem;
     display: flex;
     flex-direction: column;
 }
-.hoodies2 .text2 .upper{
+.footwear2 .text2 .upper{
     height: 20%;
     width: 100%;
     /* border: 2px solid black; */
     margin-bottom: 0.5rem;
 }
-.hoodies2 .text2 .upper .product-name{
+.footwear2 .text2 .upper .product-name{
     font-family: "Agbalumo", system-ui;
     color: #000;
     font-size: 1.2rem;
     text-transform: uppercase;
-    /* border: 2px solid red; */
+    /* */
 }
-.hoodies2 .text2 .lower{
+.footwear2 .text2 .lower{
     height: 80%;
     width: 100%;
     /* border: 2px solid black; */
     display: flex;
 }
-.hoodies2 .text2 .lower .low1{
+.footwear2 .text2 .lower .low1{
     height: 100%;
     width: 50%;
     /* border: 2px solid black; */
 }
-.hoodies2 .text2 .low1 .product-price{
+.footwear2 .text2 .low1 .product-price{
     font-family: "Agbalumo", system-ui;
     color: navy;
     font-size: 0.9rem;
     text-transform: uppercase;
-    /* border: 2px solid red; */
+    /* */
     margin-top: 0;
     margin-bottom: 0;
 }
-.hoodies2 .text2 .low1 .product-detail span{
+.footwear2 .text2 .low1 .product-detail span{
     font-family: "Agbalumo", system-ui;
     color: red;
     font-size: 0.9rem;
     text-transform: uppercase;
     text-decoration: line-through;
 }
-.hoodies2 .text2 .low1 .product-detail{
+.footwear2 .text2 .low1 .product-detail{
     font-family: "Agbalumo", system-ui;
     color: navy;
     font-size: 0.9rem;
     text-transform: uppercase;
-    /* border: 2px solid red; */
+    /* */
     margin-top: 0;
     
 }
-.hoodies2 .text2 .lower .low2{
+.footwear2 .text2 .lower .low2{
     height: 100%;
     width: 50%;
     /* border: 2px solid black; */
 }
-.hoodies2 .text2 .low2 button{
+.footwear2 .text2 .low2 button{
     height: 2rem;
     width: 8rem;
     border-radius: 5rem;
@@ -1551,7 +1540,7 @@ body{
     color: #f5f5f5;
     cursor: pointer;
 }
-.hoodies3{
+.footwear3{
     margin-top: 1rem;
     height: 90%;
     width: 30%;
@@ -1566,83 +1555,82 @@ body{
     border-radius: 2rem;
     box-shadow: 0 0 10px rgb(143, 136, 136);
 }
-.hoodies3 .pic3{
+.footwear3 .pic3{
     height: 80%;
     width: 80%;
-    /* border: 2px solid red; */
+    /* */
     margin-left: auto;
     margin-right: auto;
     cursor: pointer;
 }
-.hoodies3 .pic3 img{
+.footwear3 .pic3 img{
     height: 100%;
     width: 100%;
 }
-.hoodies3 .text3{
+.footwear3 .text3{
     height: 20%;
     width: 80%;
-    /* border: 2px solid navy; */
     margin-left: auto;
     margin-right: auto;
     margin-top: 0.5rem;
     display: flex;
     flex-direction: column;
 }
-.hoodies3 .text3 .upper{
+.footwear3 .text3 .upper{
     height: 20%;
     width: 100%;
     /* border: 2px solid black; */
     margin-bottom: 0.5rem;
 }
-.hoodies3 .text3 .upper .product-name{
+.footwear3 .text3 .upper .product-name{
     font-family: "Agbalumo", system-ui;
     color: #000;
     font-size: 1.2rem;
     text-transform: uppercase;
-    /* border: 2px solid red; */
+    /* */
 }
-.hoodies3 .text3 .lower{
+.footwear3 .text3 .lower{
     height: 80%;
     width: 100%;
     /* border: 2px solid black; */
     display: flex;
 }
-.hoodies3 .text3 .lower .low1{
+.footwear3 .text3 .lower .low1{
     height: 100%;
     width: 50%;
     /* border: 2px solid black; */
 }
-.hoodies3 .text3 .low1 .product-price{
+.footwear3 .text3 .low1 .product-price{
     font-family: "Agbalumo", system-ui;
     color: navy;
     font-size: 0.9rem;
     text-transform: uppercase;
-    /* border: 2px solid red; */
+    /* */
     margin-top: 0;
     margin-bottom: 0;
 }
-.hoodies3 .text3 .low1 .product-detail span{
+.footwear3 .text3 .low1 .product-detail span{
     font-family: "Agbalumo", system-ui;
     color: red;
     font-size: 0.9rem;
     text-transform: uppercase;
     text-decoration: line-through;
 }
-.hoodies3 .text3 .low1 .product-detail{
+.footwear3 .text3 .low1 .product-detail{
     font-family: "Agbalumo", system-ui;
     color: navy;
     font-size: 0.9rem;
     text-transform: uppercase;
-    /* border: 2px solid red; */
+    /* */
     margin-top: 0;
     
 }
-.hoodies3 .text3 .lower .low2{
+.footwear3 .text3 .lower .low2{
     height: 100%;
     width: 50%;
     /* border: 2px solid black; */
 }
-.hoodies3 .text3 .low2 button{
+.footwear3 .text3 .low2 button{
     height: 2rem;
     width: 8rem;
     border-radius: 5rem;
@@ -1652,7 +1640,7 @@ body{
     color: #f5f5f5;
     cursor: pointer;
 }
-.set2-hoodies{
+.set2-footwear{
     display: flex;
     height: 50%;
     width: 100%;
@@ -1660,28 +1648,27 @@ body{
     margin-left: 1rem;
 }
 
-/*! Polos */
-.category-polos{
-    height: 40%;
+/*! tunics */
+.category-tunics{
+    height: 16%;
     width: 100%;
-    border: 3px solid black;
     display: flex;
     flex-direction: column;
 }
-.display-polos{
-    height: 30%;
+.display-tunics{
+    height: 34%;
     width: 100%;
-    border: 2px solid red;
+
     background: url("https://images.pexels.com/photos/20407201/pexels-photo-20407201.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: scroll;
 }
-.display-polos span{
+.display-tunics span{
     display: block;
     font-size: 5rem;
-    border: 2px solid red;
+
     color: white;
     font-family: "Agbalumo", system-ui;
     text-shadow: 2px 2px 3px #000;
@@ -1689,22 +1676,22 @@ body{
     margin-top: auto;
     margin-bottom: auto;
 }
-.showing-polos{
+.showing-tunics{
     margin-top: 0.5rem;
-    height: 70%;
+    height: 66%;
     width: 100%;
-    border: 2px solid navy;
+    
     display: flex;
     flex-direction: column;
 }
-.set1-polos{
+.set1-tunics{
     display: flex;
     height: 50%;
     width: 100%;
     gap: 3rem;
     margin-left: 1rem;
 }
-.polos1{
+.tunics1{
     margin-top: 1rem;
     height: 90%;
     width: 30%;
@@ -1719,83 +1706,82 @@ body{
     border-radius: 2rem;
     box-shadow: 0 0 10px rgb(143, 136, 136);
 }
-.polos1 .pic1{
+.tunics1 .pic1{
     height: 80%;
     width: 80%;
-    /* border: 2px solid red; */
+    /* */
     margin-left: auto;
     margin-right: auto;
     cursor: pointer;
 }
-.polos1 .pic1 img{
+.tunics1 .pic1 img{
     height: 100%;
     width: 100%;
 }
-.polos1 .text1{
+.tunics1 .text1{
     height: 20%;
     width: 80%;
-    /* border: 2px solid navy; */
     margin-left: auto;
     margin-right: auto;
     margin-top: 0.5rem;
     display: flex;
     flex-direction: column;
 }
-.polos1 .text1 .upper{
+.tunics1 .text1 .upper{
     height: 20%;
     width: 100%;
     /* border: 2px solid black; */
     margin-bottom: 0.5rem;
 }
-.polos1 .text1 .upper .product-name{
+.tunics1 .text1 .upper .product-name{
     font-family: "Agbalumo", system-ui;
     color: #000;
     font-size: 1.2rem;
     text-transform: uppercase;
-    /* border: 2px solid red; */
+    /* */
 }
-.polos1 .text1 .lower{
+.tunics1 .text1 .lower{
     height: 80%;
     width: 100%;
     /* border: 2px solid black; */
     display: flex;
 }
-.polos1 .text1 .lower .low1{
+.tunics1 .text1 .lower .low1{
     height: 100%;
     width: 50%;
     /* border: 2px solid black; */
 }
-.polos1 .text1 .low1 .product-price{
+.tunics1 .text1 .low1 .product-price{
     font-family: "Agbalumo", system-ui;
     color: navy;
     font-size: 0.9rem;
     text-transform: uppercase;
-    /* border: 2px solid red; */
+    /* */
     margin-top: 0;
     margin-bottom: 0;
 }
-.polos1 .text1 .low1 .product-detail span{
+.tunics1 .text1 .low1 .product-detail span{
     font-family: "Agbalumo", system-ui;
     color: red;
     font-size: 0.9rem;
     text-transform: uppercase;
     text-decoration: line-through;
 }
-.polos1 .text1 .low1 .product-detail{
+.tunics1 .text1 .low1 .product-detail{
     font-family: "Agbalumo", system-ui;
     color: navy;
     font-size: 0.9rem;
     text-transform: uppercase;
-    /* border: 2px solid red; */
+    /* */
     margin-top: 0;
     
 }
-.polos1 .text1 .lower .low2{
+.tunics1 .text1 .lower .low2{
     height: 100%;
     width: 50%;
     /* border: 2px solid black; */
 }
-.polos1 .text1 .low2 button{
+.tunics1 .text1 .low2 button{
     height: 2rem;
     width: 8rem;
     border-radius: 5rem;
@@ -1805,7 +1791,7 @@ body{
     color: #f5f5f5;
     cursor: pointer;
 }
-.polos2{
+.tunics2{
     margin-top: 1rem;
     height: 90%;
     width: 30%;
@@ -1820,83 +1806,82 @@ body{
     border-radius: 2rem;
     box-shadow: 0 0 10px rgb(143, 136, 136);
 }
-.polos2 .pic2{
+.tunics2 .pic2{
     height: 80%;
     width: 80%;
-    /* border: 2px solid red; */
+    /* */
     margin-left: auto;
     margin-right: auto;
     cursor: pointer;
 }
-.polos2 .pic2 img{
+.tunics2 .pic2 img{
     height: 100%;
     width: 100%;
 }
-.polos2 .text2{
+.tunics2 .text2{
     height: 20%;
     width: 80%;
-    /* border: 2px solid navy; */
     margin-left: auto;
     margin-right: auto;
     margin-top: 0.5rem;
     display: flex;
     flex-direction: column;
 }
-.polos2 .text2 .upper{
+.tunics2 .text2 .upper{
     height: 20%;
     width: 100%;
     /* border: 2px solid black; */
     margin-bottom: 0.5rem;
 }
-.polos2 .text2 .upper .product-name{
+.tunics2 .text2 .upper .product-name{
     font-family: "Agbalumo", system-ui;
     color: #000;
     font-size: 1.2rem;
     text-transform: uppercase;
-    /* border: 2px solid red; */
+    /* */
 }
-.polos2 .text2 .lower{
+.tunics2 .text2 .lower{
     height: 80%;
     width: 100%;
     /* border: 2px solid black; */
     display: flex;
 }
-.polos2 .text2 .lower .low1{
+.tunics2 .text2 .lower .low1{
     height: 100%;
     width: 50%;
     /* border: 2px solid black; */
 }
-.polos2 .text2 .low1 .product-price{
+.tunics2 .text2 .low1 .product-price{
     font-family: "Agbalumo", system-ui;
     color: navy;
     font-size: 0.9rem;
     text-transform: uppercase;
-    /* border: 2px solid red; */
+    /* */
     margin-top: 0;
     margin-bottom: 0;
 }
-.polos2 .text2 .low1 .product-detail span{
+.tunics2 .text2 .low1 .product-detail span{
     font-family: "Agbalumo", system-ui;
     color: red;
     font-size: 0.9rem;
     text-transform: uppercase;
     text-decoration: line-through;
 }
-.polos2 .text2 .low1 .product-detail{
+.tunics2 .text2 .low1 .product-detail{
     font-family: "Agbalumo", system-ui;
     color: navy;
     font-size: 0.9rem;
     text-transform: uppercase;
-    /* border: 2px solid red; */
+    /* */
     margin-top: 0;
     
 }
-.polos2 .text2 .lower .low2{
+.tunics2 .text2 .lower .low2{
     height: 100%;
     width: 50%;
     /* border: 2px solid black; */
 }
-.polos2 .text2 .low2 button{
+.tunics2 .text2 .low2 button{
     height: 2rem;
     width: 8rem;
     border-radius: 5rem;
@@ -1906,7 +1891,7 @@ body{
     color: #f5f5f5;
     cursor: pointer;
 }
-.polos3{
+.tunics3{
     margin-top: 1rem;
     height: 90%;
     width: 30%;
@@ -1921,83 +1906,82 @@ body{
     border-radius: 2rem;
     box-shadow: 0 0 10px rgb(143, 136, 136);
 }
-.polos3 .pic3{
+.tunics3 .pic3{
     height: 80%;
     width: 80%;
-    /* border: 2px solid red; */
+    /* */
     margin-left: auto;
     margin-right: auto;
     cursor: pointer;
 }
-.polos3 .pic3 img{
+.tunics3 .pic3 img{
     height: 100%;
     width: 100%;
 }
-.polos3 .text3{
+.tunics3 .text3{
     height: 20%;
     width: 80%;
-    /* border: 2px solid navy; */
     margin-left: auto;
     margin-right: auto;
     margin-top: 0.5rem;
     display: flex;
     flex-direction: column;
 }
-.polos3 .text3 .upper{
+.tunics3 .text3 .upper{
     height: 20%;
     width: 100%;
     /* border: 2px solid black; */
     margin-bottom: 0.5rem;
 }
-.polos3 .text3 .upper .product-name{
+.tunics3 .text3 .upper .product-name{
     font-family: "Agbalumo", system-ui;
     color: #000;
     font-size: 1.2rem;
     text-transform: uppercase;
-    /* border: 2px solid red; */
+    /* */
 }
-.polos3 .text3 .lower{
+.tunics3 .text3 .lower{
     height: 80%;
     width: 100%;
     /* border: 2px solid black; */
     display: flex;
 }
-.polos3 .text3 .lower .low1{
+.tunics3 .text3 .lower .low1{
     height: 100%;
     width: 50%;
     /* border: 2px solid black; */
 }
-.polos3 .text3 .low1 .product-price{
+.tunics3 .text3 .low1 .product-price{
     font-family: "Agbalumo", system-ui;
     color: navy;
     font-size: 0.9rem;
     text-transform: uppercase;
-    /* border: 2px solid red; */
+    /* */
     margin-top: 0;
     margin-bottom: 0;
 }
-.polos3 .text3 .low1 .product-detail span{
+.tunics3 .text3 .low1 .product-detail span{
     font-family: "Agbalumo", system-ui;
     color: red;
     font-size: 0.9rem;
     text-transform: uppercase;
     text-decoration: line-through;
 }
-.polos3 .text3 .low1 .product-detail{
+.tunics3 .text3 .low1 .product-detail{
     font-family: "Agbalumo", system-ui;
     color: navy;
     font-size: 0.9rem;
     text-transform: uppercase;
-    /* border: 2px solid red; */
+    /* */
     margin-top: 0;
     
 }
-.polos3 .text3 .lower .low2{
+.tunics3 .text3 .lower .low2{
     height: 100%;
     width: 50%;
     /* border: 2px solid black; */
 }
-.polos3 .text3 .low2 button{
+.tunics3 .text3 .low2 button{
     height: 2rem;
     width: 8rem;
     border-radius: 5rem;
@@ -2007,7 +1991,358 @@ body{
     color: #f5f5f5;
     cursor: pointer;
 }
-.set2-polos{
+.set2-tunics{
+    display: flex;
+    height: 50%;
+    width: 100%;
+    gap: 3rem;
+    margin-left: 1rem;
+}
+
+/*! tunics */
+.category-ethnic{
+    height: 16%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.display-ethnic{
+    height: 34%;
+    width: 100%;
+
+    background: url("https://i.pinimg.com/1200x/a8/6b/f9/a86bf9f9e6464f5a3f1cbf474a9e2c7d.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+}
+.display-ethnic span{
+    display: block;
+    font-size: 5rem;
+
+    color: white;
+    font-family: "Agbalumo", system-ui;
+    text-shadow: 2px 2px 3px #000;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.showing-ethnic{
+    margin-top: 0.5rem;
+    height: 66%;
+    width: 100%;
+    
+    display: flex;
+    flex-direction: column;
+}
+.set1-ethnic{
+    display: flex;
+    height: 50%;
+    width: 100%;
+    gap: 3rem;
+    margin-left: 1rem;
+}
+.ethnic1{
+    margin-top: 1rem;
+    height: 90%;
+    width: 30%;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    /* background-color: rgba(255, 255, 255, 0.1); */
+    /* background-color: #24243e; */
+    /* background-color: rgb(249, 240, 240);
+    backdrop-filter: blur(45px); */
+    opacity: 0.9;
+    border-radius: 2rem;
+    box-shadow: 0 0 10px rgb(143, 136, 136);
+}
+.ethnic1 .pic1{
+    height: 80%;
+    width: 80%;
+    /* */
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+.ethnic1 .pic1 img{
+    height: 100%;
+    width: 100%;
+}
+.ethnic1 .text1{
+    height: 20%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction: column;
+}
+.ethnic1 .text1 .upper{
+    height: 20%;
+    width: 100%;
+    /* border: 2px solid black; */
+    margin-bottom: 0.5rem;
+}
+.ethnic1 .text1 .upper .product-name{
+    font-family: "Agbalumo", system-ui;
+    color: #000;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    /* */
+}
+.ethnic1 .text1 .lower{
+    height: 80%;
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+}
+.ethnic1 .text1 .lower .low1{
+    height: 100%;
+    width: 50%;
+    /* border: 2px solid black; */
+}
+.ethnic1 .text1 .low1 .product-price{
+    font-family: "Agbalumo", system-ui;
+    color: navy;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    /* */
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.ethnic1 .text1 .low1 .product-detail span{
+    font-family: "Agbalumo", system-ui;
+    color: red;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    text-decoration: line-through;
+}
+.ethnic1 .text1 .low1 .product-detail{
+    font-family: "Agbalumo", system-ui;
+    color: navy;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    /* */
+    margin-top: 0;
+    
+}
+.ethnic1 .text1 .lower .low2{
+    height: 100%;
+    width: 50%;
+    /* border: 2px solid black; */
+}
+.ethnic1 .text1 .low2 button{
+    height: 2rem;
+    width: 8rem;
+    border-radius: 5rem;
+    margin-left: 2rem;
+    font-family: "Agbalumo", system-ui;
+    background-color: rgb(4, 34, 59);
+    color: #f5f5f5;
+    cursor: pointer;
+}
+.ethnic2{
+    margin-top: 1rem;
+    height: 90%;
+    width: 30%;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    /* background-color: rgba(255, 255, 255, 0.1); */
+    /* background-color: #24243e; */
+    /* background-color: rgb(249, 240, 240);
+    backdrop-filter: blur(45px); */
+    opacity: 0.9;
+    border-radius: 2rem;
+    box-shadow: 0 0 10px rgb(143, 136, 136);
+}
+.ethnic2 .pic2{
+    height: 80%;
+    width: 80%;
+    /* */
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+.ethnic2 .pic2 img{
+    height: 100%;
+    width: 100%;
+}
+.ethnic2 .text2{
+    height: 20%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction: column;
+}
+.ethnic2 .text2 .upper{
+    height: 20%;
+    width: 100%;
+    /* border: 2px solid black; */
+    margin-bottom: 0.5rem;
+}
+.ethnic2 .text2 .upper .product-name{
+    font-family: "Agbalumo", system-ui;
+    color: #000;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    /* */
+}
+.ethnic2 .text2 .lower{
+    height: 80%;
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+}
+.ethnic2 .text2 .lower .low1{
+    height: 100%;
+    width: 50%;
+    /* border: 2px solid black; */
+}
+.ethnic2 .text2 .low1 .product-price{
+    font-family: "Agbalumo", system-ui;
+    color: navy;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    /* */
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.ethnic2 .text2 .low1 .product-detail span{
+    font-family: "Agbalumo", system-ui;
+    color: red;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    text-decoration: line-through;
+}
+.ethnic2 .text2 .low1 .product-detail{
+    font-family: "Agbalumo", system-ui;
+    color: navy;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    /* */
+    margin-top: 0;
+    
+}
+.ethnic2 .text2 .lower .low2{
+    height: 100%;
+    width: 50%;
+    /* border: 2px solid black; */
+}
+.ethnic2 .text2 .low2 button{
+    height: 2rem;
+    width: 8rem;
+    border-radius: 5rem;
+    margin-left: 2rem;
+    font-family: "Agbalumo", system-ui;
+    background-color: rgb(4, 34, 59);
+    color: #f5f5f5;
+    cursor: pointer;
+}
+.ethnic3{
+    margin-top: 1rem;
+    height: 90%;
+    width: 30%;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    /* background-color: rgba(255, 255, 255, 0.1); */
+    /* background-color: #24243e; */
+    /* background-color: rgb(249, 240, 240);
+    backdrop-filter: blur(45px); */
+    opacity: 0.9;
+    border-radius: 2rem;
+    box-shadow: 0 0 10px rgb(143, 136, 136);
+}
+.ethnic3 .pic3{
+    height: 80%;
+    width: 80%;
+    /* */
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+.ethnic3 .pic3 img{
+    height: 100%;
+    width: 100%;
+}
+.ethnic3 .text3{
+    height: 20%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction: column;
+}
+.ethnic3 .text3 .upper{
+    height: 20%;
+    width: 100%;
+    /* border: 2px solid black; */
+    margin-bottom: 0.5rem;
+}
+.ethnic3 .text3 .upper .product-name{
+    font-family: "Agbalumo", system-ui;
+    color: #000;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    /* */
+}
+.ethnic3 .text3 .lower{
+    height: 80%;
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+}
+.ethnic3 .text3 .lower .low1{
+    height: 100%;
+    width: 50%;
+    /* border: 2px solid black; */
+}
+.ethnic3 .text3 .low1 .product-price{
+    font-family: "Agbalumo", system-ui;
+    color: navy;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    /* */
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.ethnic3 .text3 .low1 .product-detail span{
+    font-family: "Agbalumo", system-ui;
+    color: red;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    text-decoration: line-through;
+}
+.ethnic3 .text3 .low1 .product-detail{
+    font-family: "Agbalumo", system-ui;
+    color: navy;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    /* */
+    margin-top: 0;
+    
+}
+.ethnic3 .text3 .lower .low2{
+    height: 100%;
+    width: 50%;
+    /* border: 2px solid black; */
+}
+.ethnic3 .text3 .low2 button{
+    height: 2rem;
+    width: 8rem;
+    border-radius: 5rem;
+    margin-left: 2rem;
+    font-family: "Agbalumo", system-ui;
+    background-color: rgb(4, 34, 59);
+    color: #f5f5f5;
+    cursor: pointer;
+}
+.set2-ethnic{
     display: flex;
     height: 50%;
     width: 100%;
