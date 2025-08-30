@@ -109,7 +109,6 @@ body{
 main{
     height: 95.5%;
     width: 100%;
-    background-color: rgb(255, 207, 214);
 }
 .slideshow-container{
     height: 5%;
@@ -2377,7 +2376,7 @@ footer{
     /* border: 5px solid red; */
     display: flex;
     flex-direction: column;
-    background-color: rgb(128, 168, 209);
+    background-color: rgb(160, 180, 202);
 }
 .footer-up{
     height: 90%;
