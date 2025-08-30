@@ -289,6 +289,7 @@ main{
     /* background-color: #24243e; */
     /* background-color: rgb(249, 240, 240); */
     /* backdrop-filter: blur(45px); */
+    background: linear-gradient(to bottom, #ffffff, #f0f0f0, rgb(186, 201, 218));
     opacity: 0.9;
     border-radius: 2rem;
     box-shadow: 0 0 10px rgb(143, 136, 136);
@@ -390,6 +391,8 @@ main{
     /* background-color: #24243e; */
     /* background-color: rgb(249, 240, 240);
     backdrop-filter: blur(45px); */
+    /* background: linear-gradient(to bottom, #ffffff, #f0f0f0, rgb(205, 199, 199)); */
+    background: linear-gradient(to bottom, #ffffff, #f0f0f0, rgb(186, 201, 218));
     opacity: 0.9;
     border-radius: 2rem;
     box-shadow: 0 0 10px rgb(143, 136, 136);
@@ -491,6 +494,7 @@ main{
     /* background-color: #24243e; */
     /* background-color: rgb(249, 240, 240);
     backdrop-filter: blur(45px); */
+    background: linear-gradient(to bottom, #ffffff, #f0f0f0, rgb(186, 201, 218));
     opacity: 0.9;
     border-radius: 2rem;
     box-shadow: 0 0 10px rgb(143, 136, 136);
@@ -644,6 +648,7 @@ main{
     /* background-color: #24243e; */
     /* background-color: rgb(249, 240, 240);
     backdrop-filter: blur(45px); */
+    background: linear-gradient(to bottom, #ffffff, #f0f0f0, rgb(186, 201, 218));
     opacity: 0.9;
     border-radius: 2rem;
     box-shadow: 0 0 10px rgb(143, 136, 136);
@@ -745,6 +750,7 @@ main{
     /* background-color: #24243e; */
     /* background-color: rgb(249, 240, 240);
     backdrop-filter: blur(45px); */
+    background: linear-gradient(to bottom, #ffffff, #f0f0f0, rgb(186, 201, 218));
     opacity: 0.9;
     border-radius: 2rem;
     box-shadow: 0 0 10px rgb(143, 136, 136);
@@ -846,6 +852,7 @@ main{
     /* background-color: #24243e; */
     /* background-color: rgb(249, 240, 240);
     backdrop-filter: blur(45px); */
+    background: linear-gradient(to bottom, #ffffff, #f0f0f0, rgb(186, 201, 218));
     opacity: 0.9;
     border-radius: 2rem;
     box-shadow: 0 0 10px rgb(143, 136, 136);
@@ -1018,6 +1025,7 @@ body{
     /* background-color: #24243e; */
     /* background-color: rgb(249, 240, 240);
     backdrop-filter: blur(45px); */
+    background: linear-gradient(to bottom, #ffffff, #f0f0f0, rgb(186, 201, 218));
     opacity: 0.9;
     border-radius: 2rem;
     box-shadow: 0 0 10px rgb(143, 136, 136);
@@ -1119,6 +1127,7 @@ body{
     /* background-color: #24243e; */
     /* background-color: rgb(249, 240, 240);
     backdrop-filter: blur(45px); */
+    background: linear-gradient(to bottom, #ffffff, #f0f0f0, rgb(186, 201, 218));
     opacity: 0.9;
     border-radius: 2rem;
     box-shadow: 0 0 10px rgb(143, 136, 136);
@@ -1220,6 +1229,7 @@ body{
     /* background-color: #24243e; */
     /* background-color: rgb(249, 240, 240);
     backdrop-filter: blur(45px); */
+    background: linear-gradient(to bottom, #ffffff, #f0f0f0, rgb(186, 201, 218));
     opacity: 0.9;
     border-radius: 2rem;
     box-shadow: 0 0 10px rgb(143, 136, 136);
@@ -1373,6 +1383,7 @@ body{
     /* background-color: #24243e; */
     /* background-color: rgb(249, 240, 240);
     backdrop-filter: blur(45px); */
+    background: linear-gradient(to bottom, #ffffff, #f0f0f0, rgb(186, 201, 218));
     opacity: 0.9;
     border-radius: 2rem;
     box-shadow: 0 0 10px rgb(143, 136, 136);
@@ -1474,6 +1485,7 @@ body{
     /* background-color: #24243e; */
     /* background-color: rgb(249, 240, 240);
     backdrop-filter: blur(45px); */
+    background: linear-gradient(to bottom, #ffffff, #f0f0f0, rgb(186, 201, 218));
     opacity: 0.9;
     border-radius: 2rem;
     box-shadow: 0 0 10px rgb(143, 136, 136);
@@ -1575,6 +1587,7 @@ body{
     /* background-color: #24243e; */
     /* background-color: rgb(249, 240, 240);
     backdrop-filter: blur(45px); */
+    background: linear-gradient(to bottom, #ffffff, #f0f0f0, rgb(186, 201, 218));
     opacity: 0.9;
     border-radius: 2rem;
     box-shadow: 0 0 10px rgb(143, 136, 136);
@@ -1728,6 +1741,7 @@ body{
     /* background-color: #24243e; */
     /* background-color: rgb(249, 240, 240);
     backdrop-filter: blur(45px); */
+    background: linear-gradient(to bottom, #ffffff, #f0f0f0, rgb(186, 201, 218));
     opacity: 0.9;
     border-radius: 2rem;
     box-shadow: 0 0 10px rgb(143, 136, 136);
@@ -1829,6 +1843,7 @@ body{
     /* background-color: #24243e; */
     /* background-color: rgb(249, 240, 240);
     backdrop-filter: blur(45px); */
+    background: linear-gradient(to bottom, #ffffff, #f0f0f0, rgb(186, 201, 218));
     opacity: 0.9;
     border-radius: 2rem;
     box-shadow: 0 0 10px rgb(143, 136, 136);
@@ -1930,6 +1945,7 @@ body{
     /* background-color: #24243e; */
     /* background-color: rgb(249, 240, 240);
     backdrop-filter: blur(45px); */
+    background: linear-gradient(to bottom, #ffffff, #f0f0f0, rgb(186, 201, 218));
     opacity: 0.9;
     border-radius: 2rem;
     box-shadow: 0 0 10px rgb(143, 136, 136);
