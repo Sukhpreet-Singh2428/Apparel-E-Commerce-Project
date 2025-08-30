@@ -168,7 +168,7 @@ main{
     transition: background 1s ease-in-out; */
     border-radius: 10%;
     /* box-shadow: 0 0 20px rgb(248, 195, 203); */
-    opacity: 0.95;
+    /* opacity: 0.95; */
 }
 /* .show1:hover{
     transform: rotateY(180deg);
@@ -184,7 +184,7 @@ main{
     background-size: cover;
     background-position: center;
     border-radius: 10%;
-    opacity: 0.95;
+    /* opacity: 0.95; */
 }
 .show3{
     height: 90%;
@@ -196,7 +196,7 @@ main{
     background-size: cover;
     background-position: center;
     border-radius: 10%;
-    opacity: 0.95;
+    /* opacity: 0.95; */
 }
 .show4{
     height: 90%;
@@ -208,7 +208,7 @@ main{
     background-size: cover;
     background-position: center;
     border-radius: 10%;
-    opacity: 0.95;
+    /* opacity: 0.95; */
 }
 .show5{
     height: 90%;
@@ -220,7 +220,7 @@ main{
     background-size: cover;
     background-position: center;
     border-radius: 10%;
-    opacity: 0.95;
+    /* opacity: 0.95; */
 }
 .show6{
     height: 90%;
@@ -232,7 +232,7 @@ main{
     background-size: cover;
     background-position: center;
     border-radius: 10%;
-    opacity: 0.95;
+    /* opacity: 0.95; */
 }
 
 .category-tshirts{

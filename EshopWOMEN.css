@@ -2376,7 +2376,7 @@ footer{
     /* border: 5px solid red; */
     display: flex;
     flex-direction: column;
-    background-color: rgb(160, 180, 202);
+    background-color: rgb(175, 204, 235);
 }
 .footer-up{
     height: 90%;
