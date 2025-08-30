@@ -109,6 +109,7 @@ body{
 main{
     height: 95.5%;
     width: 100%;
+    background-color: rgb(255, 207, 214);
 }
 .slideshow-container{
     height: 5%;
