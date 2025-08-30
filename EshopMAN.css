@@ -37,7 +37,7 @@ html{
 }
 .menu ul a{
     text-decoration: none;
-    color: #000;
+    color: honeydew;
     font-family: "Audiowide", sans-serif;
     transition: text-decoration 0.37s ease-in-out;
 }
@@ -83,14 +83,21 @@ nav{
     width: 100%;
     /* border: 3px solid red; */
     background: url("https://images.pexels.com/photos/8755018/pexels-photo-8755018.jpeg");
-    /* background-color: rgb(3, 3, 61); */
-    background-position: top;
+    background-position: bottom;
     background-size: cover;
     background-repeat: no-repeat;
+    background-color: lightblue;
+    transition: background 0.5s ease-in-out;
 }
 .head:hover{
     background: lightblue;
     box-shadow: 0 0 20px #000;
+}
+.head:hover .right ul a{
+    color: #000;
+}
+.head:hover .menu ul a{
+    color: #000;
 }
 header{
     height: 0.8%;

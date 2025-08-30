@@ -1,5 +1,5 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Spectral:wght@700&display=swap'); */
-@import url("https://fonts.googleapis.com/css2?family=Agbalumo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
 html{
     scroll-behavior: smooth;
 }
@@ -8,7 +8,7 @@ html{
     font-size: 2rem;
     /* font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ; */
     /* font-family: "Playfair Display", serif; */
-    font-family: "Agbalumo", system-ui;
+    font-family: "Abril Fatface", serif;
     font-weight: bolder;
     color: #000;
 }
@@ -22,7 +22,7 @@ html{
 .two ul a{
     text-decoration: none;
     color: #000;
-    font-family: "Agbalumo", system-ui;
+    font-family: "Abril Fatface", serif;
     transition: text-decoration 0.3s ease-in-out;
 }
 .two ul a:hover{
@@ -38,7 +38,7 @@ html{
 .menu ul a{
     text-decoration: none;
     color: #000;
-    font-family: "Agbalumo", system-ui;
+    font-family: "Abril Fatface", serif;
     transition: text-decoration 0.37s ease-in-out;
 }
 .menu ul a::before{
@@ -54,12 +54,12 @@ html{
     margin: 0;
     padding-left: 130px;
     color: #000;
-    font-family: "Agbalumo", system-ui;
+    font-family: "Abril Fatface", serif;
 }
 .right ul a{
     text-decoration: none;
     color: #000;
-    font-family: "Agbalumo", system-ui;
+    font-family: "Abril Fatface", serif;
     transition: text-decoration 0.3s ease-in-out;
 }
 .right ul a:hover{
@@ -83,10 +83,12 @@ nav{
     width: 100%;
     /* border: 3px solid red; */
     background: url("https://images.pexels.com/photos/8755334/pexels-photo-8755334.jpeg");
-    background-position: top;
+    background-color: hotpink;
+    background-position: bottom;
     background-size: cover;
     background-repeat: no-repeat;
-    /* transition: background 0.5s ease-in-out; */
+    transition: background 0.5s ease-in-out;
+    /* border-bottom: 3px solid black; */
 }
 .head:hover{
     background: hotpink;
@@ -105,12 +107,11 @@ body{
     width: 100vw;
 }
 main{
-    height: 80%;
+    height: 95.5%;
     width: 100%;
-    /* border: 2px solid yellow; */
 }
 .slideshow-container{
-    height: 5.8%;
+    height: 5%;
     width: 100%;
     /* */
     background: url("https://images.pexels.com/photos/8755334/pexels-photo-8755334.jpeg");
@@ -223,7 +224,7 @@ main{
 }
 
 .category-dresses{
-    height: 16%;
+    height: 13.5%;
     width: 100%;
 
     display: flex;
@@ -244,7 +245,7 @@ main{
     font-size: 5rem;
 
     color: white;
-    font-family: "Agbalumo", system-ui;
+    font-family: "Abril Fatface", serif;
     text-shadow: 2px 2px 3px #000;
     text-align: center;
     margin-top: auto;
@@ -309,7 +310,7 @@ main{
     margin-bottom: 0.5rem;
 }
 .dresses1 .text1 .upper .product-name{
-    font-family: "Agbalumo", system-ui;
+    font-family: "Abril Fatface", serif;
     color: #000;
     font-size: 1.2rem;
     text-transform: uppercase;
@@ -327,7 +328,7 @@ main{
     /* border: 2px solid black; */
 }
 .dresses1 .text1 .low1 .product-price{
-    font-family: "Agbalumo", system-ui;
+    font-family: "Abril Fatface", serif;
     color: navy;
     font-size: 0.9rem;
     text-transform: uppercase;
@@ -336,14 +337,14 @@ main{
     margin-bottom: 0;
 }
 .dresses1 .text1 .low1 .product-detail span{
-    font-family: "Agbalumo", system-ui;
+    font-family: "Abril Fatface", serif;
     color: red;
     font-size: 0.9rem;
     text-transform: uppercase;
     text-decoration: line-through;
 }
 .dresses1 .text1 .low1 .product-detail{
-    font-family: "Agbalumo", system-ui;
+    font-family: "Abril Fatface", serif;
     color: navy;
     font-size: 0.9rem;
     text-transform: uppercase;
@@ -361,7 +362,7 @@ main{
     width: 8rem;
     border-radius: 5rem;
     margin-left: 2rem;
-    font-family: "Agbalumo", system-ui;
+    font-family: "Abril Fatface", serif;
     background-color: rgb(4, 34, 59);
     color: #f5f5f5;
     cursor: pointer;
@@ -410,7 +411,7 @@ main{
     margin-bottom: 0.5rem;
 }
 .dresses2 .text2 .upper .product-name{
-    font-family: "Agbalumo", system-ui;
+    font-family: "Abril Fatface", serif;
     color: #000;
     font-size: 1.2rem;
     text-transform: uppercase;
@@ -428,7 +429,7 @@ main{
     /* border: 2px solid black; */
 }
 .dresses2 .text2 .low1 .product-price{
-    font-family: "Agbalumo", system-ui;
+    font-family: "Abril Fatface", serif;
     color: navy;
     font-size: 0.9rem;
     text-transform: uppercase;
@@ -437,14 +438,14 @@ main{
     margin-bottom: 0;
 }
 .dresses2 .text2 .low1 .product-detail span{
-    font-family: "Agbalumo", system-ui;
+    font-family: "Abril Fatface", serif;
     color: red;
     font-size: 0.9rem;
     text-transform: uppercase;
     text-decoration: line-through;
 }
 .dresses2 .text2 .low1 .product-detail{
-    font-family: "Agbalumo", system-ui;
+    font-family: "Abril Fatface", serif;
     color: navy;
     font-size: 0.9rem;
     text-transform: uppercase;
@@ -462,7 +463,7 @@ main{
     width: 8rem;
     border-radius: 5rem;
     margin-left: 2rem;
-    font-family: "Agbalumo", system-ui;
+    font-family: "Abril Fatface", serif;
     background-color: rgb(4, 34, 59);
     color: #f5f5f5;
     cursor: pointer;
@@ -511,7 +512,7 @@ main{
     margin-bottom: 0.5rem;
 }
 .dresses3 .text3 .upper .product-name{
-    font-family: "Agbalumo", system-ui;
+    font-family: "Abril Fatface", serif;
     color: #000;
     font-size: 1.2rem;
     text-transform: uppercase;
@@ -529,7 +530,7 @@ main{
     /* border: 2px solid black; */
 }
 .dresses3 .text3 .low1 .product-price{
-    font-family: "Agbalumo", system-ui;
+    font-family: "Abril Fatface", serif;
     color: navy;
     font-size: 0.9rem;
     text-transform: uppercase;
@@ -538,14 +539,14 @@ main{
     margin-bottom: 0;
 }
 .dresses3 .text3 .low1 .product-detail span{
-    font-family: "Agbalumo", system-ui;
+    font-family: "Abril Fatface", serif;
     color: red;
     font-size: 0.9rem;
     text-transform: uppercase;
     text-decoration: line-through;
 }
 .dresses3 .text3 .low1 .product-detail{
-    font-family: "Agbalumo", system-ui;
+    font-family: "Abril Fatface", serif;
     color: navy;
     font-size: 0.9rem;
     text-transform: uppercase;
@@ -563,7 +564,7 @@ main{
     width: 8rem;
     border-radius: 5rem;
     margin-left: 2rem;
-    font-family: "Agbalumo", system-ui;
+    font-family: "Abril Fatface", serif;
     background-color: rgb(4, 34, 59);
     color: #f5f5f5;
     cursor: pointer;
@@ -578,7 +579,7 @@ main{
 
 /*! Jeans */
 .category-tops{
-    height: 16%;
+    height: 13.5%;
     width: 100%;
 
     display: flex;
@@ -599,7 +600,7 @@ main{
     font-size: 5rem;
 
     color: white;
-    font-family: "Agbalumo", system-ui;
+    font-family: "Abril Fatface", serif;
     text-shadow: 2px 2px 3px #000;
     text-align: center;
     margin-top: auto;
@@ -664,7 +665,7 @@ main{
     margin-bottom: 0.5rem;
 }
 .tops1 .text1 .upper .product-name{
-    font-family: "Agbalumo", system-ui;
+    font-family: "Abril Fatface", serif;
     color: #000;
     font-size: 1.2rem;
     text-transform: uppercase;
@@ -682,7 +683,7 @@ main{
     /* border: 2px solid black; */
 }
 .tops1 .text1 .low1 .product-price{
-    font-family: "Agbalumo", system-ui;
+    font-family: "Abril Fatface", serif;
     color: navy;
     font-size: 0.9rem;
     text-transform: uppercase;
@@ -691,14 +692,14 @@ main{
     margin-bottom: 0;
 }
 .tops1 .text1 .low1 .product-detail span{
-    font-family: "Agbalumo", system-ui;
+    font-family: "Abril Fatface", serif;
     color: red;
     font-size: 0.9rem;
     text-transform: uppercase;
     text-decoration: line-through;
 }
 .tops1 .text1 .low1 .product-detail{
-    font-family: "Agbalumo", system-ui;
+    font-family: "Abril Fatface", serif;
     color: navy;
     font-size: 0.9rem;
     text-transform: uppercase;
@@ -716,7 +717,7 @@ main{
     width: 8rem;
     border-radius: 5rem;
     margin-left: 2rem;
-    font-family: "Agbalumo", system-ui;
+    font-family: "Abril Fatface", serif;
     background-color: rgb(4, 34, 59);
     color: #f5f5f5;
     cursor: pointer;
@@ -765,7 +766,7 @@ main{
     margin-bottom: 0.5rem;
 }
 .tops2 .text2 .upper .product-name{
-    font-family: "Agbalumo", system-ui;
+    font-family: "Abril Fatface", serif;
     color: #000;
     font-size: 1.2rem;
     text-transform: uppercase;
@@ -783,7 +784,7 @@ main{
     /* border: 2px solid black; */
 }
 .tops2 .text2 .low1 .product-price{
-    font-family: "Agbalumo", system-ui;
+    font-family: "Abril Fatface", serif;
     color: navy;
     font-size: 0.9rem;
     text-transform: uppercase;
@@ -792,14 +793,14 @@ main{
     margin-bottom: 0;
 }
 .tops2 .text2 .low1 .product-detail span{
-    font-family: "Agbalumo", system-ui;
+    font-family: "Abril Fatface", serif;
     color: red;
     font-size: 0.9rem;
     text-transform: uppercase;
     text-decoration: line-through;
 }
 .tops2 .text2 .low1 .product-detail{
-    font-family: "Agbalumo", system-ui;
+    font-family: "Abril Fatface", serif;
     color: navy;
     font-size: 0.9rem;
     text-transform: uppercase;
@@ -817,7 +818,7 @@ main{
     width: 8rem;
     border-radius: 5rem;
     margin-left: 2rem;
-    font-family: "Agbalumo", system-ui;
+    font-family: "Abril Fatface", serif;
     background-color: rgb(4, 34, 59);
     color: #f5f5f5;
     cursor: pointer;
@@ -866,7 +867,7 @@ main{
     margin-bottom: 0.5rem;
 }
 .tops3 .text3 .upper .product-name{
-    font-family: "Agbalumo", system-ui;
+    font-family: "Abril Fatface", serif;
     color: #000;
     font-size: 1.2rem;
     text-transform: uppercase;
@@ -884,7 +885,7 @@ main{
     /* border: 2px solid black; */
 }
 .tops3 .text3 .low1 .product-price{
-    font-family: "Agbalumo", system-ui;
+    font-family: "Abril Fatface", serif;
     color: navy;
     font-size: 0.9rem;
     text-transform: uppercase;
@@ -893,14 +894,14 @@ main{
     margin-bottom: 0;
 }
 .tops3 .text3 .low1 .product-detail span{
-    font-family: "Agbalumo", system-ui;
+    font-family: "Abril Fatface", serif;
     color: red;
     font-size: 0.9rem;
     text-transform: uppercase;
     text-decoration: line-through;
 }
 .tops3 .text3 .low1 .product-detail{
-    font-family: "Agbalumo", system-ui;
+    font-family: "Abril Fatface", serif;
     color: navy;
     font-size: 0.9rem;
     text-transform: uppercase;
@@ -918,7 +919,7 @@ main{
     width: 8rem;
     border-radius: 5rem;
     margin-left: 2rem;
-    font-family: "Agbalumo", system-ui;
+    font-family: "Abril Fatface", serif;
     background-color: rgb(4, 34, 59);
     color: #f5f5f5;
     cursor: pointer;
@@ -952,7 +953,7 @@ body{
 
 /*! shoes */
 .category-bottoms{
-    height: 16%;
+    height: 13.5%;
     width: 100%;
 
     display: flex;
@@ -973,7 +974,7 @@ body{
     font-size: 5rem;
 
     color: white;
-    font-family: "Agbalumo", system-ui;
+    font-family: "Abril Fatface", serif;
     text-shadow: 2px 2px 3px #000;
     text-align: center;
     margin-top: auto;
@@ -1038,7 +1039,7 @@ body{
     margin-bottom: 0.5rem;
 }
 .bottoms1 .text1 .upper .product-name{
-    font-family: "Agbalumo", system-ui;
+    font-family: "Abril Fatface", serif;
     color: #000;
     font-size: 1.2rem;
     text-transform: uppercase;
@@ -1056,7 +1057,7 @@ body{
     /* border: 2px solid black; */
 }
 .bottoms1 .text1 .low1 .product-price{
-    font-family: "Agbalumo", system-ui;
+    font-family: "Abril Fatface", serif;
     color: navy;
     font-size: 0.9rem;
     text-transform: uppercase;
@@ -1065,14 +1066,14 @@ body{
     margin-bottom: 0;
 }
 .bottoms1 .text1 .low1 .product-detail span{
-    font-family: "Agbalumo", system-ui;
+    font-family: "Abril Fatface", serif;
     color: red;
     font-size: 0.9rem;
     text-transform: uppercase;
     text-decoration: line-through;
 }
 .bottoms1 .text1 .low1 .product-detail{
-    font-family: "Agbalumo", system-ui;
+    font-family: "Abril Fatface", serif;
     color: navy;
     font-size: 0.9rem;
     text-transform: uppercase;
@@ -1090,7 +1091,7 @@ body{
     width: 8rem;
     border-radius: 5rem;
     margin-left: 2rem;
-    font-family: "Agbalumo", system-ui;
+    font-family: "Abril Fatface", serif;
     background-color: rgb(4, 34, 59);
     color: #f5f5f5;
     cursor: pointer;
@@ -1139,7 +1140,7 @@ body{
     margin-bottom: 0.5rem;
 }
 .bottoms2 .text2 .upper .product-name{
-    font-family: "Agbalumo", system-ui;
+    font-family: "Abril Fatface", serif;
     color: #000;
     font-size: 1.2rem;
     text-transform: uppercase;
@@ -1157,7 +1158,7 @@ body{
     /* border: 2px solid black; */
 }
 .bottoms2 .text2 .low1 .product-price{
-    font-family: "Agbalumo", system-ui;
+    font-family: "Abril Fatface", serif;
     color: navy;
     font-size: 0.9rem;
     text-transform: uppercase;
@@ -1173,7 +1174,7 @@ body{
     text-decoration: line-through;
 }
 .bottoms2 .text2 .low1 .product-detail{
-    font-family: "Agbalumo", system-ui;
+    font-family: "Abril Fatface", serif;
     color: navy;
     font-size: 0.9rem;
     text-transform: uppercase;
@@ -1191,7 +1192,7 @@ body{
     width: 8rem;
     border-radius: 5rem;
     margin-left: 2rem;
-    font-family: "Agbalumo", system-ui;
+    font-family: "Abril Fatface", serif;
     background-color: rgb(4, 34, 59);
     color: #f5f5f5;
     cursor: pointer;
@@ -1240,7 +1241,7 @@ body{
     margin-bottom: 0.5rem;
 }
 .bottoms3 .text3 .upper .product-name{
-    font-family: "Agbalumo", system-ui;
+    font-family: "Abril Fatface", serif;
     color: #000;
     font-size: 1.2rem;
     text-transform: uppercase;
@@ -1258,7 +1259,7 @@ body{
     /* border: 2px solid black; */
 }
 .bottoms3 .text3 .low1 .product-price{
-    font-family: "Agbalumo", system-ui;
+    font-family: "Abril Fatface", serif;
     color: navy;
     font-size: 0.9rem;
     text-transform: uppercase;
@@ -1267,14 +1268,14 @@ body{
     margin-bottom: 0;
 }
 .bottoms3 .text3 .low1 .product-detail span{
-    font-family: "Agbalumo", system-ui;
+    font-family: "Abril Fatface", serif;
     color: red;
     font-size: 0.9rem;
     text-transform: uppercase;
     text-decoration: line-through;
 }
 .bottoms3 .text3 .low1 .product-detail{
-    font-family: "Agbalumo", system-ui;
+    font-family: "Abril Fatface", serif;
     color: navy;
     font-size: 0.9rem;
     text-transform: uppercase;
@@ -1292,7 +1293,7 @@ body{
     width: 8rem;
     border-radius: 5rem;
     margin-left: 2rem;
-    font-family: "Agbalumo", system-ui;
+    font-family: "Abril Fatface", serif;
     background-color: rgb(4, 34, 59);
     color: #f5f5f5;
     cursor: pointer;
@@ -1307,7 +1308,7 @@ body{
 
 /*! Hoodies */
 .category-footwear{
-    height: 16%;
+    height: 13.5%;
     width: 100%;
 
     display: flex;
@@ -1328,7 +1329,7 @@ body{
     font-size: 5rem;
 
     color: white;
-    font-family: "Agbalumo", system-ui;
+    font-family: "Abril Fatface", serif;
     text-shadow: 2px 2px 3px #000;
     text-align: center;
     margin-top: auto;
@@ -1393,7 +1394,7 @@ body{
     margin-bottom: 0.5rem;
 }
 .footwear1 .text1 .upper .product-name{
-    font-family: "Agbalumo", system-ui;
+    font-family: "Abril Fatface", serif;
     color: #000;
     font-size: 1.2rem;
     text-transform: uppercase;
@@ -1411,7 +1412,7 @@ body{
     /* border: 2px solid black; */
 }
 .footwear1 .text1 .low1 .product-price{
-    font-family: "Agbalumo", system-ui;
+    font-family: "Abril Fatface", serif;
     color: navy;
     font-size: 0.9rem;
     text-transform: uppercase;
@@ -1420,14 +1421,14 @@ body{
     margin-bottom: 0;
 }
 .footwear1 .text1 .low1 .product-detail span{
-    font-family: "Agbalumo", system-ui;
+    font-family: "Abril Fatface", serif;
     color: red;
     font-size: 0.9rem;
     text-transform: uppercase;
     text-decoration: line-through;
 }
 .footwear1 .text1 .low1 .product-detail{
-    font-family: "Agbalumo", system-ui;
+    font-family: "Abril Fatface", serif;
     color: navy;
     font-size: 0.9rem;
     text-transform: uppercase;
@@ -1445,7 +1446,7 @@ body{
     width: 8rem;
     border-radius: 5rem;
     margin-left: 2rem;
-    font-family: "Agbalumo", system-ui;
+    font-family: "Abril Fatface", serif;
     background-color: rgb(4, 34, 59);
     color: #f5f5f5;
     cursor: pointer;
@@ -1494,7 +1495,7 @@ body{
     margin-bottom: 0.5rem;
 }
 .footwear2 .text2 .upper .product-name{
-    font-family: "Agbalumo", system-ui;
+    font-family: "Abril Fatface", serif;
     color: #000;
     font-size: 1.2rem;
     text-transform: uppercase;
@@ -1512,7 +1513,7 @@ body{
     /* border: 2px solid black; */
 }
 .footwear2 .text2 .low1 .product-price{
-    font-family: "Agbalumo", system-ui;
+    font-family: "Abril Fatface", serif;
     color: navy;
     font-size: 0.9rem;
     text-transform: uppercase;
@@ -1521,14 +1522,14 @@ body{
     margin-bottom: 0;
 }
 .footwear2 .text2 .low1 .product-detail span{
-    font-family: "Agbalumo", system-ui;
+    font-family: "Abril Fatface", serif;
     color: red;
     font-size: 0.9rem;
     text-transform: uppercase;
     text-decoration: line-through;
 }
 .footwear2 .text2 .low1 .product-detail{
-    font-family: "Agbalumo", system-ui;
+    font-family: "Abril Fatface", serif;
     color: navy;
     font-size: 0.9rem;
     text-transform: uppercase;
@@ -1546,7 +1547,7 @@ body{
     width: 8rem;
     border-radius: 5rem;
     margin-left: 2rem;
-    font-family: "Agbalumo", system-ui;
+    font-family: "Abril Fatface", serif;
     background-color: rgb(4, 34, 59);
     color: #f5f5f5;
     cursor: pointer;
@@ -1595,7 +1596,7 @@ body{
     margin-bottom: 0.5rem;
 }
 .footwear3 .text3 .upper .product-name{
-    font-family: "Agbalumo", system-ui;
+    font-family: "Abril Fatface", serif;
     color: #000;
     font-size: 1.2rem;
     text-transform: uppercase;
@@ -1613,7 +1614,7 @@ body{
     /* border: 2px solid black; */
 }
 .footwear3 .text3 .low1 .product-price{
-    font-family: "Agbalumo", system-ui;
+    font-family: "Abril Fatface", serif;
     color: navy;
     font-size: 0.9rem;
     text-transform: uppercase;
@@ -1622,14 +1623,14 @@ body{
     margin-bottom: 0;
 }
 .footwear3 .text3 .low1 .product-detail span{
-    font-family: "Agbalumo", system-ui;
+    font-family: "Abril Fatface", serif;
     color: red;
     font-size: 0.9rem;
     text-transform: uppercase;
     text-decoration: line-through;
 }
 .footwear3 .text3 .low1 .product-detail{
-    font-family: "Agbalumo", system-ui;
+    font-family: "Abril Fatface", serif;
     color: navy;
     font-size: 0.9rem;
     text-transform: uppercase;
@@ -1647,7 +1648,7 @@ body{
     width: 8rem;
     border-radius: 5rem;
     margin-left: 2rem;
-    font-family: "Agbalumo", system-ui;
+    font-family: "Abril Fatface", serif;
     background-color: rgb(4, 34, 59);
     color: #f5f5f5;
     cursor: pointer;
@@ -1662,7 +1663,7 @@ body{
 
 /*! tunics */
 .category-tunics{
-    height: 16%;
+    height: 13.5%;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -1682,7 +1683,7 @@ body{
     font-size: 5rem;
 
     color: white;
-    font-family: "Agbalumo", system-ui;
+    font-family: "Abril Fatface", serif;
     text-shadow: 2px 2px 3px #000;
     text-align: center;
     margin-top: auto;
@@ -1747,7 +1748,7 @@ body{
     margin-bottom: 0.5rem;
 }
 .tunics1 .text1 .upper .product-name{
-    font-family: "Agbalumo", system-ui;
+    font-family: "Abril Fatface", serif;
     color: #000;
     font-size: 1.2rem;
     text-transform: uppercase;
@@ -1765,7 +1766,7 @@ body{
     /* border: 2px solid black; */
 }
 .tunics1 .text1 .low1 .product-price{
-    font-family: "Agbalumo", system-ui;
+    font-family: "Abril Fatface", serif;
     color: navy;
     font-size: 0.9rem;
     text-transform: uppercase;
@@ -1774,14 +1775,14 @@ body{
     margin-bottom: 0;
 }
 .tunics1 .text1 .low1 .product-detail span{
-    font-family: "Agbalumo", system-ui;
+    font-family: "Abril Fatface", serif;
     color: red;
     font-size: 0.9rem;
     text-transform: uppercase;
     text-decoration: line-through;
 }
 .tunics1 .text1 .low1 .product-detail{
-    font-family: "Agbalumo", system-ui;
+    font-family: "Abril Fatface", serif;
     color: navy;
     font-size: 0.9rem;
     text-transform: uppercase;
@@ -1799,7 +1800,7 @@ body{
     width: 8rem;
     border-radius: 5rem;
     margin-left: 2rem;
-    font-family: "Agbalumo", system-ui;
+    font-family: "Abril Fatface", serif;
     background-color: rgb(4, 34, 59);
     color: #f5f5f5;
     cursor: pointer;
@@ -1848,7 +1849,7 @@ body{
     margin-bottom: 0.5rem;
 }
 .tunics2 .text2 .upper .product-name{
-    font-family: "Agbalumo", system-ui;
+    font-family: "Abril Fatface", serif;
     color: #000;
     font-size: 1.2rem;
     text-transform: uppercase;
@@ -1866,7 +1867,7 @@ body{
     /* border: 2px solid black; */
 }
 .tunics2 .text2 .low1 .product-price{
-    font-family: "Agbalumo", system-ui;
+    font-family: "Abril Fatface", serif;
     color: navy;
     font-size: 0.9rem;
     text-transform: uppercase;
@@ -1875,14 +1876,14 @@ body{
     margin-bottom: 0;
 }
 .tunics2 .text2 .low1 .product-detail span{
-    font-family: "Agbalumo", system-ui;
+    font-family: "Abril Fatface", serif;
     color: red;
     font-size: 0.9rem;
     text-transform: uppercase;
     text-decoration: line-through;
 }
 .tunics2 .text2 .low1 .product-detail{
-    font-family: "Agbalumo", system-ui;
+    font-family: "Abril Fatface", serif;
     color: navy;
     font-size: 0.9rem;
     text-transform: uppercase;
@@ -1900,7 +1901,7 @@ body{
     width: 8rem;
     border-radius: 5rem;
     margin-left: 2rem;
-    font-family: "Agbalumo", system-ui;
+    font-family: "Abril Fatface", serif;
     background-color: rgb(4, 34, 59);
     color: #f5f5f5;
     cursor: pointer;
@@ -1949,7 +1950,7 @@ body{
     margin-bottom: 0.5rem;
 }
 .tunics3 .text3 .upper .product-name{
-    font-family: "Agbalumo", system-ui;
+    font-family: "Abril Fatface", serif;
     color: #000;
     font-size: 1.2rem;
     text-transform: uppercase;
@@ -1967,7 +1968,7 @@ body{
     /* border: 2px solid black; */
 }
 .tunics3 .text3 .low1 .product-price{
-    font-family: "Agbalumo", system-ui;
+    font-family: "Abril Fatface", serif;
     color: navy;
     font-size: 0.9rem;
     text-transform: uppercase;
@@ -1976,14 +1977,14 @@ body{
     margin-bottom: 0;
 }
 .tunics3 .text3 .low1 .product-detail span{
-    font-family: "Agbalumo", system-ui;
+    font-family: "Abril Fatface", serif;
     color: red;
     font-size: 0.9rem;
     text-transform: uppercase;
     text-decoration: line-through;
 }
 .tunics3 .text3 .low1 .product-detail{
-    font-family: "Agbalumo", system-ui;
+    font-family: "Abril Fatface", serif;
     color: navy;
     font-size: 0.9rem;
     text-transform: uppercase;
@@ -2001,7 +2002,7 @@ body{
     width: 8rem;
     border-radius: 5rem;
     margin-left: 2rem;
-    font-family: "Agbalumo", system-ui;
+    font-family: "Abril Fatface", serif;
     background-color: rgb(4, 34, 59);
     color: #f5f5f5;
     cursor: pointer;
@@ -2016,7 +2017,7 @@ body{
 
 /*! tunics */
 .category-ethnic{
-    height: 16%;
+    height: 13.5%;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -2036,7 +2037,7 @@ body{
     font-size: 5rem;
 
     color: white;
-    font-family: "Agbalumo", system-ui;
+    font-family: "Abril Fatface", serif;
     text-shadow: 2px 2px 3px #000;
     text-align: center;
     margin-top: auto;
@@ -2101,7 +2102,7 @@ body{
     margin-bottom: 0.5rem;
 }
 .ethnic1 .text1 .upper .product-name{
-    font-family: "Agbalumo", system-ui;
+    font-family: "Abril Fatface", serif;
     color: #000;
     font-size: 1.2rem;
     text-transform: uppercase;
@@ -2119,7 +2120,7 @@ body{
     /* border: 2px solid black; */
 }
 .ethnic1 .text1 .low1 .product-price{
-    font-family: "Agbalumo", system-ui;
+    font-family: "Abril Fatface", serif;
     color: navy;
     font-size: 0.9rem;
     text-transform: uppercase;
@@ -2128,14 +2129,14 @@ body{
     margin-bottom: 0;
 }
 .ethnic1 .text1 .low1 .product-detail span{
-    font-family: "Agbalumo", system-ui;
+    font-family: "Abril Fatface", serif;
     color: red;
     font-size: 0.9rem;
     text-transform: uppercase;
     text-decoration: line-through;
 }
 .ethnic1 .text1 .low1 .product-detail{
-    font-family: "Agbalumo", system-ui;
+    font-family: "Abril Fatface", serif;
     color: navy;
     font-size: 0.9rem;
     text-transform: uppercase;
@@ -2153,7 +2154,7 @@ body{
     width: 8rem;
     border-radius: 5rem;
     margin-left: 2rem;
-    font-family: "Agbalumo", system-ui;
+    font-family: "Abril Fatface", serif;
     background-color: rgb(4, 34, 59);
     color: #f5f5f5;
     cursor: pointer;
@@ -2202,7 +2203,7 @@ body{
     margin-bottom: 0.5rem;
 }
 .ethnic2 .text2 .upper .product-name{
-    font-family: "Agbalumo", system-ui;
+    font-family: "Abril Fatface", serif;
     color: #000;
     font-size: 1.2rem;
     text-transform: uppercase;
@@ -2220,7 +2221,7 @@ body{
     /* border: 2px solid black; */
 }
 .ethnic2 .text2 .low1 .product-price{
-    font-family: "Agbalumo", system-ui;
+    font-family: "Abril Fatface", serif;
     color: navy;
     font-size: 0.9rem;
     text-transform: uppercase;
@@ -2229,14 +2230,14 @@ body{
     margin-bottom: 0;
 }
 .ethnic2 .text2 .low1 .product-detail span{
-    font-family: "Agbalumo", system-ui;
+    font-family: "Abril Fatface", serif;
     color: red;
     font-size: 0.9rem;
     text-transform: uppercase;
     text-decoration: line-through;
 }
 .ethnic2 .text2 .low1 .product-detail{
-    font-family: "Agbalumo", system-ui;
+    font-family: "Abril Fatface", serif;
     color: navy;
     font-size: 0.9rem;
     text-transform: uppercase;
@@ -2254,7 +2255,7 @@ body{
     width: 8rem;
     border-radius: 5rem;
     margin-left: 2rem;
-    font-family: "Agbalumo", system-ui;
+    font-family: "Abril Fatface", serif;
     background-color: rgb(4, 34, 59);
     color: #f5f5f5;
     cursor: pointer;
@@ -2303,7 +2304,7 @@ body{
     margin-bottom: 0.5rem;
 }
 .ethnic3 .text3 .upper .product-name{
-    font-family: "Agbalumo", system-ui;
+    font-family: "Abril Fatface", serif;
     color: #000;
     font-size: 1.2rem;
     text-transform: uppercase;
@@ -2321,7 +2322,7 @@ body{
     /* border: 2px solid black; */
 }
 .ethnic3 .text3 .low1 .product-price{
-    font-family: "Agbalumo", system-ui;
+    font-family: "Abril Fatface", serif;
     color: navy;
     font-size: 0.9rem;
     text-transform: uppercase;
@@ -2330,14 +2331,14 @@ body{
     margin-bottom: 0;
 }
 .ethnic3 .text3 .low1 .product-detail span{
-    font-family: "Agbalumo", system-ui;
+    font-family: "Abril Fatface", serif;
     color: red;
     font-size: 0.9rem;
     text-transform: uppercase;
     text-decoration: line-through;
 }
 .ethnic3 .text3 .low1 .product-detail{
-    font-family: "Agbalumo", system-ui;
+    font-family: "Abril Fatface", serif;
     color: navy;
     font-size: 0.9rem;
     text-transform: uppercase;
@@ -2355,7 +2356,7 @@ body{
     width: 8rem;
     border-radius: 5rem;
     margin-left: 2rem;
-    font-family: "Agbalumo", system-ui;
+    font-family: "Abril Fatface", serif;
     background-color: rgb(4, 34, 59);
     color: #f5f5f5;
     cursor: pointer;
@@ -2366,4 +2367,127 @@ body{
     width: 100%;
     gap: 3rem;
     margin-left: 1rem;
+}
+
+
+footer{
+    height: 4.5%;
+    width: 100%;
+    /* border: 5px solid red; */
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(128, 168, 209);
+}
+.footer-up{
+    height: 90%;
+    width: 100%;
+    display: flex;
+}
+.sec1{
+    height: 100%;
+    width: 33%;
+    /* border: 3px solid black; */
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.sec1 .sec1-head{
+    font-size: 2rem;
+    /* font-family: 'Spectral'; */
+    font-family: "Abril Fatface", serif;
+    text-shadow: 2px 3px 3px gray;
+}
+.sec1 .sec1-p{
+    /* font-family: 'Spectral'; */
+    font-family: "Abril Fatface", serif;
+}
+.sec2{
+    height: 100%;
+    width: 33%;
+    /* border: 3px solid black; */
+    align-items: center;
+    align-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.sec2 .sec2-head{
+    padding-left: 20px;
+    font-size: 2rem;
+    /* font-family: 'Spectral'; */
+    font-family: "Abril Fatface", serif;
+    text-shadow: 2px 3px 3px gray;
+}
+.sec2 ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    /* font-family: 'Spectral'; */
+    font-family: "Abril Fatface", serif;
+}
+.sec3{
+    height: 100%;
+    width: 33%;
+    /* border: 3px solid black; */
+    align-items: center;
+    align-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.sec3 .sec3-head{
+    font-size: 2rem;
+    /* font-family: 'Spectral'; */
+    font-family: "Abril Fatface", serif;
+    text-shadow: 2px 3px 3px gray;
+}
+.sec3 .sec3-p{
+    /* font-family: 'Spectral'; */
+    font-family: "Abril Fatface", serif;
+}
+.sec3 input{
+    /* font-family: 'Spectral'; */
+    font-family: "Abril Fatface", serif;
+    margin-bottom: 10px;
+    height: 40px;
+    width: 300px;
+}
+.sec3 button{
+    /* font-family: 'Spectral'; */
+    font-family: "Abril Fatface", serif;
+    height: 40px;
+    width: 140px;
+}
+.footer-down{
+    height: 10%;
+    width: 100%;
+    display: flex;
+}
+.footer-down .s1{
+    height: 100%;
+    width: 20%;
+    /* border: 3px solid black; */
+    /* font-family: 'Spectral'; */
+    font-family: "Abril Fatface", serif;
+}
+.footer-down .s1 p{
+    text-align: center;
+}
+.footer-down .s2{
+    height: 100%;
+    width: 80%;
+    /* border: 3px solid red; */
+    align-items: center;
+    align-content: center;
+    padding-left: 100px;
+}
+.footer-down .s2 ul{
+    list-style: none;
+    display: flex;
+    gap: 9px;
+    margin-right: 50px;
+    /* font-family: 'Spectral'; */
+    font-family: "Abril Fatface", serif;
+    font-size: 0.8rem;
 }
