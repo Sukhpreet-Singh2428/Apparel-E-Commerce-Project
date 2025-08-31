@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
 body {
   margin: 0;
   font-family: "Poppins", sans-serif;
@@ -9,25 +10,29 @@ body {
   align-items: center;
   height: 100vh;
   position: relative;
-   background-image: url('https://images.pexels.com/photos/581339/pexels-photo-581339.jpeg');
+   background-image: url("https://sdmntprwestus.oaiusercontent.com/files/00000000-70ac-6230-b2c7-329ea8c2d785/raw?se=2025-08-31T14%3A07%3A05Z&sp=r&sv=2024-08-04&sr=b&scid=02000335-cd99-51f0-adc0-8040c2ad894d&skoid=ea0c7534-f237-4ccd-b7ea-766c4ed977ad&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-08-31T12%3A38%3A55Z&ske=2025-09-01T12%3A38%3A55Z&sks=b&skv=2024-08-04&sig=ScODm8euupkohYbTDD5w4%2BupDLpw2Ur49TbA1bxHCxg%3D");
   background-size: cover;         
   background-position: center;    
   background-repeat: no-repeat;
 }
 .main {
-  background-color: white;
+  backdrop-filter: blur(6px);
   padding: 2.5rem;
-  border-radius: 12px;
+  border-radius: 2rem;
   box-shadow: #000;
   width: 22rem;
   text-align: center;
+  box-shadow: 0 0 5px black;
 }
 .loginbox h2 {
   margin-bottom: 1rem;
-  color: black;
+  font-family: "Abril Fatface", serif;
+  color: #000;
 }
 .loginbox p {
-  font-size: 1rem;
+  font-size: 1.2rem;
+  font-weight: bolder;
+  font-family: "Abril Fatface", serif;
   color: gray;
   margin-bottom: 20px;
 }
@@ -45,6 +50,12 @@ form input {
   border-radius: 6px;
   font-size: 0.8rem;
   box-sizing: border-box;
+  font-family: "Abril Fatface", serif;
+  background-color: rgb(216, 205, 191);
+  font-weight: lighter;
+}
+input::placeholder{
+  color: #6b6b6b;
 }
 form button {
   box-sizing: border-box;
@@ -57,19 +68,23 @@ form button {
   font-size: 0.9rem;
   border: none;
   cursor: pointer;
+  font-family: "Abril Fatface", serif;
 }
 .social {
   margin-top: 1.5rem;
 }
 .social p {
-  font-size: 13px;
-  color: dimgrey;
+  font-size: 0.9rem;
+  color: gray;
+  font-family: "Abril Fatface", serif;
   margin-bottom: 10px;
 }
 .icons {
   display: flex;
   justify-content: center;
   gap: 3rem;
+
+  border-radius: 5rem;
 }
 .icons img {
   width: 2rem;
