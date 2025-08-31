@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: relative;
+   background-image: url('https://images.pexels.com/photos/581339/pexels-photo-581339.jpeg');
+  background-size: cover;         
+  background-position: center;    
+  background-repeat: no-repeat;
+}
+.main {
+  background-color: white;
+  padding: 2.5rem;
+  border-radius: 12px;
+  box-shadow: #000;
+  width: 22rem;
+  text-align: center;
+}
+.loginbox h2 {
+  margin-bottom: 1rem;
+  color: black;
+}
+.loginbox p {
+  font-size: 1rem;
+  color: gray;
+  margin-bottom: 20px;
+}
+form {
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+form input {
+  width: 100%;
+  padding: 0.6rem;
+  margin: 1rem 0;
+  display: block;
+  border: 1px solid darkgray;
+  border-radius: 6px;
+  font-size: 0.8rem;
+  box-sizing: border-box;
+}
+form button {
+  box-sizing: border-box;
+  width: 100%;
+  display: block;
+  padding: 0.6rem;
+  background-color: black;
+  color: white;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  border: none;
+  cursor: pointer;
+}
+.social {
+  margin-top: 1.5rem;
+}
+.social p {
+  font-size: 13px;
+  color: dimgrey;
+  margin-bottom: 10px;
+}
+.icons {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+}
+.icons img {
+  width: 2rem;
+  height: 2rem;
+  cursor: pointer;
+}
