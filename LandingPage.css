@@ -19,9 +19,9 @@ body{
 .Man{
     height: 100%;
     width: 50%;
-    background: url("https://i.pinimg.com/736x/61/4a/ef/614aef71993b4dff9bf38849a5442e20.jpg");
+    background: url("https://images.pexels.com/photos/12557666/pexels-photo-12557666.jpeg");
     background-repeat: no-repeat;
-    background-position: top;
+    background-position: center;
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -79,10 +79,10 @@ body{
 .Women{
     height: 100%;
     width: 50%;
-    background: url("https://i.pinimg.com/1200x/29/00/fd/2900fd49408d226005e3a07c23631bc5.jpg");
-    /* background: url("https://i.pinimg.com/1200x/55/1e/ea/551eea55283ca8d69a4d7ba52f8a8790.jpg"); */
+    /* background: url("https://i.pinimg.com/1200x/29/00/fd/2900fd49408d226005e3a07c23631bc5.jpg"); */
+    background: url("https://images.pexels.com/photos/28099405/pexels-photo-28099405.jpeg");
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: top;
     background-size: cover;
     display: flex;
     flex-direction: column;

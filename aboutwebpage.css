@@ -1,17 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 
 .main{
     height: 710vh;
-    width: 100%;
+    width: 100vw;
+    background-color: ghostwhite;
 }
 .heading{
     height: 10rem;
     width: 100%;
-    background-color: aliceblue;
+    /* background-color: aliceblue; */
     display: flex;
     text-align: center;
     justify-content: center;
@@ -19,22 +23,22 @@
     flex-direction: column;
 }
 .heading h1{
-    font-family: "Poppins", sans-serif;
+    font-family: "Abril Fatface", serif;
   font-weight: 600;
   font-style: normal;
   font-size: 1.5rem;
-  color: darkblue;
+  color: #000;
 }
 .col1{
     height: 40rem;
     width: 100%;
     display: flex;
-    background-color: aliceblue;
+    /* background-color: aliceblue; */
 }
 .imgx{
     height: 100%;
     width: 50%;
-    background-color: aliceblue;
+    /* background-color: aliceblue; */
       display: flex;
   align-items: center;
   justify-content: center;
@@ -49,22 +53,26 @@
 }
 .para{
     height: 100%;
-    width: 50%;
-    background-color: aliceblue;
+    width: 40%;
+    /* background-color: aliceblue; */
     display: flex;
     align-items: center;
+    /* border: 2px solid black; */
+    border-radius: 7%;
+    justify-content: center;
+    background-color: white;
 }
 .para p{
     max-width: 35rem;
-    font-family: "Poppins", sans-serif;
+    font-family: "Abril Fatface", serif;
   font-weight: 400;
   font-style: normal;
-  color: darkblue;
+  color: rgb(23, 42, 60);
 }
 .photo{
     height: 50rem;
     width: 100%;
-    background-color: aliceblue;
+    /* background-color: aliceblue; */
     display: flex;
   align-items: center;
   justify-content: center;
@@ -74,25 +82,32 @@
   max-height: 100%;
   background-repeat: no-repeat;
   background-position: top center;
-  object-fit: contain;
+  object-fit: cover;
   display: block;
 }
 .info{
-    height: 40rem;
-    width: 100%;
-    background-color: aliceblue;
+    height: 30rem;
+    width: 80%;
+    /* background-color: aliceblue; */
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
+    /* border: 2px solid black; */
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    border-radius: 5rem;
+    margin-bottom: 8rem;
+    margin-top: 2rem;
 }
 .info p{
     font-size: 1.2rem;
     max-width: 60rem;
-    font-family: "Poppins", sans-serif;
+   font-family: "Abril Fatface", serif;
   font-weight: 550;
   font-style: normal;
-  color: darkblue;
+  color: rgb(23, 42, 60);
 }
 .col2{
     height: 40rem;
@@ -102,7 +117,7 @@
 .img1{
     height: 100%;
     width: 50%;
-    background-color: aliceblue;
+    /* background-color: aliceblue; */
      display: flex;
   align-items: center;
   justify-content: center;
@@ -117,17 +132,21 @@
 }
 .para1{
     height: 100%;
-    width: 50%;
-    background-color: aliceblue;
+    width: 40%;
+    /* background-color: aliceblue; */
     display: flex;
     align-items: center;
+    /* border: 2px solid black; */
+    justify-content: center;
+    border-radius: 7%;
+    background-color: white;
 }
 .para1 p{
     max-width: 30rem;
-    font-family: "Poppins", sans-serif;
+    font-family: "Abril Fatface", serif;
   font-weight: 400;
   font-style: normal;
-  color: darkblue;
+  color: rgb(23, 42, 60);
 }
 .col3{
     height: 40rem;
@@ -136,23 +155,27 @@
 }
 .para2{
     height: 100%;
-    width: 50%;
-    background-color: aliceblue;
+    width: 40%;
+    /* background-color: aliceblue; */
     display: flex;
     align-items: center;
     justify-content: center;
+    /* border: 2px solid black; */
+    margin-left: 5rem;
+    border-radius: 7%;
+    background-color: white;
 }
 .para2 p{
     max-width: 30rem;
-    font-family: "Poppins", sans-serif;
+    font-family: "Abril Fatface", serif;
   font-weight: 400;
   font-style: normal;
-  color: darkblue;
+  color: rgb(23, 42, 60);
 }
 .img2{
     height: 100%;
-    width: 50%;
-    background-color: aliceblue;
+    width: 60%;
+    /* background-color: aliceblue; */
      display: flex;
   align-items: center;
   justify-content: center;
@@ -172,22 +195,26 @@
 }
 .para3{
     height: 100%;
-    width: 50%;
-    background-color: aliceblue;
+    width: 40%;
+    /* background-color: aliceblue; */
     display: flex;
     align-items: center;
+    /* border: 2px solid black; */
+    justify-content: center;
+    border-radius: 7%;
+    background-color: white;
 }
 .para3 p{
     max-width: 30rem;
-    font-family: "Poppins", sans-serif;
+    font-family: "Abril Fatface", serif;
   font-weight: 400;
   font-style: normal;
-  color: darkblue;
+  color: rgb(23, 42, 60);
 }
 .img3{
     height: 100%;
     width: 50%;
-    background-color: aliceblue;
+    /* background-color: aliceblue; */
      display: flex;
   align-items: center;
   justify-content: center;
@@ -203,36 +230,36 @@
 .space1{
     width: 100%;
     height: 5rem;
-    background-color:aliceblue ;
+    /* background-color:aliceblue ; */
 }
 .space2{
     width: 100%;
     height: 8rem;
-    background-color: aliceblue;
+    /* background-color: aliceblue; */
     align-items: center;
     justify-content: center;
     text-align: center;
 }
 .space2 h2{
-    font-family: "Poppins", sans-serif;
+    font-family: "Abril Fatface", serif;
     font-weight: 800;
   font-style: normal;
-  color: darkblue;
+  color: #000;
 }
 .space3{
     width: 100%;
     height: 5rem;
-    background-color: aliceblue;
+    /* background-color: aliceblue; */
 }
 .space4{
     width: 100%;
     height: 5rem;
-    background-color: aliceblue;
+    /* background-color: aliceblue; */
 }
 .footerimg{
   height: 48rem;
     width: 100%;
-    background-color: aliceblue;
+    /* background-color: aliceblue; */
     display: flex;
   align-items: center;
   justify-content: center;
@@ -248,5 +275,5 @@
 .space5{
   width: 100%;
   height: 5rem;
-  background-color: aliceblue;
+  /* background-color: aliceblue; */
 }

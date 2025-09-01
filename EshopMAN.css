@@ -10,7 +10,7 @@ html{
     /* font-family: "Playfair Display", serif; */
     font-family: "Audiowide", sans-serif;
     font-weight: bolder;
-    color: honeydew;
+    color: #000;
 }
 .two ul{
     list-style: none;
@@ -21,7 +21,7 @@ html{
 }
 .two ul a{
     text-decoration: none;
-    color: honeydew;
+    color: #000;
     font-family: "Audiowide", sans-serif;
     transition: text-decoration 0.3s ease-in-out;
 }
@@ -82,38 +82,45 @@ nav{
     height: 100%;
     width: 100%;
     /* border: 3px solid red; */
-    /* background: url("https://images.pexels.com/photos/26628057/pexels-photo-26628057.jpeg"); */
-    background-color: rgb(3, 3, 61);
-    background-position: top;
+    background: url("https://images.pexels.com/photos/8755018/pexels-photo-8755018.jpeg");
+    background-position: bottom;
     background-size: cover;
     background-repeat: no-repeat;
+    background-color: lightblue;
+    transition: background 0.5s ease-in-out;
 }
 .head:hover{
-    background: #000;
+    background: lightblue;
     box-shadow: 0 0 20px #000;
 }
+.head:hover .right ul a{
+    color: #000;
+}
+.head:hover .menu ul a{
+    color: #000;
+}
 header{
-    height: 0.8%;
+    height: 0.55%;
     width: 100%;
-    /* border: 3px solid black; */
+    /*  */
     display: flex;
 }
 body{
     margin: 0;
     overflow-x: hidden;
-    height: 1200vh;
+    height: 2000vh;
     width: 100vw;
 }
 main{
-    height: 50%;
+    height: 95.5%;
     width: 100%;
     /* border: 2px solid yellow; */
 }
 .slideshow-container{
-    height: 15%;
+    height: 5%;
     width: 100%;
     /* border: 2px solid red; */
-    background: url("https://images.pexels.com/photos/26628057/pexels-photo-26628057.jpeg");
+    background: url("https://images.pexels.com/photos/8755018/pexels-photo-8755018.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -149,7 +156,7 @@ main{
     /* backdrop-filter: blur(20px); */
 }
 .show1{
-    height: 90%;
+    height: 85%;
     width: 14%;
     /* border: 2px solid black; */
     flex-shrink: 0;
@@ -161,13 +168,14 @@ main{
     transition: background 1s ease-in-out; */
     border-radius: 10%;
     /* box-shadow: 0 0 20px rgb(248, 195, 203); */
+    /* opacity: 0.95; */
 }
 /* .show1:hover{
     transform: rotateY(180deg);
     background: url(/Logo\ loxi.png);
 } */
 .show2{
-    height: 90%;
+    height: 85%;
     width: 14%;
     /* border: 2px solid black; */
     flex-shrink: 0;
@@ -176,9 +184,10 @@ main{
     background-size: cover;
     background-position: center;
     border-radius: 10%;
+    /* opacity: 0.95; */
 }
 .show3{
-    height: 90%;
+    height: 85%;
     width: 14%;
     /* border: 2px solid black; */
     flex-shrink: 0;
@@ -187,9 +196,10 @@ main{
     background-size: cover;
     background-position: center;
     border-radius: 10%;
+    /* opacity: 0.95; */
 }
 .show4{
-    height: 90%;
+    height: 85%;
     width: 14%;
     /* border: 2px solid black; */
     flex-shrink: 0;
@@ -198,9 +208,10 @@ main{
     background-size: cover;
     background-position: center;
     border-radius: 10%;
+    /* opacity: 0.95; */
 }
 .show5{
-    height: 90%;
+    height: 85%;
     width: 14%;
     /* border: 2px solid black; */
     flex-shrink: 0;
@@ -209,9 +220,10 @@ main{
     background-size: cover;
     background-position: center;
     border-radius: 10%;
+    /* opacity: 0.95; */
 }
 .show6{
-    height: 90%;
+    height: 85%;
     width: 14%;
     /* border: 2px solid black; */
     flex-shrink: 0;
@@ -220,29 +232,30 @@ main{
     background-size: cover;
     background-position: center;
     border-radius: 10%;
+    /* opacity: 0.95; */
 }
 
 .category-tshirts{
-    height: 40%;
+    height: 13.5%;
     width: 100%;
-    border: 3px solid black;
+    
     display: flex;
     flex-direction: column;
 }
 .display-tshirts{
-    height: 30%;
+    height: 34%;
     width: 100%;
-    border: 2px solid red;
-    background: url("https://images.unsplash.com/photo-1565006933419-0f2690a855be?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    /* border: 2px solid red; */
+    background: url("https://images.pexels.com/photos/2221877/pexels-photo-2221877.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: top;
+    background-position: center;
     background-attachment: scroll;
 }
 .display-tshirts span{
     display: block;
     font-size: 5rem;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     color: white;
     font-family: "Audiowide", sans-serif;
     text-shadow: 2px 2px 3px #000;
@@ -252,9 +265,9 @@ main{
 }
 .showing-tshirts{
     margin-top: 0.5rem;
-    height: 70%;
+    height: 66%;
     width: 100%;
-    border: 2px solid navy;
+    /* border: 2px solid navy; */
     display: flex;
     flex-direction: column;
 }
@@ -276,6 +289,7 @@ main{
     /* background-color: #24243e; */
     /* background-color: rgb(249, 240, 240); */
     /* backdrop-filter: blur(45px); */
+    background: linear-gradient(to bottom, #ffffff, #f0f0f0, rgb(186, 201, 218));
     opacity: 0.9;
     border-radius: 2rem;
     box-shadow: 0 0 10px rgb(143, 136, 136);
@@ -377,6 +391,8 @@ main{
     /* background-color: #24243e; */
     /* background-color: rgb(249, 240, 240);
     backdrop-filter: blur(45px); */
+    /* background: linear-gradient(to bottom, #ffffff, #f0f0f0, rgb(205, 199, 199)); */
+    background: linear-gradient(to bottom, #ffffff, #f0f0f0, rgb(186, 201, 218));
     opacity: 0.9;
     border-radius: 2rem;
     box-shadow: 0 0 10px rgb(143, 136, 136);
@@ -478,6 +494,7 @@ main{
     /* background-color: #24243e; */
     /* background-color: rgb(249, 240, 240);
     backdrop-filter: blur(45px); */
+    background: linear-gradient(to bottom, #ffffff, #f0f0f0, rgb(186, 201, 218));
     opacity: 0.9;
     border-radius: 2rem;
     box-shadow: 0 0 10px rgb(143, 136, 136);
@@ -578,16 +595,16 @@ main{
 
 /*! Jeans */
 .category-jeans{
-    height: 40%;
+    height: 13.5%;
     width: 100%;
-    border: 3px solid black;
+    
     display: flex;
     flex-direction: column;
 }
 .display-jeans{
-    height: 30%;
+    height: 34%;
     width: 100%;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     background: url("https://images.pexels.com/photos/5710654/pexels-photo-5710654.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -597,7 +614,7 @@ main{
 .display-jeans span{
     display: block;
     font-size: 5rem;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     color: white;
     font-family: "Audiowide", sans-serif;
     text-shadow: 2px 2px 3px #000;
@@ -607,9 +624,9 @@ main{
 }
 .showing-jeans{
     margin-top: 0.5rem;
-    height: 70%;
+    height: 66%;
     width: 100%;
-    border: 2px solid navy;
+    /* border: 2px solid navy; */
     display: flex;
     flex-direction: column;
 }
@@ -631,6 +648,7 @@ main{
     /* background-color: #24243e; */
     /* background-color: rgb(249, 240, 240);
     backdrop-filter: blur(45px); */
+    background: linear-gradient(to bottom, #ffffff, #f0f0f0, rgb(186, 201, 218));
     opacity: 0.9;
     border-radius: 2rem;
     box-shadow: 0 0 10px rgb(143, 136, 136);
@@ -732,6 +750,7 @@ main{
     /* background-color: #24243e; */
     /* background-color: rgb(249, 240, 240);
     backdrop-filter: blur(45px); */
+    background: linear-gradient(to bottom, #ffffff, #f0f0f0, rgb(186, 201, 218));
     opacity: 0.9;
     border-radius: 2rem;
     box-shadow: 0 0 10px rgb(143, 136, 136);
@@ -833,6 +852,7 @@ main{
     /* background-color: #24243e; */
     /* background-color: rgb(249, 240, 240);
     backdrop-filter: blur(45px); */
+    background: linear-gradient(to bottom, #ffffff, #f0f0f0, rgb(186, 201, 218));
     opacity: 0.9;
     border-radius: 2rem;
     box-shadow: 0 0 10px rgb(143, 136, 136);
@@ -952,16 +972,16 @@ body{
 
 /*! shoes */
 .category-shoes{
-    height: 40%;
+    height: 13.5%;
     width: 100%;
-    border: 3px solid black;
+    
     display: flex;
     flex-direction: column;
 }
 .display-shoes{
-    height: 30%;
+    height: 34%;
     width: 100%;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     background: url("https://images.pexels.com/photos/9214286/pexels-photo-9214286.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -971,7 +991,7 @@ body{
 .display-shoes span{
     display: block;
     font-size: 5rem;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     color: white;
     font-family: "Audiowide", sans-serif;
     text-shadow: 2px 2px 3px #000;
@@ -981,9 +1001,9 @@ body{
 }
 .showing-shoes{
     margin-top: 0.5rem;
-    height: 70%;
+    height: 66%;
     width: 100%;
-    border: 2px solid navy;
+    /* border: 2px solid navy; */
     display: flex;
     flex-direction: column;
 }
@@ -1005,6 +1025,7 @@ body{
     /* background-color: #24243e; */
     /* background-color: rgb(249, 240, 240);
     backdrop-filter: blur(45px); */
+    background: linear-gradient(to bottom, #ffffff, #f0f0f0, rgb(186, 201, 218));
     opacity: 0.9;
     border-radius: 2rem;
     box-shadow: 0 0 10px rgb(143, 136, 136);
@@ -1106,6 +1127,7 @@ body{
     /* background-color: #24243e; */
     /* background-color: rgb(249, 240, 240);
     backdrop-filter: blur(45px); */
+    background: linear-gradient(to bottom, #ffffff, #f0f0f0, rgb(186, 201, 218));
     opacity: 0.9;
     border-radius: 2rem;
     box-shadow: 0 0 10px rgb(143, 136, 136);
@@ -1207,6 +1229,7 @@ body{
     /* background-color: #24243e; */
     /* background-color: rgb(249, 240, 240);
     backdrop-filter: blur(45px); */
+    background: linear-gradient(to bottom, #ffffff, #f0f0f0, rgb(186, 201, 218));
     opacity: 0.9;
     border-radius: 2rem;
     box-shadow: 0 0 10px rgb(143, 136, 136);
@@ -1307,17 +1330,17 @@ body{
 
 /*! Hoodies */
 .category-hoodies{
-    height: 40%;
+    height: 13.5%;
     width: 100%;
-    border: 3px solid black;
+    
     display: flex;
     flex-direction: column;
 }
 .display-hoodies{
-    height: 30%;
+    height: 34%;
     width: 100%;
-    border: 2px solid red;
-    background: url("https://i.pinimg.com/1200x/b4/1c/a7/b41ca76278396dd976494d057883bf29.jpg");
+    /* border: 2px solid red; */
+    background: url("https://i.ebayimg.com/images/g/f0cAAOSw2gFiaYbG/s-l1200.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -1326,7 +1349,7 @@ body{
 .display-hoodies span{
     display: block;
     font-size: 5rem;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     color: white;
     font-family: "Audiowide", sans-serif;
     text-shadow: 2px 2px 3px #000;
@@ -1336,9 +1359,9 @@ body{
 }
 .showing-hoodies{
     margin-top: 0.5rem;
-    height: 70%;
+    height: 66%;
     width: 100%;
-    border: 2px solid navy;
+    /* border: 2px solid navy; */
     display: flex;
     flex-direction: column;
 }
@@ -1360,6 +1383,7 @@ body{
     /* background-color: #24243e; */
     /* background-color: rgb(249, 240, 240);
     backdrop-filter: blur(45px); */
+    background: linear-gradient(to bottom, #ffffff, #f0f0f0, rgb(186, 201, 218));
     opacity: 0.9;
     border-radius: 2rem;
     box-shadow: 0 0 10px rgb(143, 136, 136);
@@ -1461,6 +1485,7 @@ body{
     /* background-color: #24243e; */
     /* background-color: rgb(249, 240, 240);
     backdrop-filter: blur(45px); */
+    background: linear-gradient(to bottom, #ffffff, #f0f0f0, rgb(186, 201, 218));
     opacity: 0.9;
     border-radius: 2rem;
     box-shadow: 0 0 10px rgb(143, 136, 136);
@@ -1562,6 +1587,7 @@ body{
     /* background-color: #24243e; */
     /* background-color: rgb(249, 240, 240);
     backdrop-filter: blur(45px); */
+    background: linear-gradient(to bottom, #ffffff, #f0f0f0, rgb(186, 201, 218));
     opacity: 0.9;
     border-radius: 2rem;
     box-shadow: 0 0 10px rgb(143, 136, 136);
@@ -1662,16 +1688,15 @@ body{
 
 /*! Polos */
 .category-polos{
-    height: 40%;
+    height: 13.5%;
     width: 100%;
-    border: 3px solid black;
     display: flex;
     flex-direction: column;
 }
 .display-polos{
-    height: 30%;
+    height: 34%;
     width: 100%;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     background: url("https://i.pinimg.com/1200x/be/24/14/be24140b171219d53ade5deaefe1c3a8.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -1681,7 +1706,7 @@ body{
 .display-polos span{
     display: block;
     font-size: 5rem;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     color: white;
     font-family: "Audiowide", sans-serif;
     text-shadow: 2px 2px 3px #000;
@@ -1691,9 +1716,9 @@ body{
 }
 .showing-polos{
     margin-top: 0.5rem;
-    height: 70%;
+    height: 66%;
     width: 100%;
-    border: 2px solid navy;
+    /* border: 2px solid navy; */
     display: flex;
     flex-direction: column;
 }
@@ -1715,6 +1740,7 @@ body{
     /* background-color: #24243e; */
     /* background-color: rgb(249, 240, 240);
     backdrop-filter: blur(45px); */
+    background: linear-gradient(to bottom, #ffffff, #f0f0f0, rgb(186, 201, 218));
     opacity: 0.9;
     border-radius: 2rem;
     box-shadow: 0 0 10px rgb(143, 136, 136);
@@ -1816,6 +1842,7 @@ body{
     /* background-color: #24243e; */
     /* background-color: rgb(249, 240, 240);
     backdrop-filter: blur(45px); */
+    background: linear-gradient(to bottom, #ffffff, #f0f0f0, rgb(186, 201, 218));
     opacity: 0.9;
     border-radius: 2rem;
     box-shadow: 0 0 10px rgb(143, 136, 136);
@@ -1917,6 +1944,7 @@ body{
     /* background-color: #24243e; */
     /* background-color: rgb(249, 240, 240);
     backdrop-filter: blur(45px); */
+    background: linear-gradient(to bottom, #ffffff, #f0f0f0, rgb(186, 201, 218));
     opacity: 0.9;
     border-radius: 2rem;
     box-shadow: 0 0 10px rgb(143, 136, 136);
@@ -2013,4 +2041,842 @@ body{
     width: 100%;
     gap: 3rem;
     margin-left: 1rem;
+}
+
+/*! Polos */
+.category-chinos{
+    height: 13.5%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.display-chinos{
+    height: 34%;
+    width: 100%;
+    /* border: 2px solid red; */
+    background: url("https://www.henbury.com/wp-content/uploads/2019/01/H650_STONE_25_01_DISTRIBUTOR_expiry2026-2048x1735.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: scroll;
+}
+.display-chinos span{
+    display: block;
+    font-size: 5rem;
+    /* border: 2px solid red; */
+    color: white;
+    font-family: "Audiowide", sans-serif;
+    text-shadow: 2px 2px 3px #000;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.showing-chinos{
+    margin-top: 0.5rem;
+    height: 66%;
+    width: 100%;
+    /* border: 2px solid navy; */
+    display: flex;
+    flex-direction: column;
+}
+.set1-chinos{
+    display: flex;
+    height: 50%;
+    width: 100%;
+    gap: 3rem;
+    margin-left: 1rem;
+}
+.chinos1{
+    margin-top: 1rem;
+    height: 90%;
+    width: 30%;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    /* background-color: rgba(255, 255, 255, 0.1); */
+    /* background-color: #24243e; */
+    /* background-color: rgb(249, 240, 240);
+    backdrop-filter: blur(45px); */
+    background: linear-gradient(to bottom, #ffffff, #f0f0f0, rgb(186, 201, 218));
+    opacity: 0.9;
+    border-radius: 2rem;
+    box-shadow: 0 0 10px rgb(143, 136, 136);
+}
+.chinos1 .pic1{
+    height: 80%;
+    width: 80%;
+    /* border: 2px solid red; */
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+.chinos1 .pic1 img{
+    height: 100%;
+    width: 100%;
+}
+.chinos1 .text1{
+    height: 20%;
+    width: 80%;
+    /* border: 2px solid navy; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction: column;
+}
+.chinos1 .text1 .upper{
+    height: 20%;
+    width: 100%;
+    /* border: 2px solid black; */
+    margin-bottom: 0.5rem;
+}
+.chinos1 .text1 .upper .product-name{
+    font-family: "Audiowide", sans-serif;
+    color: #000;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    /* border: 2px solid red; */
+}
+.chinos1 .text1 .lower{
+    height: 80%;
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+}
+.chinos1 .text1 .lower .low1{
+    height: 100%;
+    width: 50%;
+    /* border: 2px solid black; */
+}
+.chinos1 .text1 .low1 .product-price{
+    font-family: "Audiowide", sans-serif;
+    color: navy;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    /* border: 2px solid red; */
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.chinos1 .text1 .low1 .product-detail span{
+    font-family: "Audiowide", sans-serif;
+    color: red;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    text-decoration: line-through;
+}
+.chinos1 .text1 .low1 .product-detail{
+    font-family: "Audiowide", sans-serif;
+    color: navy;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    /* border: 2px solid red; */
+    margin-top: 0;
+    
+}
+.chinos1 .text1 .lower .low2{
+    height: 100%;
+    width: 50%;
+    /* border: 2px solid black; */
+}
+.chinos1 .text1 .low2 button{
+    height: 2rem;
+    width: 8rem;
+    border-radius: 5rem;
+    margin-left: 2rem;
+    font-family: "Audiowide", sans-serif;
+    background-color: rgb(4, 34, 59);
+    color: #f5f5f5;
+    cursor: pointer;
+}
+.chinos2{
+    margin-top: 1rem;
+    height: 90%;
+    width: 30%;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    /* background-color: rgba(255, 255, 255, 0.1); */
+    /* background-color: #24243e; */
+    /* background-color: rgb(249, 240, 240);
+    backdrop-filter: blur(45px); */
+    background: linear-gradient(to bottom, #ffffff, #f0f0f0, rgb(186, 201, 218));
+    opacity: 0.9;
+    border-radius: 2rem;
+    box-shadow: 0 0 10px rgb(143, 136, 136);
+}
+.chinos2 .pic2{
+    height: 80%;
+    width: 80%;
+    /* border: 2px solid red; */
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+.chinos2 .pic2 img{
+    height: 100%;
+    width: 100%;
+}
+.chinos2 .text2{
+    height: 20%;
+    width: 80%;
+    /* border: 2px solid navy; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction: column;
+}
+.chinos2 .text2 .upper{
+    height: 20%;
+    width: 100%;
+    /* border: 2px solid black; */
+    margin-bottom: 0.5rem;
+}
+.chinos2 .text2 .upper .product-name{
+    font-family: "Audiowide", sans-serif;
+    color: #000;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    /* border: 2px solid red; */
+}
+.chinos2 .text2 .lower{
+    height: 80%;
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+}
+.chinos2 .text2 .lower .low1{
+    height: 100%;
+    width: 50%;
+    /* border: 2px solid black; */
+}
+.chinos2 .text2 .low1 .product-price{
+    font-family: "Audiowide", sans-serif;
+    color: navy;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    /* border: 2px solid red; */
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.chinos2 .text2 .low1 .product-detail span{
+    font-family: "Audiowide", sans-serif;
+    color: red;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    text-decoration: line-through;
+}
+.chinos2 .text2 .low1 .product-detail{
+    font-family: "Audiowide", sans-serif;
+    color: navy;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    /* border: 2px solid red; */
+    margin-top: 0;
+    
+}
+.chinos2 .text2 .lower .low2{
+    height: 100%;
+    width: 50%;
+    /* border: 2px solid black; */
+}
+.chinos2 .text2 .low2 button{
+    height: 2rem;
+    width: 8rem;
+    border-radius: 5rem;
+    margin-left: 2rem;
+    font-family: "Audiowide", sans-serif;
+    background-color: rgb(4, 34, 59);
+    color: #f5f5f5;
+    cursor: pointer;
+}
+.chinos3{
+    margin-top: 1rem;
+    height: 90%;
+    width: 30%;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    /* background-color: rgba(255, 255, 255, 0.1); */
+    /* background-color: #24243e; */
+    /* background-color: rgb(249, 240, 240);
+    backdrop-filter: blur(45px); */
+    background: linear-gradient(to bottom, #ffffff, #f0f0f0, rgb(186, 201, 218));
+    opacity: 0.9;
+    border-radius: 2rem;
+    box-shadow: 0 0 10px rgb(143, 136, 136);
+}
+.chinos3 .pic3{
+    height: 80%;
+    width: 80%;
+    /* border: 2px solid red; */
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+.chinos3 .pic3 img{
+    height: 100%;
+    width: 100%;
+}
+.chinos3 .text3{
+    height: 20%;
+    width: 80%;
+    /* border: 2px solid navy; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction: column;
+}
+.chinos3 .text3 .upper{
+    height: 20%;
+    width: 100%;
+    /* border: 2px solid black; */
+    margin-bottom: 0.5rem;
+}
+.chinos3 .text3 .upper .product-name{
+    font-family: "Audiowide", sans-serif;
+    color: #000;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    /* border: 2px solid red; */
+}
+.chinos3 .text3 .lower{
+    height: 80%;
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+}
+.chinos3 .text3 .lower .low1{
+    height: 100%;
+    width: 50%;
+    /* border: 2px solid black; */
+}
+.chinos3 .text3 .low1 .product-price{
+    font-family: "Audiowide", sans-serif;
+    color: navy;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    /* border: 2px solid red; */
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.chinos3 .text3 .low1 .product-detail span{
+    font-family: "Audiowide", sans-serif;
+    color: red;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    text-decoration: line-through;
+}
+.chinos3 .text3 .low1 .product-detail{
+    font-family: "Audiowide", sans-serif;
+    color: navy;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    /* border: 2px solid red; */
+    margin-top: 0;
+    
+}
+.chinos3 .text3 .lower .low2{
+    height: 100%;
+    width: 50%;
+    /* border: 2px solid black; */
+}
+.chinos3 .text3 .low2 button{
+    height: 2rem;
+    width: 8rem;
+    border-radius: 5rem;
+    margin-left: 2rem;
+    font-family: "Audiowide", sans-serif;
+    background-color: rgb(4, 34, 59);
+    color: #f5f5f5;
+    cursor: pointer;
+}
+.set2-chinos{
+    display: flex;
+    height: 50%;
+    width: 100%;
+    gap: 3rem;
+    margin-left: 1rem;
+}
+
+/*! Polos */
+.category-sweaters{
+    height: 13.5%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.display-sweaters{
+    height: 34%;
+    width: 100%;
+    /* border: 2px solid red; */
+    background: url("https://kvetoo.com/cdn/shop/files/CG3_b9ba306b-a6fd-4d40-836b-2daed818b41b.jpg?v=1691218691");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+}
+.display-sweaters span{
+    display: block;
+    font-size: 5rem;
+    /* border: 2px solid red; */
+    color: white;
+    font-family: "Audiowide", sans-serif;
+    text-shadow: 2px 2px 3px #000;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.showing-sweaters{
+    margin-top: 0.5rem;
+    height: 66%;
+    width: 100%;
+    /* border: 2px solid navy; */
+    display: flex;
+    flex-direction: column;
+}
+.set1-sweaters{
+    display: flex;
+    height: 50%;
+    width: 100%;
+    gap: 3rem;
+    margin-left: 1rem;
+}
+.sweaters1{
+    margin-top: 1rem;
+    height: 90%;
+    width: 30%;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    /* background-color: rgba(255, 255, 255, 0.1); */
+    /* background-color: #24243e; */
+    /* background-color: rgb(249, 240, 240);
+    backdrop-filter: blur(45px); */
+    background: linear-gradient(to bottom, #ffffff, #f0f0f0, rgb(186, 201, 218));
+    opacity: 0.9;
+    border-radius: 2rem;
+    box-shadow: 0 0 10px rgb(143, 136, 136);
+}
+.sweaters1 .pic1{
+    height: 80%;
+    width: 80%;
+    /* border: 2px solid red; */
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+.sweaters1 .pic1 img{
+    height: 100%;
+    width: 100%;
+}
+.sweaters1 .text1{
+    height: 20%;
+    width: 80%;
+    /* border: 2px solid navy; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction: column;
+}
+.sweaters1 .text1 .upper{
+    height: 20%;
+    width: 100%;
+    /* border: 2px solid black; */
+    margin-bottom: 0.5rem;
+}
+.sweaters1 .text1 .upper .product-name{
+    font-family: "Audiowide", sans-serif;
+    color: #000;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    /* border: 2px solid red; */
+}
+.sweaters1 .text1 .lower{
+    height: 80%;
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+}
+.sweaters1 .text1 .lower .low1{
+    height: 100%;
+    width: 50%;
+    /* border: 2px solid black; */
+}
+.sweaters1 .text1 .low1 .product-price{
+    font-family: "Audiowide", sans-serif;
+    color: navy;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    /* border: 2px solid red; */
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.sweaters1 .text1 .low1 .product-detail span{
+    font-family: "Audiowide", sans-serif;
+    color: red;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    text-decoration: line-through;
+}
+.sweaters1 .text1 .low1 .product-detail{
+    font-family: "Audiowide", sans-serif;
+    color: navy;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    /* border: 2px solid red; */
+    margin-top: 0;
+    
+}
+.sweaters1 .text1 .lower .low2{
+    height: 100%;
+    width: 50%;
+    /* border: 2px solid black; */
+}
+.sweaters1 .text1 .low2 button{
+    height: 2rem;
+    width: 8rem;
+    border-radius: 5rem;
+    margin-left: 2rem;
+    font-family: "Audiowide", sans-serif;
+    background-color: rgb(4, 34, 59);
+    color: #f5f5f5;
+    cursor: pointer;
+}
+.sweaters2{
+    margin-top: 1rem;
+    height: 90%;
+    width: 30%;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    /* background-color: rgba(255, 255, 255, 0.1); */
+    /* background-color: #24243e; */
+    /* background-color: rgb(249, 240, 240);
+    backdrop-filter: blur(45px); */
+    background: linear-gradient(to bottom, #ffffff, #f0f0f0, rgb(186, 201, 218));
+    opacity: 0.9;
+    border-radius: 2rem;
+    box-shadow: 0 0 10px rgb(143, 136, 136);
+}
+.sweaters2 .pic2{
+    height: 80%;
+    width: 80%;
+    /* border: 2px solid red; */
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+.sweaters2 .pic2 img{
+    height: 100%;
+    width: 100%;
+}
+.sweaters2 .text2{
+    height: 20%;
+    width: 80%;
+    /* border: 2px solid navy; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction: column;
+}
+.sweaters2 .text2 .upper{
+    height: 20%;
+    width: 100%;
+    /* border: 2px solid black; */
+    margin-bottom: 0.5rem;
+}
+.sweaters2 .text2 .upper .product-name{
+    font-family: "Audiowide", sans-serif;
+    color: #000;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    /* border: 2px solid red; */
+}
+.sweaters2 .text2 .lower{
+    height: 80%;
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+}
+.sweaters2 .text2 .lower .low1{
+    height: 100%;
+    width: 50%;
+    /* border: 2px solid black; */
+}
+.sweaters2 .text2 .low1 .product-price{
+    font-family: "Audiowide", sans-serif;
+    color: navy;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    /* border: 2px solid red; */
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.sweaters2 .text2 .low1 .product-detail span{
+    font-family: "Audiowide", sans-serif;
+    color: red;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    text-decoration: line-through;
+}
+.sweaters2 .text2 .low1 .product-detail{
+    font-family: "Audiowide", sans-serif;
+    color: navy;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    /* border: 2px solid red; */
+    margin-top: 0;
+    
+}
+.sweaters2 .text2 .lower .low2{
+    height: 100%;
+    width: 50%;
+    /* border: 2px solid black; */
+}
+.sweaters2 .text2 .low2 button{
+    height: 2rem;
+    width: 8rem;
+    border-radius: 5rem;
+    margin-left: 2rem;
+    font-family: "Audiowide", sans-serif;
+    background-color: rgb(4, 34, 59);
+    color: #f5f5f5;
+    cursor: pointer;
+}
+.sweaters3{
+    margin-top: 1rem;
+    height: 90%;
+    width: 30%;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    /* background-color: rgba(255, 255, 255, 0.1); */
+    /* background-color: #24243e; */
+    /* background-color: rgb(249, 240, 240);
+    backdrop-filter: blur(45px); */
+    background: linear-gradient(to bottom, #ffffff, #f0f0f0, rgb(186, 201, 218));
+    opacity: 0.9;
+    border-radius: 2rem;
+    box-shadow: 0 0 10px rgb(143, 136, 136);
+}
+.sweaters3 .pic3{
+    height: 80%;
+    width: 80%;
+    /* border: 2px solid red; */
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+.sweaters3 .pic3 img{
+    height: 100%;
+    width: 100%;
+}
+.sweaters3 .text3{
+    height: 20%;
+    width: 80%;
+    /* border: 2px solid navy; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction: column;
+}
+.sweaters3 .text3 .upper{
+    height: 20%;
+    width: 100%;
+    /* border: 2px solid black; */
+    margin-bottom: 0.5rem;
+}
+.sweaters3 .text3 .upper .product-name{
+    font-family: "Audiowide", sans-serif;
+    color: #000;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    /* border: 2px solid red; */
+}
+.sweaters3 .text3 .lower{
+    height: 80%;
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+}
+.sweaters3 .text3 .lower .low1{
+    height: 100%;
+    width: 50%;
+    /* border: 2px solid black; */
+}
+.sweaters3 .text3 .low1 .product-price{
+    font-family: "Audiowide", sans-serif;
+    color: navy;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    /* border: 2px solid red; */
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.sweaters3 .text3 .low1 .product-detail span{
+    font-family: "Audiowide", sans-serif;
+    color: red;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    text-decoration: line-through;
+}
+.sweaters3 .text3 .low1 .product-detail{
+    font-family: "Audiowide", sans-serif;
+    color: navy;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    /* border: 2px solid red; */
+    margin-top: 0;
+    
+}
+.sweaters3 .text3 .lower .low2{
+    height: 100%;
+    width: 50%;
+    /* border: 2px solid black; */
+}
+.sweaters3 .text3 .low2 button{
+    height: 2rem;
+    width: 8rem;
+    border-radius: 5rem;
+    margin-left: 2rem;
+    font-family: "Audiowide", sans-serif;
+    background-color: rgb(4, 34, 59);
+    color: #f5f5f5;
+    cursor: pointer;
+}
+.set2-sweaters{
+    display: flex;
+    height: 50%;
+    width: 100%;
+    gap: 3rem;
+    margin-left: 1rem;
+}
+
+
+
+footer{
+    height: 4.5%;
+    width: 100%;
+    /* border: 5px solid red; */
+    display: flex;
+    flex-direction: column;
+    background-color: lightgray;
+}
+.footer-up{
+    height: 90%;
+    width: 100%;
+    display: flex;
+}
+.sec1{
+    height: 100%;
+    width: 33%;
+    /* border: 3px solid black; */
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.sec1 .sec1-head{
+    font-size: 2rem;
+    /* font-family: 'Spectral'; */
+    font-family: "Audiowide", sans-serif;
+    text-shadow: 2px 3px 3px gray;
+}
+.sec1 .sec1-p{
+    /* font-family: 'Spectral'; */
+    font-family: "Audiowide", sans-serif;
+}
+.sec2{
+    height: 100%;
+    width: 33%;
+    /* border: 3px solid black; */
+    align-items: center;
+    align-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.sec2 .sec2-head{
+    padding-left: 20px;
+    font-size: 2rem;
+    /* font-family: 'Spectral'; */
+    font-family: "Audiowide", sans-serif;
+    text-shadow: 2px 3px 3px gray;
+}
+.sec2 ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    /* font-family: 'Spectral'; */
+    font-family: "Audiowide", sans-serif;
+}
+.sec3{
+    height: 100%;
+    width: 33%;
+    /* border: 3px solid black; */
+    align-items: center;
+    align-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.sec3 .sec3-head{
+    font-size: 2rem;
+    /* font-family: 'Spectral'; */
+    font-family: "Audiowide", sans-serif;
+    text-shadow: 2px 3px 3px gray;
+}
+.sec3 .sec3-p{
+    /* font-family: 'Spectral'; */
+    font-family: "Audiowide", sans-serif;
+}
+.sec3 input{
+    /* font-family: 'Spectral'; */
+    font-family: "Audiowide", sans-serif;
+    margin-bottom: 10px;
+    height: 40px;
+    width: 300px;
+}
+.sec3 button{
+    /* font-family: 'Spectral'; */
+    font-family: "Audiowide", sans-serif;
+    height: 40px;
+    width: 140px;
+}
+.footer-down{
+    height: 10%;
+    width: 100%;
+    display: flex;
+}
+.footer-down .s1{
+    height: 100%;
+    width: 20%;
+    /* border: 3px solid black; */
+    /* font-family: 'Spectral'; */
+    font-family: "Audiowide", sans-serif;
+}
+.footer-down .s1 p{
+    text-align: center;
+}
+.footer-down .s2{
+    height: 100%;
+    width: 80%;
+    /* border: 3px solid red; */
+    align-items: center;
+    align-content: center;
+    padding-left: 100px;
+}
+.footer-down .s2 ul{
+    list-style: none;
+    display: flex;
+    gap: 9px;
+    margin-right: 50px;
+    /* font-family: 'Spectral'; */
+    font-family: "Audiowide", sans-serif;
+    font-size: 0.8rem;
 }
