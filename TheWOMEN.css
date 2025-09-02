@@ -213,6 +213,7 @@ main{
     font-family: "Abril Fatface", serif;
     margin-top: 270px;
     padding-left: 15px;
+    font-weight: normal;
 }
 .content a{
     text-decoration: none;
