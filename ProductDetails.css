@@ -110,6 +110,7 @@ header{
 body{
     height: 300vh;
     width: 100vw;
+    background-color: rgb(236, 236, 236);
 }
 
 main{
@@ -125,6 +126,7 @@ main{
     border: 2px solid navy;
     margin-left: auto;
     margin-right: auto;
+    background-color: white;
 }
 .pics{
     height: 50%;
