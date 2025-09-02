@@ -19,10 +19,9 @@ body {
   backdrop-filter: blur(6px);
   padding: 2.5rem;
   border-radius: 2rem;
-  box-shadow: #000;
   width: 22rem;
   text-align: center;
-  box-shadow: 0 0 5px black;
+  box-shadow: 0 0 24px rgba(0, 0, 0, 0.2);
 }
 .loginbox h2 {
   margin-bottom: 1rem;
@@ -78,6 +77,14 @@ form button {
   color: gray;
   font-family: "Abril Fatface", serif;
   margin-bottom: 10px;
+}
+.social p a{
+  text-decoration: none;
+  font-family: "Abril Fatface", serif;
+  color: blue;
+}
+.social p a:hover{
+  text-decoration: underline blue 1.5px;
 }
 .icons {
   display: flex;
