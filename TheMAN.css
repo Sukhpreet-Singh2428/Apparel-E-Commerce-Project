@@ -4,11 +4,12 @@ html{
     scroll-behavior: smooth;
 }
 
-.title{
+.title h1{
     font-size: 2rem;
     /* font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ; */
     /* font-family: "Playfair Display", serif; */
     /* font-family: 'Spectral', serif; */
+    display: inline-block;
     font-family: "Audiowide", sans-serif;
     font-weight: bolder;
     color: #000;
@@ -552,6 +553,11 @@ footer{
         /* border: 3px solid black; */
         display: flex;
         flex-direction: column;
+    }
+    .title h1{
+        display: inline-block;
+        margin-top: 0;
+        margin-bottom: 0;
     }
     .head{
         display: flex;

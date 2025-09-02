@@ -7,7 +7,7 @@ html{
 body{
     margin: 0;
     height: 100vh;
-    overflow-x: auto;
+    overflow-x: hidden;
     width: 100vw;
     background-color: lightgoldenrodyellow;
 }
@@ -62,11 +62,12 @@ body{
     text-align: center;
     font-family: 'Spectral';
 }
-.text p{
-    padding: 20px;
+.text h2{
+    display: inline-block;
+    /* padding: 20px; */
     position: sticky;
 }
-.text p a{
+.text h2 a{
     text-decoration: none;
     /* color: lightslategrey; */
     color: ghostwhite;
@@ -118,10 +119,11 @@ body{
     text-align: center;
     font-family: 'Spectral', serif;
 }
-.w-text p{
-    padding: 20px;
+.w-text h2{
+    /* padding: 20px; */
+    display: inline-block;
 }
-.w-text p a{
+.w-text h2 a{
     text-decoration: none;
     /* color: rgb(134, 80, 80); */
     color: ghostwhite;

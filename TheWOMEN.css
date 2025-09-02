@@ -1,12 +1,14 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Spectral:wght@700&display=swap'); */
 @import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
 
-.title{
+.title h1{
     font-size: 2rem;
     /* font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ; */
     /* font-family: "Playfair Display", serif; */
     /* font-family: 'Spectral', serif; */
+    display: inline-block;
     font-family: "Abril Fatface", serif;
+    font-weight: bolder;
     color: #000;
     text-shadow: 2px 2.5px 3px honeydew;
 }
@@ -524,6 +526,11 @@ footer{
         /* border: 3px solid black; */
         display: flex;
         flex-direction: column;
+    }
+    .title h1{
+        display: inline-block;
+        margin-top: 0;
+        margin-bottom: 0;
     }
     .head{
         display: flex;
