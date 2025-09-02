@@ -1065,6 +1065,22 @@ body{
     text-transform: uppercase;
     /* border: 2px solid red; */
 }
+.shoes1 .text1 .upper button{
+    height: 2rem;
+    width: 8rem;
+    border-radius: 5rem;
+    margin-left: 2rem;
+    font-family: "Audiowide", sans-serif;
+    background-color: rgb(4, 34, 59);
+    color: #f5f5f5;
+    cursor: pointer;
+    margin-left: 3rem;
+}
+.shoes1 .text1 .upper button a{
+    text-decoration: none;
+    color: #f5f5f5;
+    font-family: "Audiowide", sans-serif;
+}
 .shoes1 .text1 .lower{
     height: 80%;
     width: 100%;
@@ -1115,6 +1131,7 @@ body{
     background-color: rgb(4, 34, 59);
     color: #f5f5f5;
     cursor: pointer;
+    margin-top: 0.5rem;
 }
 .shoes2{
     margin-top: 1rem;
