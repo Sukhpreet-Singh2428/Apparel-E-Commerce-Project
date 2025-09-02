@@ -23,6 +23,7 @@ nav{
     justify-content: space-between;
     align-items: center;
     align-content: center;
+    background-color: ghostwhite;
 }
 .title{
     /* border: 2px solid red; */
@@ -64,11 +65,12 @@ main{
 .items{
     height: 85%;
     width: 100%;
-    border: 2px solid black;
+    /* border: 2px solid black; */
 }
+
 .item1{
     margin-top: 2rem;
-    height: 17%;
+    height: 16%;
     width: 95%;
     /* border: 2px solid red; */
     display: flex;
@@ -99,90 +101,469 @@ main{
     display: flex;
     flex-direction: column;
 }
-.price{
+.price1{
     height: 75%;
     width: 100%;
     /* border: 2px solid green; */
     display: flex;
     justify-content: space-between;
 }
-.price .about {
+.price1 .about1 {
     /* border: 2px solid red; */
     display: flex;
     margin-left: 2rem;
 }
-.price .about .name{
+.price1 .about1 .name1{
     align-content: center;
     align-items: center;
     /* border: 2px solid navy; */
+    width: 20%;
+    height: 100%;
 }
-.price .about .name p{
+.price1 .about1 .name1 p{
     color: #000;
     font-size: 2rem;
     text-align: center;
     font-family: "Changa One", sans-serif;
 }
-.price .about .description{
+.price1 .about1 .description1{
     /* border: 2px solid red; */
     align-items: center;
     align-content: center;
+    width: 80%;
+    height: 100%;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
 }
-.price .about .description p{
+.price1 .about1 .description1 p{
     color: gray;
     font-size: 1rem;
     
     font-family: "Changa One", sans-serif;
 }
-.price .cost{
+.price1 .cost1{
     font-size: 2rem;
     /* border: 2px solid black; */
     align-content: center;
     margin-right: 2rem;
 }
-.price .cost p{
+.price1 .cost1 p{
     color: #000;
     font-family: "Changa One", sans-serif;
 }
-.quantity{
+.quantity1{
     height: 25%;
     width: 100%;
     /* border: 2px solid orange; */
 }
-.quantity p{
+.quantity1 p{
     font-size: 2rem;
     margin-left: 5rem;
 }
-.quantity img{
+.quantity1 img{
     height: 1.5rem;
     cursor: pointer;
     margin-top: 0.3rem;
 }
 
-
-
 .item2{
     margin-top: 2rem;
-    height: 16%;
-    width: 100%;
-    border: 2px solid red;
+    height: 17%;
+    width: 95%;
+    /* border: 2px solid red; */
+    display: flex;
+    /* backdrop-filter: blur(6px); */
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 8rem;
+    margin-left: auto;
+    margin-right: auto;
 }
+.pic2{
+    height: 100%;
+    width: 20%;
+    /* border: 2px solid black; */
+}
+.pic2 img{
+    height: 90%;
+    width: 90%;
+    border-radius: 3rem;
+    position: relative;
+    left: 2rem;
+    top: 0.6rem;
+}
+.detail2{
+    height: 100%;
+    width: 80%;
+    /* border: 2px solid blue; */
+    display: flex;
+    flex-direction: column;
+}
+.price2{
+    height: 75%;
+    width: 100%;
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: space-between;
+}
+.price2 .about2 {
+    /* border: 2px solid red; */
+    display: flex;
+    margin-left: 2rem;
+    /* border: 3px solid red; */
+}
+.price2 .about2 .name2{
+    align-content: center;
+    align-items: center;
+    /* border: 2px solid navy; */
+    height: 100%;
+    width: 20%;
+}
+.price2 .about2 .name2 p{
+    color: #000;
+    font-size: 2rem;
+    text-align: center;
+    font-family: "Changa One", sans-serif;
+}
+.price2 .about2 .description2{
+    /* border: 2px solid red; */
+    align-items: center;
+    align-content: center;
+    height: 100%;
+    width: 80%;
+    /* border: 2px solid navy; */
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+.price2 .about2 .description2 p{
+    color: gray;
+    font-size: 1rem;
+    
+    font-family: "Changa One", sans-serif;
+}
+.price2 .cost2{
+    font-size: 2rem;
+    /* border: 2px solid black; */
+    align-content: center;
+    margin-right: 2rem;
+}
+.price2 .cost2 p{
+    color: #000;
+    font-family: "Changa One", sans-serif;
+}
+.quantity2{
+    height: 25%;
+    width: 100%;
+    /* border: 2px solid orange; */
+}
+.quantity2 p{
+    font-size: 2rem;
+    margin-left: 5rem;
+}
+.quantity2 img{
+    height: 1.5rem;
+    cursor: pointer;
+    margin-top: 0.3rem;
+}
+
 .item3{
     margin-top: 2rem;
-    height: 16%;
-    width: 100%;
-    border: 2px solid red;
+    height: 17%;
+    width: 95%;
+    /* border: 2px solid red; */
+    display: flex;
+    /* backdrop-filter: blur(6px); */
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 8rem;
+    margin-left: auto;
+    margin-right: auto;
 }
+.pic3{
+    height: 100%;
+    width: 20%;
+    /* border: 2px solid black; */
+}
+.pic3 img{
+    height: 90%;
+    width: 90%;
+    border-radius: 3rem;
+    position: relative;
+    left: 2rem;
+    top: 0.6rem;
+}
+.detail3{
+    height: 100%;
+    width: 80%;
+    /* border: 2px solid blue; */
+    display: flex;
+    flex-direction: column;
+}
+.price3{
+    height: 75%;
+    width: 100%;
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: space-between;
+}
+.price3 .about3 {
+    /* border: 2px solid red; */
+    display: flex;
+    margin-left: 2rem;
+    /* border: 3px solid red; */
+}
+.price3 .about3 .name3{
+    align-content: center;
+    align-items: center;
+    /* border: 2px solid navy; */
+    height: 100%;
+    width: 20%;
+}
+.price3 .about3 .name3 p{
+    color: #000;
+    font-size: 2rem;
+    text-align: center;
+    font-family: "Changa One", sans-serif;
+}
+.price3 .about3 .description3{
+    /* border: 2px solid red; */
+    align-items: center;
+    align-content: center;
+    height: 100%;
+    width: 80%;
+    /* border: 2px solid navy; */
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+.price3 .about3 .description3 p{
+    color: gray;
+    font-size: 1rem;
+    
+    font-family: "Changa One", sans-serif;
+}
+.price3 .cost3{
+    font-size: 2rem;
+    /* border: 2px solid black; */
+    align-content: center;
+    margin-right: 2rem;
+}
+.price3 .cost3 p{
+    color: #000;
+    font-family: "Changa One", sans-serif;
+}
+.quantity3{
+    height: 25%;
+    width: 100%;
+    /* border: 2px solid orange; */
+}
+.quantity3 p{
+    font-size: 2rem;
+    margin-left: 5rem;
+}
+.quantity3 img{
+    height: 1.5rem;
+    cursor: pointer;
+    margin-top: 0.3rem;
+}
+
 .item4{
     margin-top: 2rem;
-    height: 16%;
-    width: 100%;
-    border: 2px solid red;
+    height: 17%;
+    width: 95%;
+    /* border: 2px solid red; */
+    display: flex;
+    /* backdrop-filter: blur(6px); */
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 8rem;
+    margin-left: auto;
+    margin-right: auto;
 }
+.pic4{
+    height: 100%;
+    width: 20%;
+    /* border: 2px solid black; */
+}
+.pic4 img{
+    height: 90%;
+    width: 90%;
+    border-radius: 3rem;
+    position: relative;
+    left: 2rem;
+    top: 0.6rem;
+}
+.detail4{
+    height: 100%;
+    width: 80%;
+    /* border: 2px solid blue; */
+    display: flex;
+    flex-direction: column;
+}
+.price4{
+    height: 75%;
+    width: 100%;
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: space-between;
+}
+.price4 .about4 {
+    /* border: 2px solid red; */
+    display: flex;
+    margin-left: 2rem;
+    /* border: 3px solid red; */
+}
+.price4 .about4 .name4{
+    align-content: center;
+    align-items: center;
+    /* border: 2px solid navy; */
+    height: 100%;
+    width: 20%;
+}
+.price4 .about4 .name4 p{
+    color: #000;
+    font-size: 2rem;
+    text-align: center;
+    font-family: "Changa One", sans-serif;
+}
+.price4 .about4 .description4{
+    /* border: 2px solid red; */
+    align-items: center;
+    align-content: center;
+    height: 100%;
+    width: 80%;
+    /* border: 2px solid navy; */
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+.price4 .about4 .description4 p{
+    color: gray;
+    font-size: 1rem;
+    
+    font-family: "Changa One", sans-serif;
+}
+.price4 .cost4{
+    font-size: 2rem;
+    /* border: 2px solid black; */
+    align-content: center;
+    margin-right: 2rem;
+}
+.price4 .cost4 p{
+    color: #000;
+    font-family: "Changa One", sans-serif;
+}
+.quantity4{
+    height: 25%;
+    width: 100%;
+    /* border: 2px solid orange; */
+}
+.quantity4 p{
+    font-size: 2rem;
+    margin-left: 5rem;
+}
+.quantity4 img{
+    height: 1.5rem;
+    cursor: pointer;
+    margin-top: 0.3rem;
+}
+
 .item5{
     margin-top: 2rem;
-    height: 16%;
+    height: 17%;
+    width: 95%;
+    /* border: 2px solid red; */
+    display: flex;
+    /* backdrop-filter: blur(6px); */
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 8rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.pic5{
+    height: 100%;
+    width: 20%;
+    /* border: 2px solid black; */
+}
+.pic5 img{
+    height: 90%;
+    width: 90%;
+    border-radius: 3rem;
+    position: relative;
+    left: 2rem;
+    top: 0.6rem;
+}
+.detail5{
+    height: 100%;
+    width: 80%;
+    /* border: 2px solid blue; */
+    display: flex;
+    flex-direction: column;
+}
+.price5{
+    height: 75%;
     width: 100%;
-    border: 2px solid red;
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: space-between;
+}
+.price5 .about5 {
+    /* border: 2px solid red; */
+    display: flex;
+    margin-left: 2rem;
+    /* border: 3px solid red; */
+}
+.price5 .about5 .name5{
+    align-content: center;
+    align-items: center;
+    /* border: 2px solid navy; */
+    height: 100%;
+    width: 20%;
+}
+.price5 .about5 .name5 p{
+    color: #000;
+    font-size: 2rem;
+    text-align: center;
+    font-family: "Changa One", sans-serif;
+}
+.price5 .about5 .description5{
+    /* border: 2px solid red; */
+    align-items: center;
+    align-content: center;
+    height: 100%;
+    width: 80%;
+    /* border: 2px solid navy; */
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+.price5 .about5 .description5 p{
+    color: gray;
+    font-size: 1rem;
+    
+    font-family: "Changa One", sans-serif;
+}
+.price5 .cost5{
+    font-size: 2rem;
+    /* border: 2px solid black; */
+    align-content: center;
+    margin-right: 2rem;
+}
+.price5 .cost5 p{
+    color: #000;
+    font-family: "Changa One", sans-serif;
+}
+.quantity5{
+    height: 25%;
+    width: 100%;
+    /* border: 2px solid orange; */
+}
+.quantity5 p{
+    font-size: 2rem;
+    margin-left: 5rem;
+}
+.quantity5 img{
+    height: 1.5rem;
+    cursor: pointer;
+    margin-top: 0.3rem;
 }
 
 
