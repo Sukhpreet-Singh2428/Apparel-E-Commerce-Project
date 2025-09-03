@@ -497,7 +497,11 @@ main{
     width: 49%;
     /* border: 1px solid black; */
     border-radius: 1rem;
-    background-color: rgb(250, 248, 248);
+    /* background-color: rgb(250, 248, 248); */
+    background: url("https://png.pngtree.com/thumb_back/fh260/background/20210205/pngtree-simple-atmospheric-coupon-discount-promotion-background-image_543552.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 .upper .cupon1 .up{
     height: 85%;
@@ -513,9 +517,11 @@ main{
     border-radius: 1rem;
 }
 .upper .cupon1 .up .logo img{
-    width: 100%;
+    width: 96%;
     height: 60%;
     border-radius: 1rem;
+    margin-top: 2rem;
+    margin-left: 0.7rem;
 }
 .upper .cupon1 .up .About{
     height: 100%;
@@ -525,17 +531,20 @@ main{
 }
 .upper .cupon1 .up .About .t1{
     font-family: "Audiowide", sans-serif;
-    color: #000;
+    color: ghostwhite;
     font-size: 0.9rem;
-    text-align: center;
-    margin-top: 0.5rem;
+    /* text-align: center; */
+    /* margin-top: 0.5rem; */
+    margin-top: 0;
 }
 .upper .cupon1 .up .About .t2{
     font-family: "Audiowide", sans-serif;
     color: gray;
     font-size: 0.7rem;
     text-align: center;
-    margin-top: 0.5rem;
+    /* margin-top: 0.5rem; */
+    margin-top: 1rem;
+    padding-left: 0.5rem;
 }
 .upper .cupon1 .up .About .t3{
     font-family: "Audiowide", sans-serif;
@@ -557,9 +566,11 @@ main{
 }
 .upper .cupon1 .down .code p{
     font-family: "Audiowide", sans-serif;
-    color: gray;
+    /* color: gray; */
+    color: white;
     font-size: 0.8rem;
     padding-left: 1rem;
+    margin-top: 0.5rem;
 }
 .upper .cupon1 .down .copy{
     height: 100%;
@@ -568,10 +579,12 @@ main{
 }
 .upper .cupon1 .down .copy p{
     font-family: "Audiowide", sans-serif;
-    color: purple;
+    /* color: purple; */
+    color: lightyellow;
     font-size: 0.9rem;
     cursor: pointer;
     text-align: center;
+    margin-top: 0.5rem;
 }
 .upper .cupon2{
     height: 100%;
