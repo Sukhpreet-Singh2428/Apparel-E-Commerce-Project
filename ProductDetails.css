@@ -101,14 +101,14 @@ nav{
     color: #000;
 }
 header{
-    height: 2.4%;
+    height: 2.2%;
     width: 100%;
     /*  */
     display: flex;
 }
 
 body{
-    height: 450vh;
+    height: 455vh;
     width: 100vw;
     background-color: rgb(236, 236, 236);
     overflow-x: hidden;
@@ -116,19 +116,20 @@ body{
 
 main{
     margin-top: 1rem;
-    height: 82%;
+    height: 81%;
     width: 100%;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin-bottom: 1rem;
 }
 .display{
     height: 100%;
     width: 85%;
     display: flex;
-    border: 2px solid navy;
+    /* border: 2px solid navy; */
     margin-left: auto;
     margin-right: auto;
     background-color: white;
+    border-radius: 2rem;
 }
 .pics{
     height: 40%;
@@ -209,11 +210,11 @@ main{
 .about{
     height: 100%;
     width: 50%;
-    border: 3px solid red;
+    /* border: 3px solid red; */
 }
 .upper{
     height: fit-content;
-    border: 2px solid navy;
+    /* border: 2px solid navy; */
 }
 .upper .tags{
     color: blue;
@@ -545,6 +546,7 @@ main{
     text-align: center;
     /* margin-top: 0.5rem; */
     margin-top: 1rem;
+    margin-right: 0.3rem;
     padding-left: 0.5rem;
 }
 .upper .cupon1 .up .About .t3{
@@ -968,9 +970,55 @@ main{
     font-size: 0.8rem;
     text-align: center;
 }
+.upper .review-viewall{
+    font-family: "Audiowide", sans-serif;
+    font-size: 0.8rem;
+    text-align: right;
+    margin-right: 2rem;
+    margin-top: 0.5rem;
+    color: purple;
+    cursor: pointer;
+}
+.upper .review-others{
+    font-family: "Audiowide", sans-serif;
+    font-size: 0.8rem;
+    color: gray;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+.upper .review-others span{
+    color: black;
+    font-size: 1.2rem;
+    margin-left: 0.3rem;
+    margin-right: 0.3rem;
+}
+.upper .review-helpful{
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+.upper .review-helpful button{
+    height: 2rem;
+    font-family: "Audiowide", sans-serif;
+    font-size: 1rem;
+    border-style: none;
+    border-radius: 2rem;
+    background-color: rgb(219, 86, 219);
+    color: #000;
+    cursor: pointer;
+}
+.upper .review-helpful button img{
+    height: 1rem;
+}
+.upper .review-helpful span{
+    color: gray;
+    margin-left: 1rem;
+    font-family: "Audiowide", sans-serif;
+    font-size: 0.8rem;
+    font-style: italic;
+}
 
 footer{
-    height: 18%;
+    height: 19%;
     width: 100%;
     /* border: 5px solid red; */
     display: flex;
