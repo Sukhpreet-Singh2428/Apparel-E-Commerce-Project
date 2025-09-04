@@ -268,7 +268,7 @@ main{
     margin-bottom: 0.5rem;
 }
 .upper hr{
-    border: 2px solid gray;
+    border: 1px solid rgb(220, 220, 220);
     margin-top: 1rem;
 }
 .upper .other span{
@@ -681,4 +681,79 @@ main{
     cursor: pointer;
     text-align: center;
     margin-top: 0.5rem;
+}
+
+.upper .Product-information{
+    font-family: "Audiowide", sans-serif;
+    margin-left: 1rem;
+    margin-top: 1.2rem;
+    font-size: 1.3rem;
+}
+.upper .title{
+    font-family: "Audiowide", sans-serif;
+    font-size: 1.2rem;
+    font-weight: normal;
+    margin-top: 1rem;
+    margin-left: 1.2rem;
+}
+.upper .title img{
+    height: 1.4rem;
+}
+.upper .Product-details{
+    height: 30vh;
+    /* border: 2px solid black; */
+    margin-top: 1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    display: flex;
+}
+.upper .Product-details .left{
+    height: 100%;
+    width: 50%;
+    /* border: 1px solid red; */
+}
+.upper .Product-details .left .product-head{
+    font-family: "Audiowide", sans-serif;
+    font-size: 0.9rem;
+    color: gray;
+    margin-left: 1.2rem;
+}
+.upper .Product-details .left .used{
+    font-family: "Audiowide", sans-serif;
+    font-size: 0.95rem;
+    color: black;
+    margin-left: 1.2rem;
+    margin-bottom: 1rem;
+}
+.upper .Product-details .right{
+    height: 100%;
+    width: 50%;
+    /* border: 1px solid red; */
+}
+.upper .Product-details .right .product-head{
+    font-family: "Audiowide", sans-serif;
+    font-size: 0.9rem;
+    color: gray;
+    margin-left: 1.2rem;
+}
+.upper .Product-details .right .used{
+    font-family: "Audiowide", sans-serif;
+    font-size: 0.95rem;
+    color: black;
+    margin-left: 1.2rem;
+    margin-bottom: 1rem;
+}
+.upper .Product-details-head{
+    font-family: "Audiowide", sans-serif;
+    font-size: 0.9rem;
+    color: gray;
+    margin-left: 3rem;
+    margin-top: 0.5rem;
+}
+.upper .Product-details-used{
+    font-family: "Audiowide", sans-serif;
+    font-size: 0.95rem;
+    color: black;
+    margin-left: 3rem;
+    margin-bottom: 1rem;
 }
