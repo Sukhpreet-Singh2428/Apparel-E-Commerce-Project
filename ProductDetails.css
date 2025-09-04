@@ -101,14 +101,14 @@ nav{
     color: #000;
 }
 header{
-    height: 3%;
+    height: 2.4%;
     width: 100%;
     /*  */
     display: flex;
 }
 
 body{
-    height: 300vh;
+    height: 400vh;
     width: 100vw;
     background-color: rgb(236, 236, 236);
     overflow-x: hidden;
@@ -130,7 +130,7 @@ main{
     background-color: white;
 }
 .pics{
-    height: 50%;
+    height: 40%;
     width: 50%;
     display: flex;
     border: 2px solid black;
@@ -775,4 +775,48 @@ main{
     margin-left: 3rem;
     margin-right: 1rem;
     margin-top: 0.5rem;
+    font-style: italic;
+}
+.upper .Product-Vendor{
+    font-family: "Audiowide", sans-serif;
+    font-size: 1.2rem;
+    font-weight: normal;
+    margin-top: 1rem;
+    margin-left: 1.2rem;
+}
+.upper .Product-Vendor img{
+    height: 1.5rem;
+}
+.upper .Product-Vendor-first{
+    font-family: "Audiowide", sans-serif;
+    font-size: 0.9rem;
+    color: gray;
+    margin-left: 3rem;
+    margin-top: 0.5rem;
+}
+.upper .Product-Vendor-Second{
+    font-family: "Audiowide", sans-serif;
+    font-size: 0.95rem;
+    color: black;
+    margin-left: 3rem;
+    margin-bottom: 1rem;
+}
+.upper .Product-Policy{
+    font-family: "Audiowide", sans-serif;
+    font-size: 1.2rem;
+    font-weight: normal;
+    margin-top: 1rem;
+    margin-left: 1.2rem;
+}
+.upper .Product-Policy img{
+    height: 1.5rem;
+}
+.upper .Product-Policy-para{
+    font-family: "Audiowide", sans-serif;
+    font-size: 0.8rem;
+    color: gray;
+    margin-left: 3rem;
+    margin-right: 1rem;
+    margin-top: 0.5rem;
+    font-style: italic;
 }
