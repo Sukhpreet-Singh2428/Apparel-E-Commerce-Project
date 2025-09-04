@@ -729,6 +729,7 @@ main{
     height: 100%;
     width: 50%;
     /* border: 1px solid red; */
+    border-left: 1px solid lightgray;
 }
 .upper .Product-details .right .product-head{
     font-family: "Audiowide", sans-serif;
@@ -756,4 +757,22 @@ main{
     color: black;
     margin-left: 3rem;
     margin-bottom: 1rem;
+}
+.upper .Product-know{
+    font-family: "Audiowide", sans-serif;
+    font-size: 1.2rem;
+    font-weight: normal;
+    margin-top: 1rem;
+    margin-left: 1.2rem;
+}
+.upper .Product-know img{
+    height: 1.4rem;
+}
+.upper .Product-know-description{
+    font-family: "Audiowide", sans-serif;
+    font-size: 0.8rem;
+    color: gray;
+    margin-left: 3rem;
+    margin-right: 1rem;
+    margin-top: 0.5rem;
 }
