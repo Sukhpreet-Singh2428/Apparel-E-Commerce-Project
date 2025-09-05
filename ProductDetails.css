@@ -132,12 +132,22 @@ main{
     border-radius: 2rem;
 }
 .pics{
-    height: 40%;
+    height: 100%;
     width: 50%;
     display: flex;
-    border: 2px solid black;
+    flex-direction: column;
+    /* border: 2px solid black; */
     position: sticky;
     gap: 0.5rem;
+}
+.upper-half{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    /* border: 2px solid black; */
+    position: sticky;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
 }
 .all{
     height: 62%;
@@ -150,8 +160,9 @@ main{
 .pic1{
     margin-top: 0.4rem;
     height: 21%;
-    width: 100%;
+    width: 99%;
     cursor: pointer;
+    margin-left: 0.2rem;
     /* border: 2px solid green; */
     border-radius: 0.5rem;
 }
@@ -162,19 +173,22 @@ main{
 }
 .pic2{
     height: 21%;
-    width: 100%;
+    width: 99%;
     cursor: pointer;
+    margin-left: 0.2rem;
     /* border: 2px solid green; */
     border-radius: 0.5rem;
 }
 .pic2 img{
     height: 100%;
     width: 100%;
+    border-radius: 0.5rem;
 }
 .pic3{
     height: 21%;
-    width: 100%;
+    width: 99%;
     cursor: pointer;
+    margin-left: 0.2rem;
     /* border: 2px solid green; */
     border-radius: 0.5rem;
 }
@@ -185,8 +199,9 @@ main{
 }
 .pic4{
     height: 21%;
-    width: 100%;
+    width: 99%;
     cursor: pointer;
+    margin-left: 0.2rem;
     /* border: 2px solid green; */
     border-radius: 0.5rem;
 }
@@ -205,6 +220,30 @@ main{
     height: 100%;
     width: 100%;
     border-radius: 2rem;
+}
+.vid1{
+    height: 35%;
+    width: 100%;
+    border-radius: 2rem;
+}
+.vid1 video{
+    height: 100%;
+    width: 99%;
+    object-fit: cover;
+    border-radius: 2rem;
+    margin-left: 0.4rem;
+}
+.vid2{
+    height: 34%;
+    width: 100%;
+    border-radius: 2rem;
+}
+.vid2 video{
+    height: 100%;
+    width: 99%;
+    object-fit: cover;
+    border-radius: 2rem;
+    margin-left: 0.4rem;
 }
 
 .about{
@@ -1044,7 +1083,8 @@ footer{
     font-size: 2rem;
     /* font-family: 'Spectral'; */
     font-family: "Audiowide", sans-serif;
-    text-shadow: 2px 3px 3px gray;
+    margin-bottom: 0.5rem;
+    /* text-shadow: 2px 3px 3px gray; */
 }
 .sec1 .sec1-p{
     /* font-family: 'Spectral'; */
@@ -1064,7 +1104,8 @@ footer{
     font-size: 2rem;
     /* font-family: 'Spectral'; */
     font-family: "Audiowide", sans-serif;
-    text-shadow: 2px 3px 3px gray;
+    /* text-shadow: 2px 3px 3px gray; */
+    margin-bottom: 0.5rem;
 }
 .sec2 ul{
     list-style: none;
@@ -1087,7 +1128,8 @@ footer{
     font-size: 2rem;
     /* font-family: 'Spectral'; */
     font-family: "Audiowide", sans-serif;
-    text-shadow: 2px 3px 3px gray;
+    /* text-shadow: 2px 3px 3px gray; */
+    margin-bottom: 0.5rem;
 }
 .sec3 .sec3-p{
     /* font-family: 'Spectral'; */
