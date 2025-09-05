@@ -1906,6 +1906,11 @@ body{
     color: #f5f5f5;
     cursor: pointer;
 }
+.tunics2 .text2 .low2 button a{
+    color: #f5f5f5;
+    text-decoration: none;
+    font-family: "Abril Fatface", serif;
+}
 .tunics3{
     margin-top: 1rem;
     height: 90%;
