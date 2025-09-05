@@ -116,7 +116,7 @@ body{
 
 main{
     margin-top: 1rem;
-    height: 81%;
+    height: 81.5%;
     width: 100%;
     /* border: 2px solid red; */
     margin-bottom: 1rem;
@@ -297,8 +297,8 @@ main{
     margin-bottom: 0.5rem;
 }
 .upper .price span{
-    color: lightgreen;
-    font-size: 1.5rem;
+    color: green;
+    font-size: 1.2rem;
     margin-left: 1rem;
 }
 .upper .other{
@@ -841,6 +841,7 @@ main{
     font-size: 0.95rem;
     color: black;
     margin-left: 3rem;
+    margin-right: 1rem;
     margin-bottom: 1rem;
 }
 .upper .Product-Policy{
