@@ -1065,7 +1065,7 @@ body{
     text-transform: uppercase;
     /* border: 2px solid red; */
 }
-.shoes1 .text1 .upper button{
+/* .shoes1 .text1 .upper button{
     height: 2rem;
     width: 8rem;
     border-radius: 5rem;
@@ -1080,7 +1080,7 @@ body{
     text-decoration: none;
     color: #f5f5f5;
     font-family: "Audiowide", sans-serif;
-}
+} */
 .shoes1 .text1 .lower{
     height: 80%;
     width: 100%;
@@ -1094,8 +1094,8 @@ body{
 }
 .shoes1 .text1 .low1 .product-price{
     font-family: "Audiowide", sans-serif;
-    color: navy;
-    font-size: 0.9rem;
+    color: #000;
+    font-size: 1.2rem;
     text-transform: uppercase;
     /* border: 2px solid red; */
     margin-top: 0;
@@ -1110,7 +1110,7 @@ body{
 }
 .shoes1 .text1 .low1 .product-detail{
     font-family: "Audiowide", sans-serif;
-    color: navy;
+    color: green;
     font-size: 0.9rem;
     text-transform: uppercase;
     /* border: 2px solid red; */
@@ -1132,6 +1132,11 @@ body{
     color: #f5f5f5;
     cursor: pointer;
     margin-top: 0.5rem;
+}
+.shoes1 .text1 .low2 button a{
+    text-decoration: none;
+    color: #f5f5f5;
+    font-family: "Audiowide", sans-serif;
 }
 .shoes2{
     margin-top: 1rem;
