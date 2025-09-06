@@ -560,6 +560,7 @@ main{
     background-color: rgb(4, 34, 59);
     color: #f5f5f5;
     cursor: pointer;
+    margin-top: 0.5rem;
     transition: background-color 0.2s ease-in-out;
 }
 .item3 .text3 .low2 button a{
