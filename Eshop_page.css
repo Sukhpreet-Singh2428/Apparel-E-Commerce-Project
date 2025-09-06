@@ -110,7 +110,7 @@ main{
     height: 30%;
     width: 100%;
     /* border: 2px solid red; */
-    background: url("https://images.pexels.com/photos/6688574/pexels-photo-6688574.jpeg");
+    background: url("https://videos.openai.com/vg-assets/assets%2Ftask_01k30jjpg5ec69pxf59h31whc3%2F1755587496_img_0.webp?st=2025-08-19T05%3A46%3A25Z&se=2025-08-25T06%3A46%3A25Z&sks=b&skt=2025-08-19T05%3A46%3A25Z&ske=2025-08-25T06%3A46%3A25Z&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skoid=aa5ddad1-c91a-4f0a-9aca-e20682cc8969&skv=2019-02-02&sv=2018-11-09&sr=b&sp=r&spr=https%2Chttp&sig=3omAIbVWTLVd0Wr9M11Xqz5GbkDbpN9SGxQAH%2BOD3qA%3D&az=oaivgprodscus");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

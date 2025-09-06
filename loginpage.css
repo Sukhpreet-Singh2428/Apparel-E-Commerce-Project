@@ -1,0 +1,59 @@
+.mains{
+    width: 286px;
+    margin: auto;
+    height: 500px;
+    border: 2px solid black;
+    padding: 20px 20px 20px 20px;
+    border-radius: 0px;
+    background-color: black;
+    color: aliceblue;
+    margin-top: 180px;
+    opacity: 0.8;
+}
+
+.mains h1{
+    font-size: 35px;
+    font-family:"PT Sans", sans-serif;
+    margin-top: 0;
+}
+#email{
+    width: 200px;
+    height: 40px;
+    border: 2px solid #000000;
+    padding-left: 80px;
+    margin: 10px 0 0 0;
+    background-color: rgb(62, 63, 65);
+    border-radius: 5px;
+}
+#password{
+    width: 160px;
+    height: 40px;
+    border: 2px solid #000000;
+    padding-left: 120px;
+    margin: 15px 0 15px 0;
+    background-color: rgb(62, 63, 65) ;
+    border-radius: 5px;
+}
+.button{
+    width: 286px;
+    margin: auto;
+    height: 45px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background-color: rgb(212, 14, 14);
+    border-radius: 5px;
+    color: aliceblue;
+    border: 2px solid black;
+}
+.tick{
+    margin-right:90px;
+}
+.needhelp{
+    text-decoration: none;
+    color: aliceblue;
+}
+body{
+    background-image: url("https://thumbs.dreamstime.com/z/lots-sneakers-multi-colored-sports-shoes-sneakers-boots-lying-light-blue-background-328921110.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
