@@ -181,11 +181,15 @@ header{
     height: 100%;
     width: 21%;
     background-color: white;
+    /* border: 1px solid red; */
+    backdrop-filter: blur(10px);
+    border-radius: 2rem;
+    box-shadow: 0 0 10px rgb(143, 136, 136);
     transition: box-shadow 0.3s ease-in-out;
 }
-.item1:hover{
+/* .item1:hover{
     box-shadow:0 4px 8px  darkgrey;
-}
+} */
 .item2{
     height: 100%;
     width: 21%;
@@ -217,11 +221,16 @@ header{
     height: 75%;
     width: 100%;
     background-color: white;
+    border-radius: 2rem;
+}
+.photo img{
+    border-radius: 2rem;
 }
 .desc{
     height: 25%;
     width: 100%;
     background-color: white;
+    border-radius: 2rem;
 }
 .row2{
     margin-top: 2rem;
