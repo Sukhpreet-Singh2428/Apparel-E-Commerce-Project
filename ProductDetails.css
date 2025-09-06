@@ -1,0 +1,1183 @@
+@import url("https://fonts.googleapis.com/css?family=Audiowide");
+html{
+    scroll-behavior: smooth;
+}
+* {
+    margin: 0;
+}
+.title{
+    font-size: 2rem;
+    /* font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ; */
+    /* font-family: "Playfair Display", serif; */
+    font-family: "Audiowide", sans-serif;
+    font-weight: bolder;
+    color: #000;
+}
+.two ul{
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
+}
+.two ul a{
+    text-decoration: none;
+    color: #000;
+    font-family: "Audiowide", sans-serif;
+    transition: text-decoration 0.3s ease-in-out;
+}
+.two ul a:hover{
+    text-decoration: overline rgb(101, 160, 101);
+}
+.menu ul{
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    margin: 0;
+    padding-left: 1.6rem;
+}
+.menu ul a{
+    text-decoration: none;
+    color: #000;
+    font-family: "Audiowide", sans-serif;
+    transition: text-decoration 0.37s ease-in-out;
+}
+.menu ul a::before{
+    content: "★ ";
+}
+.menu ul a:hover{
+    text-decoration: overline rgb(101, 160, 101); 
+}
+.right ul{
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    margin: 0;
+    padding-left: 130px;
+    color: #000;
+    font-family: "Audiowide", sans-serif;
+}
+.right ul a{
+    text-decoration: none;
+    color: #000;
+    font-family: "Audiowide", sans-serif;
+    transition: text-decoration 0.3s ease-in-out;
+}
+.right ul a:hover{
+    text-decoration: overline rgb(101, 160, 101);
+}
+nav{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 150px;
+    position: sticky;
+}
+.head{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    gap: 50px;
+    padding-left: 20px;
+    /* background-color: #000; */
+    height: 100%;
+    width: 100%;
+    /* border: 3px solid red; */
+    /* background: url("https://images.pexels.com/photos/8755018/pexels-photo-8755018.jpeg");
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat; */
+    background-color: rgb(167, 178, 251);
+    transition: background 0.5s ease-in-out;
+}
+.head:hover{
+    background: lightblue;
+    box-shadow: 0 0 20px #000;
+}
+.head:hover .right ul a{
+    color: #000;
+}
+.head:hover .menu ul a{
+    color: #000;
+}
+header{
+    height: 2.2%;
+    width: 100%;
+    /*  */
+    display: flex;
+}
+
+body{
+    height: 455vh;
+    width: 100vw;
+    background-color: rgb(236, 236, 236);
+    overflow-x: hidden;
+}
+
+main{
+    margin-top: 1rem;
+    height: 81.5%;
+    width: 100%;
+    /* border: 2px solid red; */
+    margin-bottom: 1rem;
+}
+.display{
+    height: 100%;
+    width: 85%;
+    display: flex;
+    /* border: 2px solid navy; */
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    border-radius: 2rem;
+}
+.pics{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid black; */
+    position: sticky;
+    gap: 0.5rem;
+}
+.upper-half{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    /* border: 2px solid black; */
+    position: sticky;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+}
+.all{
+    height: 62%;
+    width: 15%;
+    /* border: 2px solid orange; */
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.pic1{
+    margin-top: 0.4rem;
+    height: 21%;
+    width: 99%;
+    cursor: pointer;
+    margin-left: 0.2rem;
+    /* border: 2px solid green; */
+    border-radius: 0.5rem;
+}
+.pic1 img{
+    height: 100%;
+    width: 100%;
+    border-radius: 0.5rem;
+}
+.pic2{
+    height: 21%;
+    width: 99%;
+    cursor: pointer;
+    margin-left: 0.2rem;
+    /* border: 2px solid green; */
+    border-radius: 0.5rem;
+}
+.pic2 img{
+    height: 100%;
+    width: 100%;
+    border-radius: 0.5rem;
+}
+.pic3{
+    height: 21%;
+    width: 99%;
+    cursor: pointer;
+    margin-left: 0.2rem;
+    /* border: 2px solid green; */
+    border-radius: 0.5rem;
+}
+.pic3 img{
+    height: 100%;
+    width: 100%;
+    border-radius: 0.5rem;
+}
+.pic4{
+    height: 21%;
+    width: 99%;
+    cursor: pointer;
+    margin-left: 0.2rem;
+    /* border: 2px solid green; */
+    border-radius: 0.5rem;
+}
+.pic4 img{
+    height: 100%;
+    width: 100%;
+    border-radius: 0.5rem;
+}
+.showcase{
+    height: 100%;
+    width: 84.5%;
+    /* border: 3px solid red; */
+    border-radius: 2rem;
+}
+.showcase img{
+    height: 100%;
+    width: 100%;
+    border-radius: 2rem;
+}
+.vid1{
+    height: 35%;
+    width: 100%;
+    border-radius: 2rem;
+}
+.vid1 video{
+    height: 100%;
+    width: 99%;
+    object-fit: cover;
+    border-radius: 2rem;
+    margin-left: 0.4rem;
+}
+.vid2{
+    height: 34%;
+    width: 100%;
+    border-radius: 2rem;
+}
+.vid2 video{
+    height: 100%;
+    width: 99%;
+    object-fit: cover;
+    border-radius: 2rem;
+    margin-left: 0.4rem;
+}
+
+.about{
+    height: 100%;
+    width: 50%;
+    /* border: 3px solid red; */
+}
+.upper{
+    height: fit-content;
+    /* border: 2px solid navy; */
+}
+.upper .tags{
+    color: blue;
+    margin-left: 1rem;
+    font-size: 0.8rem;
+    font-family: "Audiowide", sans-serif;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.upper .name{
+    color: #000;
+    margin-left: 1rem;
+    font-size: 1.5rem;
+    font-family: "Audiowide", sans-serif;
+    margin-bottom: 0.5rem;
+}
+.upper .info{
+    color: gray;
+    font-family: "Audiowide", sans-serif;
+    font-size: 1rem;
+    margin-left: 1rem;
+    margin-bottom: 0.5rem;
+}
+.upper .rating{
+    color: black;
+    font-size: 1rem;
+    font-family: "Audiowide", sans-serif;
+    margin-left: 1rem;
+    margin-bottom: 0.5rem;
+}
+.upper .rating span{
+    border: 2px solid black;
+    color: red;
+    margin-right: 0.5rem;
+}
+.upper .price{
+    color: #000;
+    font-size: 2rem;
+    font-family: "Audiowide", sans-serif;
+    margin-left: 1rem;
+    margin-bottom: 0.5rem;
+}
+.upper .price span{
+    color: green;
+    font-size: 1.2rem;
+    margin-left: 1rem;
+}
+.upper .other{
+    color: gray;
+    font-size: 1rem;
+    font-family: "Audiowide", sans-serif;
+    margin-left: 1rem;
+    margin-bottom: 0.5rem;
+}
+.upper hr{
+    border: 1px solid rgb(220, 220, 220);
+    margin-top: 1rem;
+}
+.upper .other span{
+    color: black;
+    text-decoration: line-through;
+}
+.upper .select{
+    font-size: 1.4rem;
+    font-family: "Audiowide", sans-serif;
+    font-weight: normal;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+.upper .select span{
+    color: purple;
+    font-size: 0.9rem;
+    position: relative;
+    left: 20rem;
+    cursor: pointer;
+}
+.upper .sizes{
+    margin-top: 1.2rem;
+    margin-left: 1rem;
+}
+.upper .sizes span{
+    font-family: "Audiowide", sans-serif;
+    font-size: 1rem;
+    border: 2px solid gray;
+    border-radius: 1rem;
+    padding: 0.2rem;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+    margin-right: 1rem;
+    transition: background-color 0.3s ease-in-out;
+}
+.upper .sizes span:hover{
+    cursor: pointer;
+    background-color: lightgray;
+}
+.upper .buttons{
+    margin-top: 2rem;
+    margin-left: 1rem;
+    margin-bottom: 2rem;
+}
+.upper .buttons .cart{
+    font-family: "Audiowide", sans-serif;
+    font-size: 1rem;
+    height: 3rem;
+    width: 15rem;
+    margin-right: 2rem;
+    background-color: lightgray;
+    border-style: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+.upper .buttons .cart img{
+    height: 1.2rem;
+}
+.upper .buttons .buy{
+    font-family: "Audiowide", sans-serif;
+    font-size: 1rem;
+    color: #fff;
+    height: 3rem;
+    width: 18rem;
+    margin-right: 2rem;
+    background-color: #000;
+    border-style: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+.upper .location{
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+    font-family: "Audiowide", sans-serif;
+    font-size: 1.5rem;
+}
+.upper .location-text1{
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+    font-family: "Audiowide", sans-serif;
+    font-size: 0.8rem;
+    color: gray;
+}
+.upper .location-text2{
+    margin-left: 1rem;
+    font-family: "Audiowide", sans-serif;
+    font-size: 0.8rem;
+    color: gray;
+}
+.upper .pincode{
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+.upper .pincode input{
+    height: 2.5rem;
+    width: 18rem;
+    background-color: rgb(249, 247, 247);
+    border-style: none;
+    padding: 0.3rem;
+    font-family: "Audiowide", sans-serif;
+}
+.upper .pincode input::placeholder{
+    font-family: "Audiowide", sans-serif;
+    color: gray;
+    padding: 0.3rem;
+}
+.upper .pincode span{
+    font-family: "Audiowide", sans-serif;
+    font-size: 1rem;
+    color: purple;
+    margin-left: 1rem;
+    cursor: pointer;
+}
+.upper .location-rules{
+    margin-left: 1rem;
+    margin-top: 1.3rem;
+    height: 12vh;
+    width: 50%;
+    /* border: 2px solid black; */
+    display: flex;
+}
+.upper .location-rules .rule1{
+    height: 100%;
+    width: 33.33%;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+}
+.upper .location-rules .rule1 .icon{
+    height: 50%;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+.upper .location-rules .rule1 .icon img{
+    height: 100%;
+    width: 60%;
+    margin-left: 1.2rem;
+}
+.upper .location-rules .rule1 .text p{
+    font-family: "Audiowide", sans-serif;
+    font-size: 0.8rem;
+    color: #000;
+    text-align: center;
+}
+.upper .location-rules .rule1 .text span{
+    font-family: "Audiowide", sans-serif;
+    font-size: 0.8rem;
+    color: purple;
+    cursor: pointer;
+}
+.upper .location-rules .rule2{
+    height: 100%;
+    width: 33.33%;
+    /* border: 1px solid red; */
+}
+.upper .location-rules .rule2 .icon{
+    height: 50%;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+.upper .location-rules .rule2 .icon img{
+    height: 100%;
+    width: 60%;
+    margin-left: 1.2rem;
+}
+.upper .location-rules .rule2 .text p{
+    font-family: "Audiowide", sans-serif;
+    font-size: 0.8rem;
+    color: #000;
+    text-align: center;
+}
+.upper .location-rules .rule2 .text span{
+    font-family: "Audiowide", sans-serif;
+    font-size: 0.8rem;
+    color: purple;
+    cursor: pointer;
+}
+.upper .location-rules .rule3{
+    height: 100%;
+    width: 33.33%;
+    /* border: 1px solid red; */
+}
+.upper .location-rules .rule3 .icon{
+    height: 50%;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+.upper .location-rules .rule3 .icon img{
+    height: 100%;
+    width: 60%;
+    margin-left: 1.2rem;
+}
+.upper .location-rules .rule3 .text p{
+    font-family: "Audiowide", sans-serif;
+    font-size: 0.8rem;
+    color: #000;
+    text-align: center;
+}
+.upper .location-rules .rule3 .text span{
+    font-family: "Audiowide", sans-serif;
+    font-size: 0.8rem;
+    color: purple;
+    cursor: pointer;
+}
+.upper .cupons{
+    margin-top: 1.4rem;
+    margin-left: 1rem;
+    font-family: "Audiowide", sans-serif;
+    font-size: 1.3rem;
+}
+.upper .cupons span{
+    color: gray;
+    font-size: 1rem;
+}
+.upper .cupons-box{
+    margin-top: 1rem;
+    margin-left: 1rem;
+    height: 25vh;
+    width: 90%;
+    /* border: 1px solid red; */
+    display: flex;
+    gap: 0.6rem;
+}
+.upper .cupon1{
+    height: 100%;
+    width: 49%;
+    /* border: 1px solid black; */
+    border-radius: 1rem;
+    /* background-color: rgb(250, 248, 248); */
+    background: url("https://png.pngtree.com/thumb_back/fh260/background/20210205/pngtree-simple-atmospheric-coupon-discount-promotion-background-image_543552.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.upper .cupon1 .up{
+    height: 85%;
+    width: 100%;
+    /* border: 1px solid navy; */
+    display: flex;
+    border-radius: 1rem;
+}
+.upper .cupon1 .up .logo{
+    height: 100%;
+    width: 30%;
+    /* border: 3px solid green; */
+    border-radius: 1rem;
+}
+.upper .cupon1 .up .logo img{
+    width: 96%;
+    height: 60%;
+    border-radius: 1rem;
+    margin-top: 2rem;
+    margin-left: 0.7rem;
+}
+.upper .cupon1 .up .About{
+    height: 100%;
+    width: 70%;
+    /* border: 3px solid yellow; */
+    border-radius: 1rem;
+}
+.upper .cupon1 .up .About .t1{
+    font-family: "Audiowide", sans-serif;
+    color: ghostwhite;
+    font-size: 0.9rem;
+    /* text-align: center; */
+    /* margin-top: 0.5rem; */
+    margin-top: 0;
+}
+.upper .cupon1 .up .About .t2{
+    font-family: "Audiowide", sans-serif;
+    color: gray;
+    font-size: 0.7rem;
+    text-align: center;
+    /* margin-top: 0.5rem; */
+    margin-top: 1rem;
+    margin-right: 0.3rem;
+    padding-left: 0.5rem;
+}
+.upper .cupon1 .up .About .t3{
+    font-family: "Audiowide", sans-serif;
+    color: black;
+    font-size: 0.8rem;
+    text-align: center;
+    margin-top: 1rem;
+}
+.upper .cupon1 .down{
+    height: 15%;
+    width: 100%;
+    /* border: 1px solid purple; */
+    display: flex;
+}
+.upper .cupon1 .down .code{
+    height: 100%;
+    width: 65%;
+    /* border: 1px solid black; */
+}
+.upper .cupon1 .down .code p{
+    font-family: "Audiowide", sans-serif;
+    /* color: gray; */
+    color: white;
+    font-size: 0.8rem;
+    padding-left: 1rem;
+    margin-top: 0.5rem;
+}
+.upper .cupon1 .down .copy{
+    height: 100%;
+    width: 35%;
+    /* border: 1px solid black; */
+}
+.upper .cupon1 .down .copy p{
+    font-family: "Audiowide", sans-serif;
+    /* color: purple; */
+    color: lightyellow;
+    font-size: 0.9rem;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 0.5rem;
+}
+
+.upper .cupon2{
+    height: 100%;
+    width: 49%;
+    /* border: 1px solid black; */
+    border-radius: 1rem;
+    /* background-color: rgb(250, 248, 248); */
+    background: url("https://png.pngtree.com/thumb_back/fh260/background/20210205/pngtree-simple-atmospheric-coupon-discount-promotion-background-image_543552.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.upper .cupon2 .up{
+    height: 85%;
+    width: 100%;
+    /* border: 1px solid navy; */
+    display: flex;
+    border-radius: 1rem;
+}
+.upper .cupon2 .up .logo{
+    height: 100%;
+    width: 30%;
+    /* border: 3px solid green; */
+    border-radius: 1rem;
+}
+.upper .cupon2 .up .logo img{
+    width: 96%;
+    height: 60%;
+    border-radius: 1rem;
+    margin-top: 2rem;
+    margin-left: 0.7rem;
+}
+.upper .cupon2 .up .About{
+    height: 100%;
+    width: 70%;
+    /* border: 3px solid yellow; */
+    border-radius: 1rem;
+}
+.upper .cupon2 .up .About .t1{
+    font-family: "Audiowide", sans-serif;
+    color: ghostwhite;
+    font-size: 0.9rem;
+    /* text-align: center; */
+    /* margin-top: 0.5rem; */
+    margin-top: 0;
+}
+.upper .cupon2 .up .About .t2{
+    font-family: "Audiowide", sans-serif;
+    color: gray;
+    font-size: 0.7rem;
+    text-align: center;
+    /* margin-top: 0.5rem; */
+    margin-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.upper .cupon2 .up .About .t3{
+    font-family: "Audiowide", sans-serif;
+    color: black;
+    font-size: 0.8rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+.upper .cupon2 .down{
+    height: 15%;
+    width: 100%;
+    /* border: 1px solid purple; */
+    display: flex;
+}
+.upper .cupon2 .down .code{
+    height: 100%;
+    width: 65%;
+    /* border: 1px solid black; */
+}
+.upper .cupon2 .down .code p{
+    font-family: "Audiowide", sans-serif;
+    /* color: gray; */
+    color: white;
+    font-size: 0.8rem;
+    padding-left: 1rem;
+    margin-top: 0.5rem;
+}
+.upper .cupon2 .down .copy{
+    height: 100%;
+    width: 35%;
+    /* border: 1px solid black; */
+}
+.upper .cupon2 .down .copy p{
+    font-family: "Audiowide", sans-serif;
+    /* color: purple; */
+    color: lightyellow;
+    font-size: 0.9rem;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 0.5rem;
+}
+
+.upper .Product-information{
+    font-family: "Audiowide", sans-serif;
+    margin-left: 1rem;
+    margin-top: 1.2rem;
+    font-size: 1.3rem;
+}
+.upper .title{
+    font-family: "Audiowide", sans-serif;
+    font-size: 1.2rem;
+    font-weight: normal;
+    margin-top: 1rem;
+    margin-left: 1.2rem;
+}
+.upper .title img{
+    height: 1.4rem;
+}
+.upper .Product-details{
+    height: 30vh;
+    /* border: 2px solid black; */
+    margin-top: 1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    display: flex;
+}
+.upper .Product-details .left{
+    height: 100%;
+    width: 50%;
+    /* border: 1px solid red; */
+}
+.upper .Product-details .left .product-head{
+    font-family: "Audiowide", sans-serif;
+    font-size: 0.9rem;
+    color: gray;
+    margin-left: 1.2rem;
+}
+.upper .Product-details .left .used{
+    font-family: "Audiowide", sans-serif;
+    font-size: 0.95rem;
+    color: black;
+    margin-left: 1.2rem;
+    margin-bottom: 1rem;
+}
+.upper .Product-details .right{
+    height: 100%;
+    width: 50%;
+    /* border: 1px solid red; */
+    border-left: 1px solid lightgray;
+}
+.upper .Product-details .right .product-head{
+    font-family: "Audiowide", sans-serif;
+    font-size: 0.9rem;
+    color: gray;
+    margin-left: 1.2rem;
+}
+.upper .Product-details .right .used{
+    font-family: "Audiowide", sans-serif;
+    font-size: 0.95rem;
+    color: black;
+    margin-left: 1.2rem;
+    margin-bottom: 1rem;
+}
+.upper .Product-details-head{
+    font-family: "Audiowide", sans-serif;
+    font-size: 0.9rem;
+    color: gray;
+    margin-left: 3rem;
+    margin-top: 0.5rem;
+}
+.upper .Product-details-used{
+    font-family: "Audiowide", sans-serif;
+    font-size: 0.95rem;
+    color: black;
+    margin-left: 3rem;
+    margin-bottom: 1rem;
+}
+.upper .Product-know{
+    font-family: "Audiowide", sans-serif;
+    font-size: 1.2rem;
+    font-weight: normal;
+    margin-top: 1rem;
+    margin-left: 1.2rem;
+}
+.upper .Product-know img{
+    height: 1.4rem;
+}
+.upper .Product-know-description{
+    font-family: "Audiowide", sans-serif;
+    font-size: 0.8rem;
+    color: gray;
+    margin-left: 3rem;
+    margin-right: 1rem;
+    margin-top: 0.5rem;
+    font-style: italic;
+}
+.upper .Product-Vendor{
+    font-family: "Audiowide", sans-serif;
+    font-size: 1.2rem;
+    font-weight: normal;
+    margin-top: 1rem;
+    margin-left: 1.2rem;
+}
+.upper .Product-Vendor img{
+    height: 1.5rem;
+}
+.upper .Product-Vendor-first{
+    font-family: "Audiowide", sans-serif;
+    font-size: 0.9rem;
+    color: gray;
+    margin-left: 3rem;
+    margin-top: 0.5rem;
+}
+.upper .Product-Vendor-Second{
+    font-family: "Audiowide", sans-serif;
+    font-size: 0.95rem;
+    color: black;
+    margin-left: 3rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
+.upper .Product-Policy{
+    font-family: "Audiowide", sans-serif;
+    font-size: 1.2rem;
+    font-weight: normal;
+    margin-top: 1rem;
+    margin-left: 1.2rem;
+}
+.upper .Product-Policy img{
+    height: 1.5rem;
+}
+.upper .Product-Policy-para{
+    font-family: "Audiowide", sans-serif;
+    font-size: 0.8rem;
+    color: gray;
+    margin-left: 3rem;
+    margin-right: 1rem;
+    margin-top: 0.5rem;
+    font-style: italic;
+}
+.upper .review{
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+    font-family: "Audiowide", sans-serif;
+    font-size: 1.5rem;
+}
+.upper .review-box{
+    height: 10vh;
+    width: 70%;
+    /* border: 1px solid red; */
+    margin-top: 1rem;
+    margin-left: 3rem;
+    display: flex;
+    background-color: rgb(243, 239, 239);
+}
+.upper .review-box .stars{
+    height: 100%;
+    width: 40%;
+    /* border: 1px solid black; */
+    align-items: center;
+    align-content: center;
+}
+.upper .review-box .stars p{
+    font-family: "Audiowide", sans-serif;
+    font-size: 2rem;
+    text-align: center;
+}
+.upper .review-box .stars p img{
+    height: 2rem;
+}
+.upper .review-box .ratings{
+    height: 100%;
+    width: 30%;
+    /* border: 1px solid black; */
+    border-left: 1px solid rgb(196, 191, 191);
+    align-items: center;
+    align-content: center;
+}
+.upper .review-box .ratings p{
+    font-family: "Audiowide", sans-serif;
+    font-size: 1rem;
+    text-align: center;
+}
+.upper .review-box .ratings span{
+    font-size: 0.8rem;
+    color: black;
+}
+.upper .review-box .count{
+    height: 100%;
+    width: 30%;
+    /* border: 1px solid black; */
+    border-left: 1px solid rgb(196, 191, 191);
+    align-items: center;
+    align-content: center;
+}
+.upper .review-box .count p{
+    font-family: "Audiowide", sans-serif;
+    font-size: 1rem;
+    text-align: center;
+}
+.upper .review-box .count span{
+    font-size: 0.8rem;
+    color: black;
+}
+.upper .review-text{
+    font-family: "Audiowide", sans-serif;
+    font-size: 1rem;
+    margin-left: 1rem;
+    margin-top: 1.2rem;
+}
+.upper .review-text button{
+    font-family: "Audiowide", sans-serif;
+    position: relative;
+    left: 18rem;
+    height: 2rem;
+    border-radius: 2rem;
+    border-style: none;
+    background-color: purple;
+    color: white;
+    cursor: pointer;
+}
+.upper .review-written{
+    margin-top: 1rem;
+    margin-left: 2rem;
+    height: 20vh;
+    width: 80%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 245, 245);
+}
+.upper .review-written .upper-part{
+    height: 30%;
+    width: 100%;
+    /* border: 1px solid red; */
+    border-bottom: 1px solid rgb(174, 170, 170);
+    display: flex;
+}
+.upper .review-written .upper-part .username{
+    height: 100%;
+    width: 80%;
+    /* border: 1px solid black; */
+    align-items: center;
+    align-content: center;
+}
+.upper .review-written .upper-part .username span{
+    font-family: "Audiowide", sans-serif;
+    font-size: 0.8rem;
+    margin-left: 0.5rem;
+}
+.upper .review-written .upper-part .username p{
+    font-family: "Audiowide", sans-serif;
+    font-size: 0.7rem;
+    color: gray;
+    margin-left: 0.5rem;
+}
+.upper .review-written .upper-part .username p img{
+    height: 0.8rem;
+}
+.upper .review-written .upper-part .rated-stars{
+    height: 100%;
+    width: 20%;
+    /* border: 1px solid black; */
+    align-items: center;
+    align-content: center;
+}
+.upper .review-written .upper-part .rated-stars span{
+    font-family: "Audiowide", sans-serif;
+    font-size: 0.8rem;
+    margin-left: 2rem;
+}
+.upper .review-written .upper-part .rated-stars span img{
+    height: 0.9rem;
+}
+
+.upper .review-written .lower-part{
+    height: 70%;
+    width: 100%;
+    /* border: 1px solid navy; */
+    align-items: center;
+    align-content: center;
+}
+.upper .review-written .lower-part p{
+    font-family: "Audiowide", sans-serif;
+    font-size: 0.8rem;
+    text-align: center;
+}
+.upper .review-viewall{
+    font-family: "Audiowide", sans-serif;
+    font-size: 0.8rem;
+    text-align: right;
+    margin-right: 2rem;
+    margin-top: 0.5rem;
+    color: purple;
+    cursor: pointer;
+}
+.upper .review-others{
+    font-family: "Audiowide", sans-serif;
+    font-size: 0.8rem;
+    color: gray;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+.upper .review-others span{
+    color: black;
+    font-size: 1.2rem;
+    margin-left: 0.3rem;
+    margin-right: 0.3rem;
+}
+.upper .review-helpful{
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+.upper .review-helpful button{
+    height: 2rem;
+    font-family: "Audiowide", sans-serif;
+    font-size: 1rem;
+    border-style: none;
+    border-radius: 2rem;
+    background-color: rgb(219, 86, 219);
+    color: #000;
+    cursor: pointer;
+}
+.upper .review-helpful button img{
+    height: 1rem;
+}
+.upper .review-helpful span{
+    color: gray;
+    margin-left: 1rem;
+    font-family: "Audiowide", sans-serif;
+    font-size: 0.8rem;
+    font-style: italic;
+}
+
+footer{
+    height: 19%;
+    width: 100%;
+    /* border: 5px solid red; */
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(230, 214, 214);
+}
+.footer-up{
+    height: 90%;
+    width: 100%;
+    display: flex;
+}
+.sec1{
+    height: 100%;
+    width: 33%;
+    /* border: 3px solid black; */
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.sec1 .sec1-head{
+    font-size: 2rem;
+    /* font-family: 'Spectral'; */
+    font-family: "Audiowide", sans-serif;
+    margin-bottom: 0.5rem;
+    /* text-shadow: 2px 3px 3px gray; */
+}
+.sec1 .sec1-p{
+    /* font-family: 'Spectral'; */
+    font-family: "Audiowide", sans-serif;
+}
+.sec2{
+    height: 100%;
+    width: 33%;
+    /* border: 3px solid black; */
+    align-items: center;
+    align-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.sec2 .sec2-head{
+    padding-left: 20px;
+    font-size: 2rem;
+    /* font-family: 'Spectral'; */
+    font-family: "Audiowide", sans-serif;
+    /* text-shadow: 2px 3px 3px gray; */
+    margin-bottom: 0.5rem;
+}
+.sec2 ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    /* font-family: 'Spectral'; */
+    font-family: "Audiowide", sans-serif;
+}
+.sec3{
+    height: 100%;
+    width: 33%;
+    /* border: 3px solid black; */
+    align-items: center;
+    align-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.sec3 .sec3-head{
+    font-size: 2rem;
+    /* font-family: 'Spectral'; */
+    font-family: "Audiowide", sans-serif;
+    /* text-shadow: 2px 3px 3px gray; */
+    margin-bottom: 0.5rem;
+}
+.sec3 .sec3-p{
+    /* font-family: 'Spectral'; */
+    font-family: "Audiowide", sans-serif;
+}
+.sec3 input{
+    /* font-family: 'Spectral'; */
+    font-family: "Audiowide", sans-serif;
+    margin-bottom: 10px;
+    height: 40px;
+    width: 300px;
+}
+.sec3 button{
+    /* font-family: 'Spectral'; */
+    font-family: "Audiowide", sans-serif;
+    height: 40px;
+    width: 140px;
+}
+.footer-down{
+    height: 10%;
+    width: 100%;
+    display: flex;
+}
+.footer-down .s1{
+    height: 100%;
+    width: 20%;
+    /* border: 3px solid black; */
+    /* font-family: 'Spectral'; */
+    font-family: "Audiowide", sans-serif;
+}
+.footer-down .s1 p{
+    text-align: center;
+}
+.footer-down .s2{
+    height: 100%;
+    width: 80%;
+    /* border: 3px solid red; */
+    align-items: center;
+    align-content: center;
+    padding-left: 100px;
+}
+.footer-down .s2 ul{
+    list-style: none;
+    display: flex;
+    gap: 9px;
+    margin-right: 50px;
+    /* font-family: 'Spectral'; */
+    font-family: "Audiowide", sans-serif;
+    font-size: 0.8rem;
+}

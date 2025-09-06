@@ -1,59 +1,100 @@
-.mains{
-    width: 286px;
-    margin: auto;
-    height: 500px;
-    border: 2px solid black;
-    padding: 20px 20px 20px 20px;
-    border-radius: 0px;
-    background-color: black;
-    color: aliceblue;
-    margin-top: 180px;
-    opacity: 0.8;
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: relative;
+   background-image: url("/login_background_img.png");
+  background-size: cover;         
+  background-position: center;    
+  background-repeat: no-repeat;
 }
+.main {  
+  backdrop-filter: blur(6px);
+  padding: 2.5rem;
+  border-radius: 2rem;
+  width: 22rem;
+  text-align: center;
+  box-shadow: 0 0 24px rgba(0, 0, 0, 0.2);
+}
+.loginbox h2 {
+  margin-bottom: 1rem;
+  font-family: "Abril Fatface", serif;
+  color: #000;
+}
+.loginbox p {
+  font-size: 1.2rem;
+  font-weight: bolder;
+  font-family: "Abril Fatface", serif;
+  color: gray;
+  margin-bottom: 20px;
+}
+form {
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+form input {
+  width: 100%;
+  padding: 0.6rem;
+  margin: 1rem 0;
+  display: block;
+  border: 1px solid darkgray;
+  border-radius: 6px;
+  font-size: 0.8rem;
+  box-sizing: border-box;
+  font-family: "Abril Fatface", serif;
+  background-color: rgb(216, 205, 191);
+  font-weight: lighter;
+}
+input::placeholder{
+  color: #6b6b6b;
+}
+form button {
+  box-sizing: border-box;
+  width: 100%;
+  display: block;
+  padding: 0.6rem;
+  background-color: black;
+  color: white;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  border: none;
+  cursor: pointer;
+  font-family: "Abril Fatface", serif;
+}
+.social {
+  margin-top: 1.5rem;
+}
+.social p {
+  font-size: 0.9rem;
+  color: gray;
+  font-family: "Abril Fatface", serif;
+  margin-bottom: 10px;
+}
+.social p a{
+  text-decoration: none;
+  font-family: "Abril Fatface", serif;
+  color: blue;
+}
+.social p a:hover{
+  text-decoration: underline blue 1.5px;
+}
+.icons {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
 
-.mains h1{
-    font-size: 35px;
-    font-family:"PT Sans", sans-serif;
-    margin-top: 0;
+  border-radius: 5rem;
 }
-#email{
-    width: 200px;
-    height: 40px;
-    border: 2px solid #000000;
-    padding-left: 80px;
-    margin: 10px 0 0 0;
-    background-color: rgb(62, 63, 65);
-    border-radius: 5px;
-}
-#password{
-    width: 160px;
-    height: 40px;
-    border: 2px solid #000000;
-    padding-left: 120px;
-    margin: 15px 0 15px 0;
-    background-color: rgb(62, 63, 65) ;
-    border-radius: 5px;
-}
-.button{
-    width: 286px;
-    margin: auto;
-    height: 45px;
-    margin-bottom: 20px;
-    margin-top: 20px;
-    background-color: rgb(212, 14, 14);
-    border-radius: 5px;
-    color: aliceblue;
-    border: 2px solid black;
-}
-.tick{
-    margin-right:90px;
-}
-.needhelp{
-    text-decoration: none;
-    color: aliceblue;
-}
-body{
-    background-image: url("https://thumbs.dreamstime.com/z/lots-sneakers-multi-colored-sports-shoes-sneakers-boots-lying-light-blue-background-328921110.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+.icons img {
+  width: 2rem;
+  height: 2rem;
+  cursor: pointer;
 }

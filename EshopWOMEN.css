@@ -1,0 +1,2852 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Spectral:wght@700&display=swap'); */
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
+html{
+    scroll-behavior: smooth;
+}
+
+.title{
+    font-size: 2rem;
+    /* font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ; */
+    /* font-family: "Playfair Display", serif; */
+    font-family: "Abril Fatface", serif;
+    font-weight: bolder;
+    color: #000;
+}
+.two ul{
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
+}
+.two ul a{
+    text-decoration: none;
+    color: #000;
+    font-family: "Abril Fatface", serif;
+    transition: text-decoration 0.3s ease-in-out;
+}
+.two ul a:hover{
+    text-decoration: overline rgb(101, 160, 101);
+}
+.menu ul{
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    margin: 0;
+    padding-left: 8rem;
+}
+.menu ul a{
+    text-decoration: none;
+    color: #000;
+    font-family: "Abril Fatface", serif;
+    transition: text-decoration 0.37s ease-in-out;
+}
+.menu ul a::before{
+    content: "★ ";
+}
+.menu ul a:hover{
+    text-decoration: overline rgb(101, 160, 101); 
+}
+.right ul{
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    margin: 0;
+    padding-left: 130px;
+    color: #000;
+    font-family: "Abril Fatface", serif;
+}
+.right ul a{
+    text-decoration: none;
+    color: #000;
+    font-family: "Abril Fatface", serif;
+    transition: text-decoration 0.3s ease-in-out;
+}
+.right ul a:hover{
+    text-decoration: overline rgb(101, 160, 101);
+}
+nav{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 150px;
+    position: sticky;
+}
+.head{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    gap: 50px;
+    padding-left: 20px;
+    /* background-color: #000; */
+    height: 100%;
+    width: 100%;
+    /* border: 3px solid red; */
+    background: url("https://images.pexels.com/photos/8755334/pexels-photo-8755334.jpeg");
+    background-color: hotpink;
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: background 0.5s ease-in-out;
+    /* border-bottom: 3px solid black; */
+}
+.head:hover{
+    background: hotpink;
+    box-shadow: 0 0 20px #000;
+}
+header{
+    height: 0.55%;
+    width: 100%;
+    /* */
+    display: flex;
+}
+body{
+    margin: 0;
+    overflow-x: hidden;
+    height: 2000vh;
+    width: 100vw;
+}
+main{
+    height: 95.5%;
+    width: 100%;
+}
+.slideshow-container{
+    height: 5%;
+    width: 100%;
+    /* */
+    background: url("https://images.pexels.com/photos/8755334/pexels-photo-8755334.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    margin-bottom: 1rem;
+    overflow: hidden
+}
+/* @keyframes slide{
+    0%{
+        transform: translateX(-100%);
+    }
+    100%{
+        transform: translateX(120%);
+    }
+} */
+@keyframes slide{
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+}
+.move{
+    height: 100%;
+    width: 200%;  /* Double width to accommodate duplicated slides */
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    align-content: center;
+    justify-content: flex-start; 
+    animation: slide 12s linear infinite;
+    /* backdrop-filter: blur(20px); */
+}
+.show1{
+    height: 85%;
+    width: 14%;
+    /* border: 2px solid black; */
+    flex-shrink: 0;
+    background: url("https://i.pinimg.com/1200x/73/df/fa/73dffad688ab421a2e60108c41d93c0d.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* transition: transform 1s ease-in-out;
+    transition: background 1s ease-in-out; */
+    border-radius: 10%;
+    /* box-shadow: 0 0 20px rgb(248, 195, 203); */
+}
+/* .show1:hover{
+    transform: rotateY(180deg);
+    background: url(/Logo\ loxi.png);
+} */
+.show2{
+    height: 85%;
+    width: 14%;
+    /* border: 2px solid black; */
+    flex-shrink: 0;
+    background: url("https://i.pinimg.com/736x/b8/77/4e/b8774e0b3ad6c6dad2fdd1a6f84d4271.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10%;
+}
+.show3{
+    height: 85%;
+    width: 14%;
+    /* border: 2px solid black; */
+    flex-shrink: 0;
+    background: url("https://i.pinimg.com/736x/a2/4d/22/a24d227fcb3cc041cc8706889d20d203.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10%;
+}
+.show4{
+    height: 85%;
+    width: 14%;
+    /* border: 2px solid black; */
+    flex-shrink: 0;
+    background: url("https://i.pinimg.com/736x/3f/32/da/3f32da9f59945a2e8977f7f0abbd7fb3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10%;
+}
+.show5{
+    height: 85%;
+    width: 14%;
+    /* border: 2px solid black; */
+    flex-shrink: 0;
+    background: url("https://i.pinimg.com/1200x/cf/9a/5f/cf9a5fb8349866f441da540534cb490d.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10%;
+}
+.show6{
+    height: 85%;
+    width: 14%;
+    /* border: 2px solid black; */
+    flex-shrink: 0;
+    background: url("https://i.pinimg.com/736x/bb/22/e2/bb22e20ded7684dd0d8052957663f0d2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10%;
+}
+
+.category-dresses{
+    height: 13.5%;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+}
+.display-dresses{
+    height: 34%;
+    width: 100%;
+
+    background: url("https://images.pexels.com/photos/4589213/pexels-photo-4589213.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+}
+.display-dresses span{
+    display: block;
+    font-size: 5rem;
+
+    color: white;
+    font-family: "Abril Fatface", serif;
+    text-shadow: 2px 2px 3px #000;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.showing-dresses{
+    margin-top: 0.5rem;
+    height: 66%;
+    width: 100%;
+    
+    display: flex;
+    flex-direction: column;
+}
+.set1{
+    display: flex;
+    height: 50%;
+    width: 100%;
+    gap: 3rem;
+    margin-left: 1rem;
+}
+.dresses1{
+    margin-top: 1rem;
+    height: 90%;
+    width: 30%;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    /* background-color: rgba(255, 255, 255, 0.1); */
+    /* background-color: #24243e; */
+    /* background-color: rgb(249, 240, 240); */
+    /* backdrop-filter: blur(45px); */
+    background: linear-gradient(to bottom, #ffffff, #f0f0f0, rgb(255, 211, 218));
+    opacity: 0.9;
+    border-radius: 2rem;
+    box-shadow: 0 0 10px rgb(143, 136, 136);
+}
+.dresses1 .pic1{
+    height: 80%;
+    width: 80%;
+    /* */
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+.dresses1 .pic1 img{
+    height: 100%;
+    width: 100%;
+}
+.dresses1 .text1{
+    height: 20%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction: column;
+}
+.dresses1 .text1 .upper{
+    height: 20%;
+    width: 100%;
+    /* border: 2px solid black; */
+    margin-bottom: 0.5rem;
+}
+.dresses1 .text1 .upper .product-name{
+    font-family: "Abril Fatface", serif;
+    color: #000;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    /* */
+}
+.dresses1 .text1 .lower{
+    height: 80%;
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+}
+.dresses1 .text1 .lower .low1{
+    height: 100%;
+    width: 50%;
+    /* border: 2px solid black; */
+}
+.dresses1 .text1 .low1 .product-price{
+    font-family: "Abril Fatface", serif;
+    color: navy;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    /* */
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.dresses1 .text1 .low1 .product-detail span{
+    font-family: "Abril Fatface", serif;
+    color: red;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    text-decoration: line-through;
+}
+.dresses1 .text1 .low1 .product-detail{
+    font-family: "Abril Fatface", serif;
+    color: navy;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    /* */
+    margin-top: 0;
+    
+}
+.dresses1 .text1 .lower .low2{
+    height: 100%;
+    width: 50%;
+    /* border: 2px solid black; */
+}
+.dresses1 .text1 .low2 button{
+    height: 2rem;
+    width: 8rem;
+    border-radius: 5rem;
+    margin-left: 2rem;
+    font-family: "Abril Fatface", serif;
+    background-color: rgb(4, 34, 59);
+    color: #f5f5f5;
+    cursor: pointer;
+}
+.dresses2{
+    margin-top: 1rem;
+    height: 90%;
+    width: 30%;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    /* background-color: rgba(255, 255, 255, 0.1); */
+    /* background-color: #24243e; */
+    /* background-color: rgb(249, 240, 240);
+    backdrop-filter: blur(45px); */
+    background: linear-gradient(to bottom, #ffffff, #f0f0f0, rgb(255, 211, 218));
+    opacity: 0.9;
+    border-radius: 2rem;
+    box-shadow: 0 0 10px rgb(143, 136, 136);
+}
+.dresses2 .pic2{
+    height: 80%;
+    width: 80%;
+    /* */
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+.dresses2 .pic2 img{
+    height: 100%;
+    width: 100%;
+}
+.dresses2 .text2{
+    height: 20%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction: column;
+}
+.dresses2 .text2 .upper{
+    height: 20%;
+    width: 100%;
+    /* border: 2px solid black; */
+    margin-bottom: 0.5rem;
+}
+.dresses2 .text2 .upper .product-name{
+    font-family: "Abril Fatface", serif;
+    color: #000;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    /* */
+}
+.dresses2 .text2 .lower{
+    height: 80%;
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+}
+.dresses2 .text2 .lower .low1{
+    height: 100%;
+    width: 50%;
+    /* border: 2px solid black; */
+}
+.dresses2 .text2 .low1 .product-price{
+    font-family: "Abril Fatface", serif;
+    color: navy;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    /* */
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.dresses2 .text2 .low1 .product-detail span{
+    font-family: "Abril Fatface", serif;
+    color: red;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    text-decoration: line-through;
+}
+.dresses2 .text2 .low1 .product-detail{
+    font-family: "Abril Fatface", serif;
+    color: navy;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    /* */
+    margin-top: 0;
+    
+}
+.dresses2 .text2 .lower .low2{
+    height: 100%;
+    width: 50%;
+    /* border: 2px solid black; */
+}
+.dresses2 .text2 .low2 button{
+    height: 2rem;
+    width: 8rem;
+    border-radius: 5rem;
+    margin-left: 2rem;
+    font-family: "Abril Fatface", serif;
+    background-color: rgb(4, 34, 59);
+    color: #f5f5f5;
+    cursor: pointer;
+}
+.dresses3{
+    margin-top: 1rem;
+    height: 90%;
+    width: 30%;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    /* background-color: rgba(255, 255, 255, 0.1); */
+    /* background-color: #24243e; */
+    /* background-color: rgb(249, 240, 240);
+    backdrop-filter: blur(45px); */
+    background: linear-gradient(to bottom, #ffffff, #f0f0f0, rgb(255, 211, 218));
+    opacity: 0.9;
+    border-radius: 2rem;
+    box-shadow: 0 0 10px rgb(143, 136, 136);
+}
+.dresses3 .pic3{
+    height: 80%;
+    width: 80%;
+    /* */
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+.dresses3 .pic3 img{
+    height: 100%;
+    width: 100%;
+}
+.dresses3 .text3{
+    height: 20%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction: column;
+}
+.dresses3 .text3 .upper{
+    height: 20%;
+    width: 100%;
+    /* border: 2px solid black; */
+    margin-bottom: 0.5rem;
+}
+.dresses3 .text3 .upper .product-name{
+    font-family: "Abril Fatface", serif;
+    color: #000;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    /* */
+}
+.dresses3 .text3 .lower{
+    height: 80%;
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+}
+.dresses3 .text3 .lower .low1{
+    height: 100%;
+    width: 50%;
+    /* border: 2px solid black; */
+}
+.dresses3 .text3 .low1 .product-price{
+    font-family: "Abril Fatface", serif;
+    color: navy;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    /* */
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.dresses3 .text3 .low1 .product-detail span{
+    font-family: "Abril Fatface", serif;
+    color: red;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    text-decoration: line-through;
+}
+.dresses3 .text3 .low1 .product-detail{
+    font-family: "Abril Fatface", serif;
+    color: navy;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    /* */
+    margin-top: 0;
+    
+}
+.dresses3 .text3 .lower .low2{
+    height: 100%;
+    width: 50%;
+    /* border: 2px solid black; */
+}
+.dresses3 .text3 .low2 button{
+    height: 2rem;
+    width: 8rem;
+    border-radius: 5rem;
+    margin-left: 2rem;
+    font-family: "Abril Fatface", serif;
+    background-color: rgb(4, 34, 59);
+    color: #f5f5f5;
+    cursor: pointer;
+}
+.set2{
+    display: flex;
+    height: 50%;
+    width: 100%;
+    gap: 3rem;
+    margin-left: 1rem;
+}
+
+/*! Jeans */
+.category-tops{
+    height: 13.5%;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+}
+.display-tops{
+    height: 34%;
+    width: 100%;
+
+    background: url("https://images.pexels.com/photos/20448112/pexels-photo-20448112.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+}
+.display-tops span{
+    display: block;
+    font-size: 5rem;
+
+    color: white;
+    font-family: "Abril Fatface", serif;
+    text-shadow: 2px 2px 3px #000;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.showing-tops{
+    margin-top: 0.5rem;
+    height: 66%;
+    width: 100%;
+    
+    display: flex;
+    flex-direction: column;
+}
+.set1-tops{
+    display: flex;
+    height: 50%;
+    width: 100%;
+    gap: 3rem;
+    margin-left: 1rem;
+}
+.tops1{
+    margin-top: 1rem;
+    height: 90%;
+    width: 30%;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    /* background-color: rgba(255, 255, 255, 0.1); */
+    /* background-color: #24243e; */
+    /* background-color: rgb(249, 240, 240);
+    backdrop-filter: blur(45px); */
+    background: linear-gradient(to bottom, #ffffff, #f0f0f0, rgb(255, 211, 218));
+    opacity: 0.9;
+    border-radius: 2rem;
+    box-shadow: 0 0 10px rgb(143, 136, 136);
+}
+.tops1 .pic1{
+    height: 80%;
+    width: 80%;
+    /* */
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+.tops1 .pic1 img{
+    height: 100%;
+    width: 100%;
+}
+.tops1 .text1{
+    height: 20%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction: column;
+}
+.tops1 .text1 .upper{
+    height: 20%;
+    width: 100%;
+    /* border: 2px solid black; */
+    margin-bottom: 0.5rem;
+}
+.tops1 .text1 .upper .product-name{
+    font-family: "Abril Fatface", serif;
+    color: #000;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    /* */
+}
+.tops1 .text1 .lower{
+    height: 80%;
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+}
+.tops1 .text1 .lower .low1{
+    height: 100%;
+    width: 50%;
+    /* border: 2px solid black; */
+}
+.tops1 .text1 .low1 .product-price{
+    font-family: "Abril Fatface", serif;
+    color: navy;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    /* */
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.tops1 .text1 .low1 .product-detail span{
+    font-family: "Abril Fatface", serif;
+    color: red;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    text-decoration: line-through;
+}
+.tops1 .text1 .low1 .product-detail{
+    font-family: "Abril Fatface", serif;
+    color: navy;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    /* */
+    margin-top: 0;
+    
+}
+.tops1 .text1 .lower .low2{
+    height: 100%;
+    width: 50%;
+    /* border: 2px solid black; */
+}
+.tops1 .text1 .low2 button{
+    height: 2rem;
+    width: 8rem;
+    border-radius: 5rem;
+    margin-left: 2rem;
+    font-family: "Abril Fatface", serif;
+    background-color: rgb(4, 34, 59);
+    color: #f5f5f5;
+    cursor: pointer;
+}
+.tops2{
+    margin-top: 1rem;
+    height: 90%;
+    width: 30%;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    /* background-color: rgba(255, 255, 255, 0.1); */
+    /* background-color: #24243e; */
+    /* background-color: rgb(249, 240, 240);
+    backdrop-filter: blur(45px); */
+    background: linear-gradient(to bottom, #ffffff, #f0f0f0, rgb(255, 211, 218));
+    opacity: 0.9;
+    border-radius: 2rem;
+    box-shadow: 0 0 10px rgb(143, 136, 136);
+}
+.tops2 .pic2{
+    height: 80%;
+    width: 80%;
+    /* */
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+.tops2 .pic2 img{
+    height: 100%;
+    width: 100%;
+}
+.tops2 .text2{
+    height: 20%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction: column;
+}
+.tops2 .text2 .upper{
+    height: 20%;
+    width: 100%;
+    /* border: 2px solid black; */
+    margin-bottom: 0.5rem;
+}
+.tops2 .text2 .upper .product-name{
+    font-family: "Abril Fatface", serif;
+    color: #000;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    /* */
+}
+.tops2 .text2 .lower{
+    height: 80%;
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+}
+.tops2 .text2 .lower .low1{
+    height: 100%;
+    width: 50%;
+    /* border: 2px solid black; */
+}
+.tops2 .text2 .low1 .product-price{
+    font-family: "Abril Fatface", serif;
+    color: navy;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    /* */
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.tops2 .text2 .low1 .product-detail span{
+    font-family: "Abril Fatface", serif;
+    color: red;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    text-decoration: line-through;
+}
+.tops2 .text2 .low1 .product-detail{
+    font-family: "Abril Fatface", serif;
+    color: navy;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    /* */
+    margin-top: 0;
+    
+}
+.tops2 .text2 .lower .low2{
+    height: 100%;
+    width: 50%;
+    /* border: 2px solid black; */
+}
+.tops2 .text2 .low2 button{
+    height: 2rem;
+    width: 8rem;
+    border-radius: 5rem;
+    margin-left: 2rem;
+    font-family: "Abril Fatface", serif;
+    background-color: rgb(4, 34, 59);
+    color: #f5f5f5;
+    cursor: pointer;
+}
+.tops3{
+    margin-top: 1rem;
+    height: 90%;
+    width: 30%;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    /* background-color: rgba(255, 255, 255, 0.1); */
+    /* background-color: #24243e; */
+    /* background-color: rgb(249, 240, 240);
+    backdrop-filter: blur(45px); */
+    background: linear-gradient(to bottom, #ffffff, #f0f0f0, rgb(255, 211, 218));
+    opacity: 0.9;
+    border-radius: 2rem;
+    box-shadow: 0 0 10px rgb(143, 136, 136);
+}
+.tops3 .pic3{
+    height: 80%;
+    width: 80%;
+    /* */
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+.tops3 .pic3 img{
+    height: 100%;
+    width: 100%;
+}
+.tops3 .text3{
+    height: 20%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction: column;
+}
+.tops3 .text3 .upper{
+    height: 20%;
+    width: 100%;
+    /* border: 2px solid black; */
+    margin-bottom: 0.5rem;
+}
+.tops3 .text3 .upper .product-name{
+    font-family: "Abril Fatface", serif;
+    color: #000;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    /* */
+}
+.tops3 .text3 .lower{
+    height: 80%;
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+}
+.tops3 .text3 .lower .low1{
+    height: 100%;
+    width: 50%;
+    /* border: 2px solid black; */
+}
+.tops3 .text3 .low1 .product-price{
+    font-family: "Abril Fatface", serif;
+    color: navy;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    /* */
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.tops3 .text3 .low1 .product-detail span{
+    font-family: "Abril Fatface", serif;
+    color: red;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    text-decoration: line-through;
+}
+.tops3 .text3 .low1 .product-detail{
+    font-family: "Abril Fatface", serif;
+    color: navy;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    /* */
+    margin-top: 0;
+    
+}
+.tops3 .text3 .lower .low2{
+    height: 100%;
+    width: 50%;
+    /* border: 2px solid black; */
+}
+.tops3 .text3 .low2 button{
+    height: 2rem;
+    width: 8rem;
+    border-radius: 5rem;
+    margin-left: 2rem;
+    font-family: "Abril Fatface", serif;
+    background-color: rgb(4, 34, 59);
+    color: #f5f5f5;
+    cursor: pointer;
+}
+.set2-tops{
+    display: flex;
+    height: 50%;
+    width: 100%;
+    gap: 3rem;
+    margin-left: 1rem;
+}
+body{
+    /* background: #bdc3c7;  fallback for old browsers */
+    /* background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  Chrome 10-25, Safari 5.1-6 */
+    /* background: linear-gradient(to right, #2c3e50, #bdc3c7); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    /* background: #0F2027;  fallback for old browsers */
+    /* background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  Chrome 10-25, Safari 5.1-6 */
+    /* background: linear-gradient(to right, #2C5364, #203A43, #0F2027); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    /*! one */
+    /* background: #0f0c29;  fallback for old browsers */
+    /* background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  Chrome 10-25, Safari 5.1-6 */
+    /* background: linear-gradient(to right, #24243e, #302b63, #0f0c29); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    /* background-image: linear-gradient(115deg, #485563, #29323c, #cccccc 100%); */
+    /* background-image: linear-gradient(135deg, #b0b0b0, #ffd700 50%, #ffffff 100%); */
+    /* background-image: linear-gradient(135deg, #1C1C1C, #004C4C); */
+    background-image: linear-gradient(to right, #dcdcdc, #f5f5f5);
+}
+
+/*! shoes */
+.category-bottoms{
+    height: 13.5%;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+}
+.display-bottoms{
+    height: 34%;
+    width: 100%;
+
+    background: url("https://images.pexels.com/photos/33533364/pexels-photo-33533364.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+}
+.display-bottoms span{
+    display: block;
+    font-size: 5rem;
+
+    color: white;
+    font-family: "Abril Fatface", serif;
+    text-shadow: 2px 2px 3px #000;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.showing-bottoms{
+    margin-top: 0.5rem;
+    height: 66%;
+    width: 100%;
+    
+    display: flex;
+    flex-direction: column;
+}
+.set1-bottoms{
+    display: flex;
+    height: 50%;
+    width: 100%;
+    gap: 3rem;
+    margin-left: 1rem;
+}
+.bottoms1{
+    margin-top: 1rem;
+    height: 90%;
+    width: 30%;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    /* background-color: rgba(255, 255, 255, 0.1); */
+    /* background-color: #24243e; */
+    /* background-color: rgb(249, 240, 240);
+    backdrop-filter: blur(45px); */
+    background: linear-gradient(to bottom, #ffffff, #f0f0f0, rgb(255, 211, 218));
+    opacity: 0.9;
+    border-radius: 2rem;
+    box-shadow: 0 0 10px rgb(143, 136, 136);
+}
+.bottoms1 .pic1{
+    height: 80%;
+    width: 80%;
+    /* */
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+.bottoms1 .pic1 img{
+    height: 100%;
+    width: 100%;
+}
+.bottoms1 .text1{
+    height: 20%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction: column;
+}
+.bottoms1 .text1 .upper{
+    height: 20%;
+    width: 100%;
+    /* border: 2px solid black; */
+    margin-bottom: 0.5rem;
+}
+.bottoms1 .text1 .upper .product-name{
+    font-family: "Abril Fatface", serif;
+    color: #000;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    /* */
+}
+.bottoms1 .text1 .lower{
+    height: 80%;
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+}
+.bottoms1 .text1 .lower .low1{
+    height: 100%;
+    width: 50%;
+    /* border: 2px solid black; */
+}
+.bottoms1 .text1 .low1 .product-price{
+    font-family: "Abril Fatface", serif;
+    color: navy;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    /* */
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.bottoms1 .text1 .low1 .product-detail span{
+    font-family: "Abril Fatface", serif;
+    color: red;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    text-decoration: line-through;
+}
+.bottoms1 .text1 .low1 .product-detail{
+    font-family: "Abril Fatface", serif;
+    color: navy;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    /* */
+    margin-top: 0;
+    
+}
+.bottoms1 .text1 .lower .low2{
+    height: 100%;
+    width: 50%;
+    /* border: 2px solid black; */
+}
+.bottoms1 .text1 .low2 button{
+    height: 2rem;
+    width: 8rem;
+    border-radius: 5rem;
+    margin-left: 2rem;
+    font-family: "Abril Fatface", serif;
+    background-color: rgb(4, 34, 59);
+    color: #f5f5f5;
+    cursor: pointer;
+}
+.bottoms2{
+    margin-top: 1rem;
+    height: 90%;
+    width: 30%;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    /* background-color: rgba(255, 255, 255, 0.1); */
+    /* background-color: #24243e; */
+    /* background-color: rgb(249, 240, 240);
+    backdrop-filter: blur(45px); */
+    background: linear-gradient(to bottom, #ffffff, #f0f0f0, rgb(255, 211, 218));
+    opacity: 0.9;
+    border-radius: 2rem;
+    box-shadow: 0 0 10px rgb(143, 136, 136);
+}
+.bottoms2 .pic2{
+    height: 80%;
+    width: 80%;
+    /* */
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+.bottoms2 .pic2 img{
+    height: 100%;
+    width: 100%;
+}
+.bottoms2 .text2{
+    height: 20%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction: column;
+}
+.bottoms2 .text2 .upper{
+    height: 20%;
+    width: 100%;
+    /* border: 2px solid black; */
+    margin-bottom: 0.5rem;
+}
+.bottoms2 .text2 .upper .product-name{
+    font-family: "Abril Fatface", serif;
+    color: #000;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    /* */
+}
+.bottoms2 .text2 .lower{
+    height: 80%;
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+}
+.bottoms2 .text2 .lower .low1{
+    height: 100%;
+    width: 50%;
+    /* border: 2px solid black; */
+}
+.bottoms2 .text2 .low1 .product-price{
+    font-family: "Abril Fatface", serif;
+    color: navy;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    /* */
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.bottoms2 .text2 .low1 .product-detail span{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: red;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    text-decoration: line-through;
+}
+.bottoms2 .text2 .low1 .product-detail{
+    font-family: "Abril Fatface", serif;
+    color: navy;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    /* */
+    margin-top: 0;
+    
+}
+.bottoms2 .text2 .lower .low2{
+    height: 100%;
+    width: 50%;
+    /* border: 2px solid black; */
+}
+.bottoms2 .text2 .low2 button{
+    height: 2rem;
+    width: 8rem;
+    border-radius: 5rem;
+    margin-left: 2rem;
+    font-family: "Abril Fatface", serif;
+    background-color: rgb(4, 34, 59);
+    color: #f5f5f5;
+    cursor: pointer;
+}
+.bottoms3{
+    margin-top: 1rem;
+    height: 90%;
+    width: 30%;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    /* background-color: rgba(255, 255, 255, 0.1); */
+    /* background-color: #24243e; */
+    /* background-color: rgb(249, 240, 240);
+    backdrop-filter: blur(45px); */
+    background: linear-gradient(to bottom, #ffffff, #f0f0f0, rgb(255, 211, 218));
+    opacity: 0.9;
+    border-radius: 2rem;
+    box-shadow: 0 0 10px rgb(143, 136, 136);
+}
+.bottoms3 .pic3{
+    height: 80%;
+    width: 80%;
+    /* */
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+.bottoms3 .pic3 img{
+    height: 100%;
+    width: 100%;
+}
+.bottoms3 .text3{
+    height: 20%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction: column;
+}
+.bottoms3 .text3 .upper{
+    height: 20%;
+    width: 100%;
+    /* border: 2px solid black; */
+    margin-bottom: 0.5rem;
+}
+.bottoms3 .text3 .upper .product-name{
+    font-family: "Abril Fatface", serif;
+    color: #000;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    /* */
+}
+.bottoms3 .text3 .lower{
+    height: 80%;
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+}
+.bottoms3 .text3 .lower .low1{
+    height: 100%;
+    width: 50%;
+    /* border: 2px solid black; */
+}
+.bottoms3 .text3 .low1 .product-price{
+    font-family: "Abril Fatface", serif;
+    color: navy;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    /* */
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.bottoms3 .text3 .low1 .product-detail span{
+    font-family: "Abril Fatface", serif;
+    color: red;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    text-decoration: line-through;
+}
+.bottoms3 .text3 .low1 .product-detail{
+    font-family: "Abril Fatface", serif;
+    color: navy;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    /* */
+    margin-top: 0;
+    
+}
+.bottoms3 .text3 .lower .low2{
+    height: 100%;
+    width: 50%;
+    /* border: 2px solid black; */
+}
+.bottoms3 .text3 .low2 button{
+    height: 2rem;
+    width: 8rem;
+    border-radius: 5rem;
+    margin-left: 2rem;
+    font-family: "Abril Fatface", serif;
+    background-color: rgb(4, 34, 59);
+    color: #f5f5f5;
+    cursor: pointer;
+}
+.set2-bottoms{
+    display: flex;
+    height: 50%;
+    width: 100%;
+    gap: 3rem;
+    margin-left: 1rem;
+}
+
+/*! Hoodies */
+.category-footwear{
+    height: 13.5%;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+}
+.display-footwear{
+    height: 34%;
+    width: 100%;
+
+    background: url("https://images.pexels.com/photos/20103267/pexels-photo-20103267.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: scroll;
+}
+.display-footwear span{
+    display: block;
+    font-size: 5rem;
+
+    color: white;
+    font-family: "Abril Fatface", serif;
+    text-shadow: 2px 2px 3px #000;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.showing-footwear{
+    margin-top: 0.5rem;
+    height: 66%;
+    width: 100%;
+    
+    display: flex;
+    flex-direction: column;
+}
+.set1-footwear{
+    display: flex;
+    height: 50%;
+    width: 100%;
+    gap: 3rem;
+    margin-left: 1rem;
+}
+.footwear1{
+    margin-top: 1rem;
+    height: 90%;
+    width: 30%;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    /* background-color: rgba(255, 255, 255, 0.1); */
+    /* background-color: #24243e; */
+    /* background-color: rgb(249, 240, 240);
+    backdrop-filter: blur(45px); */
+    background: linear-gradient(to bottom, #ffffff, #f0f0f0, rgb(255, 211, 218));
+    opacity: 0.9;
+    border-radius: 2rem;
+    box-shadow: 0 0 10px rgb(143, 136, 136);
+}
+.footwear1 .pic1{
+    height: 80%;
+    width: 80%;
+    /* */
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+.footwear1 .pic1 img{
+    height: 100%;
+    width: 100%;
+}
+.footwear1 .text1{
+    height: 20%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction: column;
+}
+.footwear1 .text1 .upper{
+    height: 20%;
+    width: 100%;
+    /* border: 2px solid black; */
+    margin-bottom: 0.5rem;
+}
+.footwear1 .text1 .upper .product-name{
+    font-family: "Abril Fatface", serif;
+    color: #000;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    /* */
+}
+.footwear1 .text1 .lower{
+    height: 80%;
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+}
+.footwear1 .text1 .lower .low1{
+    height: 100%;
+    width: 50%;
+    /* border: 2px solid black; */
+}
+.footwear1 .text1 .low1 .product-price{
+    font-family: "Abril Fatface", serif;
+    color: navy;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    /* */
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.footwear1 .text1 .low1 .product-detail span{
+    font-family: "Abril Fatface", serif;
+    color: red;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    text-decoration: line-through;
+}
+.footwear1 .text1 .low1 .product-detail{
+    font-family: "Abril Fatface", serif;
+    color: navy;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    /* */
+    margin-top: 0;
+    
+}
+.footwear1 .text1 .lower .low2{
+    height: 100%;
+    width: 50%;
+    /* border: 2px solid black; */
+}
+.footwear1 .text1 .low2 button{
+    height: 2rem;
+    width: 8rem;
+    border-radius: 5rem;
+    margin-left: 2rem;
+    font-family: "Abril Fatface", serif;
+    background-color: rgb(4, 34, 59);
+    color: #f5f5f5;
+    cursor: pointer;
+}
+.footwear2{
+    margin-top: 1rem;
+    height: 90%;
+    width: 30%;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    /* background-color: rgba(255, 255, 255, 0.1); */
+    /* background-color: #24243e; */
+    /* background-color: rgb(249, 240, 240);
+    backdrop-filter: blur(45px); */
+    background: linear-gradient(to bottom, #ffffff, #f0f0f0, rgb(255, 211, 218));
+    opacity: 0.9;
+    border-radius: 2rem;
+    box-shadow: 0 0 10px rgb(143, 136, 136);
+}
+.footwear2 .pic2{
+    height: 80%;
+    width: 80%;
+    /* */
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+.footwear2 .pic2 img{
+    height: 100%;
+    width: 100%;
+}
+.footwear2 .text2{
+    height: 20%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction: column;
+}
+.footwear2 .text2 .upper{
+    height: 20%;
+    width: 100%;
+    /* border: 2px solid black; */
+    margin-bottom: 0.5rem;
+}
+.footwear2 .text2 .upper .product-name{
+    font-family: "Abril Fatface", serif;
+    color: #000;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    /* */
+}
+.footwear2 .text2 .lower{
+    height: 80%;
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+}
+.footwear2 .text2 .lower .low1{
+    height: 100%;
+    width: 50%;
+    /* border: 2px solid black; */
+}
+.footwear2 .text2 .low1 .product-price{
+    font-family: "Abril Fatface", serif;
+    color: navy;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    /* */
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.footwear2 .text2 .low1 .product-detail span{
+    font-family: "Abril Fatface", serif;
+    color: red;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    text-decoration: line-through;
+}
+.footwear2 .text2 .low1 .product-detail{
+    font-family: "Abril Fatface", serif;
+    color: navy;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    /* */
+    margin-top: 0;
+    
+}
+.footwear2 .text2 .lower .low2{
+    height: 100%;
+    width: 50%;
+    /* border: 2px solid black; */
+}
+.footwear2 .text2 .low2 button{
+    height: 2rem;
+    width: 8rem;
+    border-radius: 5rem;
+    margin-left: 2rem;
+    font-family: "Abril Fatface", serif;
+    background-color: rgb(4, 34, 59);
+    color: #f5f5f5;
+    cursor: pointer;
+}
+.footwear3{
+    margin-top: 1rem;
+    height: 90%;
+    width: 30%;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    /* background-color: rgba(255, 255, 255, 0.1); */
+    /* background-color: #24243e; */
+    /* background-color: rgb(249, 240, 240);
+    backdrop-filter: blur(45px); */
+    background: linear-gradient(to bottom, #ffffff, #f0f0f0, rgb(255, 211, 218));
+    opacity: 0.9;
+    border-radius: 2rem;
+    box-shadow: 0 0 10px rgb(143, 136, 136);
+}
+.footwear3 .pic3{
+    height: 80%;
+    width: 80%;
+    /* */
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+.footwear3 .pic3 img{
+    height: 100%;
+    width: 100%;
+}
+.footwear3 .text3{
+    height: 20%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction: column;
+}
+.footwear3 .text3 .upper{
+    height: 20%;
+    width: 100%;
+    /* border: 2px solid black; */
+    margin-bottom: 0.5rem;
+}
+.footwear3 .text3 .upper .product-name{
+    font-family: "Abril Fatface", serif;
+    color: #000;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    /* */
+}
+.footwear3 .text3 .lower{
+    height: 80%;
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+}
+.footwear3 .text3 .lower .low1{
+    height: 100%;
+    width: 50%;
+    /* border: 2px solid black; */
+}
+.footwear3 .text3 .low1 .product-price{
+    font-family: "Abril Fatface", serif;
+    color: navy;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    /* */
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.footwear3 .text3 .low1 .product-detail span{
+    font-family: "Abril Fatface", serif;
+    color: red;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    text-decoration: line-through;
+}
+.footwear3 .text3 .low1 .product-detail{
+    font-family: "Abril Fatface", serif;
+    color: navy;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    /* */
+    margin-top: 0;
+    
+}
+.footwear3 .text3 .lower .low2{
+    height: 100%;
+    width: 50%;
+    /* border: 2px solid black; */
+}
+.footwear3 .text3 .low2 button{
+    height: 2rem;
+    width: 8rem;
+    border-radius: 5rem;
+    margin-left: 2rem;
+    font-family: "Abril Fatface", serif;
+    background-color: rgb(4, 34, 59);
+    color: #f5f5f5;
+    cursor: pointer;
+}
+.set2-footwear{
+    display: flex;
+    height: 50%;
+    width: 100%;
+    gap: 3rem;
+    margin-left: 1rem;
+}
+
+/*! tunics */
+.category-tunics{
+    height: 13.5%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.display-tunics{
+    height: 34%;
+    width: 100%;
+
+    background: url("https://images.pexels.com/photos/20407201/pexels-photo-20407201.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+}
+.display-tunics span{
+    display: block;
+    font-size: 5rem;
+
+    color: white;
+    font-family: "Abril Fatface", serif;
+    text-shadow: 2px 2px 3px #000;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.showing-tunics{
+    margin-top: 0.5rem;
+    height: 66%;
+    width: 100%;
+    
+    display: flex;
+    flex-direction: column;
+}
+.set1-tunics{
+    display: flex;
+    height: 50%;
+    width: 100%;
+    gap: 3rem;
+    margin-left: 1rem;
+}
+.tunics1{
+    margin-top: 1rem;
+    height: 90%;
+    width: 30%;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    /* background-color: rgba(255, 255, 255, 0.1); */
+    /* background-color: #24243e; */
+    /* background-color: rgb(249, 240, 240);
+    backdrop-filter: blur(45px); */
+    background: linear-gradient(to bottom, #ffffff, #f0f0f0, rgb(255, 211, 218));
+    opacity: 0.9;
+    border-radius: 2rem;
+    box-shadow: 0 0 10px rgb(143, 136, 136);
+}
+.tunics1 .pic1{
+    height: 80%;
+    width: 80%;
+    /* */
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+.tunics1 .pic1 img{
+    height: 100%;
+    width: 100%;
+}
+.tunics1 .text1{
+    height: 20%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction: column;
+}
+.tunics1 .text1 .upper{
+    height: 20%;
+    width: 100%;
+    /* border: 2px solid black; */
+    margin-bottom: 0.5rem;
+}
+.tunics1 .text1 .upper .product-name{
+    font-family: "Abril Fatface", serif;
+    color: #000;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    /* */
+}
+.tunics1 .text1 .lower{
+    height: 80%;
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+}
+.tunics1 .text1 .lower .low1{
+    height: 100%;
+    width: 50%;
+    /* border: 2px solid black; */
+}
+.tunics1 .text1 .low1 .product-price{
+    font-family: "Abril Fatface", serif;
+    color: navy;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    /* */
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.tunics1 .text1 .low1 .product-detail span{
+    font-family: "Abril Fatface", serif;
+    color: red;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    text-decoration: line-through;
+}
+.tunics1 .text1 .low1 .product-detail{
+    font-family: "Abril Fatface", serif;
+    color: navy;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    /* */
+    margin-top: 0;
+    
+}
+.tunics1 .text1 .lower .low2{
+    height: 100%;
+    width: 50%;
+    /* border: 2px solid black; */
+}
+.tunics1 .text1 .low2 button{
+    height: 2rem;
+    width: 8rem;
+    border-radius: 5rem;
+    margin-left: 2rem;
+    font-family: "Abril Fatface", serif;
+    background-color: rgb(4, 34, 59);
+    color: #f5f5f5;
+    cursor: pointer;
+}
+.tunics2{
+    margin-top: 1rem;
+    height: 90%;
+    width: 30%;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    /* background-color: rgba(255, 255, 255, 0.1); */
+    /* background-color: #24243e; */
+    /* background-color: rgb(249, 240, 240);
+    backdrop-filter: blur(45px); */
+    background: linear-gradient(to bottom, #ffffff, #f0f0f0, rgb(255, 211, 218));
+    opacity: 0.9;
+    border-radius: 2rem;
+    box-shadow: 0 0 10px rgb(143, 136, 136);
+}
+.tunics2 .pic2{
+    height: 80%;
+    width: 80%;
+    /* */
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+.tunics2 .pic2 img{
+    height: 100%;
+    width: 100%;
+}
+.tunics2 .text2{
+    height: 20%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction: column;
+}
+.tunics2 .text2 .upper{
+    height: 20%;
+    width: 100%;
+    /* border: 2px solid black; */
+    margin-bottom: 0.5rem;
+}
+.tunics2 .text2 .upper .product-name{
+    font-family: "Abril Fatface", serif;
+    color: #000;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    /* */
+}
+.tunics2 .text2 .lower{
+    height: 80%;
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+}
+.tunics2 .text2 .lower .low1{
+    height: 100%;
+    width: 50%;
+    /* border: 2px solid black; */
+}
+.tunics2 .text2 .low1 .product-price{
+    font-family: "Abril Fatface", serif;
+    color: navy;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    /* */
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.tunics2 .text2 .low1 .product-detail span{
+    font-family: "Abril Fatface", serif;
+    color: red;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    text-decoration: line-through;
+}
+.tunics2 .text2 .low1 .product-detail{
+    font-family: "Abril Fatface", serif;
+    color: navy;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    /* */
+    margin-top: 0;
+    
+}
+.tunics2 .text2 .lower .low2{
+    height: 100%;
+    width: 50%;
+    /* border: 2px solid black; */
+}
+.tunics2 .text2 .low2 button{
+    height: 2rem;
+    width: 8rem;
+    border-radius: 5rem;
+    margin-left: 2rem;
+    font-family: "Abril Fatface", serif;
+    background-color: rgb(4, 34, 59);
+    color: #f5f5f5;
+    cursor: pointer;
+}
+.tunics2 .text2 .low2 button a{
+    color: #f5f5f5;
+    text-decoration: none;
+    font-family: "Abril Fatface", serif;
+}
+.tunics3{
+    margin-top: 1rem;
+    height: 90%;
+    width: 30%;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    /* background-color: rgba(255, 255, 255, 0.1); */
+    /* background-color: #24243e; */
+    /* background-color: rgb(249, 240, 240);
+    backdrop-filter: blur(45px); */
+    background: linear-gradient(to bottom, #ffffff, #f0f0f0, rgb(255, 211, 218));
+    opacity: 0.9;
+    border-radius: 2rem;
+    box-shadow: 0 0 10px rgb(143, 136, 136);
+}
+.tunics3 .pic3{
+    height: 80%;
+    width: 80%;
+    /* */
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+.tunics3 .pic3 img{
+    height: 100%;
+    width: 100%;
+}
+.tunics3 .text3{
+    height: 20%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction: column;
+}
+.tunics3 .text3 .upper{
+    height: 20%;
+    width: 100%;
+    /* border: 2px solid black; */
+    margin-bottom: 0.5rem;
+}
+.tunics3 .text3 .upper .product-name{
+    font-family: "Abril Fatface", serif;
+    color: #000;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    /* */
+}
+.tunics3 .text3 .lower{
+    height: 80%;
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+}
+.tunics3 .text3 .lower .low1{
+    height: 100%;
+    width: 50%;
+    /* border: 2px solid black; */
+}
+.tunics3 .text3 .low1 .product-price{
+    font-family: "Abril Fatface", serif;
+    color: navy;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    /* */
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.tunics3 .text3 .low1 .product-detail span{
+    font-family: "Abril Fatface", serif;
+    color: red;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    text-decoration: line-through;
+}
+.tunics3 .text3 .low1 .product-detail{
+    font-family: "Abril Fatface", serif;
+    color: navy;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    /* */
+    margin-top: 0;
+    
+}
+.tunics3 .text3 .lower .low2{
+    height: 100%;
+    width: 50%;
+    /* border: 2px solid black; */
+}
+.tunics3 .text3 .low2 button{
+    height: 2rem;
+    width: 8rem;
+    border-radius: 5rem;
+    margin-left: 2rem;
+    font-family: "Abril Fatface", serif;
+    background-color: rgb(4, 34, 59);
+    color: #f5f5f5;
+    cursor: pointer;
+}
+.set2-tunics{
+    display: flex;
+    height: 50%;
+    width: 100%;
+    gap: 3rem;
+    margin-left: 1rem;
+}
+
+/*! tunics */
+.category-ethnic{
+    height: 13.5%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.display-ethnic{
+    height: 34%;
+    width: 100%;
+
+    background: url("https://static.vecteezy.com/system/resources/previews/059/967/906/non_2x/stunning-woman-in-traditional-indian-dress-free-photo.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+}
+.display-ethnic span{
+    display: block;
+    font-size: 5rem;
+
+    color: white;
+    font-family: "Abril Fatface", serif;
+    text-shadow: 2px 2px 3px #000;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.showing-ethnic{
+    margin-top: 0.5rem;
+    height: 66%;
+    width: 100%;
+    
+    display: flex;
+    flex-direction: column;
+}
+.set1-ethnic{
+    display: flex;
+    height: 50%;
+    width: 100%;
+    gap: 3rem;
+    margin-left: 1rem;
+}
+.ethnic1{
+    margin-top: 1rem;
+    height: 90%;
+    width: 30%;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    /* background-color: rgba(255, 255, 255, 0.1); */
+    /* background-color: #24243e; */
+    /* background-color: rgb(249, 240, 240);
+    backdrop-filter: blur(45px); */
+    background: linear-gradient(to bottom, #ffffff, #f0f0f0, rgb(255, 211, 218));
+    opacity: 0.9;
+    border-radius: 2rem;
+    box-shadow: 0 0 10px rgb(143, 136, 136);
+}
+.ethnic1 .pic1{
+    height: 80%;
+    width: 80%;
+    /* */
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+.ethnic1 .pic1 img{
+    height: 100%;
+    width: 100%;
+}
+.ethnic1 .text1{
+    height: 20%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction: column;
+}
+.ethnic1 .text1 .upper{
+    height: 20%;
+    width: 100%;
+    /* border: 2px solid black; */
+    margin-bottom: 0.5rem;
+}
+.ethnic1 .text1 .upper .product-name{
+    font-family: "Abril Fatface", serif;
+    color: #000;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    /* */
+}
+.ethnic1 .text1 .lower{
+    height: 80%;
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+}
+.ethnic1 .text1 .lower .low1{
+    height: 100%;
+    width: 50%;
+    /* border: 2px solid black; */
+}
+.ethnic1 .text1 .low1 .product-price{
+    font-family: "Abril Fatface", serif;
+    color: navy;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    /* */
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.ethnic1 .text1 .low1 .product-detail span{
+    font-family: "Abril Fatface", serif;
+    color: red;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    text-decoration: line-through;
+}
+.ethnic1 .text1 .low1 .product-detail{
+    font-family: "Abril Fatface", serif;
+    color: navy;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    /* */
+    margin-top: 0;
+    
+}
+.ethnic1 .text1 .lower .low2{
+    height: 100%;
+    width: 50%;
+    /* border: 2px solid black; */
+}
+.ethnic1 .text1 .low2 button{
+    height: 2rem;
+    width: 8rem;
+    border-radius: 5rem;
+    margin-left: 2rem;
+    font-family: "Abril Fatface", serif;
+    background-color: rgb(4, 34, 59);
+    color: #f5f5f5;
+    cursor: pointer;
+}
+.ethnic2{
+    margin-top: 1rem;
+    height: 90%;
+    width: 30%;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    /* background-color: rgba(255, 255, 255, 0.1); */
+    /* background-color: #24243e; */
+    /* background-color: rgb(249, 240, 240);
+    backdrop-filter: blur(45px); */
+    background: linear-gradient(to bottom, #ffffff, #f0f0f0, rgb(255, 211, 218));
+    opacity: 0.9;
+    border-radius: 2rem;
+    box-shadow: 0 0 10px rgb(143, 136, 136);
+}
+.ethnic2 .pic2{
+    height: 80%;
+    width: 80%;
+    /* */
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+.ethnic2 .pic2 img{
+    height: 100%;
+    width: 100%;
+}
+.ethnic2 .text2{
+    height: 20%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction: column;
+}
+.ethnic2 .text2 .upper{
+    height: 20%;
+    width: 100%;
+    /* border: 2px solid black; */
+    margin-bottom: 0.5rem;
+}
+.ethnic2 .text2 .upper .product-name{
+    font-family: "Abril Fatface", serif;
+    color: #000;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    /* */
+}
+.ethnic2 .text2 .lower{
+    height: 80%;
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+}
+.ethnic2 .text2 .lower .low1{
+    height: 100%;
+    width: 50%;
+    /* border: 2px solid black; */
+}
+.ethnic2 .text2 .low1 .product-price{
+    font-family: "Abril Fatface", serif;
+    color: navy;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    /* */
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.ethnic2 .text2 .low1 .product-detail span{
+    font-family: "Abril Fatface", serif;
+    color: red;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    text-decoration: line-through;
+}
+.ethnic2 .text2 .low1 .product-detail{
+    font-family: "Abril Fatface", serif;
+    color: navy;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    /* */
+    margin-top: 0;
+    
+}
+.ethnic2 .text2 .lower .low2{
+    height: 100%;
+    width: 50%;
+    /* border: 2px solid black; */
+}
+.ethnic2 .text2 .low2 button{
+    height: 2rem;
+    width: 8rem;
+    border-radius: 5rem;
+    margin-left: 2rem;
+    font-family: "Abril Fatface", serif;
+    background-color: rgb(4, 34, 59);
+    color: #f5f5f5;
+    cursor: pointer;
+}
+.ethnic3{
+    margin-top: 1rem;
+    height: 90%;
+    width: 30%;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    /* background-color: rgba(255, 255, 255, 0.1); */
+    /* background-color: #24243e; */
+    /* background-color: rgb(249, 240, 240);
+    backdrop-filter: blur(45px); */
+    background: linear-gradient(to bottom, #ffffff, #f0f0f0, rgb(255, 211, 218));
+    opacity: 0.9;
+    border-radius: 2rem;
+    box-shadow: 0 0 10px rgb(143, 136, 136);
+}
+.ethnic3 .pic3{
+    height: 80%;
+    width: 80%;
+    /* */
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+.ethnic3 .pic3 img{
+    height: 100%;
+    width: 100%;
+}
+.ethnic3 .text3{
+    height: 20%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction: column;
+}
+.ethnic3 .text3 .upper{
+    height: 20%;
+    width: 100%;
+    /* border: 2px solid black; */
+    margin-bottom: 0.5rem;
+}
+.ethnic3 .text3 .upper .product-name{
+    font-family: "Abril Fatface", serif;
+    color: #000;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    /* */
+}
+.ethnic3 .text3 .lower{
+    height: 80%;
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+}
+.ethnic3 .text3 .lower .low1{
+    height: 100%;
+    width: 50%;
+    /* border: 2px solid black; */
+}
+.ethnic3 .text3 .low1 .product-price{
+    font-family: "Abril Fatface", serif;
+    color: navy;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    /* */
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.ethnic3 .text3 .low1 .product-detail span{
+    font-family: "Abril Fatface", serif;
+    color: red;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    text-decoration: line-through;
+}
+.ethnic3 .text3 .low1 .product-detail{
+    font-family: "Abril Fatface", serif;
+    color: navy;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    /* */
+    margin-top: 0;
+    
+}
+.ethnic3 .text3 .lower .low2{
+    height: 100%;
+    width: 50%;
+    /* border: 2px solid black; */
+}
+.ethnic3 .text3 .low2 button{
+    height: 2rem;
+    width: 8rem;
+    border-radius: 5rem;
+    margin-left: 2rem;
+    font-family: "Abril Fatface", serif;
+    background-color: rgb(4, 34, 59);
+    color: #f5f5f5;
+    cursor: pointer;
+}
+.set2-ethnic{
+    display: flex;
+    height: 50%;
+    width: 100%;
+    gap: 3rem;
+    margin-left: 1rem;
+}
+
+/*! tunics */
+.category-shrugs{
+    height: 13.5%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.display-shrugs{
+    height: 34%;
+    width: 100%;
+
+    background: url("https://houseofekam.com/cdn/shop/files/Blue-Polka-Shibori-Front-Open-Shrug-Shrugs-House-of-Ekam_900x.jpg?v=1734979650");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    background-attachment: scroll;
+}
+.display-shrugs span{
+    display: block;
+    font-size: 5rem;
+
+    color: white;
+    font-family: "Abril Fatface", serif;
+    text-shadow: 2px 2px 3px #000;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.showing-shrugs{
+    margin-top: 0.5rem;
+    height: 66%;
+    width: 100%;
+    
+    display: flex;
+    flex-direction: column;
+}
+.set1-shrugs{
+    display: flex;
+    height: 50%;
+    width: 100%;
+    gap: 3rem;
+    margin-left: 1rem;
+}
+.shrugs1{
+    margin-top: 1rem;
+    height: 90%;
+    width: 30%;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    /* background-color: rgba(255, 255, 255, 0.1); */
+    /* background-color: #24243e; */
+    /* background-color: rgb(249, 240, 240);
+    backdrop-filter: blur(45px); */
+    background: linear-gradient(to bottom, #ffffff, #f0f0f0, rgb(255, 211, 218));
+    opacity: 0.9;
+    border-radius: 2rem;
+    box-shadow: 0 0 10px rgb(143, 136, 136);
+}
+.shrugs1 .pic1{
+    height: 80%;
+    width: 80%;
+    /* */
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+.shrugs1 .pic1 img{
+    height: 100%;
+    width: 100%;
+}
+.shrugs1 .text1{
+    height: 20%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction: column;
+}
+.shrugs1 .text1 .upper{
+    height: 20%;
+    width: 100%;
+    /* border: 2px solid black; */
+    margin-bottom: 0.5rem;
+}
+.shrugs1 .text1 .upper .product-name{
+    font-family: "Abril Fatface", serif;
+    color: #000;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    /* */
+}
+.shrugs1 .text1 .lower{
+    height: 80%;
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+}
+.shrugs1 .text1 .lower .low1{
+    height: 100%;
+    width: 50%;
+    /* border: 2px solid black; */
+}
+.shrugs1 .text1 .low1 .product-price{
+    font-family: "Abril Fatface", serif;
+    color: navy;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    /* */
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.shrugs1 .text1 .low1 .product-detail span{
+    font-family: "Abril Fatface", serif;
+    color: red;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    text-decoration: line-through;
+}
+.shrugs1 .text1 .low1 .product-detail{
+    font-family: "Abril Fatface", serif;
+    color: navy;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    /* */
+    margin-top: 0;
+    
+}
+.shrugs1 .text1 .lower .low2{
+    height: 100%;
+    width: 50%;
+    /* border: 2px solid black; */
+}
+.shrugs1 .text1 .low2 button{
+    height: 2rem;
+    width: 8rem;
+    border-radius: 5rem;
+    margin-left: 2rem;
+    font-family: "Abril Fatface", serif;
+    background-color: rgb(4, 34, 59);
+    color: #f5f5f5;
+    cursor: pointer;
+}
+.shrugs2{
+    margin-top: 1rem;
+    height: 90%;
+    width: 30%;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    /* background-color: rgba(255, 255, 255, 0.1); */
+    /* background-color: #24243e; */
+    /* background-color: rgb(249, 240, 240);
+    backdrop-filter: blur(45px); */
+    background: linear-gradient(to bottom, #ffffff, #f0f0f0, rgb(255, 211, 218));
+    opacity: 0.9;
+    border-radius: 2rem;
+    box-shadow: 0 0 10px rgb(143, 136, 136);
+}
+.shrugs2 .pic2{
+    height: 80%;
+    width: 80%;
+    /* */
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+.shrugs2 .pic2 img{
+    height: 100%;
+    width: 100%;
+}
+.shrugs2 .text2{
+    height: 20%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction: column;
+}
+.shrugs2 .text2 .upper{
+    height: 20%;
+    width: 100%;
+    /* border: 2px solid black; */
+    margin-bottom: 0.5rem;
+}
+.shrugs2 .text2 .upper .product-name{
+    font-family: "Abril Fatface", serif;
+    color: #000;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    /* */
+}
+.shrugs2 .text2 .lower{
+    height: 80%;
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+}
+.shrugs2 .text2 .lower .low1{
+    height: 100%;
+    width: 50%;
+    /* border: 2px solid black; */
+}
+.shrugs2 .text2 .low1 .product-price{
+    font-family: "Abril Fatface", serif;
+    color: navy;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    /* */
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.shrugs2 .text2 .low1 .product-detail span{
+    font-family: "Abril Fatface", serif;
+    color: red;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    text-decoration: line-through;
+}
+.shrugs2 .text2 .low1 .product-detail{
+    font-family: "Abril Fatface", serif;
+    color: navy;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    /* */
+    margin-top: 0;
+    
+}
+.shrugs2 .text2 .lower .low2{
+    height: 100%;
+    width: 50%;
+    /* border: 2px solid black; */
+}
+.shrugs2 .text2 .low2 button{
+    height: 2rem;
+    width: 8rem;
+    border-radius: 5rem;
+    margin-left: 2rem;
+    font-family: "Abril Fatface", serif;
+    background-color: rgb(4, 34, 59);
+    color: #f5f5f5;
+    cursor: pointer;
+}
+.shrugs3{
+    margin-top: 1rem;
+    height: 90%;
+    width: 30%;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    /* background-color: rgba(255, 255, 255, 0.1); */
+    /* background-color: #24243e; */
+    /* background-color: rgb(249, 240, 240);
+    backdrop-filter: blur(45px); */
+    background: linear-gradient(to bottom, #ffffff, #f0f0f0, rgb(255, 211, 218));
+    opacity: 0.9;
+    border-radius: 2rem;
+    box-shadow: 0 0 10px rgb(143, 136, 136);
+}
+.shrugs3 .pic3{
+    height: 80%;
+    width: 80%;
+    /* */
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+.shrugs3 .pic3 img{
+    height: 100%;
+    width: 100%;
+}
+.shrugs3 .text3{
+    height: 20%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction: column;
+}
+.shrugs3 .text3 .upper{
+    height: 20%;
+    width: 100%;
+    /* border: 2px solid black; */
+    margin-bottom: 0.5rem;
+}
+.shrugs3 .text3 .upper .product-name{
+    font-family: "Abril Fatface", serif;
+    color: #000;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    /* */
+}
+.shrugs3 .text3 .lower{
+    height: 80%;
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+}
+.shrugs3 .text3 .lower .low1{
+    height: 100%;
+    width: 50%;
+    /* border: 2px solid black; */
+}
+.shrugs3 .text3 .low1 .product-price{
+    font-family: "Abril Fatface", serif;
+    color: navy;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    /* */
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.shrugs3 .text3 .low1 .product-detail span{
+    font-family: "Abril Fatface", serif;
+    color: red;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    text-decoration: line-through;
+}
+.shrugs3 .text3 .low1 .product-detail{
+    font-family: "Abril Fatface", serif;
+    color: navy;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    /* */
+    margin-top: 0;
+    
+}
+.shrugs3 .text3 .lower .low2{
+    height: 100%;
+    width: 50%;
+    /* border: 2px solid black; */
+}
+.shrugs3 .text3 .low2 button{
+    height: 2rem;
+    width: 8rem;
+    border-radius: 5rem;
+    margin-left: 2rem;
+    font-family: "Abril Fatface", serif;
+    background-color: rgb(4, 34, 59);
+    color: #f5f5f5;
+    cursor: pointer;
+}
+.set2-shrugs{
+    display: flex;
+    height: 50%;
+    width: 100%;
+    gap: 3rem;
+    margin-left: 1rem;
+}
+
+
+footer{
+    height: 4.5%;
+    width: 100%;
+    /* border: 5px solid red; */
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(184, 218, 255);
+}
+.footer-up{
+    height: 90%;
+    width: 100%;
+    display: flex;
+}
+.sec1{
+    height: 100%;
+    width: 33%;
+    /* border: 3px solid black; */
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.sec1 .sec1-head{
+    font-size: 2rem;
+    /* font-family: 'Spectral'; */
+    font-family: "Abril Fatface", serif;
+    text-shadow: 2px 3px 3px gray;
+}
+.sec1 .sec1-p{
+    /* font-family: 'Spectral'; */
+    font-family: "Abril Fatface", serif;
+}
+.sec2{
+    height: 100%;
+    width: 33%;
+    /* border: 3px solid black; */
+    align-items: center;
+    align-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.sec2 .sec2-head{
+    padding-left: 20px;
+    font-size: 2rem;
+    /* font-family: 'Spectral'; */
+    font-family: "Abril Fatface", serif;
+    text-shadow: 2px 3px 3px gray;
+}
+.sec2 ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    /* font-family: 'Spectral'; */
+    font-family: "Abril Fatface", serif;
+}
+.sec3{
+    height: 100%;
+    width: 33%;
+    /* border: 3px solid black; */
+    align-items: center;
+    align-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.sec3 .sec3-head{
+    font-size: 2rem;
+    /* font-family: 'Spectral'; */
+    font-family: "Abril Fatface", serif;
+    text-shadow: 2px 3px 3px gray;
+}
+.sec3 .sec3-p{
+    /* font-family: 'Spectral'; */
+    font-family: "Abril Fatface", serif;
+}
+.sec3 input{
+    /* font-family: 'Spectral'; */
+    font-family: "Abril Fatface", serif;
+    margin-bottom: 10px;
+    height: 40px;
+    width: 300px;
+}
+.sec3 button{
+    /* font-family: 'Spectral'; */
+    font-family: "Abril Fatface", serif;
+    height: 40px;
+    width: 140px;
+}
+.footer-down{
+    height: 10%;
+    width: 100%;
+    display: flex;
+}
+.footer-down .s1{
+    height: 100%;
+    width: 20%;
+    /* border: 3px solid black; */
+    /* font-family: 'Spectral'; */
+    font-family: "Abril Fatface", serif;
+}
+.footer-down .s1 p{
+    text-align: center;
+}
+.footer-down .s2{
+    height: 100%;
+    width: 80%;
+    /* border: 3px solid red; */
+    align-items: center;
+    align-content: center;
+    padding-left: 100px;
+}
+.footer-down .s2 ul{
+    list-style: none;
+    display: flex;
+    gap: 9px;
+    margin-right: 50px;
+    /* font-family: 'Spectral'; */
+    font-family: "Abril Fatface", serif;
+    font-size: 0.8rem;
+}
