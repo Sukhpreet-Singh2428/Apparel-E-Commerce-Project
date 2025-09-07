@@ -215,7 +215,7 @@ main{
     /* background-color: #24243e; */
     /* background-color: rgb(249, 240, 240);
     backdrop-filter: blur(45px); */
-    background: linear-gradient(to bottom, #ffffff, #f0f0f0, rgb(226, 239, 253));
+    background: linear-gradient(to bottom, #ffffff, #f0f0f0, rgb(255, 219, 225));
     border-radius: 2rem;
     box-shadow: 0 0 2px rgb(143, 136, 136);
     transition: box-shadow 0.3s ease-in-out;
@@ -341,7 +341,7 @@ main{
     /* background-color: #24243e; */
     /* background-color: rgb(249, 240, 240);
     backdrop-filter: blur(45px); */
-    background: linear-gradient(to bottom, #ffffff, #f0f0f0, rgb(226, 239, 253));
+    background: linear-gradient(to bottom, #ffffff, #f0f0f0, rgb(255, 211, 218));
     border-radius: 2rem;
     box-shadow: 0 0 2px rgb(143, 136, 136);
     transition: box-shadow 0.3s ease-in-out;
@@ -467,7 +467,7 @@ main{
     /* background-color: #24243e; */
     /* background-color: rgb(249, 240, 240);
     backdrop-filter: blur(45px); */
-    background: linear-gradient(to bottom, #ffffff, #f0f0f0, rgb(226, 239, 253));
+    background: linear-gradient(to bottom, #ffffff, #f0f0f0, rgb(255, 211, 218));
     border-radius: 2rem;
     box-shadow: 0 0 2px rgb(143, 136, 136);
     transition: box-shadow 0.3s ease-in-out;
