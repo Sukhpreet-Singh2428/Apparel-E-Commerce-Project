@@ -37,7 +37,7 @@ html{
     display: flex;
     gap: 25px;
     margin: 0;
-    padding-left: 1.6rem;
+    margin-left: 2rem;
 }
 .menu ul a{
     text-decoration: none;
@@ -192,7 +192,7 @@ main{
 .sections{
     height: 65%;
     width: 100%;
-    margin-bottom: 12px;
+    margin-bottom: 0.5rem;
 }
 .upper{
     display: flex;
@@ -308,7 +308,7 @@ main{
     width: 100%;
     /* box-shadow: 0 0 20px #000; */
     position: relative;
-    margin-bottom: 12px;
+    margin-bottom: 0.3rem;
 }
 .vid{
     height: 100%;
@@ -346,14 +346,17 @@ main{
     text-shadow: 2px 3px 3px #000;
 }
 .para-section{
-    height: 23%;
+    height: 22%;
     width: 100%;
     /* border: 3px solid black; */
     /* background-color: rgb(159, 180, 201); */
-    background-color: rgb(255, 153, 153);
+    /* background-color: rgb(255, 153, 153); */
+    background-color: #f6dfde;
     display: flex;
     flex-direction: column;
     gap: 0;
+    margin-bottom: 0.5rem;
+    
 }
 .para-section .up{
     height: 68%;
@@ -367,14 +370,15 @@ main{
     text-align: center;
     text-transform: uppercase;
     color: #000;
+    font-weight: normal;
     /* font-family: 'Spectral'; */
     font-family: "Audiowide", sans-serif;
     text-shadow: 2px 3px 3px lightslategrey; 
 }
 .para-section .other{
     /* margin: 0; */
-    padding-left: auto;
-    padding-right: auto;
+    margin-top: 2rem;
+    margin-right: 2rem;
     text-align: center;
     font-size: 1.2rem;
     /* font-family: 'Spectral'; */
@@ -398,17 +402,20 @@ main{
 .para-section button{
     position: relative;
     left: 53%;
-    height: 30px;
+    height: 2rem;
     /* font-family: 'Spectral'; */
     font-family: "Audiowide", sans-serif;
-    border: 0;
+    border-radius: 0.5rem;
+    border-style: none;
+    background-color: #000;
+    color: honeydew;
 }
 .para-section button a{
     text-decoration: none;
     
 }
 .para-section button:hover{
-    background-color: lightgoldenrodyellow;
+    background-color: #375b71;
 }
 .para-section .select{
     position: absolute;
@@ -418,12 +425,14 @@ main{
     font-family: "Audiowide", sans-serif;
 }
 footer{
-    height: 20%;
+    height: 19.5%;
     width: 100%;
     /* border: 5px solid red; */
     display: flex;
     flex-direction: column;
-    background-color: rgb(128, 168, 209);
+    /* background-color: rgb(128, 168, 209); */
+    background-color: #375b71;
+    margin-top: 0.5rem;
 }
 .footer-up{
     height: 90%;
@@ -445,10 +454,12 @@ footer{
     /* font-family: 'Spectral'; */
     font-family: "Audiowide", sans-serif;
     text-shadow: 2px 3px 3px gray;
+    color: honeydew;
 }
 .sec1 .sec1-p{
     /* font-family: 'Spectral'; */
     font-family: "Audiowide", sans-serif;
+    color: honeydew;
 }
 .sec2{
     height: 100%;
@@ -465,6 +476,7 @@ footer{
     /* font-family: 'Spectral'; */
     font-family: "Audiowide", sans-serif;
     text-shadow: 2px 3px 3px gray;
+    color: honeydew;
 }
 .sec2 ul{
     list-style: none;
@@ -473,6 +485,7 @@ footer{
     gap: 10px;
     /* font-family: 'Spectral'; */
     font-family: "Audiowide", sans-serif;
+    color: honeydew;
 }
 .sec3{
     height: 100%;
@@ -488,10 +501,12 @@ footer{
     /* font-family: 'Spectral'; */
     font-family: "Audiowide", sans-serif;
     text-shadow: 2px 3px 3px gray;
+    color: honeydew;
 }
 .sec3 .sec3-p{
     /* font-family: 'Spectral'; */
     font-family: "Audiowide", sans-serif;
+    color: honeydew;
 }
 .sec3 input{
     /* font-family: 'Spectral'; */
@@ -517,9 +532,11 @@ footer{
     /* border: 3px solid black; */
     /* font-family: 'Spectral'; */
     font-family: "Audiowide", sans-serif;
+    color: honeydew;
 }
 .footer-down .s1 p{
     text-align: center;
+    color: honeydew;
 }
 .footer-down .s2{
     height: 100%;
@@ -537,6 +554,7 @@ footer{
     /* font-family: 'Spectral'; */
     font-family: "Audiowide", sans-serif;
     font-size: 0.8rem;
+    color: honeydew;
 }
 
 @media screen and (max-width: 480px) {

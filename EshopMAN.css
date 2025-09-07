@@ -33,7 +33,7 @@ html{
     display: flex;
     gap: 25px;
     margin: 0;
-    padding-left: 1.6rem;
+    margin-left: 2rem;
 }
 .menu ul a{
     text-decoration: none;
@@ -52,7 +52,7 @@ html{
     display: flex;
     gap: 25px;
     margin: 0;
-    padding-left: 130px;
+    margin-left: 6rem;
     color: honeydew;
     font-family: "Audiowide", sans-serif;
 }
@@ -290,12 +290,16 @@ main{
     /* background-color: rgb(249, 240, 240); */
     /* backdrop-filter: blur(45px); */
     background: linear-gradient(to bottom, #ffffff, #f0f0f0, rgb(186, 201, 218));
-    opacity: 0.9;
+    /* opacity: 0.9; */
     border-radius: 2rem;
-    box-shadow: 0 0 10px rgb(143, 136, 136);
+    box-shadow: 0 0 5px rgb(143, 136, 136);
+    transition: box-shadow 0.3s ease-in-out;
+}
+.tshirt1:hover{
+    box-shadow: 0 0 12px rgb(143, 136, 136);
 }
 .tshirt1 .pic1{
-    height: 80%;
+    height: 78%;
     width: 80%;
     /* border: 2px solid red; */
     margin-left: auto;
@@ -307,7 +311,7 @@ main{
     width: 100%;
 }
 .tshirt1 .text1{
-    height: 20%;
+    height: 22%;
     width: 80%;
     /* border: 2px solid navy; */
     margin-left: auto;
@@ -317,7 +321,7 @@ main{
     flex-direction: column;
 }
 .tshirt1 .text1 .upper{
-    height: 20%;
+    height: 30%;
     width: 100%;
     /* border: 2px solid black; */
     margin-bottom: 0.5rem;
@@ -325,12 +329,12 @@ main{
 .tshirt1 .text1 .upper .product-name{
     font-family: "Audiowide", sans-serif;
     color: #000;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     text-transform: uppercase;
     /* border: 2px solid red; */
 }
 .tshirt1 .text1 .lower{
-    height: 80%;
+    height: 70%;
     width: 100%;
     /* border: 2px solid black; */
     display: flex;
@@ -342,11 +346,11 @@ main{
 }
 .tshirt1 .text1 .low1 .product-price{
     font-family: "Audiowide", sans-serif;
-    color: navy;
+    color: #000;
     font-size: 0.9rem;
     text-transform: uppercase;
     /* border: 2px solid red; */
-    margin-top: 0;
+    margin-top: 0.2rem;
     margin-bottom: 0;
 }
 .tshirt1 .text1 .low1 .product-detail span{
@@ -358,8 +362,8 @@ main{
 }
 .tshirt1 .text1 .low1 .product-detail{
     font-family: "Audiowide", sans-serif;
-    color: navy;
-    font-size: 0.9rem;
+    color: green;
+    font-size: 0.8rem;
     text-transform: uppercase;
     /* border: 2px solid red; */
     margin-top: 0;
@@ -379,6 +383,7 @@ main{
     background-color: rgb(4, 34, 59);
     color: #f5f5f5;
     cursor: pointer;
+    margin-top: 0.2rem;
 }
 .tshirt2{
     margin-top: 1rem;
@@ -393,12 +398,16 @@ main{
     backdrop-filter: blur(45px); */
     /* background: linear-gradient(to bottom, #ffffff, #f0f0f0, rgb(205, 199, 199)); */
     background: linear-gradient(to bottom, #ffffff, #f0f0f0, rgb(186, 201, 218));
-    opacity: 0.9;
+    /* opacity: 0.9; */
     border-radius: 2rem;
-    box-shadow: 0 0 10px rgb(143, 136, 136);
+    box-shadow: 0 0 5px rgb(143, 136, 136);
+    transition: box-shadow 0.3s ease-in-out
+}
+.tshirt2:hover{
+    box-shadow: 0 0 12px rgb(143, 136, 136);
 }
 .tshirt2 .pic2{
-    height: 80%;
+    height: 78%;
     width: 80%;
     /* border: 2px solid red; */
     margin-left: auto;
@@ -410,7 +419,7 @@ main{
     width: 100%;
 }
 .tshirt2 .text2{
-    height: 20%;
+    height: 22%;
     width: 80%;
     /* border: 2px solid navy; */
     margin-left: auto;
@@ -420,7 +429,7 @@ main{
     flex-direction: column;
 }
 .tshirt2 .text2 .upper{
-    height: 20%;
+    height: 30%;
     width: 100%;
     /* border: 2px solid black; */
     margin-bottom: 0.5rem;
@@ -428,12 +437,12 @@ main{
 .tshirt2 .text2 .upper .product-name{
     font-family: "Audiowide", sans-serif;
     color: #000;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     text-transform: uppercase;
     /* border: 2px solid red; */
 }
 .tshirt2 .text2 .lower{
-    height: 80%;
+    height: 70%;
     width: 100%;
     /* border: 2px solid black; */
     display: flex;
@@ -445,11 +454,11 @@ main{
 }
 .tshirt2 .text2 .low1 .product-price{
     font-family: "Audiowide", sans-serif;
-    color: navy;
+    color: #000;
     font-size: 0.9rem;
     text-transform: uppercase;
     /* border: 2px solid red; */
-    margin-top: 0;
+    margin-top: 0.2rem;
     margin-bottom: 0;
 }
 .tshirt2 .text2 .low1 .product-detail span{
@@ -461,8 +470,8 @@ main{
 }
 .tshirt2 .text2 .low1 .product-detail{
     font-family: "Audiowide", sans-serif;
-    color: navy;
-    font-size: 0.9rem;
+    color: green;
+    font-size: 0.8rem;
     text-transform: uppercase;
     /* border: 2px solid red; */
     margin-top: 0;
@@ -482,6 +491,7 @@ main{
     background-color: rgb(4, 34, 59);
     color: #f5f5f5;
     cursor: pointer;
+    margin-top: 0.2rem;
 }
 .tshirt3{
     margin-top: 1rem;
@@ -495,12 +505,16 @@ main{
     /* background-color: rgb(249, 240, 240);
     backdrop-filter: blur(45px); */
     background: linear-gradient(to bottom, #ffffff, #f0f0f0, rgb(186, 201, 218));
-    opacity: 0.9;
+    /* opacity: 0.9; */
     border-radius: 2rem;
-    box-shadow: 0 0 10px rgb(143, 136, 136);
+    box-shadow: 0 0 5px rgb(143, 136, 136);
+    transition: box-shadow 0.3s ease-in-out
+}
+.tshirt3:hover{
+    box-shadow: 0 0 12px rgb(143, 136, 136);
 }
 .tshirt3 .pic3{
-    height: 80%;
+    height: 78%;
     width: 80%;
     /* border: 2px solid red; */
     margin-left: auto;
@@ -512,7 +526,7 @@ main{
     width: 100%;
 }
 .tshirt3 .text3{
-    height: 20%;
+    height: 22%;
     width: 80%;
     /* border: 2px solid navy; */
     margin-left: auto;
@@ -522,7 +536,7 @@ main{
     flex-direction: column;
 }
 .tshirt3 .text3 .upper{
-    height: 20%;
+    height: 30%;
     width: 100%;
     /* border: 2px solid black; */
     margin-bottom: 0.5rem;
@@ -530,12 +544,12 @@ main{
 .tshirt3 .text3 .upper .product-name{
     font-family: "Audiowide", sans-serif;
     color: #000;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     text-transform: uppercase;
     /* border: 2px solid red; */
 }
 .tshirt3 .text3 .lower{
-    height: 80%;
+    height: 70%;
     width: 100%;
     /* border: 2px solid black; */
     display: flex;
@@ -547,11 +561,11 @@ main{
 }
 .tshirt3 .text3 .low1 .product-price{
     font-family: "Audiowide", sans-serif;
-    color: navy;
+    color: #000;
     font-size: 0.9rem;
     text-transform: uppercase;
     /* border: 2px solid red; */
-    margin-top: 0;
+    margin-top: 0.2rem;
     margin-bottom: 0;
 }
 .tshirt3 .text3 .low1 .product-detail span{
@@ -563,8 +577,8 @@ main{
 }
 .tshirt3 .text3 .low1 .product-detail{
     font-family: "Audiowide", sans-serif;
-    color: navy;
-    font-size: 0.9rem;
+    color: green;
+    font-size: 0.8rem;
     text-transform: uppercase;
     /* border: 2px solid red; */
     margin-top: 0;
@@ -649,12 +663,12 @@ main{
     /* background-color: rgb(249, 240, 240);
     backdrop-filter: blur(45px); */
     background: linear-gradient(to bottom, #ffffff, #f0f0f0, rgb(186, 201, 218));
-    opacity: 0.9;
+    /* opacity: 0.9; */
     border-radius: 2rem;
     box-shadow: 0 0 10px rgb(143, 136, 136);
 }
 .jeans1 .pic1{
-    height: 80%;
+    height: 78%;
     width: 80%;
     /* border: 2px solid red; */
     margin-left: auto;
@@ -666,7 +680,7 @@ main{
     width: 100%;
 }
 .jeans1 .text1{
-    height: 20%;
+    height: 22%;
     width: 80%;
     /* border: 2px solid navy; */
     margin-left: auto;
@@ -676,7 +690,7 @@ main{
     flex-direction: column;
 }
 .jeans1 .text1 .upper{
-    height: 20%;
+    height: 30%;
     width: 100%;
     /* border: 2px solid black; */
     margin-bottom: 0.5rem;
@@ -684,12 +698,12 @@ main{
 .jeans1 .text1 .upper .product-name{
     font-family: "Audiowide", sans-serif;
     color: #000;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     text-transform: uppercase;
     /* border: 2px solid red; */
 }
 .jeans1 .text1 .lower{
-    height: 80%;
+    height: 70%;
     width: 100%;
     /* border: 2px solid black; */
     display: flex;
@@ -701,11 +715,11 @@ main{
 }
 .jeans1 .text1 .low1 .product-price{
     font-family: "Audiowide", sans-serif;
-    color: navy;
+    color: #000;
     font-size: 0.9rem;
     text-transform: uppercase;
     /* border: 2px solid red; */
-    margin-top: 0;
+    margin-top: 0.2rem;
     margin-bottom: 0;
 }
 .jeans1 .text1 .low1 .product-detail span{
@@ -717,8 +731,8 @@ main{
 }
 .jeans1 .text1 .low1 .product-detail{
     font-family: "Audiowide", sans-serif;
-    color: navy;
-    font-size: 0.9rem;
+    color: green;
+    font-size: 0.8rem;
     text-transform: uppercase;
     /* border: 2px solid red; */
     margin-top: 0;
@@ -738,6 +752,7 @@ main{
     background-color: rgb(4, 34, 59);
     color: #f5f5f5;
     cursor: pointer;
+    margin-top: 0.2rem;
 }
 .jeans2{
     margin-top: 1rem;
@@ -751,12 +766,12 @@ main{
     /* background-color: rgb(249, 240, 240);
     backdrop-filter: blur(45px); */
     background: linear-gradient(to bottom, #ffffff, #f0f0f0, rgb(186, 201, 218));
-    opacity: 0.9;
+    /* opacity: 0.9; */
     border-radius: 2rem;
     box-shadow: 0 0 10px rgb(143, 136, 136);
 }
 .jeans2 .pic2{
-    height: 80%;
+    height: 78%;
     width: 80%;
     /* border: 2px solid red; */
     margin-left: auto;
@@ -768,7 +783,7 @@ main{
     width: 100%;
 }
 .jeans2 .text2{
-    height: 20%;
+    height: 22%;
     width: 80%;
     /* border: 2px solid navy; */
     margin-left: auto;
@@ -778,7 +793,7 @@ main{
     flex-direction: column;
 }
 .jeans2 .text2 .upper{
-    height: 20%;
+    height: 30%;
     width: 100%;
     /* border: 2px solid black; */
     margin-bottom: 0.5rem;
@@ -786,12 +801,12 @@ main{
 .jeans2 .text2 .upper .product-name{
     font-family: "Audiowide", sans-serif;
     color: #000;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     text-transform: uppercase;
     /* border: 2px solid red; */
 }
 .jeans2 .text2 .lower{
-    height: 80%;
+    height: 70%;
     width: 100%;
     /* border: 2px solid black; */
     display: flex;
@@ -803,11 +818,11 @@ main{
 }
 .jeans2 .text2 .low1 .product-price{
     font-family: "Audiowide", sans-serif;
-    color: navy;
+    color: #000;
     font-size: 0.9rem;
     text-transform: uppercase;
     /* border: 2px solid red; */
-    margin-top: 0;
+    margin-top: 0.2rem;
     margin-bottom: 0;
 }
 .jeans2 .text2 .low1 .product-detail span{
@@ -819,12 +834,11 @@ main{
 }
 .jeans2 .text2 .low1 .product-detail{
     font-family: "Audiowide", sans-serif;
-    color: navy;
-    font-size: 0.9rem;
+    color: green;
+    font-size: 0.8rem;
     text-transform: uppercase;
     /* border: 2px solid red; */
     margin-top: 0;
-    
 }
 .jeans2 .text2 .lower .low2{
     height: 100%;
@@ -840,6 +854,7 @@ main{
     background-color: rgb(4, 34, 59);
     color: #f5f5f5;
     cursor: pointer;
+    margin-top: 0.2rem;
 }
 .jeans3{
     margin-top: 1rem;
@@ -853,12 +868,12 @@ main{
     /* background-color: rgb(249, 240, 240);
     backdrop-filter: blur(45px); */
     background: linear-gradient(to bottom, #ffffff, #f0f0f0, rgb(186, 201, 218));
-    opacity: 0.9;
+    /* opacity: 0.9; */
     border-radius: 2rem;
     box-shadow: 0 0 10px rgb(143, 136, 136);
 }
 .jeans3 .pic3{
-    height: 80%;
+    height: 78%;
     width: 80%;
     /* border: 2px solid red; */
     margin-left: auto;
@@ -870,7 +885,7 @@ main{
     width: 100%;
 }
 .jeans3 .text3{
-    height: 20%;
+    height: 22%;
     width: 80%;
     /* border: 2px solid navy; */
     margin-left: auto;
@@ -880,7 +895,7 @@ main{
     flex-direction: column;
 }
 .jeans3 .text3 .upper{
-    height: 20%;
+    height: 30%;
     width: 100%;
     /* border: 2px solid black; */
     margin-bottom: 0.5rem;
@@ -888,12 +903,12 @@ main{
 .jeans3 .text3 .upper .product-name{
     font-family: "Audiowide", sans-serif;
     color: #000;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     text-transform: uppercase;
     /* border: 2px solid red; */
 }
 .jeans3 .text3 .lower{
-    height: 80%;
+    height: 70%;
     width: 100%;
     /* border: 2px solid black; */
     display: flex;
@@ -905,11 +920,11 @@ main{
 }
 .jeans3 .text3 .low1 .product-price{
     font-family: "Audiowide", sans-serif;
-    color: navy;
+    color: #000;
     font-size: 0.9rem;
     text-transform: uppercase;
     /* border: 2px solid red; */
-    margin-top: 0;
+    margin-top: 0.2rem;
     margin-bottom: 0;
 }
 .jeans3 .text3 .low1 .product-detail span{
@@ -921,8 +936,8 @@ main{
 }
 .jeans3 .text3 .low1 .product-detail{
     font-family: "Audiowide", sans-serif;
-    color: navy;
-    font-size: 0.9rem;
+    color: green;
+    font-size: 0.8rem;
     text-transform: uppercase;
     /* border: 2px solid red; */
     margin-top: 0;
@@ -942,6 +957,7 @@ main{
     background-color: rgb(4, 34, 59);
     color: #f5f5f5;
     cursor: pointer;
+    margin-top: 0.2rem;
 }
 .set2-jeans{
     display: flex;
@@ -1026,12 +1042,12 @@ body{
     /* background-color: rgb(249, 240, 240);
     backdrop-filter: blur(45px); */
     background: linear-gradient(to bottom, #ffffff, #f0f0f0, rgb(186, 201, 218));
-    opacity: 0.9;
+    /* opacity: 0.9; */
     border-radius: 2rem;
     box-shadow: 0 0 10px rgb(143, 136, 136);
 }
 .shoes1 .pic1{
-    height: 80%;
+    height: 78%;
     width: 80%;
     /* border: 2px solid red; */
     margin-left: auto;
@@ -1043,7 +1059,7 @@ body{
     width: 100%;
 }
 .shoes1 .text1{
-    height: 20%;
+    height: 22%;
     width: 80%;
     /* border: 2px solid navy; */
     margin-left: auto;
@@ -1053,7 +1069,7 @@ body{
     flex-direction: column;
 }
 .shoes1 .text1 .upper{
-    height: 20%;
+    height: 30%;
     width: 100%;
     /* border: 2px solid black; */
     margin-bottom: 0.5rem;
@@ -1061,7 +1077,7 @@ body{
 .shoes1 .text1 .upper .product-name{
     font-family: "Audiowide", sans-serif;
     color: #000;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     text-transform: uppercase;
     /* border: 2px solid red; */
 }
@@ -1082,7 +1098,7 @@ body{
     font-family: "Audiowide", sans-serif;
 } */
 .shoes1 .text1 .lower{
-    height: 80%;
+    height: 70%;
     width: 100%;
     /* border: 2px solid black; */
     display: flex;
@@ -1095,10 +1111,10 @@ body{
 .shoes1 .text1 .low1 .product-price{
     font-family: "Audiowide", sans-serif;
     color: #000;
-    font-size: 1.2rem;
+    font-size: 0.9rem;
     text-transform: uppercase;
     /* border: 2px solid red; */
-    margin-top: 0;
+    margin-top: 0.2rem;
     margin-bottom: 0;
 }
 .shoes1 .text1 .low1 .product-detail span{
@@ -1111,7 +1127,7 @@ body{
 .shoes1 .text1 .low1 .product-detail{
     font-family: "Audiowide", sans-serif;
     color: green;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     text-transform: uppercase;
     /* border: 2px solid red; */
     margin-top: 0;
@@ -1150,12 +1166,12 @@ body{
     /* background-color: rgb(249, 240, 240);
     backdrop-filter: blur(45px); */
     background: linear-gradient(to bottom, #ffffff, #f0f0f0, rgb(186, 201, 218));
-    opacity: 0.9;
+    /* opacity: 0.9; */
     border-radius: 2rem;
     box-shadow: 0 0 10px rgb(143, 136, 136);
 }
 .shoes2 .pic2{
-    height: 80%;
+    height: 78%;
     width: 80%;
     /* border: 2px solid red; */
     margin-left: auto;
@@ -1167,7 +1183,7 @@ body{
     width: 100%;
 }
 .shoes2 .text2{
-    height: 20%;
+    height: 22%;
     width: 80%;
     /* border: 2px solid navy; */
     margin-left: auto;
@@ -1177,7 +1193,7 @@ body{
     flex-direction: column;
 }
 .shoes2 .text2 .upper{
-    height: 20%;
+    height: 30%;
     width: 100%;
     /* border: 2px solid black; */
     margin-bottom: 0.5rem;
@@ -1185,12 +1201,12 @@ body{
 .shoes2 .text2 .upper .product-name{
     font-family: "Audiowide", sans-serif;
     color: #000;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     text-transform: uppercase;
     /* border: 2px solid red; */
 }
 .shoes2 .text2 .lower{
-    height: 80%;
+    height: 70%;
     width: 100%;
     /* border: 2px solid black; */
     display: flex;
@@ -1202,11 +1218,11 @@ body{
 }
 .shoes2 .text2 .low1 .product-price{
     font-family: "Audiowide", sans-serif;
-    color: navy;
+    color: #000;
     font-size: 0.9rem;
     text-transform: uppercase;
     /* border: 2px solid red; */
-    margin-top: 0;
+    margin-top: 0.2rem;
     margin-bottom: 0;
 }
 .shoes2 .text2 .low1 .product-detail span{
@@ -1218,8 +1234,8 @@ body{
 }
 .shoes2 .text2 .low1 .product-detail{
     font-family: "Audiowide", sans-serif;
-    color: navy;
-    font-size: 0.9rem;
+    color: green;
+    font-size: 0.8rem;
     text-transform: uppercase;
     /* border: 2px solid red; */
     margin-top: 0;
@@ -1239,6 +1255,7 @@ body{
     background-color: rgb(4, 34, 59);
     color: #f5f5f5;
     cursor: pointer;
+    margin-top: 0.2rem;
 }
 .shoes3{
     margin-top: 1rem;
@@ -1252,12 +1269,12 @@ body{
     /* background-color: rgb(249, 240, 240);
     backdrop-filter: blur(45px); */
     background: linear-gradient(to bottom, #ffffff, #f0f0f0, rgb(186, 201, 218));
-    opacity: 0.9;
+    /* opacity: 0.9; */
     border-radius: 2rem;
     box-shadow: 0 0 10px rgb(143, 136, 136);
 }
 .shoes3 .pic3{
-    height: 80%;
+    height: 78%;
     width: 80%;
     /* border: 2px solid red; */
     margin-left: auto;
@@ -1269,7 +1286,7 @@ body{
     width: 100%;
 }
 .shoes3 .text3{
-    height: 20%;
+    height: 22%;
     width: 80%;
     /* border: 2px solid navy; */
     margin-left: auto;
@@ -1279,7 +1296,7 @@ body{
     flex-direction: column;
 }
 .shoes3 .text3 .upper{
-    height: 20%;
+    height: 30%;
     width: 100%;
     /* border: 2px solid black; */
     margin-bottom: 0.5rem;
@@ -1287,12 +1304,12 @@ body{
 .shoes3 .text3 .upper .product-name{
     font-family: "Audiowide", sans-serif;
     color: #000;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     text-transform: uppercase;
     /* border: 2px solid red; */
 }
 .shoes3 .text3 .lower{
-    height: 80%;
+    height: 70%;
     width: 100%;
     /* border: 2px solid black; */
     display: flex;
@@ -1362,7 +1379,7 @@ body{
     height: 34%;
     width: 100%;
     /* border: 2px solid red; */
-    background: url("https://i.ebayimg.com/images/g/f0cAAOSw2gFiaYbG/s-l1200.jpg");
+    background: url("https://i.pinimg.com/736x/c8/0e/8c/c80e8c392d0157594014e7f6185ea5ee.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -1406,7 +1423,7 @@ body{
     /* background-color: rgb(249, 240, 240);
     backdrop-filter: blur(45px); */
     background: linear-gradient(to bottom, #ffffff, #f0f0f0, rgb(186, 201, 218));
-    opacity: 0.9;
+    /* opacity: 0.9; */
     border-radius: 2rem;
     box-shadow: 0 0 10px rgb(143, 136, 136);
 }
@@ -1508,7 +1525,7 @@ body{
     /* background-color: rgb(249, 240, 240);
     backdrop-filter: blur(45px); */
     background: linear-gradient(to bottom, #ffffff, #f0f0f0, rgb(186, 201, 218));
-    opacity: 0.9;
+    /* opacity: 0.9; */
     border-radius: 2rem;
     box-shadow: 0 0 10px rgb(143, 136, 136);
 }
@@ -1610,7 +1627,7 @@ body{
     /* background-color: rgb(249, 240, 240);
     backdrop-filter: blur(45px); */
     background: linear-gradient(to bottom, #ffffff, #f0f0f0, rgb(186, 201, 218));
-    opacity: 0.9;
+    /* opacity: 0.9; */
     border-radius: 2rem;
     box-shadow: 0 0 10px rgb(143, 136, 136);
 }
@@ -1763,7 +1780,7 @@ body{
     /* background-color: rgb(249, 240, 240);
     backdrop-filter: blur(45px); */
     background: linear-gradient(to bottom, #ffffff, #f0f0f0, rgb(186, 201, 218));
-    opacity: 0.9;
+    /* opacity: 0.9; */
     border-radius: 2rem;
     box-shadow: 0 0 10px rgb(143, 136, 136);
 }
@@ -1865,7 +1882,7 @@ body{
     /* background-color: rgb(249, 240, 240);
     backdrop-filter: blur(45px); */
     background: linear-gradient(to bottom, #ffffff, #f0f0f0, rgb(186, 201, 218));
-    opacity: 0.9;
+    /* opacity: 0.9; */
     border-radius: 2rem;
     box-shadow: 0 0 10px rgb(143, 136, 136);
 }
@@ -1967,7 +1984,7 @@ body{
     /* background-color: rgb(249, 240, 240);
     backdrop-filter: blur(45px); */
     background: linear-gradient(to bottom, #ffffff, #f0f0f0, rgb(186, 201, 218));
-    opacity: 0.9;
+    /* opacity: 0.9; */
     border-radius: 2rem;
     box-shadow: 0 0 10px rgb(143, 136, 136);
 }
@@ -2120,7 +2137,7 @@ body{
     /* background-color: rgb(249, 240, 240);
     backdrop-filter: blur(45px); */
     background: linear-gradient(to bottom, #ffffff, #f0f0f0, rgb(186, 201, 218));
-    opacity: 0.9;
+    /* opacity: 0.9; */
     border-radius: 2rem;
     box-shadow: 0 0 10px rgb(143, 136, 136);
 }
@@ -2222,7 +2239,7 @@ body{
     /* background-color: rgb(249, 240, 240);
     backdrop-filter: blur(45px); */
     background: linear-gradient(to bottom, #ffffff, #f0f0f0, rgb(186, 201, 218));
-    opacity: 0.9;
+    /* opacity: 0.9; */
     border-radius: 2rem;
     box-shadow: 0 0 10px rgb(143, 136, 136);
 }
@@ -2324,7 +2341,7 @@ body{
     /* background-color: rgb(249, 240, 240);
     backdrop-filter: blur(45px); */
     background: linear-gradient(to bottom, #ffffff, #f0f0f0, rgb(186, 201, 218));
-    opacity: 0.9;
+    /* opacity: 0.9; */
     border-radius: 2rem;
     box-shadow: 0 0 10px rgb(143, 136, 136);
 }
@@ -2477,7 +2494,7 @@ body{
     /* background-color: rgb(249, 240, 240);
     backdrop-filter: blur(45px); */
     background: linear-gradient(to bottom, #ffffff, #f0f0f0, rgb(186, 201, 218));
-    opacity: 0.9;
+    /* opacity: 0.9; */
     border-radius: 2rem;
     box-shadow: 0 0 10px rgb(143, 136, 136);
 }
@@ -2579,7 +2596,7 @@ body{
     /* background-color: rgb(249, 240, 240);
     backdrop-filter: blur(45px); */
     background: linear-gradient(to bottom, #ffffff, #f0f0f0, rgb(186, 201, 218));
-    opacity: 0.9;
+    /* opacity: 0.9; */
     border-radius: 2rem;
     box-shadow: 0 0 10px rgb(143, 136, 136);
 }
@@ -2681,7 +2698,7 @@ body{
     /* background-color: rgb(249, 240, 240);
     backdrop-filter: blur(45px); */
     background: linear-gradient(to bottom, #ffffff, #f0f0f0, rgb(186, 201, 218));
-    opacity: 0.9;
+    /* opacity: 0.9; */
     border-radius: 2rem;
     box-shadow: 0 0 10px rgb(143, 136, 136);
 }

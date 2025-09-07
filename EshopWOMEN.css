@@ -52,7 +52,7 @@ html{
     display: flex;
     gap: 25px;
     margin: 0;
-    padding-left: 130px;
+    margin-left: 7rem;
     color: #000;
     font-family: "Abril Fatface", serif;
 }
