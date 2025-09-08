@@ -149,7 +149,9 @@ main{
     width: 200%;  /* Double width to accommodate duplicated slides */
     display: flex;
     gap: 1rem;
-    align-items: center;
+    /* align-items: center; */
+    position: relative;
+    top: 2rem;
     align-content: center;
     justify-content: flex-start; 
     animation: slide 12s linear infinite;
