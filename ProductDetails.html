@@ -106,7 +106,9 @@
                     <p class="location">Select Delivery Location</p>
                     <p class="location-text1">Enter the pincode of your area to check product</p>
                     <p class="location-text2">availability and delivery options</p>
-                    <p class="pincode"><input type="text" inputmode="numeric" maxlength="6" pattern="[0-9]" placeholder="Enter Pincode"> <span>Apply</span></p>
+                    <form>
+                        <p class="pincode"><input type="text" maxlength="6" pattern="[0-9]{6,}" placeholder="Enter Pincode" required> <button type="submit">Apply</button></p>
+                    </form>
                     <div class="location-rules">
                         <div class="rule1">
                             <div class="icon">

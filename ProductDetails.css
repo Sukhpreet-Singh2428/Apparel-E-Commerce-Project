@@ -430,12 +430,14 @@ main{
     color: gray;
     padding: 0.3rem;
 }
-.upper .pincode span{
+.upper .pincode button{
     font-family: "Audiowide", sans-serif;
     font-size: 1rem;
     color: purple;
     margin-left: 1rem;
     cursor: pointer;
+    border-style: none;
+    background-color: white;
 }
 .upper .location-rules{
     margin-left: 1rem;
