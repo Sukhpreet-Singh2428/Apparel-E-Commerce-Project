@@ -384,6 +384,13 @@ main{
     color: #f5f5f5;
     cursor: pointer;
     margin-top: 0.2rem;
+    transition: background-color 0.3s ease-in-out;
+    border-style: none;
+}
+.tshirt1 .text1 .low2 button:hover{
+    background-color: rgb(254, 254, 36);
+    border-style: none;
+    color: #000;
 }
 .tshirt2{
     margin-top: 1rem;
@@ -492,6 +499,13 @@ main{
     color: #f5f5f5;
     cursor: pointer;
     margin-top: 0.2rem;
+    transition: background-color 0.3s ease-in-out;
+    border-style: none;
+}
+.tshirt2 .text2 .low2 button:hover{
+    background-color: rgb(254, 254, 36);
+    border-style: none;
+    color: #000;
 }
 .tshirt3{
     margin-top: 1rem;
@@ -598,6 +612,12 @@ main{
     background-color: rgb(4, 34, 59);
     color: #f5f5f5;
     cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+.tshirt3 .text3 .low2 button:hover{
+    background-color: rgb(254, 254, 36);
+    border-style: none;
+    color: #000;
 }
 .set2{
     display: flex;
@@ -757,6 +777,12 @@ main{
     color: #f5f5f5;
     cursor: pointer;
     margin-top: 0.2rem;
+    transition: background-color 0.3s ease-in-out;
+}
+.jeans1 .text1 .low2 button:hover{
+    background-color: rgb(254, 254, 36);
+    border-style: none;
+    color: #000;
 }
 .jeans2{
     margin-top: 1rem;
@@ -864,6 +890,12 @@ main{
     color: #f5f5f5;
     cursor: pointer;
     margin-top: 0.2rem;
+    transition: background-color 0.3s ease-in-out;
+}
+.jeans2 .text2 .low2 button:hover{
+    background-color: rgb(254, 254, 36);
+    border-style: none;
+    color: #000;
 }
 .jeans3{
     margin-top: 1rem;
@@ -971,6 +1003,12 @@ main{
     color: #f5f5f5;
     cursor: pointer;
     margin-top: 0.2rem;
+    transition: background-color 0.3s ease-in-out;
+}
+.jeans3 .text3 .low2 button:hover{
+    background-color: rgb(254, 254, 36);
+    border-style: none;
+    color: #000;
 }
 .set2-jeans{
     display: flex;
@@ -1166,6 +1204,15 @@ body{
     color: #f5f5f5;
     cursor: pointer;
     margin-top: 0.5rem;
+    transition: background-color 0.3s ease-in-out;
+}
+.shoes1 .text1 .low2 button:hover{
+    background-color: rgb(254, 254, 36);
+    border-style: none;
+    color: #000;
+}
+.shoes1 .text1 .low2 button:hover a{
+    color: #000;
 }
 .shoes1 .text1 .low2 button a{
     text-decoration: none;
@@ -1279,6 +1326,12 @@ body{
     color: #f5f5f5;
     cursor: pointer;
     margin-top: 0.2rem;
+    transition: background-color 0.3s ease-in-out;
+}
+.shoes2 .text2 .low2 button:hover{
+    background-color: rgb(254, 254, 36);
+    border-style: none;
+    color: #000;
 }
 .shoes3{
     margin-top: 1rem;
@@ -1387,6 +1440,12 @@ body{
     color: #f5f5f5;
     cursor: pointer;
     margin-top: 0.2rem;
+    transition: background-color 0.3s ease-in-out;
+}
+.shoes3 .text3 .low2 button:hover{
+    background-color: rgb(254, 254, 36);
+    border-style: none;
+    color: #000;
 }
 .set2-shoes{
     display: flex;
@@ -1547,6 +1606,12 @@ body{
     color: #f5f5f5;
     cursor: pointer;
     margin-top: 0.2rem;
+    transition: background-color 0.3s ease-in-out;
+}
+.hoodies1 .text1 .low2 button:hover{
+    background-color: rgb(254, 254, 36);
+    border-style: none;
+    color: #000;
 }
 .hoodies2{
     margin-top: 1rem;
@@ -1655,6 +1720,12 @@ body{
     color: #f5f5f5;
     cursor: pointer;
     margin-top: 0.2rem;
+    transition: background-color 0.3s ease-in-out;
+}
+.hoodies2 .text2 .low2 button:hover{
+    background-color: rgb(254, 254, 36);
+    border-style: none;
+    color: #000;
 }
 .hoodies3{
     margin-top: 1rem;
@@ -1763,6 +1834,12 @@ body{
     color: #f5f5f5;
     cursor: pointer;
     margin-top: 0.2rem;
+    transition: background-color 0.3s ease-in-out;
+}
+.hoodies3 .text3 .low2 button:hover{
+    background-color: rgb(254, 254, 36);
+    border-style: none;
+    color: #000;
 }
 .set2-hoodies{
     display: flex;
@@ -1922,6 +1999,12 @@ body{
     color: #f5f5f5;
     cursor: pointer;
     margin-top: 0.2rem;
+    transition: background-color 0.3s ease-in-out;
+}
+.polos1 .text1 .low2 button:hover{
+    background-color: rgb(254, 254, 36);
+    border-style: none;
+    color: #000;
 }
 .polos2{
     margin-top: 1rem;
@@ -2030,6 +2113,12 @@ body{
     color: #f5f5f5;
     cursor: pointer;
     margin-top: 0.2rem;
+    transition: background-color 0.3s ease-in-out;
+}
+.polos2 .text2 .low2 button:hover{
+    background-color: rgb(254, 254, 36);
+    border-style: none;
+    color: #000;
 }
 .polos3{
     margin-top: 1rem;
@@ -2138,6 +2227,12 @@ body{
     color: #f5f5f5;
     cursor: pointer;
     margin-top: 0.2rem;
+    transition: background-color 0.3s ease-in-out;
+}
+.polos3 .text3 .low2 button:hover{
+    background-color: rgb(254, 254, 36);
+    border-style: none;
+    color: #000;
 }
 .set2-polos{
     display: flex;
@@ -2297,6 +2392,12 @@ body{
     color: #f5f5f5;
     cursor: pointer;
     margin-top: 0.2rem;
+    transition: background-color 0.3s ease-in-out;
+}
+.chinos1 .text1 .low2 button:hover{
+    background-color: rgb(254, 254, 36);
+    border-style: none;
+    color: #000;
 }
 .chinos2{
     margin-top: 1rem;
@@ -2405,6 +2506,12 @@ body{
     color: #f5f5f5;
     cursor: pointer;
     margin-top: 0.2rem;
+    transition: background-color 0.3s ease-in-out;
+}
+.chinos2 .text2 .low2 button:hover{
+    background-color: rgb(254, 254, 36);
+    border-style: none;
+    color: #000;
 }
 .chinos3{
     margin-top: 1rem;
@@ -2513,6 +2620,12 @@ body{
     color: #f5f5f5;
     cursor: pointer;
     margin-top: 0.2rem;
+    transition: background-color 0.3s ease-in-out;
+}
+.chinos3 .text3 .low2 button:hover{
+    background-color: rgb(254, 254, 36);
+    border-style: none;
+    color: #000;
 }
 .set2-chinos{
     display: flex;
@@ -2672,6 +2785,12 @@ body{
     color: #f5f5f5;
     cursor: pointer;
     margin-top: 0.2rem;
+    transition: background-color 0.3s ease-in-out;
+}
+.sweaters1 .text1 .low2 button:hover{
+    background-color: rgb(254, 254, 36);
+    border-style: none;
+    color: #000;
 }
 .sweaters2{
     margin-top: 1rem;
@@ -2780,6 +2899,12 @@ body{
     color: #f5f5f5;
     cursor: pointer;
     margin-top: 0.2rem;
+    transition: background-color 0.3s ease-in-out;
+}
+.sweaters2 .text2 .low2 button:hover{
+    background-color: rgb(254, 254, 36);
+    border-style: none;
+    color: #000;
 }
 .sweaters3{
     margin-top: 1rem;
@@ -2888,6 +3013,7 @@ body{
     color: #f5f5f5;
     cursor: pointer;
     margin-top: 0.2rem;
+    transition: background-color 0.3s ease-in-out;
 }
 .sweaters3 .text3 .low2 button:hover{
     background-color: rgb(254, 254, 36);
