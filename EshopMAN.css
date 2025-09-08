@@ -296,7 +296,7 @@ main{
     transition: box-shadow 0.3s ease-in-out;
 }
 .tshirt1:hover{
-    box-shadow: 0 0 12px rgb(143, 136, 136);
+    box-shadow: 0 0 25px rgb(143, 136, 136);
 }
 .tshirt1 .pic1{
     height: 78%;
@@ -404,7 +404,7 @@ main{
     transition: box-shadow 0.3s ease-in-out
 }
 .tshirt2:hover{
-    box-shadow: 0 0 12px rgb(143, 136, 136);
+    box-shadow: 0 0 25px rgb(143, 136, 136);
 }
 .tshirt2 .pic2{
     height: 78%;
@@ -508,10 +508,10 @@ main{
     /* opacity: 0.9; */
     border-radius: 2rem;
     box-shadow: 0 0 5px rgb(143, 136, 136);
-    transition: box-shadow 0.3s ease-in-out
+    transition: box-shadow 0.3s ease-in-out;
 }
 .tshirt3:hover{
-    box-shadow: 0 0 12px rgb(143, 136, 136);
+    box-shadow: 0 0 25px rgb(143, 136, 136);
 }
 .tshirt3 .pic3{
     height: 78%;
@@ -665,7 +665,11 @@ main{
     background: linear-gradient(to bottom, #ffffff, #f0f0f0, rgb(186, 201, 218));
     /* opacity: 0.9; */
     border-radius: 2rem;
-    box-shadow: 0 0 10px rgb(143, 136, 136);
+    box-shadow: 0 0 5px rgb(143, 136, 136);
+    transition: box-shadow 0.3s ease-in-out;
+}
+.jeans1:hover{
+    box-shadow: 0 0 25px rgb(143, 136, 136);
 }
 .jeans1 .pic1{
     height: 78%;
@@ -769,6 +773,11 @@ main{
     /* opacity: 0.9; */
     border-radius: 2rem;
     box-shadow: 0 0 10px rgb(143, 136, 136);
+    box-shadow: 0 0 5px rgb(143, 136, 136);
+    transition: box-shadow 0.3s ease-in-out;
+}
+.jeans2:hover{
+    box-shadow: 0 0 25px rgb(143,136,136);
 }
 .jeans2 .pic2{
     height: 78%;
@@ -870,7 +879,11 @@ main{
     background: linear-gradient(to bottom, #ffffff, #f0f0f0, rgb(186, 201, 218));
     /* opacity: 0.9; */
     border-radius: 2rem;
-    box-shadow: 0 0 10px rgb(143, 136, 136);
+    box-shadow: 0 0 5px rgb(143, 136, 136);
+    transition: box-shadow 0.3s ease-in-out;
+}
+.jeans3:hover{
+    box-shadow: 0 0 25px rgb(143, 136, 136);
 }
 .jeans3 .pic3{
     height: 78%;
@@ -1045,6 +1058,11 @@ body{
     /* opacity: 0.9; */
     border-radius: 2rem;
     box-shadow: 0 0 10px rgb(143, 136, 136);
+    box-shadow: 0 0 5px rgb(143, 136, 136);
+    transition: box-shadow 0.3s ease-in-out;
+}
+.shoes1:hover{
+    box-shadow: 0 0 25px rgb(143, 136, 136);
 }
 .shoes1 .pic1{
     height: 78%;
@@ -1169,6 +1187,11 @@ body{
     /* opacity: 0.9; */
     border-radius: 2rem;
     box-shadow: 0 0 10px rgb(143, 136, 136);
+    box-shadow: 0 0 5px rgb(143, 136, 136);
+    transition: box-shadow 0.3s ease-in-out;
+}
+.shoes2:hover{
+    box-shadow: 0 0 25px rgb(143, 136, 136);
 }
 .shoes2 .pic2{
     height: 78%;
@@ -1272,6 +1295,11 @@ body{
     /* opacity: 0.9; */
     border-radius: 2rem;
     box-shadow: 0 0 10px rgb(143, 136, 136);
+    box-shadow: 0 0 5px rgb(143, 136, 136);
+    transition: box-shadow 0.3s ease-in-out;
+}
+.shoes3:hover{
+    box-shadow: 0 0 25px rgb(143, 136, 136);
 }
 .shoes3 .pic3{
     height: 78%;
@@ -1427,6 +1455,11 @@ body{
     /* opacity: 0.9; */
     border-radius: 2rem;
     box-shadow: 0 0 10px rgb(143, 136, 136);
+    box-shadow: 0 0 5px rgb(143, 136, 136);
+    transition: box-shadow 0.3s ease-in-out;
+}
+.hoodies1:hover{
+    box-shadow: 0 0 25px rgb(143, 136, 136);
 }
 .hoodies1 .pic1{
     height: 78%;
@@ -1530,6 +1563,11 @@ body{
     /* opacity: 0.9; */
     border-radius: 2rem;
     box-shadow: 0 0 10px rgb(143, 136, 136);
+    box-shadow: 0 0 5px rgb(143, 136, 136);
+    transition: box-shadow 0.3s ease-in-out;
+}
+.hoodies2:hover{
+    box-shadow: 0 0 25px rgb(143, 136, 136);
 }
 .hoodies2 .pic2{
     height: 78%;
@@ -1633,6 +1671,11 @@ body{
     /* opacity: 0.9; */
     border-radius: 2rem;
     box-shadow: 0 0 10px rgb(143, 136, 136);
+    box-shadow: 0 0 5px rgb(143, 136, 136);
+    transition: box-shadow 0.3s ease-in-out;
+}
+.hoodies3:hover{
+    box-shadow: 0 0 25px rgb(143, 136, 136);
 }
 .hoodies3 .pic3{
     height: 78%;
@@ -1787,6 +1830,11 @@ body{
     /* opacity: 0.9; */
     border-radius: 2rem;
     box-shadow: 0 0 10px rgb(143, 136, 136);
+    box-shadow: 0 0 5px rgb(143, 136, 136);
+    transition: box-shadow 0.3s ease-in-out;
+}
+.polos1:hover{
+    box-shadow: 0 0 25px rgb(143, 136, 136);
 }
 .polos1 .pic1{
     height: 78%;
@@ -1890,6 +1938,11 @@ body{
     /* opacity: 0.9; */
     border-radius: 2rem;
     box-shadow: 0 0 10px rgb(143, 136, 136);
+    box-shadow: 0 0 5px rgb(143, 136, 136);
+    transition: box-shadow 0.3s ease-in-out;
+}
+.polos2:hover{
+    box-shadow: 0 0 25px rgb(143, 136, 136);
 }
 .polos2 .pic2{
     height: 78%;
@@ -1993,6 +2046,11 @@ body{
     /* opacity: 0.9; */
     border-radius: 2rem;
     box-shadow: 0 0 10px rgb(143, 136, 136);
+    box-shadow: 0 0 5px rgb(143, 136, 136);
+    transition: box-shadow 0.3s ease-in-out;
+}
+.polos3:hover{
+    box-shadow: 0 0 25px rgb(143, 136, 136);
 }
 .polos3 .pic3{
     height: 78%;
@@ -2147,6 +2205,11 @@ body{
     /* opacity: 0.9; */
     border-radius: 2rem;
     box-shadow: 0 0 10px rgb(143, 136, 136);
+    box-shadow: 0 0 5px rgb(143, 136, 136);
+    transition: box-shadow 0.3s ease-in-out;
+}
+.chinos1:hover{
+    box-shadow: 0 0 25px rgb(143, 136, 136);
 }
 .chinos1 .pic1{
     height: 78%;
@@ -2250,6 +2313,11 @@ body{
     /* opacity: 0.9; */
     border-radius: 2rem;
     box-shadow: 0 0 10px rgb(143, 136, 136);
+    box-shadow: 0 0 5px rgb(143, 136, 136);
+    transition: box-shadow 0.3s ease-in-out;
+}
+.chinos2:hover{
+    box-shadow: 0 0 25px rgb(143, 136, 136);
 }
 .chinos2 .pic2{
     height: 78%;
@@ -2353,6 +2421,11 @@ body{
     /* opacity: 0.9; */
     border-radius: 2rem;
     box-shadow: 0 0 10px rgb(143, 136, 136);
+    box-shadow: 0 0 5px rgb(143, 136, 136);
+    transition: box-shadow 0.3s ease-in-out;
+}
+.chinos3:hover{
+    box-shadow: 0 0 25px rgb(143, 136, 136);
 }
 .chinos3 .pic3{
     height: 78%;
@@ -2507,6 +2580,11 @@ body{
     /* opacity: 0.9; */
     border-radius: 2rem;
     box-shadow: 0 0 10px rgb(143, 136, 136);
+    box-shadow: 0 0 5px rgb(143, 136, 136);
+    transition: box-shadow 0.3s ease-in-out;
+}
+.sweaters1:hover{
+    box-shadow: 0 0 25px rgb(143, 136, 136);
 }
 .sweaters1 .pic1{
     height: 78%;
@@ -2610,6 +2688,11 @@ body{
     /* opacity: 0.9; */
     border-radius: 2rem;
     box-shadow: 0 0 10px rgb(143, 136, 136);
+    box-shadow: 0 0 5px rgb(143, 136, 136);
+    transition: box-shadow 0.3s ease-in-out;
+}
+.sweaters2:hover{
+    box-shadow: 0 0 25px rgb(143, 136, 136);
 }
 .sweaters2 .pic2{
     height: 78%;
@@ -2713,6 +2796,11 @@ body{
     /* opacity: 0.9; */
     border-radius: 2rem;
     box-shadow: 0 0 10px rgb(143, 136, 136);
+    box-shadow: 0 0 5px rgb(143, 136, 136);
+    transition: box-shadow 0.3s ease-in-out;
+}
+.sweaters3:hover{
+    box-shadow: 0 0 25px rgb(143, 136, 136);
 }
 .sweaters3 .pic3{
     height: 80%;
