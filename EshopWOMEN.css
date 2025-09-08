@@ -285,7 +285,7 @@ main{
     box-shadow: 0 0 10px rgb(143, 136, 136);
 }
 .dresses1 .pic1{
-    height: 80%;
+    height: 78%;
     width: 80%;
     /* */
     margin-left: auto;
@@ -297,7 +297,7 @@ main{
     width: 100%;
 }
 .dresses1 .text1{
-    height: 20%;
+    height: 22%;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
@@ -306,7 +306,7 @@ main{
     flex-direction: column;
 }
 .dresses1 .text1 .upper{
-    height: 20%;
+    height: 30%;
     width: 100%;
     /* border: 2px solid black; */
     margin-bottom: 0.5rem;
@@ -319,7 +319,7 @@ main{
     /* */
 }
 .dresses1 .text1 .lower{
-    height: 80%;
+    height: 70%;
     width: 100%;
     /* border: 2px solid black; */
     display: flex;
@@ -331,11 +331,11 @@ main{
 }
 .dresses1 .text1 .low1 .product-price{
     font-family: "Abril Fatface", serif;
-    color: navy;
+    color: #000;
     font-size: 0.9rem;
     text-transform: uppercase;
     /* */
-    margin-top: 0;
+    margin-top: 0.2rem;
     margin-bottom: 0;
 }
 .dresses1 .text1 .low1 .product-detail span{
@@ -347,8 +347,8 @@ main{
 }
 .dresses1 .text1 .low1 .product-detail{
     font-family: "Abril Fatface", serif;
-    color: navy;
-    font-size: 0.9rem;
+    color: green;
+    font-size: 0.8rem;
     text-transform: uppercase;
     /* */
     margin-top: 0;
@@ -368,6 +368,7 @@ main{
     background-color: rgb(4, 34, 59);
     color: #f5f5f5;
     cursor: pointer;
+    margin-top: 0.2rem;
 }
 .dresses2{
     margin-top: 1rem;
@@ -386,7 +387,7 @@ main{
     box-shadow: 0 0 10px rgb(143, 136, 136);
 }
 .dresses2 .pic2{
-    height: 80%;
+    height: 78%;
     width: 80%;
     /* */
     margin-left: auto;
@@ -398,7 +399,7 @@ main{
     width: 100%;
 }
 .dresses2 .text2{
-    height: 20%;
+    height: 22%;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
@@ -407,7 +408,7 @@ main{
     flex-direction: column;
 }
 .dresses2 .text2 .upper{
-    height: 20%;
+    height: 30%;
     width: 100%;
     /* border: 2px solid black; */
     margin-bottom: 0.5rem;
@@ -420,7 +421,7 @@ main{
     /* */
 }
 .dresses2 .text2 .lower{
-    height: 80%;
+    height: 70%;
     width: 100%;
     /* border: 2px solid black; */
     display: flex;
@@ -432,11 +433,11 @@ main{
 }
 .dresses2 .text2 .low1 .product-price{
     font-family: "Abril Fatface", serif;
-    color: navy;
+    color: #000;
     font-size: 0.9rem;
     text-transform: uppercase;
     /* */
-    margin-top: 0;
+    margin-top: 0.2rem;
     margin-bottom: 0;
 }
 .dresses2 .text2 .low1 .product-detail span{
@@ -448,7 +449,7 @@ main{
 }
 .dresses2 .text2 .low1 .product-detail{
     font-family: "Abril Fatface", serif;
-    color: navy;
+    color: green;
     font-size: 0.9rem;
     text-transform: uppercase;
     /* */
@@ -469,6 +470,7 @@ main{
     background-color: rgb(4, 34, 59);
     color: #f5f5f5;
     cursor: pointer;
+    margin-top: 0.2rem;
 }
 .dresses3{
     margin-top: 1rem;
@@ -487,7 +489,7 @@ main{
     box-shadow: 0 0 10px rgb(143, 136, 136);
 }
 .dresses3 .pic3{
-    height: 80%;
+    height: 78%;
     width: 80%;
     /* */
     margin-left: auto;
@@ -499,7 +501,7 @@ main{
     width: 100%;
 }
 .dresses3 .text3{
-    height: 20%;
+    height: 22%;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
@@ -508,7 +510,7 @@ main{
     flex-direction: column;
 }
 .dresses3 .text3 .upper{
-    height: 20%;
+    height: 30%;
     width: 100%;
     /* border: 2px solid black; */
     margin-bottom: 0.5rem;
@@ -521,7 +523,7 @@ main{
     /* */
 }
 .dresses3 .text3 .lower{
-    height: 80%;
+    height: 70%;
     width: 100%;
     /* border: 2px solid black; */
     display: flex;
@@ -533,11 +535,11 @@ main{
 }
 .dresses3 .text3 .low1 .product-price{
     font-family: "Abril Fatface", serif;
-    color: navy;
+    color: #000;
     font-size: 0.9rem;
     text-transform: uppercase;
     /* */
-    margin-top: 0;
+    margin-top: 0.2rem;
     margin-bottom: 0;
 }
 .dresses3 .text3 .low1 .product-detail span{
@@ -549,7 +551,7 @@ main{
 }
 .dresses3 .text3 .low1 .product-detail{
     font-family: "Abril Fatface", serif;
-    color: navy;
+    color: green;
     font-size: 0.9rem;
     text-transform: uppercase;
     /* */
@@ -570,6 +572,7 @@ main{
     background-color: rgb(4, 34, 59);
     color: #f5f5f5;
     cursor: pointer;
+    margin-top: 0.2rem;
 }
 .set2{
     display: flex;
@@ -640,7 +643,7 @@ main{
     box-shadow: 0 0 10px rgb(143, 136, 136);
 }
 .tops1 .pic1{
-    height: 80%;
+    height: 78%;
     width: 80%;
     /* */
     margin-left: auto;
@@ -652,7 +655,7 @@ main{
     width: 100%;
 }
 .tops1 .text1{
-    height: 20%;
+    height: 22%;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
@@ -661,7 +664,7 @@ main{
     flex-direction: column;
 }
 .tops1 .text1 .upper{
-    height: 20%;
+    height: 30%;
     width: 100%;
     /* border: 2px solid black; */
     margin-bottom: 0.5rem;
@@ -674,7 +677,7 @@ main{
     /* */
 }
 .tops1 .text1 .lower{
-    height: 80%;
+    height: 70%;
     width: 100%;
     /* border: 2px solid black; */
     display: flex;
@@ -686,11 +689,11 @@ main{
 }
 .tops1 .text1 .low1 .product-price{
     font-family: "Abril Fatface", serif;
-    color: navy;
+    color: #000;
     font-size: 0.9rem;
     text-transform: uppercase;
     /* */
-    margin-top: 0;
+    margin-top: 0.2rem;
     margin-bottom: 0;
 }
 .tops1 .text1 .low1 .product-detail span{
@@ -702,7 +705,7 @@ main{
 }
 .tops1 .text1 .low1 .product-detail{
     font-family: "Abril Fatface", serif;
-    color: navy;
+    color: green;
     font-size: 0.9rem;
     text-transform: uppercase;
     /* */
@@ -723,6 +726,7 @@ main{
     background-color: rgb(4, 34, 59);
     color: #f5f5f5;
     cursor: pointer;
+    margin-top: 0.2rem;
 }
 .tops2{
     margin-top: 1rem;
@@ -753,7 +757,7 @@ main{
     width: 100%;
 }
 .tops2 .text2{
-    height: 20%;
+    height: 22%;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
@@ -762,7 +766,7 @@ main{
     flex-direction: column;
 }
 .tops2 .text2 .upper{
-    height: 20%;
+    height: 30%;
     width: 100%;
     /* border: 2px solid black; */
     margin-bottom: 0.5rem;
@@ -775,7 +779,7 @@ main{
     /* */
 }
 .tops2 .text2 .lower{
-    height: 80%;
+    height: 70%;
     width: 100%;
     /* border: 2px solid black; */
     display: flex;
@@ -787,11 +791,11 @@ main{
 }
 .tops2 .text2 .low1 .product-price{
     font-family: "Abril Fatface", serif;
-    color: navy;
+    color: #000;
     font-size: 0.9rem;
     text-transform: uppercase;
     /* */
-    margin-top: 0;
+    margin-top: 0.2rem;
     margin-bottom: 0;
 }
 .tops2 .text2 .low1 .product-detail span{
@@ -803,7 +807,7 @@ main{
 }
 .tops2 .text2 .low1 .product-detail{
     font-family: "Abril Fatface", serif;
-    color: navy;
+    color: green;
     font-size: 0.9rem;
     text-transform: uppercase;
     /* */
@@ -824,6 +828,7 @@ main{
     background-color: rgb(4, 34, 59);
     color: #f5f5f5;
     cursor: pointer;
+    margin-top: 0.2rem;
 }
 .tops3{
     margin-top: 1rem;
@@ -842,7 +847,7 @@ main{
     box-shadow: 0 0 10px rgb(143, 136, 136);
 }
 .tops3 .pic3{
-    height: 80%;
+    height: 78%;
     width: 80%;
     /* */
     margin-left: auto;
@@ -854,7 +859,7 @@ main{
     width: 100%;
 }
 .tops3 .text3{
-    height: 20%;
+    height: 22%;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
@@ -863,7 +868,7 @@ main{
     flex-direction: column;
 }
 .tops3 .text3 .upper{
-    height: 20%;
+    height: 30%;
     width: 100%;
     /* border: 2px solid black; */
     margin-bottom: 0.5rem;
@@ -876,7 +881,7 @@ main{
     /* */
 }
 .tops3 .text3 .lower{
-    height: 80%;
+    height: 70%;
     width: 100%;
     /* border: 2px solid black; */
     display: flex;
@@ -888,11 +893,11 @@ main{
 }
 .tops3 .text3 .low1 .product-price{
     font-family: "Abril Fatface", serif;
-    color: navy;
+    color: #000;
     font-size: 0.9rem;
     text-transform: uppercase;
     /* */
-    margin-top: 0;
+    margin-top: 0.2rem;
     margin-bottom: 0;
 }
 .tops3 .text3 .low1 .product-detail span{
@@ -904,7 +909,7 @@ main{
 }
 .tops3 .text3 .low1 .product-detail{
     font-family: "Abril Fatface", serif;
-    color: navy;
+    color: green;
     font-size: 0.9rem;
     text-transform: uppercase;
     /* */
@@ -925,6 +930,7 @@ main{
     background-color: rgb(4, 34, 59);
     color: #f5f5f5;
     cursor: pointer;
+    margin-top: 0.2rem;
 }
 .set2-tops{
     display: flex;
@@ -1014,7 +1020,7 @@ body{
     box-shadow: 0 0 10px rgb(143, 136, 136);
 }
 .bottoms1 .pic1{
-    height: 80%;
+    height: 78%;
     width: 80%;
     /* */
     margin-left: auto;
@@ -1026,7 +1032,7 @@ body{
     width: 100%;
 }
 .bottoms1 .text1{
-    height: 20%;
+    height: 22%;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
@@ -1035,7 +1041,7 @@ body{
     flex-direction: column;
 }
 .bottoms1 .text1 .upper{
-    height: 20%;
+    height: 30%;
     width: 100%;
     /* border: 2px solid black; */
     margin-bottom: 0.5rem;
@@ -1048,7 +1054,7 @@ body{
     /* */
 }
 .bottoms1 .text1 .lower{
-    height: 80%;
+    height: 70%;
     width: 100%;
     /* border: 2px solid black; */
     display: flex;
@@ -1060,11 +1066,11 @@ body{
 }
 .bottoms1 .text1 .low1 .product-price{
     font-family: "Abril Fatface", serif;
-    color: navy;
+    color: #000;
     font-size: 0.9rem;
     text-transform: uppercase;
     /* */
-    margin-top: 0;
+    margin-top: 0.2rem;
     margin-bottom: 0;
 }
 .bottoms1 .text1 .low1 .product-detail span{
@@ -1076,7 +1082,7 @@ body{
 }
 .bottoms1 .text1 .low1 .product-detail{
     font-family: "Abril Fatface", serif;
-    color: navy;
+    color: green;
     font-size: 0.9rem;
     text-transform: uppercase;
     /* */
@@ -1097,6 +1103,7 @@ body{
     background-color: rgb(4, 34, 59);
     color: #f5f5f5;
     cursor: pointer;
+    margin-top: 0.2rem;
 }
 .bottoms2{
     margin-top: 1rem;
@@ -1115,7 +1122,7 @@ body{
     box-shadow: 0 0 10px rgb(143, 136, 136);
 }
 .bottoms2 .pic2{
-    height: 80%;
+    height: 78%;
     width: 80%;
     /* */
     margin-left: auto;
@@ -1127,7 +1134,7 @@ body{
     width: 100%;
 }
 .bottoms2 .text2{
-    height: 20%;
+    height: 22%;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
@@ -1136,7 +1143,7 @@ body{
     flex-direction: column;
 }
 .bottoms2 .text2 .upper{
-    height: 20%;
+    height: 30%;
     width: 100%;
     /* border: 2px solid black; */
     margin-bottom: 0.5rem;
@@ -1149,7 +1156,7 @@ body{
     /* */
 }
 .bottoms2 .text2 .lower{
-    height: 80%;
+    height: 70%;
     width: 100%;
     /* border: 2px solid black; */
     display: flex;
@@ -1161,11 +1168,11 @@ body{
 }
 .bottoms2 .text2 .low1 .product-price{
     font-family: "Abril Fatface", serif;
-    color: navy;
+    color: #000;
     font-size: 0.9rem;
     text-transform: uppercase;
     /* */
-    margin-top: 0;
+    margin-top: 0.2rem;
     margin-bottom: 0;
 }
 .bottoms2 .text2 .low1 .product-detail span{
@@ -1177,7 +1184,7 @@ body{
 }
 .bottoms2 .text2 .low1 .product-detail{
     font-family: "Abril Fatface", serif;
-    color: navy;
+    color: green;
     font-size: 0.9rem;
     text-transform: uppercase;
     /* */
@@ -1198,6 +1205,7 @@ body{
     background-color: rgb(4, 34, 59);
     color: #f5f5f5;
     cursor: pointer;
+    margin-top: 0.2rem;
 }
 .bottoms3{
     margin-top: 1rem;
@@ -1216,7 +1224,7 @@ body{
     box-shadow: 0 0 10px rgb(143, 136, 136);
 }
 .bottoms3 .pic3{
-    height: 80%;
+    height: 78%;
     width: 80%;
     /* */
     margin-left: auto;
@@ -1228,7 +1236,7 @@ body{
     width: 100%;
 }
 .bottoms3 .text3{
-    height: 20%;
+    height: 22%;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
@@ -1237,7 +1245,7 @@ body{
     flex-direction: column;
 }
 .bottoms3 .text3 .upper{
-    height: 20%;
+    height: 30%;
     width: 100%;
     /* border: 2px solid black; */
     margin-bottom: 0.5rem;
@@ -1250,7 +1258,7 @@ body{
     /* */
 }
 .bottoms3 .text3 .lower{
-    height: 80%;
+    height: 70%;
     width: 100%;
     /* border: 2px solid black; */
     display: flex;
@@ -1262,11 +1270,11 @@ body{
 }
 .bottoms3 .text3 .low1 .product-price{
     font-family: "Abril Fatface", serif;
-    color: navy;
+    color: #000;
     font-size: 0.9rem;
     text-transform: uppercase;
     /* */
-    margin-top: 0;
+    margin-top: 0.2rem;
     margin-bottom: 0;
 }
 .bottoms3 .text3 .low1 .product-detail span{
@@ -1278,7 +1286,7 @@ body{
 }
 .bottoms3 .text3 .low1 .product-detail{
     font-family: "Abril Fatface", serif;
-    color: navy;
+    color: green;
     font-size: 0.9rem;
     text-transform: uppercase;
     /* */
@@ -1299,6 +1307,7 @@ body{
     background-color: rgb(4, 34, 59);
     color: #f5f5f5;
     cursor: pointer;
+    margin-top: 0.2rem;
 }
 .set2-bottoms{
     display: flex;
@@ -1369,7 +1378,7 @@ body{
     box-shadow: 0 0 10px rgb(143, 136, 136);
 }
 .footwear1 .pic1{
-    height: 80%;
+    height: 78%;
     width: 80%;
     /* */
     margin-left: auto;
@@ -1381,7 +1390,7 @@ body{
     width: 100%;
 }
 .footwear1 .text1{
-    height: 20%;
+    height: 22%;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
@@ -1390,7 +1399,7 @@ body{
     flex-direction: column;
 }
 .footwear1 .text1 .upper{
-    height: 20%;
+    height: 30%;
     width: 100%;
     /* border: 2px solid black; */
     margin-bottom: 0.5rem;
@@ -1403,7 +1412,7 @@ body{
     /* */
 }
 .footwear1 .text1 .lower{
-    height: 80%;
+    height: 70%;
     width: 100%;
     /* border: 2px solid black; */
     display: flex;
@@ -1415,11 +1424,11 @@ body{
 }
 .footwear1 .text1 .low1 .product-price{
     font-family: "Abril Fatface", serif;
-    color: navy;
+    color: #000;
     font-size: 0.9rem;
     text-transform: uppercase;
     /* */
-    margin-top: 0;
+    margin-top: 0.2rem;
     margin-bottom: 0;
 }
 .footwear1 .text1 .low1 .product-detail span{
@@ -1431,7 +1440,7 @@ body{
 }
 .footwear1 .text1 .low1 .product-detail{
     font-family: "Abril Fatface", serif;
-    color: navy;
+    color: green;
     font-size: 0.9rem;
     text-transform: uppercase;
     /* */
@@ -1452,6 +1461,7 @@ body{
     background-color: rgb(4, 34, 59);
     color: #f5f5f5;
     cursor: pointer;
+    margin-top: 0.2rem;
 }
 .footwear2{
     margin-top: 1rem;
@@ -1470,7 +1480,7 @@ body{
     box-shadow: 0 0 10px rgb(143, 136, 136);
 }
 .footwear2 .pic2{
-    height: 80%;
+    height: 78%;
     width: 80%;
     /* */
     margin-left: auto;
@@ -1482,7 +1492,7 @@ body{
     width: 100%;
 }
 .footwear2 .text2{
-    height: 20%;
+    height: 22%;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
@@ -1491,7 +1501,7 @@ body{
     flex-direction: column;
 }
 .footwear2 .text2 .upper{
-    height: 20%;
+    height: 30%;
     width: 100%;
     /* border: 2px solid black; */
     margin-bottom: 0.5rem;
@@ -1504,7 +1514,7 @@ body{
     /* */
 }
 .footwear2 .text2 .lower{
-    height: 80%;
+    height: 70%;
     width: 100%;
     /* border: 2px solid black; */
     display: flex;
@@ -1516,11 +1526,11 @@ body{
 }
 .footwear2 .text2 .low1 .product-price{
     font-family: "Abril Fatface", serif;
-    color: navy;
+    color: #000;
     font-size: 0.9rem;
     text-transform: uppercase;
     /* */
-    margin-top: 0;
+    margin-top: 0.2rem;
     margin-bottom: 0;
 }
 .footwear2 .text2 .low1 .product-detail span{
@@ -1532,7 +1542,7 @@ body{
 }
 .footwear2 .text2 .low1 .product-detail{
     font-family: "Abril Fatface", serif;
-    color: navy;
+    color: green;
     font-size: 0.9rem;
     text-transform: uppercase;
     /* */
@@ -1553,6 +1563,7 @@ body{
     background-color: rgb(4, 34, 59);
     color: #f5f5f5;
     cursor: pointer;
+    margin-top: 0.2rem;
 }
 .footwear3{
     margin-top: 1rem;
@@ -1571,7 +1582,7 @@ body{
     box-shadow: 0 0 10px rgb(143, 136, 136);
 }
 .footwear3 .pic3{
-    height: 80%;
+    height: 78%;
     width: 80%;
     /* */
     margin-left: auto;
@@ -1583,7 +1594,7 @@ body{
     width: 100%;
 }
 .footwear3 .text3{
-    height: 20%;
+    height: 22%;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
@@ -1592,7 +1603,7 @@ body{
     flex-direction: column;
 }
 .footwear3 .text3 .upper{
-    height: 20%;
+    height: 30%;
     width: 100%;
     /* border: 2px solid black; */
     margin-bottom: 0.5rem;
@@ -1605,7 +1616,7 @@ body{
     /* */
 }
 .footwear3 .text3 .lower{
-    height: 80%;
+    height: 70%;
     width: 100%;
     /* border: 2px solid black; */
     display: flex;
@@ -1617,11 +1628,11 @@ body{
 }
 .footwear3 .text3 .low1 .product-price{
     font-family: "Abril Fatface", serif;
-    color: navy;
+    color: #000;
     font-size: 0.9rem;
     text-transform: uppercase;
     /* */
-    margin-top: 0;
+    margin-top: 0.2rem;
     margin-bottom: 0;
 }
 .footwear3 .text3 .low1 .product-detail span{
@@ -1633,7 +1644,7 @@ body{
 }
 .footwear3 .text3 .low1 .product-detail{
     font-family: "Abril Fatface", serif;
-    color: navy;
+    color: green;
     font-size: 0.9rem;
     text-transform: uppercase;
     /* */
@@ -1654,6 +1665,7 @@ body{
     background-color: rgb(4, 34, 59);
     color: #f5f5f5;
     cursor: pointer;
+    margin-top: 0.2rem;
 }
 .set2-footwear{
     display: flex;
@@ -1723,7 +1735,7 @@ body{
     box-shadow: 0 0 10px rgb(143, 136, 136);
 }
 .tunics1 .pic1{
-    height: 80%;
+    height: 78%;
     width: 80%;
     /* */
     margin-left: auto;
@@ -1735,7 +1747,7 @@ body{
     width: 100%;
 }
 .tunics1 .text1{
-    height: 20%;
+    height: 22%;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
@@ -1744,7 +1756,7 @@ body{
     flex-direction: column;
 }
 .tunics1 .text1 .upper{
-    height: 20%;
+    height: 30%;
     width: 100%;
     /* border: 2px solid black; */
     margin-bottom: 0.5rem;
@@ -1757,7 +1769,7 @@ body{
     /* */
 }
 .tunics1 .text1 .lower{
-    height: 80%;
+    height: 70%;
     width: 100%;
     /* border: 2px solid black; */
     display: flex;
@@ -1769,11 +1781,11 @@ body{
 }
 .tunics1 .text1 .low1 .product-price{
     font-family: "Abril Fatface", serif;
-    color: navy;
+    color: #000;
     font-size: 0.9rem;
     text-transform: uppercase;
     /* */
-    margin-top: 0;
+    margin-top: 0.2rem;
     margin-bottom: 0;
 }
 .tunics1 .text1 .low1 .product-detail span{
@@ -1785,7 +1797,7 @@ body{
 }
 .tunics1 .text1 .low1 .product-detail{
     font-family: "Abril Fatface", serif;
-    color: navy;
+    color: green;
     font-size: 0.9rem;
     text-transform: uppercase;
     /* */
@@ -1806,6 +1818,7 @@ body{
     background-color: rgb(4, 34, 59);
     color: #f5f5f5;
     cursor: pointer;
+    margin-top: 0.2rem;
 }
 .tunics2{
     margin-top: 1rem;
@@ -1824,7 +1837,7 @@ body{
     box-shadow: 0 0 10px rgb(143, 136, 136);
 }
 .tunics2 .pic2{
-    height: 80%;
+    height: 78%;
     width: 80%;
     /* */
     margin-left: auto;
@@ -1836,7 +1849,7 @@ body{
     width: 100%;
 }
 .tunics2 .text2{
-    height: 20%;
+    height: 22%;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
@@ -1845,7 +1858,7 @@ body{
     flex-direction: column;
 }
 .tunics2 .text2 .upper{
-    height: 20%;
+    height: 30%;
     width: 100%;
     /* border: 2px solid black; */
     margin-bottom: 0.5rem;
@@ -1858,7 +1871,7 @@ body{
     /* */
 }
 .tunics2 .text2 .lower{
-    height: 80%;
+    height: 70%;
     width: 100%;
     /* border: 2px solid black; */
     display: flex;
@@ -1870,11 +1883,11 @@ body{
 }
 .tunics2 .text2 .low1 .product-price{
     font-family: "Abril Fatface", serif;
-    color: navy;
+    color: #000;
     font-size: 0.9rem;
     text-transform: uppercase;
     /* */
-    margin-top: 0;
+    margin-top: 0.2rem;
     margin-bottom: 0;
 }
 .tunics2 .text2 .low1 .product-detail span{
@@ -1886,7 +1899,7 @@ body{
 }
 .tunics2 .text2 .low1 .product-detail{
     font-family: "Abril Fatface", serif;
-    color: navy;
+    color: green;
     font-size: 0.9rem;
     text-transform: uppercase;
     /* */
@@ -1907,6 +1920,7 @@ body{
     background-color: rgb(4, 34, 59);
     color: #f5f5f5;
     cursor: pointer;
+    margin-top: 0.2rem;
 }
 .tunics2 .text2 .low2 button a{
     color: #f5f5f5;
@@ -1930,7 +1944,7 @@ body{
     box-shadow: 0 0 10px rgb(143, 136, 136);
 }
 .tunics3 .pic3{
-    height: 80%;
+    height: 78%;
     width: 80%;
     /* */
     margin-left: auto;
@@ -1942,7 +1956,7 @@ body{
     width: 100%;
 }
 .tunics3 .text3{
-    height: 20%;
+    height: 22%;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
@@ -1951,7 +1965,7 @@ body{
     flex-direction: column;
 }
 .tunics3 .text3 .upper{
-    height: 20%;
+    height: 30%;
     width: 100%;
     /* border: 2px solid black; */
     margin-bottom: 0.5rem;
@@ -1964,7 +1978,7 @@ body{
     /* */
 }
 .tunics3 .text3 .lower{
-    height: 80%;
+    height: 70%;
     width: 100%;
     /* border: 2px solid black; */
     display: flex;
@@ -1976,11 +1990,11 @@ body{
 }
 .tunics3 .text3 .low1 .product-price{
     font-family: "Abril Fatface", serif;
-    color: navy;
+    color: #000;
     font-size: 0.9rem;
     text-transform: uppercase;
     /* */
-    margin-top: 0;
+    margin-top: 0.2rem;
     margin-bottom: 0;
 }
 .tunics3 .text3 .low1 .product-detail span{
@@ -1992,7 +2006,7 @@ body{
 }
 .tunics3 .text3 .low1 .product-detail{
     font-family: "Abril Fatface", serif;
-    color: navy;
+    color: green;
     font-size: 0.9rem;
     text-transform: uppercase;
     /* */
@@ -2013,6 +2027,7 @@ body{
     background-color: rgb(4, 34, 59);
     color: #f5f5f5;
     cursor: pointer;
+    margin-top: 0.2rem;
 }
 .set2-tunics{
     display: flex;
@@ -2082,7 +2097,7 @@ body{
     box-shadow: 0 0 10px rgb(143, 136, 136);
 }
 .ethnic1 .pic1{
-    height: 80%;
+    height: 78%;
     width: 80%;
     /* */
     margin-left: auto;
@@ -2094,7 +2109,7 @@ body{
     width: 100%;
 }
 .ethnic1 .text1{
-    height: 20%;
+    height: 22%;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
@@ -2103,7 +2118,7 @@ body{
     flex-direction: column;
 }
 .ethnic1 .text1 .upper{
-    height: 20%;
+    height: 30%;
     width: 100%;
     /* border: 2px solid black; */
     margin-bottom: 0.5rem;
@@ -2116,7 +2131,7 @@ body{
     /* */
 }
 .ethnic1 .text1 .lower{
-    height: 80%;
+    height: 70%;
     width: 100%;
     /* border: 2px solid black; */
     display: flex;
@@ -2128,11 +2143,11 @@ body{
 }
 .ethnic1 .text1 .low1 .product-price{
     font-family: "Abril Fatface", serif;
-    color: navy;
+    color: #000;
     font-size: 0.9rem;
     text-transform: uppercase;
     /* */
-    margin-top: 0;
+    margin-top: 0.2rem;
     margin-bottom: 0;
 }
 .ethnic1 .text1 .low1 .product-detail span{
@@ -2144,7 +2159,7 @@ body{
 }
 .ethnic1 .text1 .low1 .product-detail{
     font-family: "Abril Fatface", serif;
-    color: navy;
+    color: green;
     font-size: 0.9rem;
     text-transform: uppercase;
     /* */
@@ -2165,6 +2180,7 @@ body{
     background-color: rgb(4, 34, 59);
     color: #f5f5f5;
     cursor: pointer;
+    margin-top: 0.2rem;
 }
 .ethnic2{
     margin-top: 1rem;
@@ -2183,7 +2199,7 @@ body{
     box-shadow: 0 0 10px rgb(143, 136, 136);
 }
 .ethnic2 .pic2{
-    height: 80%;
+    height: 78%;
     width: 80%;
     /* */
     margin-left: auto;
@@ -2195,7 +2211,7 @@ body{
     width: 100%;
 }
 .ethnic2 .text2{
-    height: 20%;
+    height: 22%;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
@@ -2204,7 +2220,7 @@ body{
     flex-direction: column;
 }
 .ethnic2 .text2 .upper{
-    height: 20%;
+    height: 30%;
     width: 100%;
     /* border: 2px solid black; */
     margin-bottom: 0.5rem;
@@ -2217,7 +2233,7 @@ body{
     /* */
 }
 .ethnic2 .text2 .lower{
-    height: 80%;
+    height: 70%;
     width: 100%;
     /* border: 2px solid black; */
     display: flex;
@@ -2229,11 +2245,11 @@ body{
 }
 .ethnic2 .text2 .low1 .product-price{
     font-family: "Abril Fatface", serif;
-    color: navy;
+    color: #000;
     font-size: 0.9rem;
     text-transform: uppercase;
     /* */
-    margin-top: 0;
+    margin-top: 0.2rem;
     margin-bottom: 0;
 }
 .ethnic2 .text2 .low1 .product-detail span{
@@ -2245,7 +2261,7 @@ body{
 }
 .ethnic2 .text2 .low1 .product-detail{
     font-family: "Abril Fatface", serif;
-    color: navy;
+    color: green;
     font-size: 0.9rem;
     text-transform: uppercase;
     /* */
@@ -2266,6 +2282,7 @@ body{
     background-color: rgb(4, 34, 59);
     color: #f5f5f5;
     cursor: pointer;
+    margin-top: 0.2rem;
 }
 .ethnic3{
     margin-top: 1rem;
@@ -2284,7 +2301,7 @@ body{
     box-shadow: 0 0 10px rgb(143, 136, 136);
 }
 .ethnic3 .pic3{
-    height: 80%;
+    height: 78%;
     width: 80%;
     /* */
     margin-left: auto;
@@ -2296,7 +2313,7 @@ body{
     width: 100%;
 }
 .ethnic3 .text3{
-    height: 20%;
+    height: 22%;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
@@ -2305,7 +2322,7 @@ body{
     flex-direction: column;
 }
 .ethnic3 .text3 .upper{
-    height: 20%;
+    height: 30%;
     width: 100%;
     /* border: 2px solid black; */
     margin-bottom: 0.5rem;
@@ -2318,7 +2335,7 @@ body{
     /* */
 }
 .ethnic3 .text3 .lower{
-    height: 80%;
+    height: 70%;
     width: 100%;
     /* border: 2px solid black; */
     display: flex;
@@ -2330,11 +2347,11 @@ body{
 }
 .ethnic3 .text3 .low1 .product-price{
     font-family: "Abril Fatface", serif;
-    color: navy;
+    color: #000;
     font-size: 0.9rem;
     text-transform: uppercase;
     /* */
-    margin-top: 0;
+    margin-top: 0.2rem;
     margin-bottom: 0;
 }
 .ethnic3 .text3 .low1 .product-detail span{
@@ -2346,7 +2363,7 @@ body{
 }
 .ethnic3 .text3 .low1 .product-detail{
     font-family: "Abril Fatface", serif;
-    color: navy;
+    color: green;
     font-size: 0.9rem;
     text-transform: uppercase;
     /* */
@@ -2367,6 +2384,7 @@ body{
     background-color: rgb(4, 34, 59);
     color: #f5f5f5;
     cursor: pointer;
+    margin-top: 0.2rem;
 }
 .set2-ethnic{
     display: flex;
@@ -2436,7 +2454,7 @@ body{
     box-shadow: 0 0 10px rgb(143, 136, 136);
 }
 .shrugs1 .pic1{
-    height: 80%;
+    height: 78%;
     width: 80%;
     /* */
     margin-left: auto;
@@ -2448,7 +2466,7 @@ body{
     width: 100%;
 }
 .shrugs1 .text1{
-    height: 20%;
+    height: 22%;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
@@ -2457,7 +2475,7 @@ body{
     flex-direction: column;
 }
 .shrugs1 .text1 .upper{
-    height: 20%;
+    height: 30%;
     width: 100%;
     /* border: 2px solid black; */
     margin-bottom: 0.5rem;
@@ -2470,7 +2488,7 @@ body{
     /* */
 }
 .shrugs1 .text1 .lower{
-    height: 80%;
+    height: 70%;
     width: 100%;
     /* border: 2px solid black; */
     display: flex;
@@ -2482,11 +2500,11 @@ body{
 }
 .shrugs1 .text1 .low1 .product-price{
     font-family: "Abril Fatface", serif;
-    color: navy;
+    color: #000;
     font-size: 0.9rem;
     text-transform: uppercase;
     /* */
-    margin-top: 0;
+    margin-top: 0.2rem;
     margin-bottom: 0;
 }
 .shrugs1 .text1 .low1 .product-detail span{
@@ -2498,7 +2516,7 @@ body{
 }
 .shrugs1 .text1 .low1 .product-detail{
     font-family: "Abril Fatface", serif;
-    color: navy;
+    color: green;
     font-size: 0.9rem;
     text-transform: uppercase;
     /* */
@@ -2519,6 +2537,7 @@ body{
     background-color: rgb(4, 34, 59);
     color: #f5f5f5;
     cursor: pointer;
+    margin-top: 0.2rem;
 }
 .shrugs2{
     margin-top: 1rem;
@@ -2537,7 +2556,7 @@ body{
     box-shadow: 0 0 10px rgb(143, 136, 136);
 }
 .shrugs2 .pic2{
-    height: 80%;
+    height: 78%;
     width: 80%;
     /* */
     margin-left: auto;
@@ -2549,7 +2568,7 @@ body{
     width: 100%;
 }
 .shrugs2 .text2{
-    height: 20%;
+    height: 22%;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
@@ -2558,7 +2577,7 @@ body{
     flex-direction: column;
 }
 .shrugs2 .text2 .upper{
-    height: 20%;
+    height: 30%;
     width: 100%;
     /* border: 2px solid black; */
     margin-bottom: 0.5rem;
@@ -2571,7 +2590,7 @@ body{
     /* */
 }
 .shrugs2 .text2 .lower{
-    height: 80%;
+    height: 70%;
     width: 100%;
     /* border: 2px solid black; */
     display: flex;
@@ -2583,11 +2602,11 @@ body{
 }
 .shrugs2 .text2 .low1 .product-price{
     font-family: "Abril Fatface", serif;
-    color: navy;
+    color: #000;
     font-size: 0.9rem;
     text-transform: uppercase;
     /* */
-    margin-top: 0;
+    margin-top: 0.2rem;
     margin-bottom: 0;
 }
 .shrugs2 .text2 .low1 .product-detail span{
@@ -2599,7 +2618,7 @@ body{
 }
 .shrugs2 .text2 .low1 .product-detail{
     font-family: "Abril Fatface", serif;
-    color: navy;
+    color: green;
     font-size: 0.9rem;
     text-transform: uppercase;
     /* */
@@ -2620,6 +2639,7 @@ body{
     background-color: rgb(4, 34, 59);
     color: #f5f5f5;
     cursor: pointer;
+    margin-top: 0.2rem;
 }
 .shrugs3{
     margin-top: 1rem;
@@ -2638,7 +2658,7 @@ body{
     box-shadow: 0 0 10px rgb(143, 136, 136);
 }
 .shrugs3 .pic3{
-    height: 80%;
+    height: 78%;
     width: 80%;
     /* */
     margin-left: auto;
@@ -2650,7 +2670,7 @@ body{
     width: 100%;
 }
 .shrugs3 .text3{
-    height: 20%;
+    height: 22%;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
@@ -2659,7 +2679,7 @@ body{
     flex-direction: column;
 }
 .shrugs3 .text3 .upper{
-    height: 20%;
+    height: 30%;
     width: 100%;
     /* border: 2px solid black; */
     margin-bottom: 0.5rem;
@@ -2672,7 +2692,7 @@ body{
     /* */
 }
 .shrugs3 .text3 .lower{
-    height: 80%;
+    height: 70%;
     width: 100%;
     /* border: 2px solid black; */
     display: flex;
@@ -2684,11 +2704,11 @@ body{
 }
 .shrugs3 .text3 .low1 .product-price{
     font-family: "Abril Fatface", serif;
-    color: navy;
+    color: #000;
     font-size: 0.9rem;
     text-transform: uppercase;
     /* */
-    margin-top: 0;
+    margin-top: 0.2rem;
     margin-bottom: 0;
 }
 .shrugs3 .text3 .low1 .product-detail span{
@@ -2700,7 +2720,7 @@ body{
 }
 .shrugs3 .text3 .low1 .product-detail{
     font-family: "Abril Fatface", serif;
-    color: navy;
+    color: green;
     font-size: 0.9rem;
     text-transform: uppercase;
     /* */
@@ -2721,6 +2741,7 @@ body{
     background-color: rgb(4, 34, 59);
     color: #f5f5f5;
     cursor: pointer;
+    margin-top: 0.2rem;
 }
 .set2-shrugs{
     display: flex;
