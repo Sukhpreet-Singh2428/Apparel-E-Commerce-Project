@@ -364,6 +364,13 @@ main{
     border-style: none;
     border-radius: 0.5rem;
     cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+    transition: box-shadow 0.2s ease-in-out;
+}
+.upper .buttons .cart:hover{
+    background-color: lightblue;
+    color: #000;
+    box-shadow: 0 0 5px gray;
 }
 .upper .buttons .cart img{
     height: 1.2rem;
@@ -379,6 +386,13 @@ main{
     border-style: none;
     border-radius: 0.5rem;
     cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+    transition: box-shadow 0.2s ease-in-out;
+}
+.upper .buttons .buy:hover{
+    background-color: rgb(241, 241, 79);
+    box-shadow: 0 0 5px gray;
+    color: #000;
 }
 .upper .location{
     margin-top: 1.5rem;
@@ -873,7 +887,7 @@ main{
     height: 10vh;
     width: 70%;
     /* border: 1px solid red; */
-    margin-top: 1rem;
+    margin-top: 2rem;
     margin-left: 3rem;
     display: flex;
     background-color: rgb(243, 239, 239);
@@ -931,7 +945,7 @@ main{
     font-family: "Audiowide", sans-serif;
     font-size: 1rem;
     margin-left: 1rem;
-    margin-top: 1.2rem;
+    margin-top: 1.5rem;
 }
 .upper .review-text button{
     font-family: "Audiowide", sans-serif;
@@ -945,7 +959,7 @@ main{
     cursor: pointer;
 }
 .upper .review-written{
-    margin-top: 1rem;
+    margin-top: 2rem;
     margin-left: 2rem;
     height: 20vh;
     width: 80%;
@@ -1015,7 +1029,7 @@ main{
     font-size: 0.8rem;
     text-align: right;
     margin-right: 2rem;
-    margin-top: 0.5rem;
+    margin-top: 1rem;
     color: purple;
     cursor: pointer;
 }
@@ -1024,7 +1038,7 @@ main{
     font-size: 0.8rem;
     color: gray;
     margin-left: 1rem;
-    margin-top: 1rem;
+    margin-top: 2rem;
 }
 .upper .review-others span{
     color: black;
@@ -1034,7 +1048,7 @@ main{
 }
 .upper .review-helpful{
     margin-left: 1rem;
-    margin-top: 1rem;
+    margin-top: 2.5rem;
 }
 .upper .review-helpful button{
     height: 2rem;
