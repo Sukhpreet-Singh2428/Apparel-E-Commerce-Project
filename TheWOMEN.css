@@ -458,6 +458,7 @@ footer{
     flex-direction: column;
     gap: 10px;
     font-family: "Abril Fatface", serif;
+    cursor: pointer;
 }
 .sec3{
     height: 100%;
@@ -517,6 +518,7 @@ footer{
     margin-right: 50px;
     font-family: "Abril Fatface", serif;
     font-size: 0.8rem;
+    cursor: pointer;
 }
 
 @media screen and (max-width: 480px) {

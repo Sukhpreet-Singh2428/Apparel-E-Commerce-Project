@@ -487,6 +487,7 @@ footer{
     /* font-family: 'Spectral'; */
     font-family: "Audiowide", sans-serif;
     color: honeydew;
+    cursor: pointer;
 }
 .sec3{
     height: 100%;
@@ -557,6 +558,7 @@ footer{
     font-family: "Audiowide", sans-serif;
     font-size: 0.8rem;
     color: honeydew;
+    cursor: pointer;
 }
 
 @media screen and (max-width: 480px) {
