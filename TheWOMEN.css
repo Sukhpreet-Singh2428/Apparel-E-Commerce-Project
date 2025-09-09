@@ -33,7 +33,7 @@
     display: flex;
     gap: 25px;
     margin: 0;
-    margin-left: 3.5rem;
+    margin-left: 4rem;
 }
 .menu ul a{
     text-decoration: none;
@@ -52,7 +52,7 @@
     display: flex;
     gap: 25px;
     margin: 0;
-    margin-left: 8.5rem;
+    margin-left: 9rem;
     color: rgb(35, 14, 35);
     font-family: "Abril Fatface", serif;
 }
@@ -389,6 +389,7 @@ main{
     height: 30px;
     font-family: "Abril Fatface", serif;
     border: 0;
+    cursor: pointer;
 }
 .para-section button a{
     text-decoration: none;
@@ -485,6 +486,7 @@ footer{
     font-family: "Abril Fatface", serif;
     height: 40px;
     width: 140px;
+    cursor: pointer;
 }
 .footer-down{
     height: 10%;
@@ -785,6 +787,7 @@ footer{
         height: 1.5rem;
         width: 3.5rem;
         font-size: 0.4rem;
+        cursor: pointer;
     }
     .footer-down{
         height: 40%;

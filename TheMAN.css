@@ -409,6 +409,7 @@ main{
     border-style: none;
     background-color: #000;
     color: honeydew;
+    cursor: pointer;
 }
 .para-section button a{
     text-decoration: none;
@@ -520,6 +521,7 @@ footer{
     font-family: "Audiowide", sans-serif;
     height: 40px;
     width: 140px;
+    cursor: pointer;
 }
 .footer-down{
     height: 10%;
