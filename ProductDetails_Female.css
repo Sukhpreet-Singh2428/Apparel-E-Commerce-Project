@@ -34,7 +34,7 @@ html{
     display: flex;
     gap: 25px;
     margin: 0;
-    padding-left: 1.6rem;
+    margin-left: 2rem;
 }
 .menu ul a{
     text-decoration: none;
@@ -53,7 +53,7 @@ html{
     display: flex;
     gap: 25px;
     margin: 0;
-    padding-left: 130px;
+    margin-left: 6rem;
     color: #000;
     font-family: "Audiowide", sans-serif;
 }
@@ -372,6 +372,13 @@ main{
     border-style: none;
     border-radius: 0.5rem;
     cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+    transition: box-shadow 0.2s ease-in-out;
+}
+.upper .buttons .cart:hover{
+    background-color: lightblue;
+    color: #000;
+    box-shadow: 0 0 5px gray;
 }
 .upper .buttons .cart img{
     height: 1.2rem;
@@ -387,6 +394,13 @@ main{
     border-style: none;
     border-radius: 0.5rem;
     cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+    transition: box-shadow 0.2s ease-in-out;
+}
+.upper .buttons .buy:hover{
+    background-color: rgb(241, 241, 79);
+    box-shadow: 0 0 5px gray;
+    color: #000;
 }
 .upper .location{
     margin-top: 1.5rem;
@@ -424,12 +438,14 @@ main{
     color: gray;
     padding: 0.3rem;
 }
-.upper .pincode span{
+.upper .pincode button{
     font-family: "Audiowide", sans-serif;
     font-size: 1rem;
     color: purple;
     margin-left: 1rem;
     cursor: pointer;
+    border-style: none;
+    background-color: white;
 }
 .upper .location-rules{
     margin-left: 1rem;
@@ -569,8 +585,8 @@ main{
     width: 96%;
     height: 60%;
     border-radius: 1rem;
-    margin-top: 2rem;
-    margin-left: 0.7rem;
+    margin-top: 2.5rem;
+    margin-left: 0.5rem;
 }
 .upper .cupon1 .up .About{
     height: 100%;
@@ -592,7 +608,7 @@ main{
     font-size: 0.7rem;
     text-align: center;
     /* margin-top: 0.5rem; */
-    margin-top: 1rem;
+    margin-top: 2rem;
     margin-right: 0.3rem;
     padding-left: 0.5rem;
 }
@@ -665,8 +681,8 @@ main{
     width: 96%;
     height: 60%;
     border-radius: 1rem;
-    margin-top: 2rem;
-    margin-left: 0.7rem;
+    margin-top: 2.5rem;
+    margin-left: 0.5rem;
 }
 .upper .cupon2 .up .About{
     height: 100%;
@@ -688,7 +704,7 @@ main{
     font-size: 0.7rem;
     text-align: center;
     /* margin-top: 0.5rem; */
-    margin-top: 1rem;
+    margin-top: 2rem;
     padding-left: 1rem;
     padding-right: 1rem;
 }
@@ -824,7 +840,7 @@ main{
     font-size: 0.8rem;
     color: gray;
     margin-left: 3rem;
-    margin-right: 1rem;
+    margin-right: 2.5rem;
     margin-top: 0.5rem;
     font-style: italic;
 }
@@ -882,7 +898,7 @@ main{
     height: 10vh;
     width: 70%;
     /* border: 1px solid red; */
-    margin-top: 1rem;
+    margin-top: 2rem;
     margin-left: 3rem;
     display: flex;
     background-color: rgb(243, 239, 239);
@@ -940,7 +956,7 @@ main{
     font-family: "Audiowide", sans-serif;
     font-size: 1rem;
     margin-left: 1rem;
-    margin-top: 1.2rem;
+    margin-top: 1.5rem;
 }
 .upper .review-text button{
     font-family: "Audiowide", sans-serif;
@@ -954,7 +970,7 @@ main{
     cursor: pointer;
 }
 .upper .review-written{
-    margin-top: 1rem;
+    margin-top: 2rem;
     margin-left: 2rem;
     height: 20vh;
     width: 80%;
@@ -1024,7 +1040,7 @@ main{
     font-size: 0.8rem;
     text-align: right;
     margin-right: 2rem;
-    margin-top: 0.5rem;
+    margin-top: 1rem;
     color: purple;
     cursor: pointer;
 }
@@ -1033,7 +1049,7 @@ main{
     font-size: 0.8rem;
     color: gray;
     margin-left: 1rem;
-    margin-top: 1rem;
+    margin-top: 2rem;
 }
 .upper .review-others span{
     color: black;
@@ -1043,7 +1059,7 @@ main{
 }
 .upper .review-helpful{
     margin-left: 1rem;
-    margin-top: 1rem;
+    margin-top: 2.5rem;
 }
 .upper .review-helpful button{
     height: 2rem;
@@ -1151,6 +1167,7 @@ footer{
     margin-bottom: 10px;
     height: 40px;
     width: 300px;
+    margin-top: 1rem;
 }
 .sec3 button{
     /* font-family: 'Spectral'; */

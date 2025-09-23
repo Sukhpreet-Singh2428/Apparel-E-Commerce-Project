@@ -33,7 +33,7 @@
     display: flex;
     gap: 25px;
     margin: 0;
-    padding-left: 130px;
+    margin-left: 4rem;
 }
 .menu ul a{
     text-decoration: none;
@@ -52,7 +52,7 @@
     display: flex;
     gap: 25px;
     margin: 0;
-    padding-left: 130px;
+    margin-left: 9rem;
     color: rgb(35, 14, 35);
     font-family: "Abril Fatface", serif;
 }
@@ -90,7 +90,7 @@ nav{
     box-shadow: 0 0 20px #000;
 }
 header{
-    height: 25%;
+    height: 21%;
     width: 100%;
     background: url("https://images.pexels.com/photos/4972086/pexels-photo-4972086.jpeg");
     background-repeat: no-repeat;
@@ -174,17 +174,17 @@ header{
 body{
     margin: 0;
     overflow-x: hidden;
-    height: 400vh;
+    height: 480vh;
     width: 100vw;
 }
 main{
-    height: 50%;
-    margin-bottom: 540px;
+    height: 62%;
+    /* margin-bottom: 540px; */
 }
 .sections{
-    height: 65%;
+    height: 49%;
     width: 100%;
-    margin-bottom: 12px;
+    margin-bottom: 0.4rem;
 }
 .upper{
     display: flex;
@@ -294,11 +294,12 @@ main{
     /* transform:scaleY(1.07) ; */
 }
 .displayVideo{
-    height: 48%;
+    height: 35%;
     width: 100%;
     /* box-shadow: 0 0 20px #000; */
     position: relative;
-    margin-bottom: 12px;
+    margin-top: 0;
+    margin-bottom: 0.3rem;
 }
 .vid{
     height: 100%;
@@ -334,7 +335,7 @@ main{
     text-shadow: 2px 3px 3px lightslategray;
 }
 .para-section{
-    height: 23%;
+    height: 16%;
     width: 100%;
     /* border: 3px solid black; */
     /* background-color: rgb(159, 180, 201); */
@@ -342,6 +343,8 @@ main{
     display: flex;
     flex-direction: column;
     gap: 0;
+    margin-top: 0;
+    margin-bottom: 1rem;
 }
 .para-section .up{
     height: 68%;
@@ -386,6 +389,7 @@ main{
     height: 30px;
     font-family: "Abril Fatface", serif;
     border: 0;
+    cursor: pointer;
 }
 .para-section button a{
     text-decoration: none;
@@ -401,12 +405,14 @@ main{
     font-family: "Abril Fatface", serif;
 }
 footer{
-    height: 20%;
+    height: 17%;
     width: 100%;
     /* border: 5px solid red; */
     display: flex;
     flex-direction: column;
     background-color: rgb(241, 205, 138);
+    margin-top: 0.5rem;
+    border-top: 5px solid honeydew;
 }
 .footer-up{
     height: 90%;
@@ -452,6 +458,7 @@ footer{
     flex-direction: column;
     gap: 10px;
     font-family: "Abril Fatface", serif;
+    cursor: pointer;
 }
 .sec3{
     height: 100%;
@@ -480,6 +487,7 @@ footer{
     font-family: "Abril Fatface", serif;
     height: 40px;
     width: 140px;
+    cursor: pointer;
 }
 .footer-down{
     height: 10%;
@@ -510,6 +518,7 @@ footer{
     margin-right: 50px;
     font-family: "Abril Fatface", serif;
     font-size: 0.8rem;
+    cursor: pointer;
 }
 
 @media screen and (max-width: 480px) {
@@ -780,6 +789,7 @@ footer{
         height: 1.5rem;
         width: 3.5rem;
         font-size: 0.4rem;
+        cursor: pointer;
     }
     .footer-down{
         height: 40%;

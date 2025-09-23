@@ -13,9 +13,9 @@
       <h2>Create your Loxi account</h2>
       <p>Join the movement. Style that speaks, delivered to your doorstep.</p>
       <form action="/TheWOMEN.html">
-        <input type="text" placeholder="Full Name" required />
+        <input type="text" placeholder="Full Name" pattern="[A-Z,a-z]{4,}" required />
         <input type="email" placeholder="Email address" required />
-        <input type="password" placeholder="Create Password" required />
+        <input type="password" placeholder="Create Password" minlength="6" required />
         <button type="submit">Create Account</button>
       </form>
       <div class="social">
