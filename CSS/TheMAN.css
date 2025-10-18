@@ -37,7 +37,8 @@ html{
     display: flex;
     gap: 25px;
     margin: 0;
-    margin-left: 2rem;
+    margin-left: 0rem;
+    padding: 0;
 }
 .menu ul a{
     text-decoration: none;
@@ -59,7 +60,7 @@ html{
     display: flex;
     gap: 25px;
     margin: 0;
-    padding-left: 130px;
+    /* padding-left: 130px; */
     color: rgb(35, 14, 35);
 }
 .right ul a{
@@ -76,7 +77,7 @@ nav{
     display: flex;
     margin: 0;
     padding: 0;
-    gap: 150px;
+    gap: 11rem;
     position: sticky;
 }
 .nav-toggle{
