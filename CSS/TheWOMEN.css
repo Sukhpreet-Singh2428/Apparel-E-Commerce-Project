@@ -33,7 +33,7 @@
     display: flex;
     gap: 25px;
     margin: 0;
-    margin-left: 4rem;
+    margin-left: 2rem;
 }
 .menu ul a{
     text-decoration: none;
@@ -52,7 +52,7 @@
     display: flex;
     gap: 25px;
     margin: 0;
-    margin-left: 9rem;
+    margin-left: 6rem;
     color: rgb(35, 14, 35);
     font-family: "Abril Fatface", serif;
 }
@@ -69,7 +69,7 @@ nav{
     display: flex;
     margin: 0;
     padding: 0;
-    gap: 150px;
+    gap: 10rem;
     position: sticky;
 }
 .head{
