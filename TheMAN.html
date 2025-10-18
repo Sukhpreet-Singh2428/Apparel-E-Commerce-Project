@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,6 +9,7 @@
     <link rel="icon" href="/Logo loxi.png" type="image/x-icon">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
+
 <body>
     <header>
         <div class="head">
@@ -15,7 +17,15 @@
                 <!-- <span>LOXI</span> -->
                 <h1>LOXI</h1>
             </div>
-            <nav>
+
+            <!-- Hamburger button for mobile menu toggle -->
+            <button id="hamburger" class="hamburger" aria-label="Toggle menu" aria-expanded="false"
+                aria-controls="main-nav">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <nav id="main-nav">
                 <div class="two">
                     <ul>
                         <li><a href="/TheMAN.html">Man</a></li>
@@ -34,18 +44,28 @@
                 <div class="right">
                     <ul>
                         <li><a href="#FR">EN</a></li>
-                        <li><a href="/loginpage.html" title="Login"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#000000" id="User--Streamline-Tabler-Filled" height="24" width="24">
-  <desc>
-    User Streamline Icon: https://streamlinehq.com
-  </desc>
-  <path d="M12 2a5 5 0 1 1 -5 5l0.005 -0.217A5 5 0 0 1 12 2z" stroke-width="1"></path>
-  <path d="M14 14a5 5 0 0 1 5 5v1a2 2 0 0 1 -2 2H7a2 2 0 0 1 -2 -2v-1a5 5 0 0 1 5 -5h4z" stroke-width="1"></path>
-</svg></a></li>
-                        <li><a href="/MyCart.html" title="Cart"><svg class="w-[41px] h-[41px] text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 4h1.5L9 16m0 0h8m-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-8.5-3h9.25L19 7H7.312"/>
-</svg></a></li>
+                        <li><a href="/loginpage.html" title="Login"><svg xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 24 24" fill="#000000" id="User--Streamline-Tabler-Filled" height="24"
+                                    width="24">
+                                    <desc>
+                                        User Streamline Icon: https://streamlinehq.com
+                                    </desc>
+                                    <path d="M12 2a5 5 0 1 1 -5 5l0.005 -0.217A5 5 0 0 1 12 2z" stroke-width="1"></path>
+                                    <path
+                                        d="M14 14a5 5 0 0 1 5 5v1a2 2 0 0 1 -2 2H7a2 2 0 0 1 -2 -2v-1a5 5 0 0 1 5 -5h4z"
+                                        stroke-width="1"></path>
+                                </svg></a></li>
+                        <li><a href="/MyCart.html" title="Cart"><svg
+                                    class="w-[41px] h-[41px] text-gray-800 dark:text-white" aria-hidden="true"
+                                    xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
+                                    viewBox="0 0 24 24">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="2"
+                                        d="M5 4h1.5L9 16m0 0h8m-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-8.5-3h9.25L19 7H7.312" />
+                                </svg></a></li>
                     </ul>
                 </div>
+
             </nav>
         </div>
 
@@ -55,7 +75,7 @@
                 <span>HIGH-TOP SNEAKERS</span>
                 <button><a href="/EshopMAN.html#shoes">ON MY ROAD ➔ </a></button>
             </div>
-    
+
             <!-- <div class="color">
                 <div class="c1"></div>
                 <div class="c2"></div>
@@ -75,7 +95,7 @@
                 <div class="watch">
                     <!-- <span class="content"><a href="/EshopMAN.html#hoodies">Hoodies</a></span> -->
                     <h2 class="content"><a href="/EshopMAN.html#hoodies">Hoodies</a></h2>
-                </div>  
+                </div>
             </div>
 
             <div class="lower">
@@ -93,7 +113,8 @@
 
         <div class="displayVideo">
             <video class="vid" autoplay muted loop>
-                <source src="https://videos.pexels.com/video-files/7935542/7935542-uhd_2732_1440_25fps.mp4" type="video/mp4">
+                <source src="https://videos.pexels.com/video-files/7935542/7935542-uhd_2732_1440_25fps.mp4"
+                    type="video/mp4">
             </video>
 
             <div class="vid-text1">
@@ -108,7 +129,8 @@
         <div class="para-section">
             <div class="up">
                 <p class="main">Less clothes, more quality</p>
-                <p class="other">To co-create your future favorite clothes and stay up-to-date on every launch, leave us your email here. We'll get back to you in 13 seconds.</p>
+                <p class="other">To co-create your future favorite clothes and stay up-to-date on every launch, leave us
+                    your email here. We'll get back to you in 13 seconds.</p>
             </div>
             <div class="low">
                 <form>
@@ -129,9 +151,11 @@
         <div class="footer-up">
             <div class="sec1">
                 <p class="sec1-head">Welcome to Loxi</p>
-                <p class="sec1-p">We are a lifestyle brand & clothing destination for elevated, effortless, everyday style. Our goal is to help men build a functional wardrobe to feel confident & sharp in every season of life. New Arrivals launch every Wednesday!</p>
+                <p class="sec1-p">We are a lifestyle brand & clothing destination for elevated, effortless, everyday
+                    style. Our goal is to help men build a functional wardrobe to feel confident & sharp in every season
+                    of life. New Arrivals launch every Wednesday!</p>
             </div>
-    
+
             <div class="sec2">
                 <p class="sec2-head">HELP + INFO</p>
                 <ul>
@@ -146,10 +170,11 @@
                     <li>Accessibility</li>
                 </ul>
             </div>
-    
+
             <div class="sec3">
                 <p class="sec3-head">GET 15% OFF</p>
-                <p class="sec3-p">Just for you, sign up to receive 15% off your first order, insider info on new arrivals, sales, events & more.</p>
+                <p class="sec3-p">Just for you, sign up to receive 15% off your first order, insider info on new
+                    arrivals, sales, events & more.</p>
                 <form>
                     <input type="email" name="email" placeholder="Your Email" required><br>
                     <button type="submit">SUBSCRIBE</button>
@@ -177,5 +202,8 @@
             </div>
         </div>
     </footer>
+
+    <script src="/THEMAN.js"></script>
 </body>
+
 </html>
