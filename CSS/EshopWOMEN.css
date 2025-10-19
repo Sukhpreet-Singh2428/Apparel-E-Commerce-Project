@@ -10,7 +10,8 @@ html{
     /* font-family: "Playfair Display", serif; */
     font-family: "Abril Fatface", serif;
     font-weight: bolder;
-    color: #000;
+    color: white;
+    text-shadow: 2px 1px 2px #000;
 }
 .two ul{
     list-style: none;
@@ -21,7 +22,8 @@ html{
 }
 .two ul a{
     text-decoration: none;
-    color: #000;
+    color: white;
+    text-shadow: 2px 1px 2px #000;
     font-family: "Abril Fatface", serif;
     transition: text-decoration 0.3s ease-in-out;
 }
@@ -37,7 +39,8 @@ html{
 }
 .menu ul a{
     text-decoration: none;
-    color: #000;
+    color: white;
+    text-shadow: 2px 1px 2px #000;
     font-family: "Abril Fatface", serif;
     transition: text-decoration 0.37s ease-in-out;
 }
@@ -58,7 +61,8 @@ html{
 }
 .right ul a{
     text-decoration: none;
-    color: #000;
+    color: white;
+    text-shadow: 2px 1px 2px #000;
     font-family: "Abril Fatface", serif;
     transition: text-decoration 0.3s ease-in-out;
 }
@@ -82,16 +86,20 @@ nav{
     height: 100%;
     width: 100%;
     /* border: 3px solid red; */
-    background: url("https://images.pexels.com/photos/8755334/pexels-photo-8755334.jpeg");
-    background-color: hotpink;
-    background-position: bottom;
+    /* background: url("https://images.pexels.com/photos/8755334/pexels-photo-8755334.jpeg"); */
+    background: url("/Assets/backgroundIMG.png");
+    background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
     transition: background 0.5s ease-in-out;
     /* border-bottom: 3px solid black; */
 }
 .head:hover{
-    background: hotpink;
+    /* background: hotpink; */
+    background: url("/Assets/backgroundIMG.png");
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
     box-shadow: 0 0 20px #000;
 }
 header{
@@ -114,7 +122,8 @@ main{
     height: 5%;
     width: 100%;
     /* */
-    background: url("https://images.pexels.com/photos/8755334/pexels-photo-8755334.jpeg");
+    /* background: url("https://images.pexels.com/photos/8755334/pexels-photo-8755334.jpeg"); */
+    background: url("/Assets/backgroundIMG.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
