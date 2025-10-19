@@ -12,8 +12,10 @@ html{
     display: inline-block;
     font-family: "Audiowide", sans-serif;
     font-weight: bolder;
-    color: #000;
-    text-shadow: 2px 2.5px 3px honeydew;
+    /* color: #000; */
+    color: white;
+    /* text-shadow: 2px 2.5px 3px honeydew; */
+    text-shadow: 2px 2.5px 3px black;
 }
 .two ul{
     list-style: none;
@@ -24,7 +26,9 @@ html{
 }
 .two ul a{
     text-decoration: none;
-    color: rgb(35, 14, 35);
+    /* color: rgb(35, 14, 35); */
+    color: white;
+    text-shadow: 2px 1px 2px #000;
     /* font-family: 'Spectral'; */
     font-family: "Audiowide", sans-serif;
     transition: text-decoration 0.3s ease-in-out;
@@ -43,7 +47,9 @@ html{
 .menu ul a{
     text-decoration: none;
     /* color: rgb(35, 14, 35); */
-    color: black;
+    /* color: black; */
+    color: white;
+    text-shadow: 2px 1px 2px #000;
     /* text-shadow: 2px 2px 2px #fff; */
     /* font-family: 'Spectral'; */
     font-family: "Audiowide", sans-serif;
@@ -65,7 +71,9 @@ html{
 }
 .right ul a{
     text-decoration: none;
-    color: rgb(35, 14, 35);
+    /* color: rgb(35, 14, 35); */
+    color: white;
+    text-shadow: 2px 1px 2px #000;
     /* font-family: 'Spectral'; */
     font-family: "Audiowide", sans-serif;
     transition: text-decoration 0.3s ease-in-out;
@@ -97,7 +105,8 @@ nav{
     /* position: absolute; */
 }
 .head:hover{
-    background-color: ghostwhite;
+    /* background-color: ghostwhite; */
+    background-color: #000;
     box-shadow: 0 0 20px #000;
 }
 .hamburger {
@@ -121,7 +130,8 @@ nav{
 header{
     height: 21%;
     width: 100%;
-    background: url("https://images.pexels.com/photos/5172731/pexels-photo-5172731.jpeg");
+    /* background: url("https://images.pexels.com/photos/5172731/pexels-photo-5172731.jpeg"); */
+    background: url("https://images.pexels.com/photos/9930085/pexels-photo-9930085.jpeg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -148,23 +158,32 @@ header{
 .text p{
     /* font-family: 'Spectral'; */
     font-family: "Audiowide", sans-serif;
-    font-size: small;
+    font-size: 1rem;
     margin-bottom: 0;
+    color: honeydew;
+    text-shadow: 2px 1px 2px #000;
 }
 .text span{
     display: block;
     font-size: 1.4rem;
     /* font-family: 'Spectral'; */
     font-family: "Audiowide", sans-serif;
+    color: honeydew;
     text-shadow: 2px 1px 2px #000;
     margin-bottom: 15px;
 }
 .text button{
-    background-color: navy;
+    /* background-color: navy; */
+    background-color: #000;
+    border: none;
+    height: 2.5rem;
+    width: 12rem;
+    border-radius: 1rem;
 }
 .text button a{
     text-decoration: none;
-    color: honeydew;
+    /* color: honeydew; */
+    color: goldenrod;
     /* font-family: 'Spectral'; */
     font-family: "Audiowide", sans-serif;
     font-size: 1rem;
