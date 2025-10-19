@@ -9,8 +9,8 @@
     display: inline-block;
     font-family: "Abril Fatface", serif;
     font-weight: bolder;
-    color: #000;
-    text-shadow: 2px 2.5px 3px honeydew;
+    color: white;
+    text-shadow: 2px 2.5px 3px #000;
 }
 .two ul{
     list-style: none;
@@ -21,7 +21,9 @@
 }
 .two ul a{
     text-decoration: none;
-    color: rgb(35, 14, 35);
+    /* color: rgb(35, 14, 35); */
+    color: honeydew;
+    text-shadow: 2px 1px 2px #000;
     font-family: "Abril Fatface", serif;
     transition: text-decoration 0.3s ease-in-out;
 }
@@ -37,8 +39,11 @@
 }
 .menu ul a{
     text-decoration: none;
-    color: rgb(35, 14, 35);
+    /* color: rgb(35, 14, 35); */
+    color: honeydew;
+    text-shadow: 2px 1px 2px #000;
     font-family: "Abril Fatface", serif;
+    font-size: 1.05rem;
     transition: text-decoration 0.37s ease-in-out;
 }
 .menu ul a::before{
@@ -58,7 +63,9 @@
 }
 .right ul a{
     text-decoration: none;
-    color: rgb(35, 14, 35);
+    /* color: rgb(35, 14, 35); */
+    color: white;
+    text-shadow: 2px 1px 2px #000;
     font-family: "Abril Fatface", serif;
     transition: text-decoration 0.3s ease-in-out;
 }
@@ -86,15 +93,16 @@ nav{
     /* position: absolute; */
 }
 .head:hover{
-    background-color: ghostwhite;
+    background-color: #000;
     box-shadow: 0 0 20px #000;
 }
 header{
     height: 21%;
     width: 100%;
-    background: url("https://images.pexels.com/photos/4972086/pexels-photo-4972086.jpeg");
+    /* background: url("https://images.pexels.com/photos/4972086/pexels-photo-4972086.jpeg"); */
+    background: url("https://images.pexels.com/photos/9968476/pexels-photo-9968476.jpeg");
     background-repeat: no-repeat;
-    background-position: bottom;
+    background-position: center;
     background-size: cover;
     background-attachment: scroll;
     display: flex;
@@ -118,6 +126,8 @@ header{
 .text p{
     font-family: "Abril Fatface", serif;
     font-size: small;
+    color: white;
+    text-shadow: 2px 1px 2px #000;
     margin-bottom: 0;
 }
 .text span{
@@ -130,11 +140,15 @@ header{
     margin-bottom: 15px;
 }
 .text button{
-    background-color: navy;
+    background-color: #000;
+    border: none;
+    height: 2.4rem;
+    width: 11rem;
+    border-radius: 1rem;
 }
 .text button a{
     text-decoration: none;
-    color: honeydew;
+    color: goldenrod;
     font-family: "Abril Fatface", serif;
     font-size: 1rem;
 }

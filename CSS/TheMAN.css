@@ -246,7 +246,7 @@ main{
     border: 3px solid ghostwhite;
     height: 100%;
     width: 50%;
-    background: url("https://images.pexels.com/photos/8170945/pexels-photo-8170945.jpeg");
+    background: url("https://images.pexels.com/photos/9930074/pexels-photo-9930074.jpeg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -254,7 +254,7 @@ main{
     /* transition: transform 0.5s ease-in-out; */
 }
 .shoes:hover{
-    background: url("https://images.pexels.com/photos/8170944/pexels-photo-8170944.jpeg");
+    background: url("https://images.pexels.com/photos/9930070/pexels-photo-9930070.jpeg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
