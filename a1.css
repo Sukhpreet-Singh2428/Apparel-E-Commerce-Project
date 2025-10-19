@@ -2,7 +2,8 @@
   body {
     margin: 0;
     font-family: 'Audiowide', sans-serif;
-    background: #f5f5dc;
+    /* background: #f5f5dc; */
+    background: #333232;
     color: #333;
   }
 
@@ -13,7 +14,7 @@
     /* font-family: "Playfair Display", serif; */
     font-family: "Audiowide", sans-serif;
     font-weight: bolder;
-    color: #000;
+    color: #ffffff;
   }
 
   .two ul {
@@ -26,13 +27,13 @@
 
   .two ul a {
     text-decoration: none;
-    color: #000;
+    color: #ffffff;
     font-family: "Audiowide", sans-serif;
     transition: text-decoration 0.3s ease-in-out;
   }
 
   .two ul a:hover {
-    text-decoration: overline rgb(101, 160, 101);
+    text-decoration: overline rgb(71, 71, 71);
   }
 
   .menu ul {
@@ -45,7 +46,7 @@
 
   .menu ul a {
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-family: "Audiowide", sans-serif;
     transition: text-decoration 0.37s ease-in-out;
   }
@@ -55,7 +56,7 @@
   }
 
   .menu ul a:hover {
-    text-decoration: overline rgb(101, 160, 101);
+    text-decoration: overline rgb(255, 255, 255);
   }
 
   .right ul {
@@ -64,13 +65,13 @@
     gap: 25px;
     margin: 0;
     margin-left: 6rem;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-family: "Audiowide", sans-serif;
   }
 
   .right ul a {
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-family: "Audiowide", sans-serif;
     transition: text-decoration 0.3s ease-in-out;
   }
@@ -103,17 +104,17 @@
   background-position: bottom;
   background-size: cover;
   background-repeat: no-repeat; */
-    background-color: #f5f5dc;
+    background-color: #333232;
     /* transition: background 0.5s ease-in-out; */
 
   }
 
   .head:hover .right ul a {
-    color: #000;
+    color: #8f8f8f;
   }
 
   .head:hover .menu ul a {
-    color: #000;
+    color: #8f8f8f;
   }
 
   header {
@@ -245,11 +246,14 @@
     padding: 2rem;
     gap: 2rem;
   }
+  h2{
+    color: #fff;
+  }
 
   /* Sidebar */
   .sidebar {
     width: 20%;
-    background: #fff;
+    background: #cecece;
     padding: 1rem;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -300,9 +304,15 @@
     flex-wrap: wrap;
   }
 
+  .set1-accessories .accessory-card .pic{
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+
   .accessory-card {
     flex: 1 1 calc(33% - 2rem);
-    background: linear-gradient(to bottom, #ffffff, #f0f0f0, rgb(226, 239, 253));
+    /* background: linear-gradient(to bottom, #ffffff, #f0f0f0, rgb(226, 239, 253)); */
+    background: #cecece;
     border-radius: 15px;
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -390,7 +400,7 @@
     /* border: 5px solid red; */
     display: flex;
     flex-direction: column;
-    background-color: lightgray;
+    background-color: rgb(255, 255, 255);
   }
 
   .footer-up {
