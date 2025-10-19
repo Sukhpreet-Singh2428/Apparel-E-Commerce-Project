@@ -9,7 +9,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-image: url("/Registration_background_img.png");
+  background-image: url("/Assets/Registration_background_img.png");
 }
 .main {
   backdrop-filter: blur(6px);
