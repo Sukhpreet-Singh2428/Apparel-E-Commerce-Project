@@ -779,3 +779,294 @@ footer{
     font-family: "Audiowide", sans-serif;
     font-size: 0.8rem;
 }
+
+
+
+/* =======================================================================
+   RESPONSIVE STYLES FOR BEST SELLER PAGE
+   ======================================================================= */
+
+/* --- Mobile Menu Toggle Icon (Hamburger) --- */
+/* The HTML doesn't include a dedicated burger icon, so we'll create one 
+   and use a CSS-only method for a sidebar effect */
+.menu-toggle {
+    display: none; /* Hidden by default on desktop */
+    cursor: pointer;
+    z-index: 1001; /* Above header */
+    padding: 10px;
+    margin-right: 20px;
+}
+
+.hamburger {
+    width: 25px;
+    height: 3px;
+    background-color: honeydew;
+    margin: 5px 0;
+    transition: 0.4s;
+}
+
+/* --- Tablet Styles (Max-width 1024px) --- */
+@media (max-width: 1024px) {
+    /* HEADER: Adjust spacing and reduce nav element separation */
+    .head {
+        padding: 0 10px;
+        gap: 20px;
+    }
+    
+    nav {
+        gap: 50px;
+    }
+
+    .menu ul, .right ul {
+        gap: 15px;
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+    }
+
+    .right ul {
+        margin-left: 2rem;
+    }
+
+    .menu ul a {
+        font-size: 0.9rem;
+    }
+    
+    /* MAIN LAYOUT: Adjust main columns */
+    main {
+        flex-direction: row;
+    }
+
+    .filter {
+        width: 25%; /* Slightly wider filter sidebar */
+        padding: 10px;
+    }
+
+    .content {
+        width: 75%;
+        padding: 10px;
+    }
+    
+    /* PRODUCT GRID: Adjust to 2 columns */
+    .row1, .row2, .row3, .row4, .row5, .row6, .row7, .row8 {
+        gap: 1rem;
+        margin-left: 0;
+        margin-right: 0;
+        flex-wrap: wrap; /* Allow items to wrap into next line */
+        justify-content: space-around;
+        height: auto; /* Auto height to accommodate wrapping */
+    }
+
+    .item1, .item2, .item3 {
+        width: 45%; /* Two items per row, with spacing */
+        height: 500px; /* Maintain height for consistent card size */
+    }
+
+    /* Hide the third item in each row since we only want two per row on tablet */
+    /* This targets item3 only if it is the third item in the row */
+    .row1 .item3, .row2 .item3, .row3 .item3, .row4 .item3, 
+    .row5 .item3, .row6 .item3, .row7 .item3, .row8 .item3 {
+        display: none;
+    }
+    /* Note: If you want *all* items to show, change the width to 30% and remove the display:none */
+
+
+    /* PRODUCT CARD DETAILS: Adjust text/button size */
+    .item1 .text1, .item2 .text2, .item3 .text3 {
+        width: 90%;
+    }
+
+    .item1 .text1 .low2 button, .item2 .text2 .low2 button, .item3 .text3 .low2 button {
+        width: 6rem;
+        margin-left: 0.5rem;
+    }
+    
+    /* FOOTER: Stack the two lists in the footer-down section */
+    .footer-up {
+        flex-wrap: wrap;
+        height: auto;
+    }
+
+    .sec1, .sec2, .sec3 {
+        width: 50%; /* Two columns */
+        padding-bottom: 20px;
+        height: auto;
+    }
+
+    .footer-down .s2 ul {
+        flex-wrap: wrap;
+        padding-left: 0;
+        justify-content: center;
+        margin-right: 0;
+    }
+
+    .footer-down .s1, .footer-down .s2 {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+
+/* --- Mobile Styles (Max-width 768px) --- */
+@media (max-width: 768px) {
+    /* HEADER: Prepare for Mobile Sidebar/Toggle */
+    header {
+        position: fixed;
+        height: 4.2rem;
+    }
+
+    .head {
+        justify-content: space-between;
+        gap: 0;
+        padding: 0 5px;
+    }
+    
+    /* Show the mobile toggle icon */
+    .menu-toggle {
+        display: block;
+        align-self: center;
+        margin-left: 10px;
+    }
+
+    /* Hide default navigation links for mobile */
+    nav {
+        display: none;
+        /* The header elements will be moved to the sidebar */
+    }
+    
+    /* Add a temporary class to the body in HTML to control the sidebar state */
+    /* This requires a JavaScript toggle, but we can set up the styles */
+    /* We'll use a hack to control the filter sidebar for this pure CSS implementation */
+    
+    /* MAIN LAYOUT: Stack content and filter */
+    main {
+        flex-direction: column;
+    }
+
+    .content {
+        width: 100%;
+        top: 4.2rem;
+        min-height: calc(100vh - 4.2rem);
+    }
+
+    /* Filter Sidebar/Overlay */
+    .filter {
+        position: fixed;
+        z-index: 99; 
+        top: 4.2rem; 
+        left: 0;
+        width: 80%; /* Takes up most of the screen width */
+        height: calc(100vh - 4.2rem); 
+        transform: translateX(-100%); /* Start hidden off-screen */
+        transition: transform 0.3s ease-in-out;
+        box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
+        padding: 20px;
+        background-color: rgb(255, 255, 228);
+    }
+    
+    /* To visually 'open' the filter sidebar on click, we'd use a JavaScript toggle
+       or an advanced CSS hack (e.g., using checkbox/label trick).
+       For simplicity, we'll assume the toggle logic exists elsewhere. */
+    /* .filter.open {
+        transform: translateX(0);
+    } */
+
+    /* If you want a purely CSS hack for the filter: 
+       1. Add an empty checkbox input before the filter div.
+       2. Use the following selector:
+       #filter-toggle:checked ~ main .filter { transform: translateX(0); }
+    */
+
+    .men h2, .subhead h2 {
+        text-align: left;
+    }
+
+    /* PRODUCT GRID: Single column layout */
+    .row1, .row2, .row3, .row4, .row5, .row6, .row7, .row8 {
+        flex-direction: column; /* Stack items vertically */
+        align-items: center;
+    }
+
+    .item1, .item2, .item3 {
+        width: 90%; /* Almost full width */
+        height: 400px; /* Reduced height for vertical stacking */
+        margin-bottom: 20px;
+    }
+    
+    /* Show all items if they were hidden for 2-column tablet view */
+    .row1 .item3, .row2 .item3, .row3 .item3, .row4 .item3, 
+    .row5 .item3, .row6 .item3, .row7 .item3, .row8 .item3 {
+        display: flex; 
+    }
+
+    .item1 .pic1, .item2 .pic2, .item3 .pic3 {
+        height: 65%; /* Allocate more space for text/buttons */
+    }
+    
+    .item1 .text1, .item2 .text2, .item3 .text3 {
+        height: 30%;
+        width: 90%;
+    }
+
+    .item1 .text1 .low2 button, .item2 .text2 .low2 button, .item3 .text3 .low2 button {
+        width: 7rem;
+        margin-left: 1rem;
+    }
+
+    /* FOOTER: Fully stack everything */
+    .footer-up {
+        flex-direction: column;
+    }
+    .sec1, .sec2, .sec3 {
+        width: 100%; /* Full width */
+        text-align: center;
+    }
+
+    .sec2 ul {
+        align-items: center;
+    }
+    
+    .footer-down {
+        flex-direction: column;
+    }
+    .footer-down .s1, .footer-down .s2 {
+        padding-left: 0;
+    }
+    .footer-down .s2 ul {
+        flex-direction: column;
+        gap: 5px;
+    }
+}
+
+
+/* --- Tiny Mobile Styles (Max-width 480px) --- */
+@media (max-width: 480px) {
+    .title {
+        font-size: 1.2rem;
+    }
+    .item1 .text1 .lower, .item2 .text2 .lower, .item3 .text3 .lower {
+        flex-direction: column; /* Stack price/details and button */
+        align-items: center;
+    }
+    
+    .item1 .text1 .low1, .item2 .text2 .low1, .item3 .text3 .low1 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .item1 .text1 .low2, .item2 .text2 .low2, .item3 .text3 .low2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .item1 .text1 .low2 button, .item2 .text2 .low2 button, .item3 .text3 .low2 button {
+        width: 90%;
+        margin: 5px 0;
+    }
+
+    .sec3 input {
+        width: 90%;
+    }
+    .sec3 button {
+        width: 90%;
+    }
+}

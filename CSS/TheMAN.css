@@ -1,5 +1,8 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Spectral:wght@700&display=swap'); */
-@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Spectral:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Audiowide");
+html{
+    scroll-behavior: smooth;
+}
 
 .title h1{
     font-size: 2rem;
@@ -7,10 +10,12 @@
     /* font-family: "Playfair Display", serif; */
     /* font-family: 'Spectral', serif; */
     display: inline-block;
-    font-family: "Abril Fatface", serif;
+    font-family: "Audiowide", sans-serif;
     font-weight: bolder;
-    color: #000;
-    text-shadow: 2px 2.5px 3px honeydew;
+    /* color: #000; */
+    color: white;
+    /* text-shadow: 2px 2.5px 3px honeydew; */
+    text-shadow: 2px 2.5px 3px black;
 }
 .two ul{
     list-style: none;
@@ -21,8 +26,11 @@
 }
 .two ul a{
     text-decoration: none;
-    color: rgb(35, 14, 35);
-    font-family: "Abril Fatface", serif;
+    /* color: rgb(35, 14, 35); */
+    color: white;
+    text-shadow: 2px 1px 2px #000;
+    /* font-family: 'Spectral'; */
+    font-family: "Audiowide", sans-serif;
     transition: text-decoration 0.3s ease-in-out;
 }
 .two ul a:hover{
@@ -33,12 +41,18 @@
     display: flex;
     gap: 25px;
     margin: 0;
-    margin-left: 4rem;
+    margin-left: 0rem;
+    padding: 0;
 }
 .menu ul a{
     text-decoration: none;
-    color: rgb(35, 14, 35);
-    font-family: "Abril Fatface", serif;
+    /* color: rgb(35, 14, 35); */
+    /* color: black; */
+    color: white;
+    text-shadow: 2px 1px 2px #000;
+    /* text-shadow: 2px 2px 2px #fff; */
+    /* font-family: 'Spectral'; */
+    font-family: "Audiowide", sans-serif;
     transition: text-decoration 0.37s ease-in-out;
 }
 .menu ul a::before{
@@ -52,14 +66,16 @@
     display: flex;
     gap: 25px;
     margin: 0;
-    margin-left: 9rem;
+    /* padding-left: 130px; */
     color: rgb(35, 14, 35);
-    font-family: "Abril Fatface", serif;
 }
 .right ul a{
     text-decoration: none;
-    color: rgb(35, 14, 35);
-    font-family: "Abril Fatface", serif;
+    /* color: rgb(35, 14, 35); */
+    color: white;
+    text-shadow: 2px 1px 2px #000;
+    /* font-family: 'Spectral'; */
+    font-family: "Audiowide", sans-serif;
     transition: text-decoration 0.3s ease-in-out;
 }
 .right ul a:hover{
@@ -69,8 +85,11 @@ nav{
     display: flex;
     margin: 0;
     padding: 0;
-    gap: 150px;
+    gap: 11rem;
     position: sticky;
+}
+.nav-toggle{
+    display: none;
 }
 .head{
     display: flex;
@@ -86,19 +105,40 @@ nav{
     /* position: absolute; */
 }
 .head:hover{
-    background-color: ghostwhite;
+    /* background-color: ghostwhite; */
+    background-color: #000;
     box-shadow: 0 0 20px #000;
+}
+.hamburger {
+  display: none; /* hidden desktop */
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 22px;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  padding: 0;
+}
+
+.hamburger span {
+  display: block;
+  height: 4px;
+  background: black;
+  border-radius: 2px;
 }
 header{
     height: 21%;
     width: 100%;
-    background: url("https://images.pexels.com/photos/4972086/pexels-photo-4972086.jpeg");
+    /* background: url("https://images.pexels.com/photos/5172731/pexels-photo-5172731.jpeg"); */
+    background: url("https://images.pexels.com/photos/9930085/pexels-photo-9930085.jpeg");
     background-repeat: no-repeat;
-    background-position: bottom;
+    background-position: center;
     background-size: cover;
     background-attachment: scroll;
     display: flex;
     flex-direction: column;
+    /* border: 10px solid navy; */
 }
 .header-low{
     height: 12%;
@@ -116,26 +156,36 @@ header{
     margin-left: 20px; */
 }
 .text p{
-    font-family: "Abril Fatface", serif;
-    font-size: small;
+    /* font-family: 'Spectral'; */
+    font-family: "Audiowide", sans-serif;
+    font-size: 1rem;
     margin-bottom: 0;
+    color: honeydew;
+    text-shadow: 2px 1px 2px #000;
 }
 .text span{
     display: block;
     font-size: 1.4rem;
-    font-family: "Abril Fatface", serif;
-    /* text-shadow: 2px 1px 2px #000; */
+    /* font-family: 'Spectral'; */
+    font-family: "Audiowide", sans-serif;
     color: honeydew;
-    text-shadow: 1px 1px 1px #000;
+    text-shadow: 2px 1px 2px #000;
     margin-bottom: 15px;
 }
 .text button{
-    background-color: navy;
+    /* background-color: navy; */
+    background-color: #000;
+    border: none;
+    height: 2.5rem;
+    width: 12rem;
+    border-radius: 1rem;
 }
 .text button a{
     text-decoration: none;
-    color: honeydew;
-    font-family: "Abril Fatface", serif;
+    /* color: honeydew; */
+    color: goldenrod;
+    /* font-family: 'Spectral'; */
+    font-family: "Audiowide", sans-serif;
     font-size: 1rem;
 }
 /* .color{
@@ -180,11 +230,12 @@ body{
 main{
     height: 62%;
     /* margin-bottom: 540px; */
+    /* border: 10px solid red; */
 }
 .sections{
     height: 49%;
     width: 100%;
-    margin-bottom: 0.4rem;
+    margin-bottom: 0.5rem;
 }
 .upper{
     display: flex;
@@ -195,7 +246,7 @@ main{
     border: 3px solid ghostwhite;
     height: 100%;
     width: 50%;
-    background: url("https://i.pinimg.com/1200x/65/1a/e2/651ae2ce1fe194823cc6063cfb749a92.jpg");
+    background: url("https://images.pexels.com/photos/6776608/pexels-photo-6776608.jpeg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -203,16 +254,18 @@ main{
     /* transition: transform 0.5s ease-in-out; */
 }
 .shoes:hover{
-    background: url("https://i.pinimg.com/1200x/84/c9/3f/84c93f9526e61d6323a291cab93d7bd2.jpg");
+    background: url("https://images.pexels.com/photos/8188884/pexels-photo-8188884.jpeg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     /* transform:scaleY(1.07) ; */
+    /* transform: scale(1.1); */
 }
 .content{
     font-size: 2.5rem;
     display: block;
-    font-family: "Abril Fatface", serif;
+    /* font-family: 'Spectral'; */
+    font-family: "Audiowide", sans-serif;
     margin-top: 270px;
     padding-left: 15px;
     font-weight: normal;
@@ -221,20 +274,20 @@ main{
     text-decoration: none;
     /* color: lightgrey;
     text-shadow: 0 0 20px #000; */
-    /* color: #000; */
     color: ghostwhite;
-    text-shadow: 2px 3px 3px lightslategray;
+    text-shadow: 2px 3px 3px #000;
 }
 .content::after{
     content: " ➔";
     font-size: 1.5rem;
-    color: beige;
+    color: ghostwhite;
+    text-shadow: 2px 3px 3px #000;
 }
 .watch{
     border: 3px solid ghostwhite;
     height: 100%;
     width: 50%;
-    background: url("https://i.pinimg.com/736x/e6/c7/7f/e6c77fe5d6fb2b88c9d7d2f490b50fb7.jpg");
+    background: url("https://i.pinimg.com/736x/c8/0e/8c/c80e8c392d0157594014e7f6185ea5ee.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -242,7 +295,7 @@ main{
     /* transition: transform 0.5s ease-in-out; */
 }
 .watch:hover{
-    background: url("https://i.pinimg.com/736x/ad/67/2a/ad672aee2c8ee5cab751fd398fc19fff.jpg");
+    background: url("https://i.pinimg.com/1200x/8b/a7/dd/8ba7dd0795bdf8e57cbefe4e9a6e3c2a.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -257,7 +310,7 @@ main{
     border: 3px solid ghostwhite;
     height: 100%;
     width: 50%;
-    background: url("https://i.pinimg.com/736x/e1/0f/3d/e10f3d2f4307dedf46e02cf225d014a1.jpg");
+    background: url("https://i.pinimg.com/736x/82/4e/42/824e42208d88510de74a65787a59627a.jpg");
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
@@ -269,7 +322,7 @@ main{
     width: 100%;
 } */
 .shirt:hover{
-    background: url("https://i.pinimg.com/1200x/ea/34/3a/ea343ab027e2edb7a88f0030a45ede9b.jpg");
+    background: url("https://i.pinimg.com/736x/03/1f/5f/031f5fe92b0588d95846ea078adc4320.jpg");
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
@@ -279,7 +332,7 @@ main{
     border: 3px solid ghostwhite;
     height: 100%;
     width: 50%;
-    background: url("https://i.pinimg.com/1200x/ad/3b/84/ad3b844db59e8ddad13e387868c89918.jpg");
+    background: url("https://i.pinimg.com/736x/2d/5a/3e/2d5a3e6a7b782d5b1f3c404f0309490a.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -287,7 +340,7 @@ main{
     /* transition: transform 0.5s ease-in-out; */
 }
 .pants:hover{
-    background: url("https://i.pinimg.com/1200x/d5/a2/0b/d5a20bd7700dd4f560f66c8ae4c24fe7.jpg");
+    background: url("https://i.pinimg.com/1200x/41/97/59/4197599f30a40cae393183a8530b3f0a.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -298,7 +351,6 @@ main{
     width: 100%;
     /* box-shadow: 0 0 20px #000; */
     position: relative;
-    margin-top: 0;
     margin-bottom: 0.3rem;
 }
 .vid{
@@ -316,9 +368,10 @@ main{
     bottom: 50%;
     font-size: 2rem;
     text-align: center;
-    color: #000;
-    font-family: "Abril Fatface", serif;
-    text-shadow: 2px 3px 3px lightslategray;
+    color: honeydew;
+    /* font-family: 'Spectral'; */
+    font-family: "Audiowide", sans-serif;
+    text-shadow: 2px 3px 3px #000;
 }
 .vid-text2{
     height: 20%;
@@ -330,21 +383,23 @@ main{
     left: 75%;
     font-size: 2rem;
     text-align: center;
-    font-family: "Abril Fatface", serif;
-    color: #000;
-    text-shadow: 2px 3px 3px lightslategray;
+    /* font-family: 'Spectral'; */
+    font-family: "Audiowide", sans-serif;
+    color: honeydew;
+    text-shadow: 2px 3px 3px #000;
 }
 .para-section{
     height: 16%;
     width: 100%;
     /* border: 3px solid black; */
     /* background-color: rgb(159, 180, 201); */
-    background-color: rgb(193, 219, 216);
+    /* background-color: rgb(255, 153, 153); */
+    background-color: #f6dfde;
     display: flex;
     flex-direction: column;
     gap: 0;
-    margin-top: 0;
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
+    
 }
 .para-section .up{
     height: 68%;
@@ -358,16 +413,19 @@ main{
     text-align: center;
     text-transform: uppercase;
     color: #000;
-    font-family: "Abril Fatface", serif;
+    font-weight: normal;
+    /* font-family: 'Spectral'; */
+    font-family: "Audiowide", sans-serif;
     text-shadow: 2px 3px 3px lightslategrey; 
 }
 .para-section .other{
     /* margin: 0; */
-    padding-left: auto;
-    padding-right: auto;
+    margin-top: 2rem;
+    margin-right: 2rem;
     text-align: center;
     font-size: 1.2rem;
-    font-family: "Abril Fatface", serif;
+    /* font-family: 'Spectral'; */
+    font-family: "Audiowide", sans-serif;
 }
 .para-section .low{
     height: 32%;
@@ -380,15 +438,20 @@ main{
     left: 32%;
     height: 30px;
     width: 300px;
-    font-family: "Abril Fatface", serif;
+    /* font-family: 'Spectral'; */
+    font-family: "Audiowide", sans-serif;
     border: 0;
 }
 .para-section button{
     position: relative;
     left: 53%;
-    height: 30px;
-    font-family: "Abril Fatface", serif;
-    border: 0;
+    height: 2rem;
+    /* font-family: 'Spectral'; */
+    font-family: "Audiowide", sans-serif;
+    border-radius: 0.5rem;
+    border-style: none;
+    background-color: #000;
+    color: honeydew;
     cursor: pointer;
 }
 .para-section button a{
@@ -396,13 +459,14 @@ main{
     
 }
 .para-section button:hover{
-    background-color: lightgoldenrodyellow;
+    background-color: #375b71;
 }
 .para-section .select{
     position: absolute;
     left: 32%;
     margin-top: 20px;
-    font-family: "Abril Fatface", serif;
+    /* font-family: 'Spectral'; */
+    font-family: "Audiowide", sans-serif;
 }
 footer{
     height: 17%;
@@ -410,9 +474,11 @@ footer{
     /* border: 5px solid red; */
     display: flex;
     flex-direction: column;
-    background-color: rgb(241, 205, 138);
+    /* background-color: rgb(128, 168, 209); */
+    background-color: #375b71;
     margin-top: 0.5rem;
-    border-top: 5px solid honeydew;
+    /* border: 10px solid green; */
+    border-top: 5px solid white;
 }
 .footer-up{
     height: 90%;
@@ -431,11 +497,15 @@ footer{
 }
 .sec1 .sec1-head{
     font-size: 2rem;
-    font-family: "Abril Fatface", serif;
+    /* font-family: 'Spectral'; */
+    font-family: "Audiowide", sans-serif;
     text-shadow: 2px 3px 3px gray;
+    color: honeydew;
 }
 .sec1 .sec1-p{
-    font-family: "Abril Fatface", serif;
+    /* font-family: 'Spectral'; */
+    font-family: "Audiowide", sans-serif;
+    color: honeydew;
 }
 .sec2{
     height: 100%;
@@ -449,15 +519,19 @@ footer{
 .sec2 .sec2-head{
     padding-left: 20px;
     font-size: 2rem;
-    font-family: "Abril Fatface", serif;
+    /* font-family: 'Spectral'; */
+    font-family: "Audiowide", sans-serif;
     text-shadow: 2px 3px 3px gray;
+    color: honeydew;
 }
 .sec2 ul{
     list-style: none;
     display: flex;
     flex-direction: column;
     gap: 10px;
-    font-family: "Abril Fatface", serif;
+    /* font-family: 'Spectral'; */
+    font-family: "Audiowide", sans-serif;
+    color: honeydew;
     cursor: pointer;
 }
 .sec3{
@@ -471,20 +545,26 @@ footer{
 }
 .sec3 .sec3-head{
     font-size: 2rem;
-    font-family: "Abril Fatface", serif;
+    /* font-family: 'Spectral'; */
+    font-family: "Audiowide", sans-serif;
     text-shadow: 2px 3px 3px gray;
+    color: honeydew;
 }
 .sec3 .sec3-p{
-    font-family: "Abril Fatface", serif;
+    /* font-family: 'Spectral'; */
+    font-family: "Audiowide", sans-serif;
+    color: honeydew;
 }
 .sec3 input{
-    font-family: "Abril Fatface", serif;
+    /* font-family: 'Spectral'; */
+    font-family: "Audiowide", sans-serif;
     margin-bottom: 10px;
     height: 40px;
     width: 300px;
 }
 .sec3 button{
-    font-family: "Abril Fatface", serif;
+    /* font-family: 'Spectral'; */
+    font-family: "Audiowide", sans-serif;
     height: 40px;
     width: 140px;
     cursor: pointer;
@@ -498,10 +578,13 @@ footer{
     height: 100%;
     width: 20%;
     /* border: 3px solid black; */
-    font-family: "Abril Fatface", serif;
+    /* font-family: 'Spectral'; */
+    font-family: "Audiowide", sans-serif;
+    color: honeydew;
 }
 .footer-down .s1 p{
     text-align: center;
+    color: honeydew;
 }
 .footer-down .s2{
     height: 100%;
@@ -516,8 +599,10 @@ footer{
     display: flex;
     gap: 9px;
     margin-right: 50px;
-    font-family: "Abril Fatface", serif;
+    /* font-family: 'Spectral'; */
+    font-family: "Audiowide", sans-serif;
     font-size: 0.8rem;
+    color: honeydew;
     cursor: pointer;
 }
 
@@ -550,52 +635,45 @@ footer{
         width: 100%;
         /* border: 3px solid orange; */
     }
-    nav{
-        display: flex;
-        flex-direction: column;
-        gap: 0;
-        margin: 0;
-        padding: 0;
-    }
-    .two{
-        margin-left: auto;
-        margin-right: auto;
-        /* border: 3px solid black; */
-        /* height: 33.33%;
-        width: 100%; */
-    }
-    .two ul{
-        display: flex;
-        gap: 25px;
-        font-size: 0.8rem;
-    }
-    .menu{
-        /* border: 3px solid navy; */
-        margin-left: auto;
-        margin-right: auto;
-        align-items: center;
-        align-content: center;
-    }
-    .menu ul{
-        display: flex;
-        gap: 12px;
-        padding-left: 0;
-        font-size: 0.8rem;
-    }
-    .menu ul a::before{
-        content: "";
-    }
-    .right{
-        margin-left: auto;
-        margin-right: auto;
-        /* border: 3px solid red; */
-    }
-    .right ul{
-        display: flex;
-        gap: 12px;
-        padding-left: 0;
-        font-size: 0.8rem;
-    }
+
+    nav {
+    display: none; /* hide nav by default on mobile */
+    flex-direction: column;
+    position: absolute;
+    top: 70px; /* adjust to header height */
+    right: 20px;
+    background: white;
+    padding: 10px 0;
+    width: 220px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    gap: 0;
+  }
+
+  nav.active {
+    display: flex; /* show nav when active */
+  }
+
+  .hamburger {
+    display: flex; /* show hamburger on mobile */
+    border: 2px solid red;
+  }
+  nav ul {
+    flex-direction: column;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
+  }
+
+  nav ul li {
+    padding: 0 20px;
+    margin: 0;
+  }
+
+  /* Adjust existing flex gaps for small screens */
+  .two ul, .menu ul, .right ul {
+    gap: 0;
+  }
     .header-low{
         /* border: 3px solid black; */
         height: 15%;
@@ -789,7 +867,6 @@ footer{
         height: 1.5rem;
         width: 3.5rem;
         font-size: 0.4rem;
-        cursor: pointer;
     }
     .footer-down{
         height: 40%;
