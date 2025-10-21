@@ -25,11 +25,13 @@ document.getElementById("registrationform").addEventListener("submit", async(fun
 
     if(resCreate.ok) {
         result.style.color = "green";
-        result.innerText = "Signup successful! Redirecting...";
+        // result.innerText = "Signup successful! Redirecting...";
 
-        setTimeout(() => {
-            window.location.href = "loginpage.html";
-        }, 1000);
+        // setTimeout(() => {
+        //     window.location.href = "loginpage.html";
+        // }, 1000);
+        result.innerHTML = 'Signup successful! <a href="/loginpage.html">Go Login</a>';
+        document.getElementById("registrationform").reset(); // clears inputs
     } else {
         result.style.color = "red";
         result.innerText = "Signup failed. Try again.";
