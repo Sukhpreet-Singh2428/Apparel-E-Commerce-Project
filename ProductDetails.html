@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Product Detail</title>
-    <link rel="icon" href="/Logo loxi.png" type="image/x-icon">
-    <link rel="stylesheet" href="/ProductDetails.css">
+    <link rel="icon" href="/Assets/Logo loxi.png" type="image/x-icon">
+    <link rel="stylesheet" href="/CSS/ProductDetails.css">
 </head>
 
 <body>
@@ -78,30 +78,30 @@
                     </div>
     
                     <div class="showcase">
-                        <img src="https://i.pinimg.com/736x/17/ce/43/17ce43986ba14179d87ac487d18c33f4.jpg">
+                        <img id="productImage" src="https://i.pinimg.com/736x/17/ce/43/17ce43986ba14179d87ac487d18c33f4.jpg">
                     </div>
                 </div>
 
                 <div class="vid1">
-                    <video src="/ProductDetails_vid2.mp4" autoplay muted loop></video>
+                    <video src="/Assets/ProductDetails_vid2.mp4" autoplay muted loop></video>
                 </div>
                 <div class="vid2">
-                    <video src="/ProductDetails_vid1.mp4" autoplay muted loop></video>
+                    <video src="/Assets/ProductDetails_vid1.mp4" autoplay muted loop></video>
                 </div>
             </div>
 
             <div class="about">
                 <div class="upper">
                     <p class="tags">BESTSELLER | EXPRESS SHIPPING</p>
-                    <h2 class="name">Nike sb dunk low jarritos</h2>
+                    <h2 id="productName" class="name">Nike sb dunk low jarritos</h2>
                     <p class="info">Nike SB Dunk Low Jarritos Lifestyle Sneakers</p>
                     <p class="rating"><span>4.7 ★ </span> Based on 13 ratings</p>
-                    <p class="price">₹1,916  <span>73% Off</span></p>
+                    <p id="productPrice" class="price">₹1,916  <span>73% Off</span></p>
                     <p class="other">MRP <span>₹7,099</span> Inclusive of all taxes</p>
                     <hr>
                     <p class="select">Select Size <span>Size Guide</span></p>
                     <p class="sizes"> <span>UK3</span> <span>UK4</span> <span>UK5</span> <span>UK6</span> <span>UK7</span></p>
-                    <p class="buttons"> <button type="button" class="cart">Add to Cart <img src="https://img.icons8.com/?size=100&id=IWVgm1EZH963&format=png&color=000000"></button> <button type="button" class="buy">Buy Now</button></p>
+                    <p class="buttons"> <button type="button" id="addToCartBtn" class="cart">Add to Cart <img src="https://img.icons8.com/?size=100&id=IWVgm1EZH963&format=png&color=000000"></button> <button type="button" class="buy">Buy Now</button></p>
                     <hr>
                     <p class="location">Select Delivery Location</p>
                     <p class="location-text1">Enter the pincode of your area to check product</p>
@@ -143,7 +143,7 @@
                         <div class="cupon1">
                             <div class="up">
                                 <div class="logo">
-                                    <img src="/Cupon_logo.png">
+                                    <img src="/Assets/Cupon_logo.png">
                                 </div>
                                 <div class="About">
                                     <p class="t1">Extra 10% off</p>
@@ -163,7 +163,7 @@
                         <div class="cupon2">
                             <div class="up">
                                 <div class="logo">
-                                    <img src="/Cupon_logo.png">
+                                    <img src="/Assets/Cupon_logo.png">
                                 </div>
                                 <div class="About">
                                     <p class="t1">Extra 15% off</p>
@@ -331,6 +331,8 @@
             </div>
         </div>
     </footer>
+
+    <script src="/JS/ProductDetails.js"></script>
 </body>
 
 </html>

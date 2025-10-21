@@ -10,7 +10,8 @@ html{
     /* font-family: "Playfair Display", serif; */
     font-family: "Audiowide", sans-serif;
     font-weight: bolder;
-    color: #000;
+    color: white;
+    text-shadow: 2px 1px 2px #000;
 }
 .two ul{
     list-style: none;
@@ -21,7 +22,8 @@ html{
 }
 .two ul a{
     text-decoration: none;
-    color: #000;
+    color: white;
+    text-shadow: 2px 1px 2px #000;
     font-family: "Audiowide", sans-serif;
     transition: text-decoration 0.3s ease-in-out;
 }
@@ -33,11 +35,12 @@ html{
     display: flex;
     gap: 25px;
     margin: 0;
-    margin-left: 2rem;
+    margin-left: 0;
 }
 .menu ul a{
     text-decoration: none;
     color: honeydew;
+    text-shadow: 2px 1px 2px #000;
     font-family: "Audiowide", sans-serif;
     transition: text-decoration 0.37s ease-in-out;
 }
@@ -54,6 +57,7 @@ html{
     margin: 0;
     margin-left: 6rem;
     color: honeydew;
+    text-shadow: 2px 1px 2px #000;
     font-family: "Audiowide", sans-serif;
 }
 .right ul a{
@@ -69,7 +73,7 @@ nav{
     display: flex;
     margin: 0;
     padding: 0;
-    gap: 150px;
+    gap: 8rem;
     position: sticky;
 }
 .head{
@@ -82,23 +86,28 @@ nav{
     height: 100%;
     width: 100%;
     /* border: 3px solid red; */
-    background: url("https://images.pexels.com/photos/8755018/pexels-photo-8755018.jpeg");
-    background-position: bottom;
+    /* background: url("https://images.pexels.com/photos/8755018/pexels-photo-8755018.jpeg"); */
+    background: url("/Assets/backgroundIMG.png");
+    background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
     background-color: lightblue;
     transition: background 0.5s ease-in-out;
 }
 .head:hover{
-    background: lightblue;
+    /* background: lightblue; */
+    background: url("/Assets/backgroundIMG.png");
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
     box-shadow: 0 0 20px #000;
 }
-.head:hover .right ul a{
+/* .head:hover .right ul a{
     color: #000;
 }
 .head:hover .menu ul a{
     color: #000;
-}
+} */
 header{
     height: 0.55%;
     width: 100%;
@@ -120,7 +129,8 @@ main{
     height: 5%;
     width: 100%;
     /* border: 2px solid red; */
-    background: url("https://images.pexels.com/photos/8755018/pexels-photo-8755018.jpeg");
+    /* background: url("https://images.pexels.com/photos/8755018/pexels-photo-8755018.jpeg"); */
+    background: url("/Assets/backgroundIMG.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -170,7 +180,7 @@ main{
     transition: background 1s ease-in-out; */
     border-radius: 10%;
     /* box-shadow: 0 0 20px rgb(248, 195, 203); */
-    /* opacity: 0.95; */
+    opacity: 0.95;
 }
 /* .show1:hover{
     transform: rotateY(180deg);
@@ -186,7 +196,7 @@ main{
     background-size: cover;
     background-position: center;
     border-radius: 10%;
-    /* opacity: 0.95; */
+    opacity: 0.95;
 }
 .show3{
     height: 85%;
@@ -198,7 +208,7 @@ main{
     background-size: cover;
     background-position: center;
     border-radius: 10%;
-    /* opacity: 0.95; */
+    opacity: 0.95;
 }
 .show4{
     height: 85%;
@@ -210,7 +220,7 @@ main{
     background-size: cover;
     background-position: center;
     border-radius: 10%;
-    /* opacity: 0.95; */
+    opacity: 0.95;
 }
 .show5{
     height: 85%;
@@ -222,7 +232,7 @@ main{
     background-size: cover;
     background-position: center;
     border-radius: 10%;
-    /* opacity: 0.95; */
+    opacity: 0.95;
 }
 .show6{
     height: 85%;
@@ -234,7 +244,7 @@ main{
     background-size: cover;
     background-position: center;
     border-radius: 10%;
-    /* opacity: 0.95; */
+    opacity: 0.95;
 }
 
 .category-tshirts{

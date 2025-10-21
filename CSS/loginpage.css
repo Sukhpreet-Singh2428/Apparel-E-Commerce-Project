@@ -11,7 +11,7 @@ body {
   align-items: center;
   height: 100vh;
   position: relative;
-   background-image: url("/login_background_img.png");
+   background-image: url("/Assets/login_background_img.png");
   background-size: cover;         
   background-position: center;    
   background-repeat: no-repeat;
@@ -98,4 +98,9 @@ form button {
   width: 2rem;
   height: 2rem;
   cursor: pointer;
+}
+
+#result{
+  font-family: "Abril Fatface", serif;
+  font-size: 1rem;
 }
