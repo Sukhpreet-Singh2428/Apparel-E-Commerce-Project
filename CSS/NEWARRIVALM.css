@@ -1,64 +1,56 @@
-@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
-
+@import url("https://fonts.googleapis.com/css?family=Audiowide");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Abril Fatface", serif;
+  font-family: "Audiowide", sans-serif;
   /* font-weight: 400; */
   font-style: normal;
 }
-
-html,
-body {
-  height: 100%;
-  font-family: "Abril Fatface", serif;
-  font-weight: 600;
-  border: 3px solid red;
+.start{
+  height: 5rem;
+  width: 100vw;
+  background-color: #000;
+  display: flex;
 }
-
-.title h1{
+.title{
     font-size: 2rem;
     /* font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ; */
     /* font-family: "Playfair Display", serif; */
-    /* font-family: 'Spectral', serif; */
-    display: inline-block;
-    font-family: "Abril Fatface", serif;
+  
     font-weight: bolder;
-    color: #000;
-    text-shadow: 2px 2.5px 3px honeydew;
+    color: white;
+    padding: 15px 0 0 20px ;
 }
-.title{
-  align-items: center;
-  align-content: center;
-}
+
 .two ul{
     list-style: none;
     display: flex;
     gap: 25px;
     margin: 0;
-    padding: 0;
+    padding: 25px 0 0 50px;
 }
 .two ul a{
     text-decoration: none;
-    color: rgb(35, 14, 35);
-    font-family: "Abril Fatface", serif;
+    color: white;
+
     transition: text-decoration 0.3s ease-in-out;
 }
 .two ul a:hover{
     text-decoration: overline rgb(101, 160, 101);
 }
+
 .menu ul{
     list-style: none;
     display: flex;
     gap: 25px;
     margin: 0;
     margin-left: 2rem;
+    padding: 25px 0 0 12.5rem;
 }
 .menu ul a{
     text-decoration: none;
-    color: rgb(35, 14, 35);
-    font-family: "Abril Fatface", serif;
+    color: honeydew;
     transition: text-decoration 0.37s ease-in-out;
 }
 .menu ul a::before{
@@ -68,58 +60,47 @@ body {
     text-decoration: overline rgb(101, 160, 101); 
 }
 
-.right ul{
+.out{
+  flex-grow: 1;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+.right-icons{
+  margin: 0;
+  padding: 0;
+}
+.right-icons ul{
     list-style: none;
     display: flex;
     gap: 25px;
     margin: 0;
-    margin-left: 6rem;
-    color: rgb(35, 14, 35);
-    font-family: "Abril Fatface", serif;
+    /* padding: 25px 0 0 20rem; */
+    color: honeydew;
 }
-.right ul a{
+.right-icons ul a{
     text-decoration: none;
-    color: rgb(35, 14, 35);
-    font-family: "Abril Fatface", serif;
+    color: honeydew;
     transition: text-decoration 0.3s ease-in-out;
 }
-.right ul a:hover{
+.right-icons ul a:hover{
     text-decoration: overline rgb(101, 160, 101);
 }
-nav{
-    display: flex;
-    margin: 0;
-    padding: 0;
-    gap: 12rem;
-    position: sticky;
-}
-.head{
-    display: flex;
-    align-items: center;
-    align-content: center;
-    gap: 50px;
-    padding-left: 20px;
-    /* background-color: #000; */
-    height: 100%;
-    width: 100%;
-    transition: background-color 0.5s ease-in;
-    transition: box-shadow 0.5s ease-in-out;
-    /* position: absolute; */
-}
-.head:hover{
-    background-color: ghostwhite;
-    box-shadow: 0 0 20px #000;
-}
-header{
-  height: 10%;
-  width: 100%;
+html,
+body {
+  /* height: 100%; */
+  font-weight: 600;
+  /* border: 3px solid red; */
+  overflow-x: hidden;
 }
 
 .hero {
   height: 90vh;
   width: 100%;
   display: flex;
-  background: url('https://images.pexels.com/photos/24461282/pexels-photo-24461282.jpeg') no-repeat center center / cover;
+  background: url('https://images.pexels.com/photos/9208556/pexels-photo-9208556.jpeg') no-repeat center center / cover;
   position: relative;
 }
 
@@ -157,13 +138,13 @@ header{
 .right {
   width: 50%;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   /* padding: 40px; */
   text-align: start;
   color: white;
-  margin-left: -7em;
-  margin-bottom: -4em;
+   margin-left: 0;
+  /* margin-bottom: -3em; */
   text-transform: uppercase;
   font-weight: 700;
 }
@@ -174,7 +155,7 @@ header{
 }
 
 .text p {
-  font-size: 1.9rem;
+  font-size: 1.5rem;
 }
 
 .heading {
@@ -335,7 +316,7 @@ header{
   margin-top: 8rem;
   width: 100%;
   padding-left: 25px;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 
 .btn1 {
@@ -382,7 +363,7 @@ header{
   align-items: center;
   padding: 5px 0;
   transition: color 0.2s;
-  padding-left: 8rem;
+  padding-left: 6rem;
 }
 
 .alert-btn2:hover {
@@ -390,15 +371,15 @@ header{
 }
 
 .price2 {
-  padding-left: 29rem;
+  padding-left: 28rem;
   font-size: 1rem;
 }
 
 .desc2 {
   margin-top: 8rem;
   width: 100%;
-  padding-left: 29rem;
-  font-size: 1.2rem;
+  padding-left: 28rem;
+  font-size: 1.1rem;
 }
 
 .btn2 {
@@ -607,7 +588,7 @@ footer {
 
 .sec1 .sec1-p {
   /* font-family: 'Spectral'; */
-  font-family: "Abril Fatface", serif;
+  
 }
 
 .sec2 {
@@ -656,7 +637,7 @@ footer {
 
 .sec3 .sec3-p {
   /* font-family: 'Spectral'; */
-  font-family: "Abril Fatface", serif;
+  
 }
 
 .sec3 input {
