@@ -1,0 +1,614 @@
+ /* Reset and Base Styles */
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Audiowide', sans-serif;
+    background: #333232;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header Styles */
+header {
+    background-color: #333232;
+    padding: 1rem 2rem;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    font-size: 2rem;
+    font-weight: bolder;
+    color: #ffffff;
+}
+
+/* Desktop Navigation */
+.desktop-nav {
+    display: flex;
+    gap: 2rem;
+}
+
+.two ul, .menu ul, .right ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
+}
+
+.two ul a, .menu ul a, .right ul a {
+    text-decoration: none;
+    color: #ffffff;
+    transition: text-decoration 0.3s ease-in-out;
+}
+
+.two ul a:hover, .menu ul a:hover, .right ul a:hover {
+    text-decoration: overline rgb(71, 71, 71);
+}
+
+.menu ul a::before {
+    content: "★ ";
+}
+
+/* Hamburger Menu */
+.hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    padding: 5px;
+    z-index: 1001;
+}
+
+.hamburger span {
+    height: 3px;
+    width: 25px;
+    background: #fff;
+    margin-bottom: 4px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.hamburger.active span:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+}
+
+.hamburger.active span:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburger.active span:nth-child(3) {
+    transform: rotate(-45deg) translate(7px, -6px);
+}
+
+/* Mobile Menu */
+.mobile-menu {
+    display: none;
+    position: fixed;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    background: #333232;
+    z-index: 1000;
+    padding: 20px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.mobile-menu.active {
+    display: block;
+}
+
+.mobile-menu ul {
+    list-style: none;
+}
+
+.mobile-menu ul li {
+    margin-bottom: 15px;
+    border-bottom: 1px solid #555;
+    padding-bottom: 10px;
+}
+
+.mobile-menu ul li:last-child {
+    border-bottom: none;
+}
+
+.mobile-menu ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    display: block;
+    padding: 10px;
+    transition: background 0.3s ease;
+}
+
+.mobile-menu ul li a:hover {
+    background: #555;
+    border-radius: 5px;
+}
+
+/* Banner */
+.banner {
+    height: 90vh;
+    background-image: url(https://images.pexels.com/photos/16109182/pexels-photo-16109182.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    color: rgb(0, 0, 0);
+    background-position: center;
+}
+
+.banner-left {
+    position: absolute;
+    left: 7%;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 100%;
+    width: 300px;
+    overflow: hidden;
+    border-radius: 0px;
+}
+
+.banner-slider {
+    display: flex;
+    flex-direction: column;
+    animation: slideUp 8s linear infinite;
+}
+
+.banner-slider img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+
+@keyframes slideUp {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-50%);
+    }
+}
+
+.banner-overlay {
+    position: absolute;
+    top: 25%;
+    left: 78%;
+    transform: translate(-50%, -10%);
+    text-align: center;
+}
+
+.banner-overlay h1 {
+    font-family: 'Audiowide', sans-serif;
+    font-size: 3rem;
+    letter-spacing: 1px;
+    margin-bottom: 0.8rem;
+}
+
+.banner-overlay .tagline {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+    color: #d30945;
+    font-weight: 600;
+}
+
+.banner-btn {
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 30px;
+    background: #fede24;
+    color: #000;
+    font-size: 1rem;
+    font-family: 'Audiowide', sans-serif;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.banner-btn:hover {
+    background: #000;
+    color: #fff;
+    transform: scale(1.05);
+}
+
+/* Main Content */
+.main-content {
+    display: flex;
+    padding: 2rem;
+    gap: 2rem;
+}
+
+h2 {
+    color: #fff;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 20%;
+    background: #cecece;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Audiowide', sans-serif;
+}
+
+.sidebar h3 {
+    margin-top: 0;
+    font-weight: 600;
+}
+
+.sidebar label {
+    display: block;
+    margin: 0.5rem 0;
+    cursor: pointer;
+}
+
+/* Filter Toggle for Mobile */
+.filter-toggle {
+    display: none;
+    background: #cecece;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Products Section */
+.products {
+    flex: 1;
+    font-family: 'Audiowide', sans-serif;
+}
+
+.products-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.products-header h2 {
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.sort-dropdown {
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    font-family: 'Audiowide', sans-serif;
+    cursor: pointer;
+}
+
+/* Product Cards */
+.set1-accessories {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.accessory-card {
+    flex: 1 1 calc(33% - 2rem);
+    background: #cecece;
+    border-radius: 15px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.accessory-card:hover {
+    transform: translateY(-5px) scale(1.05);
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.3);
+}
+
+.accessory-card .pic {
+    height: 250px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.accessory-card .pic img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.accessory-card:hover .pic img {
+    transform: scale(1.1);
+}
+
+.accessory-card .text {
+    padding: 1rem;
+    text-align: center;
+}
+
+.product-name {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+}
+
+.price {
+    margin-bottom: 1rem;
+}
+
+.product-price {
+    font-size: 0.9rem;
+    margin: 0.2rem 0;
+}
+
+.product-detail span {
+    color: red;
+    text-decoration: line-through;
+    margin-right: 0.3rem;
+}
+
+.product-detail {
+    color: green;
+    font-size: 0.9rem;
+}
+
+.accessory-card button {
+    padding: 0.6rem 1rem;
+    border: none;
+    border-radius: 30px;
+    background: #04223b;
+    color: #fff;
+    font-family: 'Audiowide', sans-serif;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.accessory-card button:hover {
+    background: #fede24;
+    color: #000;
+}
+
+/* Footer */
+footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+}
+
+.footer-up {
+    width: 100%;
+    display: flex;
+    padding: 2rem;
+}
+
+.sec1, .sec2, .sec3 {
+    width: 33%;
+    padding: 0 20px;
+}
+
+.sec1 .sec1-head, .sec2 .sec2-head, .sec3 .sec3-head {
+    font-size: 2rem;
+    font-family: "Audiowide", sans-serif;
+    text-shadow: 2px 3px 3px gray;
+    margin-bottom: 1rem;
+}
+
+.sec1 .sec1-p, .sec2 ul, .sec3 .sec3-p {
+    font-family: "Audiowide", sans-serif;
+}
+
+.sec2 ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.sec3 input {
+    font-family: "Audiowide", sans-serif;
+    margin-bottom: 10px;
+    height: 40px;
+    width: 100%;
+    max-width: 300px;
+    padding: 0 10px;
+}
+
+.sec3 button {
+    font-family: "Audiowide", sans-serif;
+    height: 40px;
+    width: 140px;
+    background: #04223b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.footer-down {
+    width: 100%;
+    display: flex;
+    padding: 1rem 2rem;
+    background: #f5f5f5;
+}
+
+.footer-down .s1 {
+    width: 20%;
+    font-family: "Audiowide", sans-serif;
+}
+
+.footer-down .s1 p {
+    text-align: center;
+}
+
+.footer-down .s2 {
+    width: 80%;
+    align-items: center;
+    align-content: center;
+}
+
+.footer-down .s2 ul {
+    list-style: none;
+    display: flex;
+    gap: 9px;
+    margin-right: 50px;
+    font-family: "Audiowide", sans-serif;
+    font-size: 0.8rem;
+    flex-wrap: wrap;
+}
+
+/* Responsive Styles */
+@media (max-width: 1200px) {
+    .banner-overlay {
+        left: 70%;
+    }
+    
+    .banner-overlay h1 {
+        font-size: 2.5rem;
+    }
+    
+    .desktop-nav {
+        gap: 1rem;
+    }
+}
+
+/* iPad Pro and similar tablets */
+@media (max-width: 1024px) {
+    .banner-overlay {
+        left: 65%;
+    }
+    
+    .banner-overlay h1 {
+        font-size: 2.2rem;
+    }
+    
+    .accessory-card {
+        flex: 1 1 calc(50% - 2rem);
+    }
+    
+    .footer-up {
+        flex-direction: column;
+    }
+    
+    .sec1, .sec2, .sec3 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+    .footer-down {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .footer-down .s1, .footer-down .s2 {
+        width: 100%;
+    }
+    
+    .footer-down .s2 ul {
+        justify-content: center;
+        margin-right: 0;
+    }
+}
+
+/* Tablets and smaller devices */
+@media (max-width: 768px) {
+    .head {
+        padding: 0 20px;
+    }
+    
+    .desktop-nav {
+        display: none;
+    }
+    
+    .hamburger {
+        display: flex;
+    }
+    
+    .banner {
+        height: 70vh;
+    }
+    
+    .banner-left {
+        display: none;
+    }
+    
+    .banner-overlay {
+        position: static;
+        transform: none;
+        padding: 20px;
+    }
+    
+    .banner-overlay h1 {
+        font-size: 1.8rem;
+    }
+    
+    .main-content {
+        flex-direction: column;
+    }
+    
+    .sidebar {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+    .filter-toggle {
+        display: block;
+    }
+    
+    .sidebar {
+        display: none;
+    }
+    
+    .sidebar.active {
+        display: block;
+    }
+    
+    .accessory-card {
+        flex: 1 1 100%;
+    }
+    
+    .products-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+    }
+}
+
+/* Mobile devices */
+@media (max-width: 576px) {
+    .banner-overlay h1 {
+        font-size: 1.5rem;
+    }
+    
+    .banner-overlay .tagline {
+        font-size: 1rem;
+    }
+    
+    .sec3 input {
+        width: 100%;
+    }
+    
+    .footer-up {
+        padding: 1rem;
+    }
+    
+    .footer-down {
+        padding: 1rem;
+    }
+}
