@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accessories - LOXI</title>
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/CSS/accessories.css">
+
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <div class="head">
+            <div class="title">
+                <span>LOXI</span>
+            </div>
+            
+            <!-- Desktop Navigation -->
+            <nav class="desktop-nav">
+                <div class="two">
+                    <ul>
+                        <li><a href="/TheMAN.html">Man</a></li>
+                        <li><a href="/TheWOMEN.html">Women</a></li>
+                    </ul>
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li><a href="/EshopMAN.html">Eshop</a></li>
+                        <li><a href="/BEST_SELLER.html">Best Seller</a></li>
+                        <li><a href="#Stock">Stock</a></li>
+                        <li><a href="#Diary">Diary</a></li>
+                        <li><a href="/aboutwebpage.html">The Brand</a></li>
+                    </ul>
+                </div>
+                <div class="right">
+                    <ul>
+                        <li><a href="#FR">EN</a></li>
+                        <li><a href="/loginpage.html" title="Login">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#ff00ff" height="24" width="24">
+                                <path d="M12 2a5 5 0 1 1 -5 5l0.005 -0.217A5 5 0 0 1 12 2z" stroke-width="1"></path>
+                                <path d="M14 14a5 5 0 0 1 5 5v1a2 2 0 0 1 -2 2H7a2 2 0 0 1 -2 -2v-1a5 5 0 0 1 5 -5h4z" stroke-width="1"></path>
+                            </svg>
+                        </a></li>
+                        <li><a href="/MyCart.html" title="Cart">
+                            <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M5 4h1.5L9 16m0 0h8m-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-8.5-3h9.25L19 7H7.312" />
+                            </svg>
+                        </a></li>
+                    </ul>
+                </div>
+            </nav>
+            
+            <!-- Hamburger Menu -->
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        
+        <!-- Mobile Menu -->
+        <div class="mobile-menu" id="mobileMenu">
+            <ul>
+                <li><a href="/TheMAN.html">Man</a></li>
+                <li><a href="/TheWOMEN.html">Women</a></li>
+                <li><a href="/EshopMAN.html">Eshop</a></li>
+                <li><a href="/BEST_SELLER.html">Best Seller</a></li>
+                <li><a href="#Stock">Stock</a></li>
+                <li><a href="#Diary">Diary</a></li>
+                <li><a href="/aboutwebpage.html">The Brand</a></li>
+                <li><a href="#FR">EN</a></li>
+                <li><a href="/loginpage.html">Login</a></li>
+                <li><a href="/MyCart.html">Cart</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Banner -->
+    <div class="banner">
+        <div class="banner-left">
+            <div class="banner-slider">
+                <img src="https://images.pexels.com/photos/13204122/pexels-photo-13204122.jpeg">
+                <img src="https://images.pexels.com/photos/16109177/pexels-photo-16109177.jpeg">
+                <img src="https://images.pexels.com/photos/29367526/pexels-photo-29367526.jpeg">
+                <!-- Duplicate for smooth infinite scroll -->
+                <img src="https://images.pexels.com/photos/13204122/pexels-photo-13204122.jpeg">
+                <img src="https://images.pexels.com/photos/16109177/pexels-photo-16109177.jpeg">
+                <img src="https://images.pexels.com/photos/29367526/pexels-photo-29367526.jpeg">
+            </div>
+        </div>
+        <div class="banner-overlay">
+            <h1>Accessories That Define You</h1>
+            <p class="tagline">Exclusive Silver Chains – Flat 30% Off on Pre-Orders</p>
+            <button class="banner-btn">Shop Now →</button>
+        </div>
+    </div>
+
+    <!-- Main Section -->
+    <div class="main-content">
+        <!-- Sidebar Filters -->
+        <div class="filter-toggle" id="filterToggle">Show Filters</div>
+        <aside class="sidebar" id="sidebar">
+            <h3>Filters</h3>
+            <label><input type="checkbox"> Under $50</label>
+            <label><input type="checkbox"> Silver Chains</label>
+            <label><input type="checkbox"> Watches</label>
+            <label><input type="checkbox"> Rings</label>
+            <label><input type="checkbox"> In Stock</label>
+        </aside>
+
+        <!-- Products Section -->
+        <section class="products">
+            <div class="products-header">
+                <h2>Accessories</h2>
+                <select class="sort-dropdown">
+                    <option value="popular">Sort by Popularity</option>
+                    <option value="low-high">Price: Low to High</option>
+                    <option value="high-low">Price: High to Low</option>
+                </select>
+            </div>
+
+            <div class="set1-accessories">
+                <!-- Card 1 -->
+                <div class="accessory-card">
+                    <div class="pic">
+                        <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTmLToulNeaJbWuQN6NLyKVgKMKw_cIqG0Dh6VPg-ctzRKEaZ9Kfcc_3VdHL0z9kqxaOBcnBN_dLFGN2qmCa4bqh2ElX_-xyvRoxLdciT0F" alt="Silver chain">
+                    </div>
+                    <div class="text">
+                        <span class="product-name">Silver chain</span>
+                        <div class="price">
+                            <p class="product-price">50$ in pre order</p>
+                            <p class="product-detail"><span>69$</span> in stock</p>
+                        </div>
+                        <button type="button">ADD TO CART</button>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="accessory-card">
+                    <div class="pic">
+                        <img
+                            src="https://static.cilory.com/691269-thickbox_default/silver-vertical-bar-shape-silver-chain-pendant.jpg.webp"
+                            alt="Silver chain">
+                    </div>
+                    <div class="text">
+                        <span class="product-name">Silver chain</span>
+                        <div class="price">
+                            <p class="product-price">50$ in pre order</p>
+                            <p class="product-detail"><span>69$</span> in stock</p>
+                        </div>
+                        <button type="button">ADD TO CART</button>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="accessory-card">
+                    <div class="pic">
+                        <img
+                            src="https://assets.myntassets.com/w_412,q_60,dpr_2,fl_progressive/assets/images/27753930/2025/4/14/6dd400ff-5ff0-483a-9312-255ac81584ed1744625965847-Roadster-Men-Silver-Plated-Geometric-Pendants-with-Chains-16-1.jpg"
+                            alt="Silver chain">
+                    </div>
+                    <div class="text">
+                        <span class="product-name">Silver chain</span>
+                        <div class="price">
+                            <p class="product-price">50$ in pre order</p>
+                            <p class="product-detail"><span>69$</span> in stock</p>
+                        </div>
+                        <button type="button">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+            <br><br><br>
+            <div class="set1-accessories">
+                <!-- Card 1 -->
+                <div class="accessory-card">
+                    <div class="pic">
+                        <img src="https://assets.myntassets.com/dpr_1.5,q_30,w_400,c_limit,fl_progressive/assets/images/2025/FEBRUARY/28/MrOG7y7t_06dd514392944a7189e478fa01b18c70.jpg" alt="Silver chain">
+                    </div>
+                    <div class="text">
+                        <span class="product-name">Earing</span>
+                        <div class="price">
+                            <p class="product-price">50$ in pre order</p>
+                            <p class="product-detail"><span>69$</span> in stock</p>
+                        </div>
+                        <button type="button">ADD TO CART</button>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="accessory-card">
+                    <div class="pic">
+                        <img
+                            src="https://cdn1.ethoswatches.com/media/catalog/product/cache/6e5de5bc3d185d8179cdc7258143f41a/j/a/jacob-co-brilliant-bq020-40-ro-kr-abala-large.jpg"
+                            alt="Silver chain">
+                    </div>
+                    <div class="text">
+                        <span class="product-name">Jacob&Co Watch</span>
+                        <div class="price">
+                            <p class="product-price">1000$ in pre order</p>
+                            <p class="product-detail"><span>1500$</span> in stock</p>
+                        </div>
+                        <button type="button">ADD TO CART</button>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="accessory-card">
+                    <div class="pic">
+                        <img
+                            src="https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwa9440f9e/images/hi-res/HL2881FAXAV73_1.jpg?sw=640&sh=640"
+                            alt="Silver chain">
+                    </div>
+                    <div class="text">
+                        <span class="product-name">Ring</span>
+                        <div class="price">
+                            <p class="product-price">100$ in pre order</p>
+                            <p class="product-detail"><span>150$</span> in stock</p>
+                        </div>
+                        <button type="button">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-up">
+            <div class="sec1">
+                <p class="sec1-head">Welcome to Loxi</p>
+                <p class="sec1-p">We are a lifestyle brand & clothing destination for elevated, effortless, everyday style. Our
+                    goal is to help women create a functional wardrobe to feel confident & beautiful in every season of life. New
+                    Arrivals launch every Wednesday!</p>
+            </div>
+
+            <div class="sec2">
+                <p class="sec2-head">HELP + INFO</p>
+                <ul>
+                    <li>Our Story</li>
+                    <li>Contact Us</li>
+                    <li>Shipping & Delivery</li>
+                    <li>Start A Return or Exchange</li>
+                    <li>Rewards Program</li>
+                    <li>Become An Ambassador</li>
+                    <li>Book a VIP Party/Styling Session</li>
+                    <li>Terms of Service</li>
+                    <li>Accessibility</li>
+                </ul>
+            </div>
+
+            <div class="sec3">
+                <p class="sec3-head">GET 15% OFF</p>
+                <p class="sec3-p">Just for you, sign up to receive 15% off your first order, insider info on new arrivals,
+                    sales, events & more.</p>
+                <form>
+                    <input type="email" name="email" placeholder="Your Email" required><br>
+                    <button type="submit">SUBSCRIBE</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="footer-down">
+            <div class="s1">
+                <p>&copy; 2025 LOXI. All rights reserved</p>
+            </div>
+
+            <div class="s2">
+                <ul>
+                    <li>Our Story</li>
+                    <li>Contact Us</li>
+                    <li>Shipping & Delivery</li>
+                    <li>Start A Return or Exchange</li>
+                    <li>Rewards Program</li>
+                    <li>Become An Ambassador</li>
+                    <li>Book a VIP Party/Styling Session</li>
+                    <li>Terms of Service</li>
+                    <li>Accessibility</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="/JS/accessories.js"></script>
+</body>
+</html>
