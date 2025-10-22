@@ -12,10 +12,10 @@
     <div class="formbox">
       <h2>Create your Loxi account</h2>
       <p>Join the movement. Style that speaks, delivered to your doorstep.</p>
-      <form action="/TheWOMEN.html">
-        <input type="text" placeholder="Full Name" pattern="[A-Z,a-z]{4,}" required />
-        <input type="email" placeholder="Email address" required />
-        <input type="password" placeholder="Create Password" minlength="6" required />
+      <form id="registrationform">
+        <input id="name" type="text" placeholder="Full Name" pattern="[A-Z,a-z, ]{4,}" required />
+        <input id="email" type="email" placeholder="Email address" required />
+        <input id="password" type="password" placeholder="Create Password" minlength="4" required />
         <button type="submit">Create Account</button>
       </form>
       <div class="social">
@@ -26,7 +26,11 @@
             <img src="https://img.icons8.com/?size=100&id=8818&format=png&color=000000" alt="facebook">
         </div>
       </div>
+
+      <div id="result"></div>
     </div>
   </div>
+
+  <script src="/JS/registration.js"></script>
 </body>
 </html>

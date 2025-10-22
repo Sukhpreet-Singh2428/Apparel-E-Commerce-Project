@@ -74,3 +74,45 @@ form button {
   height: 32px;
   cursor: pointer;
 }
+
+#result{
+  font-family: "Abril Fatface", serif;
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+
+@media screen and (max-width: 480px) {
+  body{
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+  }
+  .main{
+    margin-left: 2rem ;
+    margin-right: 2rem;
+    width: 90%;
+    padding: 1.5rem;
+  }
+}
+@media screen and (max-width: 768px){
+  body{
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    overflow-x: auto;
+  }
+  .main {
+    width: 60%;
+    padding: 2rem;
+  }
+
+  .formbox h2 {
+    font-size: 1.8rem;
+  }
+}
+@media screen and (min-width:769px) {
+  body{
+    background-position: center;
+  }
+}

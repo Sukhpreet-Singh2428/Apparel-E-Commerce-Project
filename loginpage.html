@@ -1,36 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Login | Loxi</title>
-    <link rel="stylesheet" href="/CSS/loginpage.css" />
-    <link rel="icon" href="/Assets/Logo loxi.png" type="image/x-icon">
-  </head>
-  <body>
-    <div class="main">
-      <div class="loginbox">
-        <h2>Sign in to Loxi</h2>
-        <p>Step back into bold, your Loxi looks are just a click away.</p>
-        <form action="/TheMAN.html">
-          <input type="email" placeholder="Email address" required />
-          <input
-            type="password"
-            placeholder="Password"
-            minlength="6"
-            required
-          /><button type="submit">Get Started</button>
-        </form>
-        <div class="social">
-          <p>------ Or sign in with ------</p>
-          <div class="icons">
-            <img src="https://icons.veryicon.com/png/o/internet--web/iview-3-x-icons/logo-google.png" alt="google">
-            <img src="https://img.icons8.com/?size=100&id=30840&format=png&color=000000" alt="apple">
-            <img src="https://img.icons8.com/?size=100&id=8818&format=png&color=000000" alt="facebook">
-          </div>
-          <p>Haven't account ? <a href="/registration.html">Register Here</a></p>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login | Loxi</title>
+  <link rel="stylesheet" href="/CSS/loginpage.css" />
+  <link rel="icon" href="/Assets/Logo loxi.png" type="image/x-icon">
+</head>
+
+<body>
+  <div class="main">
+    <div class="loginbox">
+      <h2>Sign in to Loxi</h2>
+      <p>Step back into bold, your Loxi looks are just a click away.</p>
+      <form id="loginform">
+        <input id="email" type="email" placeholder="Email address" required />
+        <input id="password" type="password" placeholder="Password" minlength="4" required />
+        <button type="submit">Get started</button>
+      </form>
+      <div class="social">
+        <p>------ Or sign in with ------</p>
+        <div class="icons">
+          <img src="https://icons.veryicon.com/png/o/internet--web/iview-3-x-icons/logo-google.png" alt="google">
+          <img src="https://img.icons8.com/?size=100&id=30840&format=png&color=000000" alt="apple">
+          <img src="https://img.icons8.com/?size=100&id=8818&format=png&color=000000" alt="facebook">
         </div>
+        <p>Haven't account ? <a href="/registration.html">Register Here</a></p>
       </div>
+
+      <div id="result"></div>
     </div>
-  </body>
+  </div>
+
+  <script src="/JS/loginpage.js"></script>
+</body>
+
 </html>
