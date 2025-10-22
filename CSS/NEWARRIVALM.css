@@ -45,8 +45,8 @@
     display: flex;
     gap: 25px;
     margin: 0;
-    margin-left: 2rem;
-    padding: 25px 0 0 12.5rem;
+    /* margin-left: 2rem; */
+    padding: 25px 0 0 11rem;
 }
 .menu ul a{
     text-decoration: none;
@@ -79,6 +79,7 @@
     margin: 0;
     /* padding: 25px 0 0 20rem; */
     color: honeydew;
+    margin-left: 6rem;
 }
 .right-icons ul a{
     text-decoration: none;
@@ -588,7 +589,7 @@ footer {
 
 .sec1 .sec1-p {
   /* font-family: 'Spectral'; */
-  
+  font-family: "Audiowide", sans-serif;
 }
 
 .sec2 {
@@ -637,7 +638,7 @@ footer {
 
 .sec3 .sec3-p {
   /* font-family: 'Spectral'; */
-  
+  font-family: "Audiowide", sans-serif;
 }
 
 .sec3 input {

@@ -1,9 +1,11 @@
 @import url("https://fonts.googleapis.com/css?family=Audiowide");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Audiowide", sans-serif;
+  /* font-family: "Audiowide", sans-serif; */
+  font-family: "Abril Fatface", serif;
   /* font-weight: 400; */
   font-style: normal;
 }
@@ -46,7 +48,7 @@
     gap: 25px;
     margin: 0;
     margin-left: 2rem;
-    padding: 25px 0 0 12.5rem;
+    padding: 25px 0 0 11rem;
 }
 .menu ul a{
     text-decoration: none;
@@ -78,6 +80,7 @@
     gap: 25px;
     margin: 0;
     /* padding: 25px 0 0 20rem; */
+    margin-left: 10rem;
     color: honeydew;
 }
 .right-icons ul a{
