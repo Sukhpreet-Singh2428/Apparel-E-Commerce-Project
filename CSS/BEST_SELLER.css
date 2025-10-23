@@ -795,10 +795,12 @@ header {
         justify-content: flex-start;
         padding: 2rem 1rem;
         top: 0;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .row1, .row2, .row3, .row4, .row5, .row6, .row7, .row8 {
-        flex-direction: row;
+        flex-direction: column;
         gap: 2rem;           
         justify-content: center;
         margin-left: 0;
@@ -807,16 +809,24 @@ header {
     }
 
     .item1, .item2, .item3 {
-        width: 90%;           
+        width: 90%;    
+        height: fit-content;       
         margin: 0;
-        border-radius: 1rem;
+        border-radius: 2rem;
+        margin-left: auto;
+        margin-right: auto;
     }
-
+    .item3{
+        margin-bottom: 2rem;
+    }
     .item1 .pic1, .item2 .pic2, .item3 .pic3 {
         width: 100%;
         height: auto;
     }
-
+    .pic1 img, .pic2 img, .pic3 img{
+        border-top-left-radius: 2rem;
+        border-top-right-radius: 2rem;
+    }
 
     .item1 .text1, .item2 .text2, .item3 .text3 {
         width: 100%;
@@ -825,16 +835,28 @@ header {
     }
 
     .item1 .lower, .item2 .lower, .item3 .lower {
-        flex-direction: row;
+        flex-direction: column;
         justify-content: space-between; 
         gap: 0.5rem;
     }
 
-    .item1 .low2 button, .item2 .low2 button, .item3 .low2 button {
-        width: auto;
-        height: auto;
-        text-align: center;
-        margin-left: 0;
+    .item1 .text1 .lower .low2 button, .item2 .text2 .lower .low2 button, .item3 .text3 .lower .low2 button {
+        width: 8rem;
+        height: 2rem;
+        /* text-align: center; */
+        margin-left: auto;
+        margin-right: auto;
+        margin-left: 1.5rem;
+        padding: 0;
+    }
+    .low2{
+        margin-top: 0;
+        margin-bottom: 1rem;
+        margin-left: auto;
+        margin-right: auto;
+        /* border: 2px solid red; */
+        padding: 0;
+        /* display: block; */
     }
 
     .men h2, .subhead h2, .content h2 {
@@ -845,8 +867,23 @@ header {
     .item1 .low1 .product-price, .item2 .low1 .product-price, .item3 .low1 .product-price,
     .item1 .low1 .product-detail, .item2 .low1 .product-detail, .item3 .low1 .product-detail {
         font-size: 0.95rem;
+        /* padding-left: 2rem;
+        padding-right: 2rem; */
+        /* border: 2px solid red; */
     }
-
+    .product-name{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 0.8rem;
+    }
+    .product-price, .product-detail{
+        margin-left: 0.8rem;
+    }
+    .upper{
+        margin-left: auto;
+        margin-right: auto;
+    }
     .view-more button {
         width: auto;
         font-size: 1rem;
