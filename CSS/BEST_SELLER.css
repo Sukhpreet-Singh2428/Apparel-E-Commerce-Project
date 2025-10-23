@@ -772,7 +772,6 @@ footer {
     transition: 0.4s;
 }
 
-/* MOBILE RESPONSIVE STYLES - MAX WIDTH 480px */
 @media screen and (max-width: 480px) {
 header {
         display: none;
@@ -782,14 +781,12 @@ header {
         display: none;
     }
 
-    /* Main content takes full width */
     main {
         width: 100%;
         flex-direction: column;
         height: auto;
     }
 
-    /* Content area */
     .content {
         width: 100%;
         display: flex;
@@ -800,40 +797,36 @@ header {
         top: 0;
     }
 
-    /* Rows layout: 2 products per row */
     .row1, .row2, .row3, .row4, .row5, .row6, .row7, .row8 {
         flex-direction: row;
-        gap: 2rem;           /* spacing between products */
+        gap: 2rem;           
         justify-content: center;
         margin-left: 0;
         margin-right: 0;
-        flex-wrap: wrap;      /* wrap to new line if needed */
+        flex-wrap: wrap;      
     }
 
-    /* Product card width for two per row */
     .item1, .item2, .item3 {
-        width: 90%;           /* two per row with gap */
+        width: 90%;           
         margin: 0;
         border-radius: 1rem;
     }
 
-    /* Images fill product card */
     .item1 .pic1, .item2 .pic2, .item3 .pic3 {
         width: 100%;
         height: auto;
     }
 
-    /* Text inside product card */
+
     .item1 .text1, .item2 .text2, .item3 .text3 {
         width: 100%;
         margin-left: 0;
         margin-right: 0;
     }
 
-    /* Price and button horizontal layout */
     .item1 .lower, .item2 .lower, .item3 .lower {
         flex-direction: row;
-        justify-content: space-between; /* button on the right */
+        justify-content: space-between; 
         gap: 0.5rem;
     }
 
@@ -844,7 +837,6 @@ header {
         margin-left: 0;
     }
 
-    /* Adjust headings for tablet */
     .men h2, .subhead h2, .content h2 {
         font-size: 1.8rem;
     }
@@ -855,7 +847,6 @@ header {
         font-size: 0.95rem;
     }
 
-    /* View more button */
     .view-more button {
         width: auto;
         font-size: 1rem;
@@ -868,7 +859,6 @@ header {
     align-items: center;
     text-align: center;
     padding: 2rem 1rem;
-    /* margin-right: -2rem; */
   }
 
   .sec1, .sec2, .sec3 {
@@ -907,7 +897,7 @@ header {
     font-size: 0.8rem;
   }
 }
-/* TABLET RESPONSIVE (≤768px) */
+
 @media screen and (max-width: 768px) {
   .footer-up {
     flex-direction: column;
@@ -943,10 +933,9 @@ header {
   }
 }
 
-/* MOBILE RESPONSIVE (≤480px) */
 @media screen and (max-width: 480px) {
   .footer-up {
-    /* padding: 1.5rem 2%; */
+
     gap: 1.5rem;
   }
 
@@ -976,7 +965,7 @@ header {
   }
 }
 @media screen and (min-width: 481px) and (max-width: 1024px) {
-    /* Hide header and filter */
+
     header {
         display: none;
     }
@@ -985,14 +974,14 @@ header {
         display: none;
     }
 
-    /* Main content takes full width */
+
     main {
         width: 100%;
         flex-direction: column;
         height: auto;
     }
 
-    /* Content area */
+
     .content {
         width: 100%;
         display: flex;
@@ -1003,40 +992,38 @@ header {
         top: 0;
     }
 
-    /* Rows layout: 2 products per row */
+
     .row1, .row2, .row3, .row4, .row5, .row6, .row7, .row8 {
         flex-direction: row;
-        gap: 2rem;           /* spacing between products */
+        gap: 2rem;          
         justify-content: center;
         margin-left: 0;
         margin-right: 0;
-        flex-wrap: wrap;      /* wrap to new line if needed */
+        flex-wrap: wrap;      
     }
 
-    /* Product card width for two per row */
     .item1, .item2, .item3 {
-        width: 90%;           /* two per row with gap */
+        width: 90%;           
         margin: 0;
         border-radius: 1rem;
     }
 
-    /* Images fill product card */
+
     .item1 .pic1, .item2 .pic2, .item3 .pic3 {
         width: 100%;
         height: auto;
     }
 
-    /* Text inside product card */
+
     .item1 .text1, .item2 .text2, .item3 .text3 {
         width: 100%;
         margin-left: 0;
         margin-right: 0;
     }
 
-    /* Price and button horizontal layout */
     .item1 .lower, .item2 .lower, .item3 .lower {
         flex-direction: row;
-        justify-content: space-between; /* button on the right */
+        justify-content: space-between; 
         gap: 0.5rem;
     }
 
@@ -1046,7 +1033,6 @@ header {
         margin-left: 0;
     }
 
-    /* Adjust headings for tablet */
     .men h2, .subhead h2, .content h2 {
         font-size: 1.8rem;
     }
@@ -1057,7 +1043,6 @@ header {
         font-size: 0.95rem;
     }
 
-    /* View more button */
     .view-more button {
         width: auto;
         font-size: 1rem;
@@ -1071,7 +1056,6 @@ header {
     }
 }
 
-/* For mobile (1 per row) */
 @media screen and (max-width: 480px) {
     .item1 .lower,
     .item2 .lower,
