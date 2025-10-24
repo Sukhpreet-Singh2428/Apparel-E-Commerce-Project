@@ -754,34 +754,14 @@ footer {
   margin: 0;
   padding: 0;
 }
-
-
-.menu-toggle {
-    display: none; /* Hidden by default on desktop */
-    cursor: pointer;
-    z-index: 1001; /* Above header */
-    padding: 10px;
-    margin-right: 20px;
-}
-
-.hamburger {
-    width: 25px;
-    height: 3px;
-    background-color: honeydew;
-    margin: 5px 0;
-    transition: 0.4s;
-}
-
 @media screen and (max-width: 480px) {
-header {
-        display: none;
-    }
 
     .filter {
         display: none;
     }
 
     main {
+        margin-top: 2rem;
         width: 100%;
         flex-direction: column;
         height: auto;
@@ -1003,9 +983,6 @@ header {
 }
 @media screen and (min-width: 481px) and (max-width: 1024px) {
 
-    header {
-        display: none;
-    }
 
     .filter {
         display: none;
@@ -1013,6 +990,7 @@ header {
 
 
     main {
+        margin-top: 2rem;
         width: 100%;
         flex-direction: column;
         height: auto;
@@ -1035,6 +1013,8 @@ header {
         gap: 2rem;          
         justify-content: center;
         margin-left: 0;
+
+
         margin-right: 0;
         flex-wrap: wrap;      
     }
@@ -1141,4 +1121,157 @@ header {
         width: auto;     
         min-width: 80px;  
     }
+}
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    background-color: #000;
+    z-index: 1000;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding: 0 20px;
+}
+
+.title span {
+    font-family: "Audiowide", sans-serif;
+    font-size: 2rem;
+    font-weight: bolder;
+    color: #fff;
+}
+
+.hamburger {
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 28px;
+    height: 20px;
+    cursor: pointer;
+    z-index: 1100;
+}
+
+.hamburger span {
+    display: block;
+    height: 3px;
+    width: 100%;
+    background: #fff;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.hamburger.active span:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+}
+.hamburger.active span:nth-child(2) {
+    opacity: 0;
+}
+.hamburger.active span:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+}
+
+nav {
+    display: flex;
+    gap: 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff; 
+    font-family: "Audiowide", sans-serif;
+}
+
+@media (max-width: 1024px) {
+    .hamburger { display: flex; }
+
+    nav {
+        position: absolute;
+        top: 70px;
+        left: 0;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        background-color: #000; 
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.4s ease-in-out;
+    }
+
+    nav.active {
+        max-height: 100vh;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px 0;
+    }
+
+    nav a {
+        font-size: 1.2rem;
+    }
+    .head:hover{
+        display: none;
+    }
+    .right ul {
+    margin-left: 0 !important;
+    justify-content: center;
+  }
+}
+
+nav {
+    display: flex;
+    gap: 150px;
+}
+
+.two ul, .menu ul, .right ul {
+    display: flex;
+    gap: 25px;
+}
+
+nav a { color: #fff; }
+
+@media (max-width: 1024px) {
+    .hamburger { display: flex; }
+
+    nav {
+        position: absolute;
+        top: 70px;
+        left: 0;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        background-color: #000;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.4s ease-in-out;
+        gap: 0; 
+    }
+
+    nav.active { max-height: 100vh; }
+
+    nav ul {
+        flex-direction: column;
+        gap: 20px; 
+        padding: 20px 0;
+        margin: 0;
+        width: 100%; 
+        text-align: center;
+    }
+
+    nav a { font-size: 1.2rem; color: #fff; }
 }
