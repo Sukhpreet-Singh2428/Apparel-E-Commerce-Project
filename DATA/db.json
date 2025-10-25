@@ -5,6 +5,12 @@
       "name": "Sukhpreet Singh",
       "email": "sukhpreetsingh3910a@gmail.com",
       "password": "12345"
+    },
+    {
+      "id": "90bc",
+      "name": "Yanev Rana",
+      "email": "cambyanev@gmail.com",
+      "password": "hello"
     }
   ],
   "cart": [

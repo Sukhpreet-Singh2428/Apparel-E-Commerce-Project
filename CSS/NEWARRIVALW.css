@@ -23,6 +23,7 @@
     font-weight: bolder;
     color: white;
     padding: 15px 0 0 20px ;
+    margin-bottom: 1rem;
 }
 
 .two ul{
@@ -31,6 +32,7 @@
     gap: 25px;
     margin: 0;
     padding: 25px 0 0 50px;
+    margin-bottom: 1.5rem;
 }
 .two ul a{
     text-decoration: none;
@@ -49,6 +51,7 @@
     margin: 0;
     margin-left: 2rem;
     padding: 25px 0 0 11rem;
+    margin-bottom: 1.5rem;
 }
 .menu ul a{
     text-decoration: none;
@@ -78,7 +81,7 @@
     list-style: none;
     display: flex;
     gap: 25px;
-    margin: 0;
+    margin-top: 1.5rem;
     /* padding: 25px 0 0 20rem; */
     margin-left: 10rem;
     color: honeydew;
@@ -985,5 +988,119 @@ footer {
   .footer-bottom {
     text-align: center;
     margin-top: 2rem;
+  }
+}
+
+.start {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  padding: 0 20px;
+}
+
+.hamburger {
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 25px;
+  height: 18px;
+  cursor: pointer;
+}
+
+.hamburger span {
+  height: 3px;
+  width: 100%;
+  background: white;
+  border-radius: 2px;
+  transition: 0.3s;
+}
+
+.nav-links {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+}
+
+@media (max-width: 1024px) {
+  .start {
+    position: relative; 
+    flex-wrap: wrap;
+    height: auto;
+    padding: 1rem 1.2rem;
+  }
+
+  .hamburger {
+    position: absolute;
+    top: 1.5rem;
+    right: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 25px;
+    height: 18px;
+    cursor: pointer;
+    z-index: 300; 
+  }
+
+  .hamburger span {
+    height: 3px;
+    width: 100%;
+    background: white;
+    border-radius: 2px;
+    transition: 0.3s;
+  }
+
+
+  .hamburger.active span:nth-child(1) {
+    transform: rotate(45deg) translateY(8px);
+  }
+
+  .hamburger.active span:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger.active span:nth-child(3) {
+    transform: rotate(-45deg) translateY(-8px);
+  }
+
+
+  .nav-links {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.95);
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: flex-start;
+    display: none;
+    transition: all 0.3s ease-in-out;
+    padding: 1.5rem 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  .nav-links .two ul,
+  .nav-links .menu ul,
+  .nav-links .right-icons ul {
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5rem 0;
+    gap: 20px;
+  }
+
+  .nav-links .menu ul a::before {
+    content: "";
+  }
+
+  .right-icons ul {
+    margin-left: 0 !important;
+    justify-content: center;
+  }
+
+  .title {
+    padding: 0;
   }
 }
