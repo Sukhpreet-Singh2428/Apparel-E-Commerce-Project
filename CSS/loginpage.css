@@ -104,3 +104,47 @@ form button {
   font-family: "Abril Fatface", serif;
   font-size: 1rem;
 }
+
+@media screen and (max-width: 480px){
+  body{
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    overflow-x: auto;
+  }
+  .main{
+    margin-left: 3rem;
+    margin-right: 3rem;
+    width: 90%;
+    padding: 1.5rem; 
+  }
+  
+}
+@media screen and (max-width: 768px){
+  body{
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    overflow-x: auto;
+  }
+  .main {
+    width: 60%;
+    padding: 2rem;
+  }
+
+  .loginbox h2 {
+    font-size: 1.8rem;
+  }
+}
+/* @media screen and (min-width: 769px) {
+  body{
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    overflow-x: auto;
+  }
+  .main{
+    width: 25%;
+    padding: 2rem;
+  }
+} */

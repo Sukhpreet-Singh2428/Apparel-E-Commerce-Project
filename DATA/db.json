@@ -13,5 +13,13 @@
       "password": "hello"
     }
   ],
-  "cart": []
+  "cart": [
+    {
+      "id": "a245",
+      "name": "Nike sb dunk low jarritos",
+      "price": "₹1,916",
+      "image": "https://i.pinimg.com/736x/17/ce/43/17ce43986ba14179d87ac487d18c33f4.jpg",
+      "quantity": 1
+    }
+  ]
 }
