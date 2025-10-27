@@ -4,9 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Accessories - LOXI</title>
-    <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/CSS/accessories.css">
-
+    <style>
+       
+    </style>
 </head>
 
 <body>
@@ -38,7 +40,7 @@
                     <ul>
                         <li><a href="#FR">EN</a></li>
                         <li><a href="/loginpage.html" title="Login">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#ff00ff" height="24" width="24">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#3498db" height="24" width="24">
                                 <path d="M12 2a5 5 0 1 1 -5 5l0.005 -0.217A5 5 0 0 1 12 2z" stroke-width="1"></path>
                                 <path d="M14 14a5 5 0 0 1 5 5v1a2 2 0 0 1 -2 2H7a2 2 0 0 1 -2 -2v-1a5 5 0 0 1 5 -5h4z" stroke-width="1"></path>
                             </svg>
@@ -100,129 +102,303 @@
 
     <!-- Main Section -->
     <div class="main-content">
-        <!-- Sidebar Filters -->
-        <div class="filter-toggle" id="filterToggle">Show Filters</div>
-        <aside class="sidebar" id="sidebar">
-            <h3>Filters</h3>
-            <label><input type="checkbox"> Under $50</label>
-            <label><input type="checkbox"> Silver Chains</label>
-            <label><input type="checkbox"> Watches</label>
-            <label><input type="checkbox"> Rings</label>
-            <label><input type="checkbox"> In Stock</label>
-        </aside>
+        <!-- Category Navigation -->
+        <div class="category-nav">
+            <button class="category-btn active" data-category="all">All Accessories</button>
+            <button class="category-btn" data-category="watches">Watches</button>
+            <button class="category-btn" data-category="earrings">Earrings</button>
+            <button class="category-btn" data-category="rings">Rings</button>
+            <button class="category-btn" data-category="necklaces">Necklaces</button>
+            <button class="category-btn" data-category="bracelets">Bracelets</button>
+        </div>
+
+        <!-- Filter Section -->
+        <div class="filter-section">
+            <h3>Filter Products</h3>
+            <div class="filter-options">
+                <label><input type="checkbox" value="under-5000"> Under ₹5,000</label>
+                <label><input type="checkbox" value="silver"> Silver</label>
+                <label><input type="checkbox" value="gold"> Gold</label>
+                <label><input type="checkbox" value="pre-order"> Pre-Order</label>
+                <label><input type="checkbox" value="in-stock"> In Stock</label>
+                <label><input type="checkbox" value="new-arrival"> New Arrival</label>
+            </div>
+        </div>
 
         <!-- Products Section -->
         <section class="products">
             <div class="products-header">
-                <h2>Accessories</h2>
+                <h2>Premium Accessories</h2>
                 <select class="sort-dropdown">
                     <option value="popular">Sort by Popularity</option>
                     <option value="low-high">Price: Low to High</option>
                     <option value="high-low">Price: High to Low</option>
+                    <option value="newest">Newest First</option>
                 </select>
             </div>
 
-            <div class="set1-accessories">
-                <!-- Card 1 -->
-                <div class="accessory-card">
-                    <div class="pic">
-                        <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTmLToulNeaJbWuQN6NLyKVgKMKw_cIqG0Dh6VPg-ctzRKEaZ9Kfcc_3VdHL0z9kqxaOBcnBN_dLFGN2qmCa4bqh2ElX_-xyvRoxLdciT0F" alt="Silver chain">
-                    </div>
-                    <div class="text">
-                        <span class="product-name">Silver chain</span>
-                        <div class="price">
-                            <p class="product-price">50$ in pre order</p>
-                            <p class="product-detail"><span>69$</span> in stock</p>
+            <!-- Watches Category -->
+            <div class="category-section" id="watches">
+                <h3 class="category-title">Watches</h3>
+                <div class="products-grid">
+                    <!-- Watch 1 -->
+                    <div class="accessory-card" data-category="watches" data-price="15000" data-tags="silver,in-stock">
+                        <div class="pic">
+                            <img src="https://cdn1.ethoswatches.com/media/catalog/product/cache/6e5de5bc3d185d8179cdc7258143f41a/j/a/jacob-co-brilliant-bq020-40-ro-kr-abala-large.jpg" alt="Jacob&Co Watch">
                         </div>
-                        <button type="button">ADD TO CART</button>
+                        <div class="text">
+                            <span class="product-name">Jacob&Co Brilliant</span>
+                            <div class="price">
+                                <p class="product-price">₹15,000 in pre-order</p>
+                                <p class="product-detail"><span>₹22,000</span> in stock</p>
+                            </div>
+                            <button type="button">ADD TO CART</button>
+                        </div>
                     </div>
-                </div>
 
-                <!-- Card 2 -->
-                <div class="accessory-card">
-                    <div class="pic">
-                        <img
-                            src="https://static.cilory.com/691269-thickbox_default/silver-vertical-bar-shape-silver-chain-pendant.jpg.webp"
-                            alt="Silver chain">
-                    </div>
-                    <div class="text">
-                        <span class="product-name">Silver chain</span>
-                        <div class="price">
-                            <p class="product-price">50$ in pre order</p>
-                            <p class="product-detail"><span>69$</span> in stock</p>
+                    <!-- Watch 2 -->
+                    <div class="accessory-card" data-category="watches" data-price="12000" data-tags="silver,in-stock">
+                        <div class="pic">
+                            <img src="https://images.unsplash.com/photo-1523170335258-f5ed11844a49?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHdhdGNofGVufDB8fDB8fHww&w=1000&q=80" alt="Silver Watch">
                         </div>
-                        <button type="button">ADD TO CART</button>
+                        <div class="text">
+                            <span class="product-name">Silver Chronograph</span>
+                            <div class="price">
+                                <p class="product-price">₹12,000 in pre-order</p>
+                                <p class="product-detail"><span>₹18,000</span> in stock</p>
+                            </div>
+                            <button type="button">ADD TO CART</button>
+                        </div>
                     </div>
-                </div>
 
-                <!-- Card 3 -->
-                <div class="accessory-card">
-                    <div class="pic">
-                        <img
-                            src="https://assets.myntassets.com/w_412,q_60,dpr_2,fl_progressive/assets/images/27753930/2025/4/14/6dd400ff-5ff0-483a-9312-255ac81584ed1744625965847-Roadster-Men-Silver-Plated-Geometric-Pendants-with-Chains-16-1.jpg"
-                            alt="Silver chain">
-                    </div>
-                    <div class="text">
-                        <span class="product-name">Silver chain</span>
-                        <div class="price">
-                            <p class="product-price">50$ in pre order</p>
-                            <p class="product-detail"><span>69$</span> in stock</p>
+                    <!-- Watch 3 -->
+                    <div class="accessory-card" data-category="watches" data-price="8000" data-tags="gold,in-stock">
+                        <div class="pic">
+                            <img src="https://m.media-amazon.com/images/I/71rdNzLg99L._SX679_.jpg" alt="Gold Watch">
                         </div>
-                        <button type="button">ADD TO CART</button>
+                        <div class="text">
+                            <span class="product-name">Gold Elegance</span>
+                            <div class="price">
+                                <p class="product-price">₹8,000 in pre-order</p>
+                                <p class="product-detail"><span>₹12,000</span> in stock</p>
+                            </div>
+                            <button type="button">ADD TO CART</button>
+                        </div>
+                    </div>
+
+                    <!-- Watch 4 -->
+                    <div class="accessory-card" data-category="watches" data-price="25000" data-tags="silver,pre-order">
+                        <div class="pic">
+                            <img src="https://grandseikoboutique.in/cdn/shop/files/SBGA499G_650x.png?v=1724822840" alt="Luxury Watch">
+                        </div>
+                        <div class="text">
+                            <span class="product-name">Luxury Automatic</span>
+                            <div class="price">
+                                <p class="product-price">₹25,000 in pre-order</p>
+                                <p class="product-detail"><span>₹35,000</span> in stock</p>
+                            </div>
+                            <button type="button">ADD TO CART</button>
+                        </div>
                     </div>
                 </div>
             </div>
-            <br><br><br>
-            <div class="set1-accessories">
-                <!-- Card 1 -->
-                <div class="accessory-card">
-                    <div class="pic">
-                        <img src="https://assets.myntassets.com/dpr_1.5,q_30,w_400,c_limit,fl_progressive/assets/images/2025/FEBRUARY/28/MrOG7y7t_06dd514392944a7189e478fa01b18c70.jpg" alt="Silver chain">
-                    </div>
-                    <div class="text">
-                        <span class="product-name">Earing</span>
-                        <div class="price">
-                            <p class="product-price">50$ in pre order</p>
-                            <p class="product-detail"><span>69$</span> in stock</p>
-                        </div>
-                        <button type="button">ADD TO CART</button>
-                    </div>
-                </div>
 
-                <!-- Card 2 -->
-                <div class="accessory-card">
-                    <div class="pic">
-                        <img
-                            src="https://cdn1.ethoswatches.com/media/catalog/product/cache/6e5de5bc3d185d8179cdc7258143f41a/j/a/jacob-co-brilliant-bq020-40-ro-kr-abala-large.jpg"
-                            alt="Silver chain">
-                    </div>
-                    <div class="text">
-                        <span class="product-name">Jacob&Co Watch</span>
-                        <div class="price">
-                            <p class="product-price">1000$ in pre order</p>
-                            <p class="product-detail"><span>1500$</span> in stock</p>
+            <!-- Earrings Category -->
+            <div class="category-section" id="earrings">
+                <h3 class="category-title">Rings</h3>
+                <div class="products-grid">
+                    <!-- Ring 1 -->
+                    <div class="accessory-card" data-category="rings" data-price="4000" data-tags="gold,in-stock,under-5000">
+                        <div class="pic">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMjvRsR50Jyijr_sauHeUTOt42iPi0RC_rOLBzyGVUq34aoBxTjWrGvxc&s" alt="Gold Ring">
                         </div>
-                        <button type="button">ADD TO CART</button>
+                        <div class="text">
+                            <span class="product-name">ring</span>
+                            <div class="price">
+                                <p class="product-price">₹4,000 in pre-order</p>
+                                <p class="product-detail"><span>₹6,500</span> in stock</p>
+                            </div>
+                            <button type="button">ADD TO CART</button>
+                        </div>
                     </div>
-                </div>
+                    <!-- Ring 2 -->
+                    <div class="accessory-card" data-category="rings" data-price="4500" data-tags="gold,in-stock,under-5000">
+                        <div class="pic">
+                            <img src="https://images.unsplash.com/photo-1605100804763-247f67b3557e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cmluZ3N8ZW58MHx8MHx8fDA%3D&w=1000&q=80" alt="Gold Ring">
+                        </div>
+                        <div class="text">
+                            <span class="product-name">Diamond ring</span>
+                            <div class="price">
+                                <p class="product-price">₹4,500 in pre-order</p>
+                                <p class="product-detail"><span>₹6,500</span> in stock</p>
+                            </div>
+                            <button type="button">ADD TO CART</button>
+                        </div>
+                    </div>
 
-                <!-- Card 3 -->
-                <div class="accessory-card">
-                    <div class="pic">
-                        <img
-                            src="https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwa9440f9e/images/hi-res/HL2881FAXAV73_1.jpg?sw=640&sh=640"
-                            alt="Silver chain">
-                    </div>
-                    <div class="text">
-                        <span class="product-name">Ring</span>
-                        <div class="price">
-                            <p class="product-price">100$ in pre order</p>
-                            <p class="product-detail"><span>150$</span> in stock</p>
+                    <!-- Ring 3 -->
+                    <div class="accessory-card" data-category="rings" data-price="5200" data-tags="silver,in-stock">
+                        <div class="pic">
+                            <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcS3s947b4cD_X0oAZIPBs5W_cYavcsTCLxjYYEpB2XF0AKveMETWxJYsx2D1sSdWQbY2Z1xzKwXUb5ux8FE0foCuQyqCIV2wn6q6b38LkAwRGjNoZz7eiCLV40" alt="Statement Ring">
                         </div>
-                        <button type="button">ADD TO CART</button>
+                        <div class="text">
+                            <span class="product-name">Silver ring</span>
+                            <div class="price">
+                                <p class="product-price">₹5,200 in pre-order</p>
+                                <p class="product-detail"><span>₹7,500</span> in stock</p>
+                            </div>
+                            <button type="button">ADD TO CART</button>
+                        </div>
+                    </div>
+
+                    <!-- Ring 4 -->
+                    <div class="accessory-card" data-category="rings" data-price="3800" data-tags="gold,in-stock,under-5000">
+                        <div class="pic">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiXiYl46mayF3uTrq1Bhcv0AVaPsF7V8ycq9qipGCFiAYQIw" alt="Minimal Ring">
+                        </div>
+                        <div class="text">
+                            <span class="product-name">Minimal Gold</span>
+                            <div class="price">
+                                <p class="product-price">₹3,800 in pre-order</p>
+                                <p class="product-detail"><span>₹5,500</span> in stock</p>
+                            </div>
+                            <button type="button">ADD TO CART</button>
+                        </div>
                     </div>
                 </div>
             </div>
+
+            <!-- Necklaces Category -->
+            <div class="category-section" id="necklaces">
+                <h3 class="category-title">Necklaces</h3>
+                <div class="products-grid">
+                    <!-- Necklace 1 -->
+                    <div class="accessory-card" data-category="necklaces" data-price="4500" data-tags="silver,in-stock,under-5000">
+                        <div class="pic">
+                            <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTmLToulNeaJbWuQN6NLyKVgKMKw_cIqG0Dh6VPg-ctzRKEaZ9Kfcc_3VdHL0z9kqxaOBcnBN_dLFGN2qmCa4bqh2ElX_-xyvRoxLdciT0F" alt="Silver Chain">
+                        </div>
+                        <div class="text">
+                            <span class="product-name">Silver Chain</span>
+                            <div class="price">
+                                <p class="product-price">₹4,500 in pre-order</p>
+                                <p class="product-detail"><span>₹6,500</span> in stock</p>
+                            </div>
+                            <button type="button">ADD TO CART</button>
+                        </div>
+                    </div>
+
+                    <!-- Necklace 2 -->
+                    <div class="accessory-card" data-category="necklaces" data-price="5200" data-tags="silver,in-stock">
+                        <div class="pic">
+                            <img src="https://static.cilory.com/691269-thickbox_default/silver-vertical-bar-shape-silver-chain-pendant.jpg.webp" alt="Silver Pendant">
+                        </div>
+                        <div class="text">
+                            <span class="product-name">Silver Pendant</span>
+                            <div class="price">
+                                <p class="product-price">₹5,200 in pre-order</p>
+                                <p class="product-detail"><span>₹7,500</span> in stock</p>
+                            </div>
+                            <button type="button">ADD TO CART</button>
+                        </div>
+                    </div>
+
+                    <!-- Necklace 3 -->
+                    <div class="accessory-card" data-category="necklaces" data-price="6800" data-tags="gold,in-stock">
+                        <div class="pic">
+                            <img src="https://assets.myntassets.com/w_412,q_60,dpr_2,fl_progressive/assets/images/27753930/2025/4/14/6dd400ff-5ff0-483a-9312-255ac81584ed1744625965847-Roadster-Men-Silver-Plated-Geometric-Pendants-with-Chains-16-1.jpg" alt="Gold Necklace">
+                        </div>
+                        <div class="text">
+                            <span class="product-name">Gold Necklace</span>
+                            <div class="price">
+                                <p class="product-price">₹6,800 in pre-order</p>
+                                <p class="product-detail"><span>₹9,500</span> in stock</p>
+                            </div>
+                            <button type="button">ADD TO CART</button>
+                        </div>
+                    </div>
+
+                    <!-- Necklace 4 -->
+                    <div class="accessory-card" data-category="necklaces" data-price="3800" data-tags="silver,in-stock,under-5000,new-arrival">
+                        <div class="pic">
+                            <img src="https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bmVja2xhY2V8ZW58MHx8MHx8fDA%3D&w=1000&q=80" alt="Minimal Necklace">
+                        </div>
+                        <div class="text">
+                            <span class="product-name">Minimal Silver</span>
+                            <div class="price">
+                                <p class="product-price">₹3,800 in pre-order</p>
+                                <p class="product-detail"><span>₹5,500</span> in stock</p>
+                            </div>
+                            <button type="button">ADD TO CART</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bracelets Category -->
+            <!-- <div class="category-section" id="bracelets">
+                <h3 class="category-title">Bracelets</h3>
+                <div class="products-grid">
+                    <!-- Bracelet 1
+                    <div class="accessory-card" data-category="bracelets" data-price="2800" data-tags="silver,in-stock,under-5000">
+                        <div class="pic">
+                            <img src="https://images.unsplash.com/photo-1611591151149-2c30d0f2eb7c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGJyYWNlbGV0fGVufDB8fDB8fHww&w=1000&q=80" alt="Silver Bracelet">
+                        </div>
+                        <div class="text">
+                            <span class="product-name">Silver Chain Bracelet</span>
+                            <div class="price">
+                                <p class="product-price">₹2,800 in pre-order</p>
+                                <p class="product-detail"><span>₹4,000</span> in stock</p>
+                            </div>
+                            <button type="button">ADD TO CART</button>
+                        </div>
+                    </div>
+
+                    <!-- Bracelet 2 
+                    <div class="accessory-card" data-category="bracelets" data-price="3500" data-tags="gold,in-stock,under-5000">
+                        <div class="pic">
+                            <img src="https://images.unsplash.com/photo-1588444650700-6c7f0c89d36b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGJyYWNlbGV0fGVufDB8fDB8fHww&w=1000&q=80" alt="Gold Bracelet">
+                        </div>
+                        <div class="text">
+                            <span class="product-name">Gold Link Bracelet</span>
+                            <div class="price">
+                                <p class="product-price">₹3,500 in pre-order</p>
+                                <p class="product-detail"><span>₹5,000</span> in stock</p>
+                            </div>
+                            <button type="button">ADD TO CART</button>
+                        </div>
+                    </div>
+
+                    <!-- Bracelet 3
+                    <div class="accessory-card" data-category="bracelets" data-price="2200" data-tags="silver,in-stock,under-5000,new-arrival">
+                        <div class="pic">
+                            <img src="https://images.unsplash.com/photo-1588444650700-6c7f0c89d36b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGJyYWNlbGV0fGVufDB8fDB8fHww&w=1000&q=80" alt="Minimal Bracelet">
+                        </div>
+                        <div class="text">
+                            <span class="product-name">Minimal Silver</span>
+                            <div class="price">
+                                <p class="product-price">₹2,200 in pre-order</p>
+                                <p class="product-detail"><span>₹3,200</span> in stock</p>
+                            </div>
+                            <button type="button">ADD TO CART</button>
+                        </div>
+                    </div>
+
+                    <!-- Bracelet 4 
+                    <div class="accessory-card" data-category="bracelets" data-price="4200" data-tags="gold,in-stock">
+                        <div class="pic">
+                            <img src="https://images.unsplash.com/photo-1611591151149-2c30d0f2eb7c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGJyYWNlbGV0fGVufDB8fDB8fHww&w=1000&q=80" alt="Statement Bracelet">
+                        </div>
+                        <div class="text">
+                            <span class="product-name">Statement Gold</span>
+                            <div class="price">
+                                <p class="product-price">₹4,200 in pre-order</p>
+                                <p class="product-detail"><span>₹6,000</span> in stock</p>
+                            </div>
+                            <button type="button">ADD TO CART</button>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
         </section>
     </div>
 
@@ -283,5 +459,30 @@
         </div>
     </footer>
     <script src="/JS/accessories.js"></script>
+        // Mobile menu toggle
+        
+  // Add to cart functionality
+        // const addToCartBtns = document.querySelectorAll('.accessory-card button');
+        
+        // addToCartBtns.forEach(btn => {
+        //     btn.addEventListener('click', (e) => {
+        //         e.preventDefault();
+        //         const productName = btn.parentElement.querySelector('.product-name').textContent;
+        //         const productPrice = btn.parentElement.querySelector('.product-price').textContent;
+                
+        //         // Show confirmation (in a real app, this would add to cart)
+        //         alert(`Added ${productName} to cart!\n${productPrice}`);
+                
+        //         // Add visual feedback
+        //         btn.textContent = 'ADDED ✓';
+        //         btn.style.background = '#27ae60';
+                
+        //         setTimeout(() => {
+        //             btn.textContent = 'ADD TO CART';
+        //             btn.style.background = '#3498db';
+        //         }, 2000);
+        //     });
+        // });
+        // Add to Cart functionality for accessories page only
 </body>
 </html>

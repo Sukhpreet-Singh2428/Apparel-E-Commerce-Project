@@ -13,36 +13,5 @@
       "password": "hello"
     }
   ],
-  "cart": [
-    {
-      "id": "a245",
-      "name": "Nike sb dunk low jarritos",
-      "price": "₹1,916",
-      "image": "https://i.pinimg.com/736x/17/ce/43/17ce43986ba14179d87ac487d18c33f4.jpg",
-      "quantity": 1
-    }
-  ],
-  "products":[
-    {
-      "id" : "13",
-      "name" :"Nike sb dunk low jarritos",
-      "price" : "₹1,916",
-      "info" : "Nike SB Dunk Low Jarritos Lifestyle Sneakers",
-      "rating": "4.7",
-      "MainImg" : "https://i.pinimg.com/736x/17/ce/43/17ce43986ba14179d87ac487d18c33f4.jpg",
-      "sideImg1" : "https://i.pinimg.com/736x/b9/d8/0c/b9d80c9fbf055c385b551af659ea0e4e.jpg",
-      "sideImg2" : "https://i.pinimg.com/736x/e4/1a/70/e41a70098205d643b76a1bc2f78ed42c.jpg",
-      "sideImg3" : "https://i.pinimg.com/1200x/6d/a5/22/6da5222866275248025dba7904e7f9a5.jpg",
-      "sideImg4" : "https://i.pinimg.com/736x/46/6d/53/466d5318d0519cbbb5433a222befc770.jpg",
-      "size1" : "UK3",
-      "size2" : "UK4",
-      "size3" : "UK5",
-      "size4" : "UK6",
-      "size5" : "UK7",
-      "productVendor" : "Nike India Private Limited_parent",
-      "review" : "These sneakers are stylish, super comfortable, and perfect for daily wear—even after hours, my feet feel fresh and relaxed. The modern design pairs easily with any outfit, and the quality is genuinely impressive for the price. Highly recommended for anyone seeking versatility and all-day comfort.",
-      "vid1" : "https://i.pinimg.com/736x/e4/1a/70/e41a70098205d643b76a1bc2f78ed42c.jpg",
-      "vid2" : "https://i.pinimg.com/736x/46/6d/53/466d5318d0519cbbb5433a222befc770.jpg"
-    }
-  ]
+  "cart": []
 }
