@@ -16,10 +16,19 @@
 
 <body>
   <div class="start">
-    <div class="title">
-      <span>LOXI</span>
-    </div>
+  <div class="title">
+    <span>LOXI</span>
+  </div>
 
+  <!-- Hamburger Icon -->
+  <div class="hamburger" id="hamburger">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+
+  <!-- Navigation Links -->
+  <div class="nav-links" id="nav-links">
     <div class="two">
       <ul>
         <li><a href="/TheMAN.html">Man</a></li>
@@ -37,31 +46,31 @@
       </ul>
     </div>
 
-
     <div class="out">
       <div class="right-icons">
         <ul>
           <li><a href="#FR">EN</a></li>
-          <li><a href="/loginpage.html" title="Login"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                fill="#ff00ff" id="User--Streamline-Tabler-Filled" height="24" width="24">
-                <desc>
-                  User Streamline Icon: https://streamlinehq.com
-                </desc>
-                <path d="M12 2a5 5 0 1 1 -5 5l0.005 -0.217A5 5 0 0 1 12 2z" stroke-width="1"></path>
-                <path d="M14 14a5 5 0 0 1 5 5v1a2 2 0 0 1 -2 2H7a2 2 0 0 1 -2 -2v-1a5 5 0 0 1 5 -5h4z" stroke-width="1">
-                </path>
-              </svg></a></li>
-          <li><a href="CSS/MyCart.css" title="Cart"><svg class="w-[41px] h-[41px] text-gray-800 dark:text-white"
-                aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
-                viewBox="0 0 24 24">
-                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+          <li><a href="/loginpage.html" title="Login">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                fill="#ff00ff" height="24" width="24">
+                <path d="M12 2a5 5 0 1 1 -5 5l0.005 -0.217A5 5 0 0 1 12 2z"></path>
+                <path d="M14 14a5 5 0 0 1 5 5v1a2 2 0 0 1 -2 2H7a2 2 0 0 1 -2 -2v-1a5 5 0 0 1 5 -5h4z"></path>
+              </svg>
+            </a></li>
+          <li><a href="CSS/MyCart.css" title="Cart">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                fill="none" viewBox="0 0 24 24">
+                <path stroke="currentColor" stroke-linecap="round"
+                  stroke-linejoin="round" stroke-width="2"
                   d="M5 4h1.5L9 16m0 0h8m-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-8.5-3h9.25L19 7H7.312" />
-              </svg></a></li>
+              </svg>
+            </a></li>
         </ul>
       </div>
-      </nav>
     </div>
   </div>
+</div>
+
 
 
   </div>
@@ -159,7 +168,7 @@
           </div>
           <div class="topright">
             <div class="desc1">
-              <h3>Textured Indowestern Sherwani Trouser Set</h3>
+              <h3>Indowestern Sherwani Set</h3>
             </div>
             <div class="btn1">
               <span class="price1">₹5,727</span>
@@ -339,11 +348,21 @@
           <li>Become An Ambassador</li>
           <li>Book a VIP Party/Styling Session</li>
           <li>Terms of Service</li>
-          <li>Accessibility</li>
         </ul>
       </div>
     </div>
   </footer>
+
+  <script>
+  const hamburger = document.getElementById('hamburger');
+  const navLinks = document.getElementById('nav-links');
+
+  hamburger.addEventListener('click', () => {
+    hamburger.classList.toggle('active');
+    navLinks.classList.toggle('active');
+  });
+</script>
+
 </body>
 
 </html>

@@ -658,415 +658,620 @@ main{
     /* border: 2px solid red; */
 }
 
-footer{
-    height: 14%;
-    width: 100%;
-    /* border: 5px solid red; */
-    display: flex;
+footer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: lightgray;
+  font-family: "Audiowide", sans-serif;
+}
+
+.footer-up {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 2rem;
+  padding: 3rem 4rem;
+}
+
+.sec1, .sec2, .sec3 {
+  flex: 1;
+  min-width: 250px;
+}
+
+.sec1-head, .sec2-head, .sec3-head {
+  font-size: 1.8rem;
+  font-weight: 600;
+  text-shadow: 2px 3px 3px gray;
+  margin-bottom: 1rem;
+}
+
+.sec1-p, .sec3-p {
+  line-height: 1.5rem;
+  font-size: 0.95rem;
+  color: #333;
+}
+
+.sec2 ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  font-size: 0.95rem;
+  color: #333;
+}
+
+.sec3 form {
+  margin-top: 1rem;
+}
+
+.sec3 input {
+  width: 100%;
+  max-width: 280px;
+  height: 40px;
+  padding: 0 10px;
+  margin-bottom: 10px;
+  border: 1px solid #aaa;
+  border-radius: 6px;
+}
+
+.sec3 button {
+  height: 40px;
+  width: 140px;
+  border: none;
+  background-color: black;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.sec3 button:hover {
+  background-color: #333;
+}
+
+.footer-down {
+  border-top: 1px solid #999;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 4rem;
+  flex-wrap: wrap;
+}
+
+.footer-down .s1 p {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+.footer-down .s2 ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  font-size: 0.85rem;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+@media screen and (max-width: 480px) {
+
+    .filter {
+        display: none;
+    }
+
+    main {
+        margin-top: 2rem;
+        width: 100%;
+        flex-direction: column;
+        height: auto;
+    }
+
+    .content {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        padding: 2rem 1rem;
+        top: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .row1, .row2, .row3, .row4, .row5, .row6, .row7, .row8 {
+        flex-direction: column;
+        gap: 2rem;           
+        justify-content: center;
+        margin-left: 0;
+        margin-right: 0;
+        flex-wrap: wrap;      
+    }
+
+    .item1, .item2, .item3 {
+        width: 90%;    
+        height: fit-content;       
+        margin: 0;
+        border-radius: 2rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .item3{
+        margin-bottom: 2rem;
+    }
+    .item1 .pic1, .item2 .pic2, .item3 .pic3 {
+        width: 100%;
+        height: auto;
+    }
+    .pic1 img, .pic2 img, .pic3 img{
+        border-top-left-radius: 2rem;
+        border-top-right-radius: 2rem;
+    }
+
+    .item1 .text1, .item2 .text2, .item3 .text3 {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .item1 .lower, .item2 .lower, .item3 .lower {
+        flex-direction: column;
+        justify-content: space-between; 
+        gap: 0.5rem;
+    }
+
+    .item1 .text1 .lower .low2 button, .item2 .text2 .lower .low2 button, .item3 .text3 .lower .low2 button {
+        width: 8rem;
+        height: 2rem;
+        /* text-align: center; */
+        margin-left: auto;
+        margin-right: auto;
+        margin-left: 1.5rem;
+        padding: 0;
+    }
+    .low2{
+        margin-top: 0;
+        margin-bottom: 1rem;
+        margin-left: auto;
+        margin-right: auto;
+        /* border: 2px solid red; */
+        padding: 0;
+        /* display: block; */
+    }
+
+    .men h2, .subhead h2, .content h2 {
+        font-size: 1.8rem;
+    }
+
+    .item1 .upper .product-name, .item2 .upper .product-name, .item3 .upper .product-name,
+    .item1 .low1 .product-price, .item2 .low1 .product-price, .item3 .low1 .product-price,
+    .item1 .low1 .product-detail, .item2 .low1 .product-detail, .item3 .low1 .product-detail {
+        font-size: 0.95rem;
+        /* padding-left: 2rem;
+        padding-right: 2rem; */
+        /* border: 2px solid red; */
+    }
+    .product-name{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 0.8rem;
+    }
+    .product-price, .product-detail{
+        margin-left: 0.8rem;
+    }
+    .upper{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .view-more button {
+        width: auto;
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+  .footer-up {
     flex-direction: column;
-    background-color: lightgray;
-}
-.footer-up{
-    height: 90%;
-    width: 100%;
-    display: flex;
-}
-.sec1{
-    height: 100%;
-    width: 33%;
-    /* border: 3px solid black; */
     align-items: center;
-    align-content: center;
-    justify-content: center;
-    padding-left: 20px;
-    padding-right: 20px;
-}
-.sec1 .sec1-head{
-    font-size: 2rem;
-    /* font-family: 'Spectral'; */
-    font-family: "Audiowide", sans-serif;
-    text-shadow: 2px 3px 3px gray;
-}
-.sec1 .sec1-p{
-    /* font-family: 'Spectral'; */
-    font-family: "Audiowide", sans-serif;
-}
-.sec2{
-    height: 100%;
-    width: 33%;
-    /* border: 3px solid black; */
-    align-items: center;
-    align-content: center;
-    padding-left: 20px;
-    padding-right: 20px;
-}
-.sec2 .sec2-head{
-    padding-left: 20px;
-    font-size: 2rem;
-    /* font-family: 'Spectral'; */
-    font-family: "Audiowide", sans-serif;
-    text-shadow: 2px 3px 3px gray;
-}
-.sec2 ul{
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    /* font-family: 'Spectral'; */
-    font-family: "Audiowide", sans-serif;
-}
-.sec3{
-    height: 100%;
-    width: 33%;
-    /* border: 3px solid black; */
-    align-items: center;
-    align-content: center;
-    padding-left: 20px;
-    padding-right: 20px;
-}
-.sec3 .sec3-head{
-    font-size: 2rem;
-    /* font-family: 'Spectral'; */
-    font-family: "Audiowide", sans-serif;
-    text-shadow: 2px 3px 3px gray;
-}
-.sec3 .sec3-p{
-    /* font-family: 'Spectral'; */
-    font-family: "Audiowide", sans-serif;
-}
-.sec3 input{
-    /* font-family: 'Spectral'; */
-    font-family: "Audiowide", sans-serif;
-    margin-bottom: 10px;
-    height: 40px;
-    width: 300px;
-}
-.sec3 button{
-    /* font-family: 'Spectral'; */
-    font-family: "Audiowide", sans-serif;
-    height: 40px;
-    width: 140px;
-}
-.footer-down{
-    height: 10%;
-    width: 100%;
-    display: flex;
-}
-.footer-down .s1{
-    height: 100%;
-    width: 20%;
-    /* border: 3px solid black; */
-    /* font-family: 'Spectral'; */
-    font-family: "Audiowide", sans-serif;
-}
-.footer-down .s1 p{
     text-align: center;
-}
-.footer-down .s2{
-    height: 100%;
-    width: 80%;
-    /* border: 3px solid red; */
-    align-items: center;
-    align-content: center;
-    padding-left: 100px;
-}
-.footer-down .s2 ul{
-    list-style: none;
-    display: flex;
-    gap: 9px;
-    margin-right: 50px;
-    /* font-family: 'Spectral'; */
-    font-family: "Audiowide", sans-serif;
+    padding: 2rem 1rem;
+  }
+
+  .sec1, .sec2, .sec3 {
+    width: 100%;
+    padding: 0;
+  }
+
+  .sec1-head, .sec2-head, .sec3-head {
+    font-size: 1.4rem;
+  }
+
+  .sec1-p, .sec3-p, .sec2 ul li {
+    font-size: 0.9rem;
+    line-height: 1.4rem;
+  }
+
+  .sec3 input {
+    max-width: 100%;
+    width: 90%;
+  }
+
+  .sec3 button {
+    width: 90%;
+  }
+
+  .footer-down {
+    flex-direction: column;
+    text-align: center;
+    padding: 1rem;
+    gap: 1rem;
+  }
+
+  .footer-down .s2 ul {
+    justify-content: center;
+    gap: 0.6rem;
     font-size: 0.8rem;
+  }
 }
 
+@media screen and (max-width: 768px) {
+  .footer-up {
+    flex-direction: column;
+    padding: 2rem 3%;
+    padding-left: -4rem;
+    gap: 2rem;
+  }
+
+  .sec1, .sec2, .sec3 {
+    min-width: 100%;
+    text-align: center;
+  }
+
+  .sec3 input {
+    max-width: 100%;
+  }
+
+  .sec3 button {
+    width: 100%;
+    max-width: 200px;
+    margin: 0 auto;
+  }
+
+  .footer-down {
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 3%;
+    gap: 1rem;
+  }
+
+  .footer-down .s2 ul {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .footer-up {
+
+    gap: 1.5rem;
+  }
+
+  .sec1-head, .sec2-head, .sec3-head {
+    font-size: 1.4rem;
+  }
+
+  .sec1-p, .sec3-p, .sec2 ul {
+    font-size: 0.85rem;
+  }
+
+  .footer-down {
+    padding: 1rem 2%;
+  }
+
+  .footer-down .s2 ul {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .sec3 input {
+    height: 35px;
+  }
+
+  .sec3 button {
+    height: 35px;
+  }
+}
+@media screen and (min-width: 481px) and (max-width: 1024px) {
 
 
-/* =======================================================================
-   RESPONSIVE STYLES FOR BEST SELLER PAGE
-   ======================================================================= */
+    .filter {
+        display: none;
+    }
 
-/* --- Mobile Menu Toggle Icon (Hamburger) --- */
-/* The HTML doesn't include a dedicated burger icon, so we'll create one 
-   and use a CSS-only method for a sidebar effect */
-.menu-toggle {
-    display: none; /* Hidden by default on desktop */
-    cursor: pointer;
-    z-index: 1001; /* Above header */
-    padding: 10px;
-    margin-right: 20px;
+
+    main {
+        margin-top: 2rem;
+        width: 100%;
+        flex-direction: column;
+        height: auto;
+    }
+
+
+    .content {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        padding: 2rem 1rem;
+        top: 0;
+    }
+
+
+    .row1, .row2, .row3, .row4, .row5, .row6, .row7, .row8 {
+        flex-direction: row;
+        gap: 2rem;          
+        justify-content: center;
+        margin-left: 0;
+
+
+        margin-right: 0;
+        flex-wrap: wrap;      
+    }
+
+    .item1, .item2, .item3 {
+        width: 90%;           
+        margin: 0;
+        border-radius: 1rem;
+    }
+
+
+    .item1 .pic1, .item2 .pic2, .item3 .pic3 {
+        width: 100%;
+        height: auto;
+    }
+
+
+    .item1 .text1, .item2 .text2, .item3 .text3 {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .item1 .lower, .item2 .lower, .item3 .lower {
+        flex-direction: row;
+        justify-content: space-between; 
+        gap: 0.5rem;
+    }
+
+    .item1 .low2 button, .item2 .low2 button, .item3 .low2 button {
+        width: auto;
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .men h2, .subhead h2, .content h2 {
+        font-size: 1.8rem;
+    }
+
+    .item1 .upper .product-name, .item2 .upper .product-name, .item3 .upper .product-name,
+    .item1 .low1 .product-price, .item2 .low1 .product-price, .item3 .low1 .product-price,
+    .item1 .low1 .product-detail, .item2 .low1 .product-detail, .item3 .low1 .product-detail {
+        font-size: 0.95rem;
+    }
+
+    .view-more button {
+        width: auto;
+        font-size: 1rem;
+    }
+}
+@media screen and (min-width:1025px) {
+    .item1 .low2 .text1 a, .item2 .low2 .text2 button a, .item3 .low2 .text3 button a {
+        width: auto;
+        text-align: center;
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .item1 .lower,
+    .item2 .lower,
+    .item3 .lower {
+        flex-direction: column; 
+        gap: 0.5rem;
+    }
+
+    .item1 .low2 button,
+    .item2 .low2 button,
+    .item3 .low2 button {
+        width: 100%;      
+        margin-left: 0;    
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 1024px) {
+    .item1 .lower,
+    .item2 .lower,
+    .item3 .lower {
+        flex-direction: row;
+        justify-content: space-between; 
+        gap: 0.5rem;
+    }
+
+    .item1 .low2 button,
+    .item2 .low2 button,
+    .item3 .low2 button {
+        width: auto;      
+        min-width: 100px;  
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    .item1 .lower,
+    .item2 .lower,
+    .item3 .lower {
+        flex-direction: row;
+        justify-content: space-between; 
+        gap: 0.5rem;
+    }
+
+    .item1 .low2 button,
+    .item2 .low2 button,
+    .item3 .low2 button {
+        width: auto;     
+        min-width: 80px;  
+    }
+}
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    background-color: #000;
+    z-index: 1000;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding: 0 20px;
+}
+
+.title span {
+    font-family: "Audiowide", sans-serif;
+    font-size: 2rem;
+    font-weight: bolder;
+    color: #fff;
 }
 
 .hamburger {
-    width: 25px;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 28px;
+    height: 20px;
+    cursor: pointer;
+    z-index: 1100;
+}
+
+.hamburger span {
+    display: block;
     height: 3px;
-    background-color: honeydew;
-    margin: 5px 0;
-    transition: 0.4s;
+    width: 100%;
+    background: #fff;
+    border-radius: 10px;
+    transition: all 0.3s ease;
 }
 
-/* --- Tablet Styles (Max-width 1024px) --- */
+.hamburger.active span:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+}
+.hamburger.active span:nth-child(2) {
+    opacity: 0;
+}
+.hamburger.active span:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+}
+
+nav {
+    display: flex;
+    gap: 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff; 
+    font-family: "Audiowide", sans-serif;
+}
+
 @media (max-width: 1024px) {
-    /* HEADER: Adjust spacing and reduce nav element separation */
-    .head {
-        padding: 0 10px;
-        gap: 20px;
-    }
-    
+    .hamburger { display: flex; }
+
     nav {
-        gap: 50px;
-    }
-
-    .menu ul, .right ul {
-        gap: 15px;
-        margin-left: 0.5rem;
-        margin-right: 0.5rem;
-    }
-
-    .right ul {
-        margin-left: 2rem;
-    }
-
-    .menu ul a {
-        font-size: 0.9rem;
-    }
-    
-    /* MAIN LAYOUT: Adjust main columns */
-    main {
-        flex-direction: row;
-    }
-
-    .filter {
-        width: 25%; /* Slightly wider filter sidebar */
-        padding: 10px;
-    }
-
-    .content {
-        width: 75%;
-        padding: 10px;
-    }
-    
-    /* PRODUCT GRID: Adjust to 2 columns */
-    .row1, .row2, .row3, .row4, .row5, .row6, .row7, .row8 {
-        gap: 1rem;
-        margin-left: 0;
-        margin-right: 0;
-        flex-wrap: wrap; /* Allow items to wrap into next line */
-        justify-content: space-around;
-        height: auto; /* Auto height to accommodate wrapping */
-    }
-
-    .item1, .item2, .item3 {
-        width: 45%; /* Two items per row, with spacing */
-        height: 500px; /* Maintain height for consistent card size */
-    }
-
-    /* Hide the third item in each row since we only want two per row on tablet */
-    /* This targets item3 only if it is the third item in the row */
-    .row1 .item3, .row2 .item3, .row3 .item3, .row4 .item3, 
-    .row5 .item3, .row6 .item3, .row7 .item3, .row8 .item3 {
-        display: none;
-    }
-    /* Note: If you want *all* items to show, change the width to 30% and remove the display:none */
-
-
-    /* PRODUCT CARD DETAILS: Adjust text/button size */
-    .item1 .text1, .item2 .text2, .item3 .text3 {
-        width: 90%;
-    }
-
-    .item1 .text1 .low2 button, .item2 .text2 .low2 button, .item3 .text3 .low2 button {
-        width: 6rem;
-        margin-left: 0.5rem;
-    }
-    
-    /* FOOTER: Stack the two lists in the footer-down section */
-    .footer-up {
-        flex-wrap: wrap;
-        height: auto;
-    }
-
-    .sec1, .sec2, .sec3 {
-        width: 50%; /* Two columns */
-        padding-bottom: 20px;
-        height: auto;
-    }
-
-    .footer-down .s2 ul {
-        flex-wrap: wrap;
-        padding-left: 0;
-        justify-content: center;
-        margin-right: 0;
-    }
-
-    .footer-down .s1, .footer-down .s2 {
-        width: 100%;
-        text-align: center;
-    }
-}
-
-
-/* --- Mobile Styles (Max-width 768px) --- */
-@media (max-width: 768px) {
-    /* HEADER: Prepare for Mobile Sidebar/Toggle */
-    header {
-        position: fixed;
-        height: 4.2rem;
-    }
-
-    .head {
-        justify-content: space-between;
-        gap: 0;
-        padding: 0 5px;
-    }
-    
-    /* Show the mobile toggle icon */
-    .menu-toggle {
-        display: block;
-        align-self: center;
-        margin-left: 10px;
-    }
-
-    /* Hide default navigation links for mobile */
-    nav {
-        display: none;
-        /* The header elements will be moved to the sidebar */
-    }
-    
-    /* Add a temporary class to the body in HTML to control the sidebar state */
-    /* This requires a JavaScript toggle, but we can set up the styles */
-    /* We'll use a hack to control the filter sidebar for this pure CSS implementation */
-    
-    /* MAIN LAYOUT: Stack content and filter */
-    main {
-        flex-direction: column;
-    }
-
-    .content {
-        width: 100%;
-        top: 4.2rem;
-        min-height: calc(100vh - 4.2rem);
-    }
-
-    /* Filter Sidebar/Overlay */
-    .filter {
-        position: fixed;
-        z-index: 99; 
-        top: 4.2rem; 
+        position: absolute;
+        top: 70px;
         left: 0;
-        width: 80%; /* Takes up most of the screen width */
-        height: calc(100vh - 4.2rem); 
-        transform: translateX(-100%); /* Start hidden off-screen */
-        transition: transform 0.3s ease-in-out;
-        box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
-        padding: 20px;
-        background-color: rgb(255, 255, 228);
-    }
-    
-    /* To visually 'open' the filter sidebar on click, we'd use a JavaScript toggle
-       or an advanced CSS hack (e.g., using checkbox/label trick).
-       For simplicity, we'll assume the toggle logic exists elsewhere. */
-    /* .filter.open {
-        transform: translateX(0);
-    } */
-
-    /* If you want a purely CSS hack for the filter: 
-       1. Add an empty checkbox input before the filter div.
-       2. Use the following selector:
-       #filter-toggle:checked ~ main .filter { transform: translateX(0); }
-    */
-
-    .men h2, .subhead h2 {
-        text-align: left;
-    }
-
-    /* PRODUCT GRID: Single column layout */
-    .row1, .row2, .row3, .row4, .row5, .row6, .row7, .row8 {
-        flex-direction: column; /* Stack items vertically */
+        width: 100%;
+        flex-direction: column;
         align-items: center;
+        background-color: #000; 
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.4s ease-in-out;
     }
 
-    .item1, .item2, .item3 {
-        width: 90%; /* Almost full width */
-        height: 400px; /* Reduced height for vertical stacking */
-        margin-bottom: 20px;
-    }
-    
-    /* Show all items if they were hidden for 2-column tablet view */
-    .row1 .item3, .row2 .item3, .row3 .item3, .row4 .item3, 
-    .row5 .item3, .row6 .item3, .row7 .item3, .row8 .item3 {
-        display: flex; 
+    nav.active {
+        max-height: 100vh;
     }
 
-    .item1 .pic1, .item2 .pic2, .item3 .pic3 {
-        height: 65%; /* Allocate more space for text/buttons */
-    }
-    
-    .item1 .text1, .item2 .text2, .item3 .text3 {
-        height: 30%;
-        width: 90%;
-    }
-
-    .item1 .text1 .low2 button, .item2 .text2 .low2 button, .item3 .text3 .low2 button {
-        width: 7rem;
-        margin-left: 1rem;
-    }
-
-    /* FOOTER: Fully stack everything */
-    .footer-up {
+    nav ul {
         flex-direction: column;
-    }
-    .sec1, .sec2, .sec3 {
-        width: 100%; /* Full width */
-        text-align: center;
+        gap: 20px;
+        padding: 20px 0;
     }
 
-    .sec2 ul {
-        align-items: center;
-    }
-    
-    .footer-down {
-        flex-direction: column;
-    }
-    .footer-down .s1, .footer-down .s2 {
-        padding-left: 0;
-    }
-    .footer-down .s2 ul {
-        flex-direction: column;
-        gap: 5px;
-    }
-}
-
-
-/* --- Tiny Mobile Styles (Max-width 480px) --- */
-@media (max-width: 480px) {
-    .title {
+    nav a {
         font-size: 1.2rem;
     }
-    .item1 .text1 .lower, .item2 .text2 .lower, .item3 .text3 .lower {
-        flex-direction: column; /* Stack price/details and button */
+    .head:hover{
+        display: none;
+    }
+    .right ul {
+    margin-left: 0 !important;
+    justify-content: center;
+  }
+}
+
+nav {
+    display: flex;
+    gap: 150px;
+}
+
+.two ul, .menu ul, .right ul {
+    display: flex;
+    gap: 25px;
+}
+
+nav a { color: #fff; }
+
+@media (max-width: 1024px) {
+    .hamburger { display: flex; }
+
+    nav {
+        position: absolute;
+        top: 70px;
+        left: 0;
+        width: 100%;
+        flex-direction: column;
         align-items: center;
+        background-color: #000;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.4s ease-in-out;
+        gap: 0; 
     }
-    
-    .item1 .text1 .low1, .item2 .text2 .low1, .item3 .text3 .low1 {
-        width: 100%;
+
+    nav.active { max-height: 100vh; }
+
+    nav ul {
+        flex-direction: column;
+        gap: 20px; 
+        padding: 20px 0;
+        margin: 0;
+        width: 100%; 
         text-align: center;
     }
 
-    .item1 .text1 .low2, .item2 .text2 .low2, .item3 .text3 .low2 {
-        width: 100%;
-        text-align: center;
-    }
-
-    .item1 .text1 .low2 button, .item2 .text2 .low2 button, .item3 .text3 .low2 button {
-        width: 90%;
-        margin: 5px 0;
-    }
-
-    .sec3 input {
-        width: 90%;
-    }
-    .sec3 button {
-        width: 90%;
-    }
+    nav a { font-size: 1.2rem; color: #fff; }
 }

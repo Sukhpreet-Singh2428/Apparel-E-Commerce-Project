@@ -21,6 +21,7 @@
     font-weight: bolder;
     color: white;
     padding: 15px 0 0 20px ;
+    margin-bottom: 1.5rem;
 }
 
 .two ul{
@@ -29,6 +30,7 @@
     gap: 25px;
     margin: 0;
     padding: 25px 0 0 50px;
+    margin-bottom: 1.5rem;
 }
 .two ul a{
     text-decoration: none;
@@ -45,7 +47,7 @@
     display: flex;
     gap: 25px;
     margin: 0;
-    /* margin-left: 2rem; */
+    margin-bottom: 1rem;
     padding: 25px 0 0 11rem;
 }
 .menu ul a{
@@ -76,7 +78,7 @@
     list-style: none;
     display: flex;
     gap: 25px;
-    margin: 0;
+    margin-top: 1.5rem;
     /* padding: 25px 0 0 20rem; */
     color: honeydew;
     margin-left: 6rem;
@@ -300,7 +302,7 @@ body {
 
 .price1 {
   font-size: 1rem;
-  padding-left: 25px;
+  padding-left: 14rem;
 }
 
 .icon-bell {
@@ -314,9 +316,9 @@ body {
 }
 
 .desc1 {
-  margin-top: 8rem;
+  margin-top: 8.5rem;
   width: 100%;
-  padding-left: 25px;
+  padding-left: 14rem;
   font-size: 1.1rem;
 }
 
@@ -372,14 +374,14 @@ body {
 }
 
 .price2 {
-  padding-left: 28rem;
+  padding-left: 15rem;
   font-size: 1rem;
 }
 
 .desc2 {
-  margin-top: 8rem;
+  margin-top: 8.5rem;
   width: 100%;
-  padding-left: 28rem;
+  padding-left: 15rem;
   font-size: 1.1rem;
 }
 
@@ -440,7 +442,6 @@ body {
   position: absolute;
   top: 50%;
   left: -5px;
-  /* Position dot on the center line */
   width: 10px;
   height: 10px;
   background-color: white;
@@ -455,10 +456,6 @@ body {
   position: relative;
 }
 
-
-
-
-/* --- remove hiding of needed pseudo-elements --- */
 .toprow .topleft::before,
 .toprow .topleft::after,
 .bottomrow .bottomright::before,
@@ -466,7 +463,6 @@ body {
   display: block;
 }
 
-/* Connector line (from image to timeline) */
 .toprow .topleft::after {
   content: '';
   position: absolute;
@@ -491,13 +487,11 @@ body {
   z-index: 2;
 }
 
-/* Dots at the timeline */
 .toprow .topleft::before {
   content: '';
   position: absolute;
   top: 50%;
   right: -6px;
-  /* half the dot size to overlap the center line */
   width: 12px;
   height: 12px;
   background-color: white;
@@ -512,7 +506,6 @@ body {
   position: absolute;
   top: 50%;
   left: -6px;
-  /* half the dot size */
   width: 12px;
   height: 12px;
   background-color: white;
@@ -522,7 +515,6 @@ body {
   z-index: 3;
 }
 
-/* Make sure these anchors are positioned correctly */
 .topleft,
 .bottomright {
   position: relative;
@@ -534,14 +526,12 @@ body {
 .toprow .topleft::after,
 .bottomrow .bottomright::after {
   z-index: 0;
-  /* behind everything */
 }
 
 .topleft img,
 .bottomright img {
   position: relative;
   z-index: 1;
-  /* image stays above line */
 }
 
 
@@ -555,140 +545,515 @@ body {
 }
 
 footer {
-  height: 40rem;
   width: 100%;
-  /* border: 5px solid red; */
   display: flex;
   flex-direction: column;
   background-color: lightgray;
-}
-
-.footer-up {
-  height: 90%;
-  width: 100%;
-  display: flex;
-}
-
-.sec1 {
-  height: 100%;
-  width: 33%;
-  /* border: 3px solid black; */
-  align-items: center;
-  align-content: center;
-  justify-content: center;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
-.sec1 .sec1-head {
-  font-size: 2rem;
-  /* font-family: 'Spectral'; */
-  
-  text-shadow: 2px 3px 3px gray;
-}
-
-.sec1 .sec1-p {
-  /* font-family: 'Spectral'; */
   font-family: "Audiowide", sans-serif;
 }
 
-.sec2 {
-  height: 100%;
-  width: 33%;
-  /* border: 3px solid black; */
-  align-items: center;
-  align-content: center;
-  padding-left: 20px;
-  padding-right: 20px;
+.footer-up {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 2rem;
+  padding: 3rem 4rem;
 }
 
-.sec2 .sec2-head {
-  padding-left: 20px;
-  font-size: 2rem;
-  /* font-family: 'Spectral'; */
-  
+
+.sec1, .sec2, .sec3 {
+  flex: 1;
+  min-width: 250px;
+}
+
+.sec1-head, .sec2-head, .sec3-head {
+  font-size: 1.8rem;
+  font-weight: 600;
   text-shadow: 2px 3px 3px gray;
+  margin-bottom: 1rem;
+}
+
+.sec1-p, .sec3-p {
+  line-height: 1.5rem;
+  font-size: 0.95rem;
+  color: #333;
 }
 
 .sec2 ul {
   list-style: none;
+  padding: 0;
   display: flex;
   flex-direction: column;
-  gap: 10px;
-  /* font-family: 'Spectral'; */
-  
+  gap: 0.6rem;
+  font-size: 0.95rem;
+  color: #333;
 }
 
-.sec3 {
-  height: 100%;
-  width: 33%;
-  /* border: 3px solid black; */
-  align-items: center;
-  align-content: center;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
-.sec3 .sec3-head {
-  font-size: 2rem;
-  /* font-family: 'Spectral'; */
-  
-  text-shadow: 2px 3px 3px gray;
-}
-
-.sec3 .sec3-p {
-  /* font-family: 'Spectral'; */
-  font-family: "Audiowide", sans-serif;
+.sec3 form {
+  margin-top: 1rem;
 }
 
 .sec3 input {
-  /* font-family: 'Spectral'; */
-  
-  margin-bottom: 10px;
+  width: 100%;
+  max-width: 280px;
   height: 40px;
-  width: 300px;
+  padding: 0 10px;
+  margin-bottom: 10px;
+  border: 1px solid #aaa;
+  border-radius: 6px;
 }
 
 .sec3 button {
-  /* font-family: 'Spectral'; */
-  
   height: 40px;
   width: 140px;
+  border: none;
+  background-color: black;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.sec3 button:hover {
+  background-color: #333;
 }
 
 .footer-down {
-  height: 10%;
-  width: 100%;
+  border-top: 1px solid #999;
   display: flex;
-}
-
-.footer-down .s1 {
-  height: 100%;
-  width: 20%;
-  /* border: 3px solid black; */
-  /* font-family: 'Spectral'; */
-  
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 4rem;
+  flex-wrap: wrap;
 }
 
 .footer-down .s1 p {
-  text-align: center;
-}
-
-.footer-down .s2 {
-  height: 100%;
-  width: 80%;
-  /* border: 3px solid red; */
-  align-items: center;
-  align-content: center;
-  padding-left: 100px;
+  margin: 0;
+  font-size: 0.9rem;
 }
 
 .footer-down .s2 ul {
   list-style: none;
   display: flex;
-  gap: 9px;
-  margin-right: 50px;
-  /* font-family: 'Spectral'; */
-  
-  font-size: 0.8rem;
+  gap: 1rem;
+  flex-wrap: wrap;
+  font-size: 0.85rem;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+
+@media screen and (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    height: auto;
+    text-align: center;
+    padding: 2rem 0;
+  }
+
+  .right {
+    order: 1;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+  }
+
+  .text {
+    padding: 0;
+  }
+
+  .text span {
+    font-size: 2.4rem;
+    letter-spacing: 1px;
+  }
+
+  .text p {
+    font-size: 1rem;
+    margin-top: 0.5rem;
+  }
+
+  .left {
+    order: 2;
+    width: 100%;
+    margin-top: 2rem;
+  }
+
+  .anime {
+    flex-direction: row; 
+    animation: scrollSide 15s linear infinite;
+  }
+
+  .anime img {
+    width: 220px;
+    height: 300px;
+    margin: 0 10px;
+    border-radius: 10px;
+  }
+
+  @keyframes scrollSide {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(50%);
+    }
+  }
+  .heading p{
+    font-size: 2.5rem;
+  }
+  .announcement p{
+    font-size: 1.5rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .timeline::before {
+    display: none;
+  }
+
+  .flags {
+    height: auto;
+    margin-bottom: 2rem;
+  }
+
+  .toprow,
+  .bottomrow {
+    flex-direction: column;
+    height: auto;
+  }
+  .topleft,
+  .bottomright {
+    width: 100%;
+    height: auto;
+    justify-content: center;
+  }
+
+  .topleft img,
+  .bottomright img {
+    width: auto;
+    height: auto;
+    border: 6px solid #fff;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
+    object-fit: contain;
+  }
+
+  .topright,
+  .bottomleft {
+    width: 100%;
+    text-align: center;
+    padding: 1rem 0;
+  }
+
+  .desc1,
+  .desc2 {
+    margin-top: 1rem;
+    padding: 0;
+    font-size: 1rem;
+  }
+
+  .btn1,
+  .btn2 {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .price1,
+  .price2 {
+    padding: 0;
+    font-size: 1rem;
+  }
+
+  .alert-btn1,
+  .alert-btn2 {
+    padding: 0.4rem 0.8rem;
+    font-size: 0.9rem;
+    padding-left: 0;
+  }
+
+  .topleft::before,
+  .topleft::after,
+  .bottomright::before,
+  .bottomright::after {
+    display: none !important;
+  }
+
+  .month {
+    height: auto;
+    margin: 2rem 0 1rem;
+  }
+
+  .month h2 {
+    font-size: 1.3rem;
+  }
+
+  img {
+    max-height: 250px;
+  }
+
+  .toprow,
+  .bottomrow {
+    flex-direction: column;
+  }
+
+  .bottomrow {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .topright,
+  .bottomleft {
+    text-align: center;
+    padding: 1rem 0;
+  }
+
+  .topleft img,
+  .bottomright img {
+    width: auto;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer-up {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 2rem 1rem;
+  }
+
+  .sec1, .sec2, .sec3 {
+    width: 100%;
+    padding: 0;
+  }
+
+  .sec1-head, .sec2-head, .sec3-head {
+    font-size: 1.4rem;
+  }
+
+  .sec1-p, .sec3-p, .sec2 ul li {
+    font-size: 0.9rem;
+    line-height: 1.4rem;
+  }
+
+  .sec3 input {
+    max-width: 100%;
+    width: 90%;
+  }
+
+  .sec3 button {
+    width: 90%;
+  }
+
+  .footer-down {
+    flex-direction: column;
+    text-align: center;
+    padding: 1rem;
+    gap: 1rem;
+  }
+
+  .footer-down .s2 ul {
+    justify-content: center;
+    gap: 0.6rem;
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (min-width:769px){
+  /* .desc2 {
+    padding-left: 5rem;
+  } */
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .toprow,
+  .bottomrow {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    padding: 1.5rem;
+  }
+
+  .topleft img,
+  .bottomright img {
+    width: 60%;
+    height: auto;
+    border-radius: 10px;
+  }
+
+  .topright,
+  .bottomleft {
+    width: 50%;
+    text-align: left;
+    padding: 1rem;
+  }
+
+   .desc2{
+    padding-left: 3rem;
+   }
+   .price2{
+    padding-left: 3rem;
+   }
+   .desc1{
+    padding-left: 3rem;
+   }
+   .price1{
+    padding-left: 3rem ;
+   }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1400px) {
+  .desc1,
+  .desc2 {
+    margin-top: 6rem;
+    padding-left: clamp(6rem, 8vw, 10rem);
+  }
+
+  .price1,
+  .price2 {
+    padding-left: clamp(8rem, 10vw, 12rem);
+  }
+
+  .alert-btn1 {
+    padding-left: clamp(7rem, 8vw, 10rem);
+  }
+
+  .alert-btn2 {
+    padding-left: clamp(4rem, 6vw, 8rem);
+  }
+
+  .topleft img,
+  .bottomright img {
+    height: auto;
+    max-height: 90%;
+  }
+
+  .flags {
+    height: auto;
+    min-height: 80vh;
+  }
+
+  .desc1 h3,
+  .desc2 h3 {
+    font-size: clamp(1rem, 1.5vw, 1.2rem);
+  }
+
+  .price1,
+  .price2 {
+    font-size: clamp(0.9rem, 1.2vw, 1rem);
+  }
+}
+
+.start {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  padding: 0 20px;
+}
+
+.hamburger {
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 25px;
+  height: 18px;
+  cursor: pointer;
+}
+
+.hamburger span {
+  height: 3px;
+  width: 100%;
+  background: white;
+  border-radius: 2px;
+  transition: 0.3s;
+}
+
+.nav-links {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+}
+
+@media (max-width: 1024px) {
+  .start {
+    position: relative; 
+    flex-wrap: wrap;
+    height: auto;
+    padding: 1rem 1.2rem;
+  }
+
+  .hamburger {
+    position: absolute;
+    top: 1.5rem;
+    right: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 25px;
+    height: 18px;
+    cursor: pointer;
+    z-index: 300; 
+  }
+
+  .hamburger span {
+    height: 3px;
+    width: 100%;
+    background: white;
+    border-radius: 2px;
+    transition: 0.3s;
+  }
+
+  .hamburger.active span:nth-child(1) {
+    transform: rotate(45deg) translateY(8px);
+  }
+
+  .hamburger.active span:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger.active span:nth-child(3) {
+    transform: rotate(-45deg) translateY(-8px);
+  }
+
+  .nav-links {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.95);
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: flex-start;
+    display: none;
+    transition: all 0.3s ease-in-out;
+    padding: 1.5rem 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  .nav-links .two ul,
+  .nav-links .menu ul,
+  .nav-links .right-icons ul {
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5rem 0;
+    gap: 20px;
+  }
+
+  .nav-links .menu ul a::before {
+    content: "";
+  }
+
+  .right-icons ul {
+    margin-left: 0 !important;
+    justify-content: center;
+  }
+
+  .title {
+    padding: 0;
+  }
 }
