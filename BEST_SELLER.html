@@ -10,31 +10,41 @@
 </head>
 
 <body>
-    <header>
-        <div class="head">
-            <div class="title">
-                <span>LOXI</span>
-            </div>
-            <nav>
-                <div class="two">
-                    <ul>
-                        <li><a href="/TheMAN.html">Man</a></li>
-                        <li><a href="/TheWOMEN.html">Women</a></li>
-                    </ul>
-                </div>
-                <div class="menu">
-                    <ul>
-                        <li><a href="/EshopMAN.html">Eshop</a></li>
-                        <li><a href="/bestseller.html">Best Seller</a></li>
-                        <li><a href="/NEWARRIVALM.html">New Arrivals</a></li>
-                        <li><a href="#Diary">Diary</a></li>
-                        <li><a href="/aboutwebpage.html">The Brand</a></li>
-                    </ul>
-                </div>
-                <div class="right">
-                    <ul>
-                        <li><a href="#FR">EN</a></li>
-                        <li><a href="/loginpage.html" title="Login"><svg xmlns="http://www.w3.org/2000/svg"
+   <header>
+  <div class="head">
+    <div class="title">
+      <span>LOXI</span>
+    </div>
+
+    <!-- Hamburger Icon -->
+    <div class="hamburger" id="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+
+    <!-- Navigation Menu -->
+    <nav id="nav-menu">
+      <div class="two">
+        <ul>
+          <li><a href="/TheMAN.html">Man</a></li>
+          <li><a href="/TheWOMEN.html">Women</a></li>
+        </ul>
+      </div>
+      <div class="menu">
+        <ul>
+          <li><a href="/EshopMAN.html">Eshop</a></li>
+          <li><a href="/bestseller.html">Best Seller</a></li>
+          <li><a href="/NEWARRIVALM.html">New Arrivals</a></li>
+          <li><a href="/accessories.html">Diary</a></li>
+          <li><a href="/aboutwebpage.html">The Brand</a></li>
+        </ul>
+      </div>
+      <div class="right">
+        <ul>
+          <li><a href="#FR">EN</a></li>
+          <li>
+            <a href="/loginpage.html" title="Login"><svg xmlns="http://www.w3.org/2000/svg"
                                     viewBox="0 0 24 24" fill="#ff00ff" id="User--Streamline-Tabler-Filled" height="24"
                                     width="24">
                                     <desc>
@@ -45,18 +55,21 @@
                                         d="M14 14a5 5 0 0 1 5 5v1a2 2 0 0 1 -2 2H7a2 2 0 0 1 -2 -2v-1a5 5 0 0 1 5 -5h4z"
                                         stroke-width="1"></path>
                                 </svg></a></li>
-                        <li><a href="/MyCart.html" title="Cart"><svg class="w-[41px] h-[41px] text-gray-800 dark:text-white"
+          <li>
+            <a href="/MyCart.html" title="Cart"><svg class="w-[41px] h-[41px] text-gray-800 dark:text-white"
                                     aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                     fill="none" viewBox="0 0 24 24">
                                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
                                         stroke-width="2"
                                         d="M5 4h1.5L9 16m0 0h8m-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-8.5-3h9.25L19 7H7.312" />
-                                </svg></a></li>
-                    </ul>
-                </div>
-            </nav>
-        </div>
-    </header>
+                                </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+</header>
 
     <main>
         <div class="filter">
@@ -512,6 +525,7 @@
                     </div>
                 </div>
 
+
                 <div class="row8">
                     <div class="item1">
                         <div class="pic1">
@@ -636,6 +650,19 @@
       </div>
     </div>
   </footer>
+  <script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const hamburger = document.getElementById("hamburger");
+    const navMenu = document.getElementById("nav-menu");
+
+    hamburger.addEventListener("click", () => {
+      hamburger.classList.toggle("active");
+      navMenu.classList.toggle("active");
+    });
+  });
+</script>
+
+
 
 </body>
 
