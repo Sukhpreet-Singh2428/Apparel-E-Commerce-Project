@@ -226,7 +226,7 @@ main{
     width: 100%;
     border-radius: 2rem;
 }
-.vid1 video{
+.vid1 img{
     height: 100%;
     width: 99%;
     object-fit: cover;
@@ -238,7 +238,7 @@ main{
     width: 100%;
     border-radius: 2rem;
 }
-.vid2 video{
+.vid2 img{
     height: 100%;
     width: 99%;
     object-fit: cover;
