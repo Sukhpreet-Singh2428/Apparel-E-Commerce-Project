@@ -13,7 +13,29 @@
       "password": "hello"
     }
   ],
-  "cart": [],
+  "cart": [
+    {
+      "id": "1",
+      "name": "Brown Milano T-shirt",
+      "price": "₹1,916",
+      "image": "https://i.pinimg.com/1200x/b0/90/33/b090334ab96f460c58b8584d51a168cc.jpg",
+      "quantity": 1
+    },
+    {
+      "id": "8",
+      "name": "Black washed jeans",
+      "price": "₹1,399",
+      "image": "https://i.pinimg.com/1200x/69/19/40/691940ff7b412b4aad1224f20825c51b.jpg",
+      "quantity": 1
+    },
+    {
+      "id": "19",
+      "name": "Navy blue zip up hoodie",
+      "price": "₹1,500",
+      "image": "https://i.pinimg.com/736x/14/87/d5/1487d5ca886c63afb9cdaf2fdc784d96.jpg",
+      "quantity": 1
+    }
+  ],
   "products": [
     {
       "id": "1",
