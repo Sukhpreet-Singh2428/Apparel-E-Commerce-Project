@@ -309,10 +309,10 @@
       "vid1": "https://montclairlondon.com/cdn/shop/files/S2d9d439d41bf4a1e8644d7b31f78fb5fd_jpg_640x640_jpg_7ef13720-66ec-43b9-bc1b-17f4fe52422b_1800x1800.webp?v=1753443852",
       "vid2": "https://i.pinimg.com/736x/4c/ee/1d/4cee1d9658c8665cb16f76045874031b.jpg"
     }
-  ]
-  , "bestseller":[
+  ],
+  "bestseller": [
     {
-          
+      "id": "e4a2"
     }
   ]
 }

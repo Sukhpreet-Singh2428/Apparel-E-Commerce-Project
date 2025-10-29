@@ -10,6 +10,8 @@ document.getElementById("loginform").addEventListener("submit", async (func) => 
     const users = await res.json();
 
     if (users.length > 0) {
+        const user = users[0];
+        sessionStorage.setItem("activeUser", JSON.stringify(user));
         result.style.color = "green";
         result.innerText = `Welcome back, ${users[0].name}! Redirecting...`;
 

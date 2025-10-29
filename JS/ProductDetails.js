@@ -4,12 +4,13 @@ document.addEventListener("DOMContentLoaded", () => {
   const CART_URL = "http://localhost:3000/cart";
   let currentProduct = null;
 
+  const addToCartBtn = document.getElementById("addToCartBtn");
+
   async function loadProduct() {
     const res = await fetch(`http://localhost:3000/products/${productId}`);
     const product = await res.json();
     currentProduct = product;
 
-    // Fill data
     document.getElementById("MainImg").src = product.MainImg;
     document.getElementById("sideImg1").src = product.sideImg1;
     document.getElementById("sideImg2").src = product.sideImg2;
@@ -28,9 +29,31 @@ document.addEventListener("DOMContentLoaded", () => {
     sizes.forEach((s, i) => {
       if (sizeSpans[i]) sizeSpans[i].textContent = s;
     });
+
+    updateButtonState();
   }
 
-  document.getElementById("addToCartBtn").addEventListener("click", async (e) => {
+  async function updateButtonState() {
+    if (!currentProduct) return;
+    try {
+      const res = await fetch(`${CART_URL}?name=${encodeURIComponent(currentProduct.name)}`);
+      const data = await res.json();
+
+      if (data.length > 0) {
+        addToCartBtn.textContent = "Added to Cart";
+        addToCartBtn.style.backgroundColor = "#5fe17dff"; 
+        addToCartBtn.style.color = "white";
+      } else {
+        addToCartBtn.textContent = "Add to Cart";
+        addToCartBtn.style.backgroundColor = "#8a8b8dff"; 
+        addToCartBtn.style.color = "white";
+      }
+    } catch (error) {
+      console.error("Error checking cart:", error);
+    }
+  }
+
+  addToCartBtn.addEventListener("click", async (e) => {
     e.preventDefault();
     if (!currentProduct) return;
 
@@ -41,20 +64,13 @@ document.addEventListener("DOMContentLoaded", () => {
     try {
       const res = await fetch(`${CART_URL}?name=${encodeURIComponent(productName)}`);
       const data = await res.json();
-      let messageText = "";
 
       if (data.length > 0) {
+
         const existing = data[0];
-        const newQuantity = (existing.quantity || 1) + 1;
-
-        await fetch(`${CART_URL}/${existing.id}`, {
-          method: "PATCH",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({ quantity: newQuantity })
-        });
-
-        messageText = `✅ Quantity updated to ${newQuantity}!`;
+        await fetch(`${CART_URL}/${existing.id}`, { method: "DELETE" });
       } else {
+
         const newProduct = {
           id: currentProduct.id,
           name: productName,
@@ -68,34 +84,14 @@ document.addEventListener("DOMContentLoaded", () => {
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify(newProduct)
         });
-
-        messageText = "✅ Added to cart successfully!";
       }
 
-      const msg = document.createElement("div");
-      msg.textContent = messageText;
-      msg.style.cssText = `
-        position: fixed;
-        bottom: 20px;
-        left: 50%;
-        transform: translateX(-50%);
-        background: #222;
-        color: white;
-        padding: 10px 20px;
-        border-radius: 8px;
-        font-size: 16px;
-        z-index: 9999;
-      `;
-      document.body.appendChild(msg);
-      setTimeout(() => {
-        msg.style.opacity = "0";
-        setTimeout(() => msg.remove(), 1000);
-      }, 4000); 
+      updateButtonState();
     } catch (error) {
-      console.error("Error:", error);
-      alert("❌ Something went wrong! Check console.");
+      console.error("Error updating cart:", error);
     }
   });
+
 
   loadProduct();
 });
