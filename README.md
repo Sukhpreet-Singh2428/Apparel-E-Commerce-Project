@@ -109,7 +109,9 @@ APPAREL E-COMMERCE PROJECT/
 ├── .vscode/
 │
 ├── Assets/
-│
+│ ├── Photos
+│ ├── Icons
+│ 
 ├── CSS/
 │ ├── aboutwebpage.css
 │ ├── accessories.css
