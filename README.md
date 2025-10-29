@@ -42,13 +42,13 @@ Follow these steps to run **Loxi** locally on your system:
 ```bash
 git clone https://github.com/<your-username>/loxi-store.git
 cd loxi-store
-
+```
 2. Install JSON Server
 
 If you don’t have JSON Server installed globally:
-
+```bash
 npm install -g json-server
-
+```
 3. Check Your db.json File
 
 The file db.json contains all data for:
@@ -59,6 +59,7 @@ Users – /users
 
 Cart Items – /cart
 
+``` bash
 Example structure:
 
 {
@@ -76,13 +77,14 @@ Example structure:
   "users": [],
   "cart": []
 }
-
-⚡ 4. Start the JSON Server
+``` 
+4. Start the JSON Server
 
 Run this command inside your project directory:
-
+``` bash
+cd DATA
 json-server --watch db.json --port 3000
-
+```
 
 This will start a mock REST API at:
 
@@ -102,7 +104,7 @@ Simply open index.html in your browser, or use Live Server in VS Code for best p
 
 
 ## 📁 Folder Structure
-
+``` bash
 APPAREL E-COMMERCE PROJECT/
 ├── .vscode/
 │
@@ -159,3 +161,4 @@ APPAREL E-COMMERCE PROJECT/
 ├── TheMAN.html
 ├── TheWOMEN.html
 └── README.md
+```
