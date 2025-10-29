@@ -1195,6 +1195,59 @@ nav a {
     font-family: "Audiowide", sans-serif;
 }
 
+/* Enhanced filter styles */
+.tags li {
+    position: relative;
+}
+
+.filter-dropdown {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    z-index: 1000;
+    max-height: 300px;
+    overflow-y: auto;
+    min-width: 200px;
+}
+
+.filter-dropdown div {
+    padding: 0.5rem;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-bottom: 0.25rem;
+    transition: background-color 0.2s;
+}
+
+.filter-dropdown div:hover {
+    background-color: #f0f0f0;
+}
+
+.active-filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin: 1rem 0;
+    padding: 1rem;
+    background: #f8f9fa;
+    border-radius: 8px;
+    align-items: center;
+    animation: fadeIn 0.3s ease-in;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.no-products-message {
+    text-align: center;
+    padding: 3rem;
+    font-family: "Audiowide", sans-serif;
+    font-size: 1.2rem;
+    color: #666;
+}
 @media (max-width: 1024px) {
     .hamburger { display: flex; }
 
