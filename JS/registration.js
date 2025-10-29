@@ -30,6 +30,7 @@ document.getElementById("registrationform").addEventListener("submit", async(fun
         setTimeout(() => {
             window.location.href = "loginpage.html";
         }, 1000);
+        document.getElementById("registrationform").reset();
 
     } else {
         result.style.color = "red";
