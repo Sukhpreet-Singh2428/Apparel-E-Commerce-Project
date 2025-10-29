@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", async () => {
         let total = 0;
 
         if (cartItems.length === 0) {
-            cartContainer.innerHTML = "<p>Your cart is empty 😔</p>";
+            cartContainer.innerHTML = "<p>Your cart is empty</p>";
             cartTotal.innerText = "₹0";
             cartCount.innerText = "0";
             return;
