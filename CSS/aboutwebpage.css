@@ -277,3 +277,213 @@
   height: 5rem;
   /* background-color: aliceblue; */
 }
+
+@media (max-width: 768px) {
+  .main {
+    height: auto;
+    background-color: ghostwhite;
+  }
+
+  .heading h1 {
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 1rem;
+  }
+
+  .col1,
+  .col2,
+  .col3,
+  .col4 {
+    flex-direction: column;
+    height: auto;
+    align-items: center;
+  }
+
+  .imgx,
+  .img1,
+  .img2,
+  .img3 {
+    width: 100%;
+    height: auto;
+    padding: 1rem 0;
+  }
+
+  .imgx img,
+  .img1 img,
+  .img2 img,
+  .img3 img {
+    width: 90%;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+
+  .para,
+  .para1,
+  .para2,
+  .para3 {
+    width: 90%;
+    margin: 1.5rem 0;
+    height: auto;
+    padding: 1.2rem;
+    border-radius: 1.2rem;
+  }
+
+  .para p,
+  .para1 p,
+  .para2 p,
+  .para3 p {
+    font-size: 1rem;
+    line-height: 1.6;
+    text-align: center;
+  }
+
+  .photo {
+    height: auto;
+  }
+
+  .photo img {
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .info {
+    width: 90%;
+    height: auto;
+    padding: 2rem 1rem;
+    border-radius: 2rem;
+  }
+
+  .info p {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+
+  .space1,
+  .space2,
+  .space3,
+  .space4,
+  .space5 {
+    height: 2rem;
+  }
+
+  .space2 h2 {
+    font-size: 1.2rem;
+  }
+
+  .footerimg {
+    height: auto;
+    padding-bottom: 2rem;
+  }
+
+  .footerimg img {
+    width: 100%;
+    object-fit: cover;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .main {
+    height: auto;
+  }
+
+  .heading h1 {
+    font-size: 1.4rem;
+  }
+
+  .col1,
+  .col2,
+  .col3,
+  .col4 {
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: auto;
+  }
+
+  .imgx,
+  .img1,
+  .img2,
+  .img3 {
+    width: 50%;
+    height: auto;
+  }
+
+  .para,
+  .para1,
+  .para2,
+  .para3 {
+    width: 45%;
+    height: auto;
+    margin: auto;
+    padding: 1.5rem;
+  }
+
+  .para p,
+  .para1 p,
+  .para2 p,
+  .para3 p {
+    font-size: 1.1rem;
+    line-height: 1.7;
+  }
+
+  .info {
+    width: 85%;
+    height: auto;
+    padding: 2rem;
+  }
+
+  .info p {
+    font-size: 1.1rem;
+  }
+
+  .photo {
+    height: 30rem;
+  }
+
+  .photo img {
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .footerimg {
+    height: 30rem;
+  }
+
+  .footerimg img {
+    width: 100%;
+    object-fit: cover;
+  }
+}
+
+@media (min-width: 1025px) {
+  .main {
+    width: 100%;
+    height: auto;
+  }
+
+  .heading h1 {
+    font-size: 2rem;
+  }
+
+  .para p,
+  .para1 p,
+  .para2 p,
+  .para3 p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+  }
+
+  .info {
+    width: 75%;
+  }
+
+  .info p {
+    font-size: 1.2rem;
+  }
+
+  .photo img,
+  .footerimg img {
+    object-fit: cover;
+  }
+}
+
+

@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const addToCartBtn = document.getElementById("addToCartBtn");
 
   async function loadProduct() {
-    const res = await fetch(`http://localhost:3000/products/${productId}`);
+    const res = await fetch(`http://localhost:3000/womenEshop/${productId}`);
     const product = await res.json();
     currentProduct = product;
 

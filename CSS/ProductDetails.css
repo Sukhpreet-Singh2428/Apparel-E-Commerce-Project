@@ -226,7 +226,7 @@ main{
     width: 100%;
     border-radius: 2rem;
 }
-.vid1 video{
+.vid1 img{
     height: 100%;
     width: 99%;
     object-fit: cover;
@@ -238,7 +238,7 @@ main{
     width: 100%;
     border-radius: 2rem;
 }
-.vid2 video{
+.vid2 img{
     height: 100%;
     width: 99%;
     object-fit: cover;
@@ -947,7 +947,7 @@ main{
     font-family: "Audiowide", sans-serif;
     font-size: 1rem;
     margin-left: 1rem;
-    margin-top: 1.5rem;
+    margin-top: 1rem;
 }
 .upper .review-text button{
     font-family: "Audiowide", sans-serif;
@@ -961,7 +961,7 @@ main{
     cursor: pointer;
 }
 .upper .review-written{
-    margin-top: 2rem;
+    margin-top: 1rem;
     margin-left: 2rem;
     height: 20vh;
     width: 80%;
@@ -1031,7 +1031,7 @@ main{
     font-size: 0.8rem;
     text-align: right;
     margin-right: 2rem;
-    margin-top: 1rem;
+    margin-top: 0.5rem;
     color: purple;
     cursor: pointer;
 }
@@ -1040,7 +1040,7 @@ main{
     font-size: 0.8rem;
     color: gray;
     margin-left: 1rem;
-    margin-top: 2rem;
+    margin-top: 0.5rem;
 }
 .upper .review-others span{
     color: black;
@@ -1050,7 +1050,7 @@ main{
 }
 .upper .review-helpful{
     margin-left: 1rem;
-    margin-top: 2.5rem;
+    margin-top: 1rem;
 }
 .upper .review-helpful button{
     height: 2rem;
