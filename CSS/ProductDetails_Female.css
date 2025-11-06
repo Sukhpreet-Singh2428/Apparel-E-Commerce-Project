@@ -226,7 +226,7 @@ main{
     width: 100%;
     border-radius: 2rem;
 }
-.vid1 video{
+.vid1 img{
     height: 100%;
     width: 99%;
     object-fit: cover;
@@ -238,13 +238,6 @@ main{
     width: 100%;
     border-radius: 2rem;
 }
-/* .vid2 video{
-    height: 100%;
-    width: 99%;
-    object-fit: cover;
-    border-radius: 2rem;
-    margin-left: 0.4rem;
-} */
 .vid2 img{
     height: 100%;
     width: 99%;
@@ -282,7 +275,6 @@ main{
     font-family: "Audiowide", sans-serif;
     font-size: 1rem;
     margin-left: 1rem;
-    margin-right: 1rem;
     margin-bottom: 0.5rem;
 }
 .upper .rating{
@@ -583,7 +575,7 @@ main{
 }
 .upper .cupon1 .up .logo img{
     width: 96%;
-    height: 60%;
+    height: 59%;
     border-radius: 1rem;
     margin-top: 2.5rem;
     margin-left: 0.5rem;
@@ -679,7 +671,7 @@ main{
 }
 .upper .cupon2 .up .logo img{
     width: 96%;
-    height: 60%;
+    height: 59%;
     border-radius: 1rem;
     margin-top: 2.5rem;
     margin-left: 0.5rem;
@@ -823,7 +815,6 @@ main{
     color: black;
     margin-left: 3rem;
     margin-bottom: 1rem;
-    margin-right: 1rem;
 }
 .upper .Product-know{
     font-family: "Audiowide", sans-serif;
@@ -840,7 +831,7 @@ main{
     font-size: 0.8rem;
     color: gray;
     margin-left: 3rem;
-    margin-right: 2.5rem;
+    margin-right: 1rem;
     margin-top: 0.5rem;
     font-style: italic;
 }
@@ -956,7 +947,7 @@ main{
     font-family: "Audiowide", sans-serif;
     font-size: 1rem;
     margin-left: 1rem;
-    margin-top: 1.5rem;
+    margin-top: 1rem;
 }
 .upper .review-text button{
     font-family: "Audiowide", sans-serif;
@@ -970,7 +961,7 @@ main{
     cursor: pointer;
 }
 .upper .review-written{
-    margin-top: 2rem;
+    margin-top: 1rem;
     margin-left: 2rem;
     height: 20vh;
     width: 80%;
@@ -1040,7 +1031,7 @@ main{
     font-size: 0.8rem;
     text-align: right;
     margin-right: 2rem;
-    margin-top: 1rem;
+    margin-top: 0.5rem;
     color: purple;
     cursor: pointer;
 }
@@ -1049,7 +1040,7 @@ main{
     font-size: 0.8rem;
     color: gray;
     margin-left: 1rem;
-    margin-top: 2rem;
+    margin-top: 0.5rem;
 }
 .upper .review-others span{
     color: black;
@@ -1059,7 +1050,7 @@ main{
 }
 .upper .review-helpful{
     margin-left: 1rem;
-    margin-top: 2.5rem;
+    margin-top: 1rem;
 }
 .upper .review-helpful button{
     height: 2rem;
