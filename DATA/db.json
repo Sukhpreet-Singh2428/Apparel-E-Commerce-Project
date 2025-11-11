@@ -11,9 +11,30 @@
       "name": "Yanev Rana",
       "email": "cambyanev@gmail.com",
       "password": "hello"
+    },
+    {
+      "id": "209f",
+      "name": "Reetik",
+      "email": "reetikk77@gmail.com",
+      "password": "123456"
     }
   ],
-  "cart": [],
+  "cart": [
+    {
+      "id": "2",
+      "name": "Dark Green Boneless T-shirt",
+      "price": "₹1,916",
+      "image": "https://i.pinimg.com/1200x/f2/ae/6a/f2ae6a9e5ccb24527a0510f0c8c16117.jpg",
+      "quantity": 4
+    },
+    {
+      "id": "1",
+      "name": "Brown Milano T-shirt",
+      "price": "₹1,916",
+      "image": "https://i.pinimg.com/1200x/b0/90/33/b090334ab96f460c58b8584d51a168cc.jpg",
+      "quantity": 1
+    }
+  ],
   "products": [
     {
       "id": "1",
