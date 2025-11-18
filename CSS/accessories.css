@@ -147,7 +147,11 @@ header {
 /* Banner */
 .banner {
     height: 80vh;
-    background: linear-gradient(135deg, #f5f7fa 0%, #e4e8ed 100%);
+    /* background: linear-gradient(135deg, #f5f7fa 0%, #e4e8ed 100%); */
+    background: url("/Assets/accesories_background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
     display: flex;
     align-items: center;
     justify-content: center;
