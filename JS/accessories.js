@@ -93,6 +93,108 @@ function applyFilters() {
             });
         }
 
+<<<<<<< HEAD
+//         // Sort functionality
+//         const sortDropdown = document.querySelector('.sort-dropdown');
+        
+//         sortDropdown.addEventListener('change', () => {
+//             const sortValue = sortDropdown.value;
+//             const activeCategory = document.querySelector('.category-btn.active').getAttribute('data-category');
+//             let cardsToSort = [];
+            
+//             if (activeCategory === 'all') {
+//                 cardsToSort = Array.from(accessoryCards);
+//             } else {
+//                 cardsToSort = Array.from(accessoryCards).filter(card => 
+//                     card.getAttribute('data-category') === activeCategory
+//                 );
+//             }
+            
+//             cardsToSort.sort((a, b) => {
+//                 const priceA = parseInt(a.getAttribute('data-price'));
+//                 const priceB = parseInt(b.getAttribute('data-price'));
+                
+//                 switch (sortValue) {
+//                     case 'low-high':
+//                         return priceA - priceB;
+//                     case 'high-low':
+//                         return priceB - priceA;
+//                     case 'newest':
+//                         // For demo, we'll consider items with 'new-arrival' tag as newest
+//                         const tagsA = a.getAttribute('data-tags');
+//                         const tagsB = b.getAttribute('data-tags');
+//                         if (tagsA.includes('new-arrival') && !tagsB.includes('new-arrival')) return -1;
+//                         if (!tagsA.includes('new-arrival') && tagsB.includes('new-arrival')) return 1;
+//                         return 0;
+//                     default: // popular
+//                         return 0;
+//                 }
+//             });
+            
+//             // Reorder the cards in their respective containers
+//             const containers = document.querySelectorAll('.products-grid');
+//             containers.forEach(container => {
+//                 const containerCards = Array.from(container.children);
+//                 cardsToSort.forEach(card => {
+//                     if (containerCards.includes(card.parentNode)) {
+//                         container.appendChild(card.parentNode);
+//                     }
+//                 });
+//             });
+//         });
+
+// document.addEventListener("DOMContentLoaded", () => {
+//     const CART_URL = "http://localhost:3000/cart";
+    
+//     // Add to cart functionality
+//     const addToCartBtns = document.querySelectorAll('.accessory-card button');
+    
+//     addToCartBtns.forEach(btn => {
+//         btn.addEventListener('click', async (e) => {
+//             e.preventDefault();
+//             const card = btn.closest('.accessory-card');
+//             const productName = card.querySelector('.product-name').textContent;
+//             const productPrice = card.querySelector('.product-price').textContent;
+//             const productImage = card.querySelector('.pic img').src;
+            
+//             // Extract price number from text (e.g., "₹4,500 in pre-order")
+//             const priceMatch = productPrice.match(/₹([\d,]+)/);
+//             const price = priceMatch ? parseInt(priceMatch[1].replace(/,/g, '')) : 0;
+            
+//             // Generate unique product ID
+//             const productId = productName.toLowerCase().replace(/[^a-z0-9]/g, '-') + '-' + Date.now();
+            
+//             try {
+//                 // Add item to cart
+//                 await fetch(CART_URL, {
+//                     method: "POST",
+//                     headers: { "Content-Type": "application/json" },
+//                     body: JSON.stringify({
+//                         id: productId,
+//                         name: productName,
+//                         price: `₹${price}`,
+//                         image: productImage,
+//                         quantity: 1
+//                     })
+//                 });
+                
+//                 // Show success feedback
+//                 btn.textContent = 'ADDED ✓';
+//                 btn.style.background = '#27ae60';
+                
+//                 setTimeout(() => {
+//                     btn.textContent = 'ADD TO CART';
+//                     btn.style.background = '#3498db';
+//                 }, 2000);
+                
+//             } catch (error) {
+//                 console.error('Error adding to cart:', error);
+//                 alert('Failed to add item to cart. Please try again.');
+//             }
+//         });
+//     });
+// });
+=======
         card.style.display = shouldShow ? 'flex' : 'none';
     });
 }
@@ -197,3 +299,4 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     });
 });
+>>>>>>> 2e3e59a39016bd16d838d3d4e3b515f758a9830d

@@ -45,10 +45,29 @@
                     <p>Shipping and discounts calculated at checkout</p>
                 </div>
                 <div class="place">
-                    <button type="button">Place the Order  ➔</button>
+                    <button id="placeOrderBtn" class="place-order-btn">Place Order</button>
                 </div>
             </div>
         </div>
+
+
+
+        <div id="paymentModal" class="payment-modal hidden">
+  <div class="payment-box">
+    <h2>Complete Payment</h2>
+    <p>Select payment method:</p>
+
+    <div class="payment-methods">
+      <button class="method">UPI</button>
+      <button class="method">Card</button>
+      <button class="method">Cash on Delivery</button>
+    </div>
+
+    <button id="payNowBtn" class="pay-btn">Pay Now</button>
+    <button id="closePaymentBtn" class="close-btn">Cancel</button>
+  </div>
+</div>
+
     </main>
 
     <script src="/JS/MyCart.js"></script>
