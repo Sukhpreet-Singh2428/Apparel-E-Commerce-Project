@@ -367,7 +367,7 @@ payNowBtn.addEventListener("click", async () => {
         alert(`🎉 Payment Successful via ${selectedPaymentMethod}! Order Placed.`);
 
         // 7. Redirect to success page or reload
-        window.location.href = "orderSuccess.html"; // or use window.location.reload();
+        // window.location.href = "orderSuccess.html"; // or use window.location.reload();
 
     } catch (error) {
         console.error("Error placing order:", error);
