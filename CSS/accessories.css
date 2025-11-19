@@ -160,7 +160,7 @@ nav {
 .banner {
     height: 93vh;
     /* background: linear-gradient(135deg, #f5f7fa 0%, #e4e8ed 100%); */
-    background: url("https://plus.unsplash.com/premium_photo-1755901267835-6bcb4de846a3?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE2fHx8ZW58MHx8fHx8");
+    background: url("/Assets/accessories_newBack.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
