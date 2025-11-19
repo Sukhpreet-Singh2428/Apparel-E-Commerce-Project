@@ -422,13 +422,16 @@ main {
 }
 
 .payment-box {
-  background: #fff;
+  /* background: #e2e2e2; */
+  backdrop-filter: blur(50px);
+  /* border: 2px solid black; */
   padding: 25px;
   border-radius: 12px;
   width: 350px;
   text-align: center;
   font-family: Poppins, sans-serif;
-  box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+  box-shadow: 0 6px 30px rgba(0,0,0,0.2);
+  color: white;
 }
 
 .payment-methods button {
@@ -437,13 +440,15 @@ main {
   border-radius: 8px;
   border: 1px solid #aaa;
   cursor: pointer;
-  background: #f4f4f4;
+  background: #000;
+  color: #000;
 }
 
 .pay-btn {
   width: 100%;
   padding: 12px;
-  background: #1e88e5;
+  /* background: #1e88e5; */
+  background-color: greenyellow;
   color: white;
   margin-top: 15px;
   border: none;
@@ -456,6 +461,7 @@ main {
   background: transparent;
   border: none;
   color: red;
+  font-weight: bold;
   cursor: pointer;
 }
 
@@ -471,10 +477,11 @@ main {
   border-radius: 8px;
   border: 1px solid #aaa;
   cursor: pointer;
-  background: #f4f4f4;
+  background: gray;
+  color: #000;
+  font-weight: bold;
   transition: all 0.3s ease;
   font-family: 'Poppins', sans-serif;
-  font-weight: 500;
 }
 
 .payment-methods button:hover {
@@ -483,17 +490,17 @@ main {
 }
 
 .payment-methods button.selected {
-  background: #1e88e5;
-  color: white;
-  border-color: #1565c0;
+  background: greenyellow;
+  color: #000;
+  border-color: white;
   transform: scale(1.05);
-  box-shadow: 0 4px 12px rgba(30, 136, 229, 0.3);
+  box-shadow: 0 4px 12px rgba(211, 213, 215, 0.3);
 }
 
 .pay-btn {
   width: 100%;
   padding: 12px;
-  background: #1e88e5;
+  background: green;
   color: white;
   margin-top: 15px;
   border: none;
@@ -506,9 +513,10 @@ main {
 }
 
 .pay-btn:hover {
-  background: #1565c0;
+  background: greenyellow;
+  color: #000;
   transform: translateY(-2px);
-  box-shadow: 0 4px 15px rgba(30, 136, 229, 0.4);
+  box-shadow: 0 4px 15px rgba(117, 117, 117, 0.4);
 }
 
 .pay-btn:active {
@@ -519,10 +527,12 @@ main {
   margin-top: 10px;
   background: transparent;
   border: none;
-  color: #e53935;
+  color: #ff3b38;
+  font-weight: bold;
+  font-size: 1rem;
   cursor: pointer;
   font-family: 'Poppins', sans-serif;
-  font-weight: 600;
+  /* font-weight: 600; */
   transition: all 0.3s ease;
 }
 
