@@ -20,72 +20,7 @@
     }
   ],
   "cart": [],
-  "orders": [
-    {
-      "id": "5a2e",
-      "items": [
-        {
-          "id": "1",
-          "name": "Brown Milano T-shirt",
-          "price": "₹1,916",
-          "image": "https://i.pinimg.com/1200x/b0/90/33/b090334ab96f460c58b8584d51a168cc.jpg",
-          "quantity": 1
-        }
-      ],
-      "date": "2025-11-18T07:07:01.669Z",
-      "totalAmount": 1916,
-      "paymentMethod": "UPI",
-      "status": "Confirmed"
-    },
-    {
-      "id": "3b22",
-      "items": [
-        {
-          "id": "13",
-          "name": "Nike sb dunk low jarritos",
-          "price": "₹1,916",
-          "image": "https://i.pinimg.com/736x/17/ce/43/17ce43986ba14179d87ac487d18c33f4.jpg",
-          "quantity": 2
-        }
-      ],
-      "date": "2025-11-18T07:08:49.288Z",
-      "totalAmount": 3832,
-      "paymentMethod": "Cash on Delivery",
-      "status": "Confirmed"
-    },
-    {
-      "id": "77d6",
-      "items": [
-        {
-          "id": "13",
-          "name": "Nike sb dunk low jarritos",
-          "price": "₹1,916",
-          "image": "https://i.pinimg.com/736x/17/ce/43/17ce43986ba14179d87ac487d18c33f4.jpg",
-          "quantity": 1
-        }
-      ],
-      "date": "2025-11-18T07:10:36.496Z",
-      "totalAmount": 1916,
-      "paymentMethod": "UPI",
-      "status": "Confirmed"
-    },
-    {
-      "id": "1b3e",
-      "items": [
-        {
-          "id": "1",
-          "name": "Brown Milano T-shirt",
-          "price": "₹1,916",
-          "image": "https://i.pinimg.com/1200x/b0/90/33/b090334ab96f460c58b8584d51a168cc.jpg",
-          "quantity": 2
-        }
-      ],
-      "date": "2025-11-19T06:51:29.712Z",
-      "totalAmount": 3832,
-      "paymentMethod": "UPI",
-      "status": "Confirmed"
-    }
-  ],
+  "orders": [],
   "products": [
     {
       "id": "1",
