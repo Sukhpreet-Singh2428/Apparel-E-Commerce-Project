@@ -93,7 +93,6 @@ function applyFilters() {
             });
         }
 
-<<<<<<< HEAD
 //         // Sort functionality
 //         const sortDropdown = document.querySelector('.sort-dropdown');
         
@@ -194,7 +193,6 @@ function applyFilters() {
 //         });
 //     });
 // });
-=======
         card.style.display = shouldShow ? 'flex' : 'none';
     });
 }
@@ -299,4 +297,3 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     });
 });
->>>>>>> 2e3e59a39016bd16d838d3d4e3b515f758a9830d
