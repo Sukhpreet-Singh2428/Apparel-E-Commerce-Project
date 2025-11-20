@@ -379,7 +379,7 @@ h2 {
     /* background: #ffffff; */
     background: linear-gradient(to bottom, #ffffff, #f0f0f0, rgb(242, 247, 255));
     border-radius: 12px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    /* box-shadow: 0 5px 5px rgba(11, 0, 0, 0.904); */
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     display: flex;
     flex-direction: column;
@@ -390,7 +390,7 @@ h2 {
 
 .accessory-card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 5px 5px rgba(11, 0, 0, 0.904);
 }
 
 .accessory-card .pic {

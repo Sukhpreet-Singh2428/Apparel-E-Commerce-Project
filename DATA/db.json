@@ -19,7 +19,16 @@
       "password": "123456"
     }
   ],
-  "cart": [],
+  "cart": [
+    {
+      "id": "1",
+      "name": "Brown Milano T-shirt",
+      "price": "₹1,916",
+      "image": "https://i.pinimg.com/1200x/b0/90/33/b090334ab96f460c58b8584d51a168cc.jpg",
+      "size": "L",
+      "quantity": 1
+    }
+  ],
   "orders": [],
   "products": [
     {
