@@ -19,17 +19,51 @@
       "password": "123456"
     }
   ],
-  "cart": [
+  "cart": [],
+  "orders": [
     {
-      "id": "1",
-      "name": "Brown Milano T-shirt",
-      "price": "₹1,916",
-      "image": "https://i.pinimg.com/1200x/b0/90/33/b090334ab96f460c58b8584d51a168cc.jpg",
-      "size": "L",
-      "quantity": 1
+      "id": "f6c6",
+      "items": [
+        {
+          "id": "1",
+          "name": "Brown Milano T-shirt",
+          "price": "₹1,916",
+          "image": "https://i.pinimg.com/1200x/b0/90/33/b090334ab96f460c58b8584d51a168cc.jpg",
+          "size": "L",
+          "quantity": 3
+        },
+        {
+          "id": "19",
+          "name": "Navy blue zip up hoodie",
+          "price": "₹1,500",
+          "image": "https://i.pinimg.com/736x/14/87/d5/1487d5ca886c63afb9cdaf2fdc784d96.jpg",
+          "size": "M",
+          "quantity": 1
+        }
+      ],
+      "date": "2025-11-20T06:56:07.811Z",
+      "totalAmount": 7248,
+      "paymentMethod": "UPI",
+      "status": "Confirmed"
+    },
+    {
+      "id": "a6e9",
+      "items": [
+        {
+          "id": "1",
+          "name": "Wrap yellow short dress",
+          "price": "1,709",
+          "image": "https://i.pinimg.com/1200x/cb/73/b1/cb73b13e816e081b17fa8d5574063c77.jpg",
+          "size": "L",
+          "quantity": 1
+        }
+      ],
+      "date": "2025-11-20T06:58:54.255Z",
+      "totalAmount": 1709,
+      "paymentMethod": "Card",
+      "status": "Confirmed"
     }
   ],
-  "orders": [],
   "products": [
     {
       "id": "1",
@@ -327,7 +361,7 @@
     }
   ],
   "bestseller": [
-     {
+    {
       "id": "1",
       "name": "Nike sb dunk low jarritos",
       "price": "₹1,916",
@@ -348,7 +382,6 @@
       "vid1": "https://i.pinimg.com/736x/e4/1a/70/e41a70098205d643b76a1bc2f78ed42c.jpg",
       "vid2": "https://i.pinimg.com/736x/46/6d/53/466d5318d0519cbbb5433a222befc770.jpg"
     },
-
     {
       "id": "2",
       "name": "Mens Beige Baggy Cargo",
