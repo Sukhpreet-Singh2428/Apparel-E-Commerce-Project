@@ -1,166 +1,117 @@
-# 🛍️ LOXI – Apparel Ecommerce Website
+# 🛍️ LOXI — Frontend Ecommerce Application
 
-**Loxi** is a fully responsive and dynamic **Apparel Ecommerce Website** built using **HTML, CSS, and JavaScript**, with data handled through **JSON Server** (`db.json`) as a mock backend.  
-It provides all the core features of an ecommerce website — products, user registration & login, cart system, and dynamic rendering.
+LOXI is a fully responsive ecommerce frontend application built using HTML, CSS, and JavaScript.
+It demonstrates dynamic UI rendering, cart functionality, and authentication flows using a mock REST API powered by JSON Server.
+
+This project focuses on frontend engineering, UI structuring, and API integration — not on building a production backend.
 
 ---
 
-## 🌐 Live Demo (Optional)
-> https://loxi-store.netlify.app/
+## 🌐 Live Demo
+
+[https://loxi-store.netlify.app/](https://loxi-store.netlify.app/)
+
+⚠️ **Note:**
+The deployed version demonstrates UI functionality only.
+Features such as cart and authentication require the JSON Server backend running locally.
+
+---
+
+## 📌 Project Type
+
+Frontend Application with Mock API Integration
+
+* Frontend built using HTML, CSS, JavaScript
+* Backend simulated using JSON Server
+* Data stored locally in `db.json`
+* Designed to practice frontend architecture and API consumption
+
+This is not a production full-stack ecommerce platform.
 
 ---
 
 ## 🚀 Features
 
-- 🏠 **Dynamic Home Page** – Displays trending and featured apparel items.  
-- 👕 **Product Listing Page (PLP)** – Fetches all product data dynamically from the backend (`db.json`).  
-- 📄 **Product Detail Page (PDP)** – Displays details of the selected product using URL parameters (`?id=`).  
-- 🛒 **Cart System** – Add, view, and remove items from the cart dynamically using the `/cart` endpoint.  
-- 🔐 **User Authentication** – Register and login using `/users` endpoint on `json-server`.  
-- 💬 **Smart Notifications** – Clean UI-based messages for registration, login, and cart operations.  
-- 💻 **Fully Functional Mock Backend** – Powered by `json-server`.
+* Dynamic Home Page displaying apparel items
+* Product Listing fetched from API
+* Product Detail view using URL parameters
+* Add/remove items from cart
+* User registration & login simulation
+* Responsive design across devices
+* Notification-based UI feedback
 
 ---
 
 ## 🧠 Tech Stack
 
-| Category | Tools / Libraries |
-|-----------|------------------|
-| **Frontend** | HTML, CSS, JavaScript |
-| **Styling** | CSS3 (fully responsive) |
-| **Backend (Mock)** | JSON Server |
-| **Data Handling** | Fetch API, async/await |
-| **Version Control** | Git & GitHub |
+| Category        | Tools                  |
+| --------------- | ---------------------- |
+| Frontend        | HTML, CSS, JavaScript  |
+| Styling         | CSS3 (Responsive)      |
+| Mock Backend    | JSON Server            |
+| Data Handling   | Fetch API, async/await |
+| Version Control | Git & GitHub           |
+| Deployment      | Netlify                |
 
 ---
 
-## ⚙️ Setup Instructions
+## ⚙️ Run Locally
 
-Follow these steps to run **Loxi** locally on your system:
+### Clone Repository
 
-### 🪄 1. Clone the Repository
-```bash
+```
 git clone https://github.com/<your-username>/loxi-store.git
 cd loxi-store
 ```
-2. Install JSON Server
 
-If you don’t have JSON Server installed globally:
-```bash
+### Install JSON Server
+
+```
 npm install -g json-server
 ```
-3. Check Your db.json File
 
-The file db.json contains all data for:
+### Start Backend
 
-Products – /products
-
-Users – /users
-
-Cart Items – /cart
-
-``` bash
-Example structure:
-
-{
-  "products": [
-    {
-      "id": 1,
-      "name": "White Oversized T-Shirt",
-      "price": 899,
-      "MainImg": "images/white-shirt.jpg",
-      "sideImg1": "images/white-shirt-side1.jpg",
-      "sideImg2": "images/white-shirt-side2.jpg",
-      "description": "Soft cotton oversized t-shirt for casual comfort."
-    }
-  ],
-  "users": [],
-  "cart": []
-}
-``` 
-4. Start the JSON Server
-
-Run this command inside your project directory:
-``` bash
+```
 cd DATA
 json-server --watch db.json --port 3000
 ```
 
-This will start a mock REST API at:
+API available at:
 
-http://localhost:3000
-
-Available Endpoints:
-Endpoint	Description
-/products	Get all products
-/products/:id	Get a single product
-/users	Get or add users
-/cart	Get or modify cart items
-
-
-5. Open the Website
-
-Simply open index.html in your browser, or use Live Server in VS Code for best performance.
-
-
-## 📁 Folder Structure
-``` bash
-APPAREL E-COMMERCE PROJECT/
-├── .vscode/
-│
-├── Assets/
-│ ├── Photos
-│ ├── Icons
-│ 
-├── CSS/
-│ ├── aboutwebpage.css
-│ ├── accessories.css
-│ ├── BEST_SELLER.css
-│ ├── BEST_SELLERW.css
-│ ├── EshopMAN.css
-│ ├── EshopWOMEN.css
-│ ├── LandingPage.css
-│ ├── logingpage.css
-│ ├── MyCart.css
-│ ├── NEWARRIVALM.css
-│ ├── NEWARRIVALW.css
-│ ├── ProductDetails.css
-│ ├── ProductDetails_Female.css
-│ ├── registration.css
-│ ├── TheMAN.css
-│ └── TheWOMEN.css
-│
-├── DATA/
-│ └── db.json
-│
-├── JS/
-│ ├── accessories.js
-│ ├── bestseller.js
-│ ├── EshopMAN.js
-│ ├── EshopWOMEN.js
-│ ├── loginpage.js
-│ ├── MyCart.js
-│ ├── ProductDetails.js
-│ ├── ProductDetailsWOMEN.js
-│ ├── registration.js
-│ └── TheMAN.js
-│
-├── aboutwebpage.html
-├── accessories.html
-├── BEST_SELLER.html
-├── BEST_SELLERW.html
-├── EshopMAN.html
-├── EshopWOMEN.html
-├── index.html
-├── loginpage.html
-├── MyCart.html
-├── mylogin.html
-├── NEWARRIVALM.html
-├── NEWARRIVALW.html
-├── ProductDetails.html
-├── ProductDetails_Female.html
-├── registration.html
-├── TheMAN.html
-├── TheWOMEN.html
-└── README.md
 ```
+http://localhost:3000
+```
+
+### Launch Frontend
+
+Open `index.html` using Live Server or browser.
+
+---
+
+## 📁 API Endpoints
+
+| Endpoint      | Description               |
+| ------------- | ------------------------- |
+| /products     | Get product list          |
+| /products/:id | Get product details       |
+| /users        | Register/Login simulation |
+| /cart         | Cart operations           |
+
+---
+
+## 📚 What I Learned
+
+* Structuring multi-page frontend systems
+* Fetch API and async data handling
+* URL parameter based rendering
+* Cart state logic implementation
+* Working with REST-style endpoints
+* Mock backend integration
+* Deployment workflow
+
+---
+
+## 👨‍💻 Author
+
+Sukhpreet Singh
